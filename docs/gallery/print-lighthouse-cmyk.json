@@ -1,0 +1,55 @@
+{
+  "version": "0.3.0.dev0",
+  "operation": "print-export",
+  "source_svg_sha256": "4e31fbada79060f0f0e66dc230a91dfc463fb24d73a7580510b78a45ac2faee1",
+  "page_points": [
+    850.0,
+    650.0
+  ],
+  "page_mm": [
+    299.8611111111111,
+    229.30555555555554
+  ],
+  "scale_changed": false,
+  "quantity_labels": 0,
+  "fonts_embedded": null,
+  "pdf": {
+    "PDF_version": "1.4",
+    "pages": 1,
+    "vector_Form_XObjects": 65,
+    "ExtGState_alphas": 5,
+    "image_XObjects": 0,
+    "image_tags_in_SVG": 0,
+    "embedded_raster_payloads": 0,
+    "SVG_sha256": "4e31fbada79060f0f0e66dc230a91dfc463fb24d73a7580510b78a45ac2faee1",
+    "PDF_sha256": "8fd43b06e40723e656756e8db7354f68e9744dd0797726dd8e54d9e180f0cba4",
+    "PDF_bytes": 2351459,
+    "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+    "color_export": {
+      "mode": "cmyk",
+      "input_color_assumption": "sRGB",
+      "conversion": "LittleCMS ICC transform; 8-bit channel precision",
+      "profile_description": "Generic CMYK Profile",
+      "profile_sha256": "0c8a584b288a306eac9e1d3f1e68bc1b64331c717ceb051420e6257f17b3509a",
+      "profile_bytes": 55280,
+      "profile_class": "output",
+      "intent": "relative",
+      "black_point_compensation": false,
+      "littlecms_version": "2.19",
+      "color_space": "ICCBased CMYK; profile embedded in PDF; no PDF/X output intent or certification",
+      "unique_source_colors": 52,
+      "max_paint_ink_percent": 294.118,
+      "ink_scope": "Maximum sum of one converted paint color; not a separation/overprint or overlapping-transparency coverage audit."
+    },
+    "page_points": [
+      850.0,
+      650.0
+    ]
+  },
+  "notes": [
+    "Physical page size retained; print at 100% when dimensions matter.",
+    "No automatic bleed, crop marks, imposition, trapping or PDF/X certification.",
+    "Live vector transparency retained; appearance can change with the blending color space.",
+    "The selected profile defines the output condition; its suitability for the actual paper/press is not inferred. No profile is distributed with the tool."
+  ]
+}

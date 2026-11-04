@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "purpose": "Evidence-scoped FAQ index; reorganization of existing measurements, not new measurement",
+  "findings": [
+    {
+      "question": 1,
+      "id": "projection",
+      "status": "perspective_supported_across_sample",
+      "sample": "Seven large step views, six sets, five themes; 373 main centers; one separate inconclusive inventory control",
+      "values": {
+        "large_views": 7,
+        "sets": 6,
+        "themes": 5,
+        "main_centers": 373,
+        "all_threshold_and_spatial_checks_favor_projective": true,
+        "fortnite_equal_span_ratio_range": [
+          1.090119795272694,
+          1.092501825332266
+        ]
+      },
+      "method": "Held-out affine versus projective grid fits; three thresholds; common-center and spatial-band checks; equal-interval beam control",
+      "limits": "Purposeful sample, not universal. Image warp and centroid bias remain alternatives; no lens recovered. Small inventory control remains inconclusive",
+      "evidence": [
+        {
+          "path": "LARGE-GRID-MEASUREMENTS.json",
+          "sha256": "2bb8b6a000bfa04a79e82b445d3a256d2246b46c4bacd0e677f2b8c97d779d9c"
+        },
+        {
+          "path": "INVENTORY-GRID-CONTROL.json",
+          "sha256": "dcdde5ac4a5de0177e789666298c721c1a3c0ba44635a53d4672183704109c61"
+        },
+        {
+          "path": "PROJECTION-EXPANSION.json",
+          "sha256": "538f535dd4415c2c2179a674f7b3ab8d24078f80519ca36bdabff441cd3a32c5"
+        }
+      ]
+    },
+    {
+      "question": 2,
+      "id": "camera",
+      "status": "conditional_estimate",
+      "sample": "Four pilot views plus one independent inventory grid",
+      "values": {
+        "approx_elevation_deg": 35,
+        "approx_acute_grid_angle_deg": 35,
+        "tool_elevation_deg": 30
+      },
+      "method": "Stud-grid slopes under parallel-projection, square-grid and no-roll assumptions",
+      "limits": "Grid-axis angle is not a universal azimuth; source uncertainty is not decimal rounding",
+      "evidence": [
+        {
+          "path": "CAMERA-MEASUREMENTS.json",
+          "sha256": "150306cea80d2bde2e4ce7ef5f4c0475b2e961f45560180c6fa52476cec7727f"
+        },
+        {
+          "path": "INVENTORY-GRID-CONTROL.json",
+          "sha256": "dcdde5ac4a5de0177e789666298c721c1a3c0ba44635a53d4672183704109c61"
+        }
+      ]
+    },
+    {
+      "question": 3,
+      "id": "shared_scale",
+      "status": "consistent_with_shared_scale",
+      "sample": "Two plates in one tray: 75375 PDF p20 step27",
+      "values": {
+        "pitch_pt": [
+          9.1289436,
+          9.0906753
+        ],
+        "ratio": 1.0042096,
+        "sensitivity_ratio": [
+          0.875988,
+          1.151154
+        ]
+      },
+      "method": "Matching-direction stud-center pitch through PDF image placement",
+      "limits": "Does not establish 0.4 percent accuracy or all trays",
+      "evidence": [
+        {
+          "path": "INVENTORY-SCALE-MEASUREMENTS.json",
+          "sha256": "6e9a59414b33de024dc0240352bcd5b35904a70ccb6d6259d8644343b6360696"
+        }
+      ]
+    },
+    {
+      "question": 4,
+      "id": "color_space",
+      "status": "observed_metadata",
+      "sample": "Matched images in five books",
+      "values": {
+        "old": "ISO Coated v2 CMYK",
+        "modern": "sRGB IEC61966-2.1"
+      },
+      "method": "Read source image color spaces and ICC profiles",
+      "limits": "Does not describe every object or original shader",
+      "evidence": [
+        {
+          "path": "MATCHED-PART-COLORS.json",
+          "sha256": "87a12da1f54c041855c54533c6211a58ec43efe61bb714c4ab8619bbe205183c"
+        },
+        {
+          "path": "STEP-COLOR-CONTROLS.json",
+          "sha256": "5d49e618ce64cc438f8c7870f7c1b5660fc7400a28333cd0cf6d5a7a87d19413"
+        }
+      ]
+    },
+    {
+      "question": 5,
+      "id": "theme_color",
+      "status": "observed_match",
+      "sample": "One brown brick in three step trays; four elements across five books overall",
+      "values": {
+        "face1_srgb": [
+          91,
+          43,
+          19
+        ],
+        "face2_srgb": [
+          80,
+          38,
+          18
+        ],
+        "matching_step_trays": 3
+      },
+      "method": "Compare corresponding native image interior patches under matching profiles",
+      "limits": "Not a full palette or glass/printed/saturated-part result",
+      "evidence": [
+        {
+          "path": "STEP-COLOR-CONTROLS.json",
+          "sha256": "5d49e618ce64cc438f8c7870f7c1b5660fc7400a28333cd0cf6d5a7a87d19413"
+        },
+        {
+          "path": "MATCHED-PART-COLORS.json",
+          "sha256": "87a12da1f54c041855c54533c6211a58ec43efe61bb714c4ab8619bbe205183c"
+        }
+      ]
+    },
+    {
+      "question": 6,
+      "id": "shading",
+      "status": "two_face_scalar_tested_not_universal",
+      "sample": "14 native images;10 colors;6 books",
+      "values": {
+        "models": [
+          {
+            "model": "left = k * right",
+            "space": "encoded RGB",
+            "k": 0.9129348266164773,
+            "fit_MAE_levels": 3.2493736344702673,
+            "leave_one_color_out_MAE_levels": 3.4338343031490823,
+            "leave_one_color_out_max_levels": 21.932462865551752
+          },
+          {
+            "model": "left = k * right",
+            "space": "linear RGB",
+            "k": 0.8344860696281471,
+            "fit_MAE_levels": 3.93388013169761,
+            "leave_one_color_out_MAE_levels": 4.255687864493337,
+            "leave_one_color_out_max_levels": 19.9136181868651
+          }
+        ]
+      },
+      "method": "Matched63x59 frame, identical sRGB ICC, fixed interior ROIs and \u00b11px check; leave-one-color-out prediction",
+      "limits": "Two vertical orientations only; no complete lighting recovery",
+      "evidence": [
+        {
+          "path": "SHADING-STUDY.json",
+          "sha256": "2bdc713da8785db70c98536ebe9aa0fbd30a032a9a40d792749e6cd0caaffd76"
+        }
+      ]
+    },
+    {
+      "question": 7,
+      "id": "background",
+      "status": "source_linked_rgb_representation",
+      "sample": "15 presets;16 same-theme/year presentation pairs",
+      "values": {
+        "preset_count": 14
+      },
+      "method": "PDF object colors and color-managed page comparison",
+      "limits": "Preset RGB normalization is not a universal print-ink specification",
+      "evidence": [
+        {
+          "path": "../brick_blueprint/presets.json",
+          "sha256": "e03d19062c2bfe172148b3a322db78b3ed178f452aa697b98280275fd222a4e3"
+        },
+        {
+          "path": "STYLE-SOURCES.json",
+          "sha256": "db35115d7810fb4dc6402b346ffa6c194d670b335bea34533493dca32315b142"
+        },
+        {
+          "path": "PAIRED-THEME-MEASUREMENTS.json",
+          "sha256": "6abab587d59300a3e62cfdd8470b2904d7194d4ea066cf53f941fc23d67464e6"
+        }
+      ]
+    },
+    {
+      "question": 8,
+      "id": "frame",
+      "status": "observed_style_variation",
+      "sample": "Source examples tabulated in STYLE-RESEARCH.md",
+      "values": {
+        "frame_pt": [
+          0.5,
+          0.75,
+          2
+        ],
+        "clipped_corner_depth_pt": [
+          7.85,
+          6.65
+        ]
+      },
+      "method": "Measure PDF vector contours",
+      "limits": "Outer and inner radii differ; tool normalization is separate",
+      "evidence": [
+        {
+          "path": "STYLE-SOURCES.json",
+          "sha256": "db35115d7810fb4dc6402b346ffa6c194d670b335bea34533493dca32315b142"
+        }
+      ]
+    },
+    {
+      "question": 9,
+      "id": "model_outline",
+      "status": "not_established",
+      "sample": "31051 PDF p74 model inset",
+      "values": {
+        "source_width_px": 211,
+        "placement_width_pt": 151.92,
+        "tool_outline_pt": 0.32
+      },
+      "method": "Inspect native raster and PDF placement",
+      "limits": "Raster pixels do not disclose exact original stroke",
+      "evidence": [
+        {
+          "path": "MATERIAL-FORENSICS.json",
+          "sha256": "2a363c28f2b6a276fea20c29d2a51132a808fc967feebea6766dec30ee112587"
+        }
+      ]
+    },
+    {
+      "question": 10,
+      "id": "glass",
+      "status": "not_established",
+      "sample": "43 image placements on 5 pages, not all glass",
+      "values": {
+        "placements": 43,
+        "pages": 5,
+        "explicit_transparency_found": false
+      },
+      "method": "Inspect masks and graphics-state alpha",
+      "limits": "Baked opacity does not disclose source shader alpha",
+      "evidence": [
+        {
+          "path": "MATERIAL-FORENSICS.json",
+          "sha256": "2a363c28f2b6a276fea20c29d2a51132a808fc967feebea6766dec30ee112587"
+        }
+      ]
+    },
+    {
+      "question": 11,
+      "id": "font",
+      "status": "observed_text_metadata",
+      "sample": "Six selected quantity labels, two books",
+      "values": {
+        "labels": 6,
+        "font_size_pt": 8,
+        "one_x_advance_pt": [
+          7.312,
+          7.256
+        ]
+      },
+      "method": "Read text-object size, font name and advance",
+      "limits": "Not a universal all-label or all-book assertion",
+      "evidence": [
+        {
+          "path": "FONT-MEASUREMENTS.json",
+          "sha256": "50e289ac68d2c728a56e64819d26022996c679b9862810c8ac5d162f1833e9df"
+        },
+        {
+          "path": "FONT-SOURCES.json",
+          "sha256": "10226ac2a40080f9bb35f85262cc4ab88444a92e764f5c723de2145389be4357"
+        }
+      ]
+    },
+    {
+      "question": 12,
+      "id": "physical_scale",
+      "status": "consistent_with_nominal_pitch",
+      "sample": "42221 PDF p10 beam and p16 axle",
+      "values": {
+        "pitch_mm": 8.00858933,
+        "pitch_sensitivity_mm": [
+          7.98,
+          8.037
+        ],
+        "page_mm": [
+          195,
+          259
+        ]
+      },
+      "method": "Native centers and PDF placement converted to millimeters",
+      "limits": "Sensitivity is not a statistical confidence interval; no printer test",
+      "evidence": [
+        {
+          "path": "REFERENCE-SCALE-MEASUREMENTS.json",
+          "sha256": "78b47abc29537aaae078758a784bc5e11d96c6422e7049a1ca3de846cb420519"
+        }
+      ]
+    }
+  ]
+}

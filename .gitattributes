@@ -1,0 +1,5 @@
+# Keep source and evidence hashes stable across Git checkouts.
+* text=auto eol=lf
+*.png binary
+# Preserve vendored bytes exactly as they were supplied.
+brick_blueprint/native/vendor/** -text

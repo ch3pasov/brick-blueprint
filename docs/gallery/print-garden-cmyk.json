@@ -1,0 +1,56 @@
+{
+  "version": "0.3.0.dev0",
+  "operation": "print-export",
+  "source_svg_sha256": "b673d9bd7b00ca6048254620d52b675498a54258084950e18eb53a68ad313b34",
+  "page_points": [
+    300.0,
+    270.0
+  ],
+  "page_mm": [
+    105.83333333333333,
+    95.25
+  ],
+  "scale_changed": false,
+  "quantity_labels": 1,
+  "fonts_embedded": false,
+  "pdf": {
+    "PDF_version": "1.4",
+    "pages": 1,
+    "vector_Form_XObjects": 20,
+    "ExtGState_alphas": 4,
+    "image_XObjects": 0,
+    "image_tags_in_SVG": 0,
+    "embedded_raster_payloads": 0,
+    "SVG_sha256": "b673d9bd7b00ca6048254620d52b675498a54258084950e18eb53a68ad313b34",
+    "PDF_sha256": "ad3d2fe4e4b26eafb2ef96f723b0746deeaec2f6205978108309585d40a567ea",
+    "PDF_bytes": 331563,
+    "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+    "color_export": {
+      "mode": "cmyk",
+      "input_color_assumption": "sRGB",
+      "conversion": "LittleCMS ICC transform; 8-bit channel precision",
+      "profile_description": "Generic CMYK Profile",
+      "profile_sha256": "0c8a584b288a306eac9e1d3f1e68bc1b64331c717ceb051420e6257f17b3509a",
+      "profile_bytes": 55280,
+      "profile_class": "output",
+      "intent": "relative",
+      "black_point_compensation": false,
+      "littlecms_version": "2.19",
+      "color_space": "ICCBased CMYK; profile embedded in PDF; no PDF/X output intent or certification",
+      "unique_source_colors": 27,
+      "max_paint_ink_percent": 291.765,
+      "ink_scope": "Maximum sum of one converted paint color; not a separation/overprint or overlapping-transparency coverage audit."
+    },
+    "page_points": [
+      300.0,
+      270.0
+    ]
+  },
+  "notes": [
+    "Physical page size retained; print at 100% when dimensions matter.",
+    "No automatic bleed, crop marks, imposition, trapping or PDF/X certification.",
+    "Live vector transparency retained; appearance can change with the blending color space.",
+    "Quantity labels use standard unembedded Helvetica; strict press/font requirements need a separate preflight.",
+    "The selected profile defines the output condition; its suitability for the actual paper/press is not inferred. No profile is distributed with the tool."
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "status": "PASS",
+  "checks": 85,
+  "failed": [],
+  "diagnostics": [
+    {
+      "id": "11038-p19-X1",
+      "threshold": 35,
+      "scaled_J_condition": 7790.270369396079,
+      "rank": 9
+    },
+    {
+      "id": "11038-p19-X1",
+      "threshold": 50,
+      "scaled_J_condition": 9378.219147069092,
+      "rank": 9,
+      "draws_at_iteration_limit": 0,
+      "orthographic_limit_fits": 3,
+      "refit_audits": [
+        {
+          "index": 0,
+          "refinement_F_change": 0.0
+        },
+        {
+          "index": 99,
+          "refinement_F_change": 0.0
+        },
+        {
+          "index": 999,
+          "refinement_F_change": 0.0
+        },
+        {
+          "index": 1998,
+          "refinement_F_change": -7.72715225139109e-14
+        }
+      ]
+    },
+    {
+      "id": "11038-p19-X1",
+      "threshold": 65,
+      "scaled_J_condition": 9765.343618736128,
+      "rank": 9
+    },
+    {
+      "id": "11037-p8-X2",
+      "threshold": 120,
+      "scaled_J_condition": 23563.592105556818,
+      "rank": 9
+    },
+    {
+      "id": "11037-p8-X2",
+      "threshold": 145,
+      "scaled_J_condition": 11731.485639910166,
+      "rank": 9,
+      "draws_at_iteration_limit": 0,
+      "orthographic_limit_fits": 46,
+      "refit_audits": [
+        {
+          "index": 0,
+          "refinement_F_change": 0.0
+        },
+        {
+          "index": 99,
+          "refinement_F_change": 0.0
+        },
+        {
+          "index": 999,
+          "refinement_F_change": 0.0
+        },
+        {
+          "index": 1998,
+          "refinement_F_change": 0.0
+        }
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "threshold": 170,
+      "scaled_J_condition": 15353.891794566574,
+      "rank": 9
+    }
+  ],
+  "synthetic_controls": [
+    {
+      "known_angles": [
+        35,
+        35
+      ],
+      "statistics": {
+        "F": 0.8279607063588605,
+        "df": [
+          2,
+          5
+        ],
+        "approximate_F_p": 0.4891077529605738
+      }
+    },
+    {
+      "known_angles": [
+        30,
+        40
+      ],
+      "statistics": {
+        "F": 176.77160076002025,
+        "df": [
+          2,
+          5
+        ],
+        "approximate_F_p": 2.296525545244241e-05
+      }
+    }
+  ],
+  "limits": "Numerical consistency only. Gaussian independent-corner errors, a shared-edge covariance model and population representativeness are not validated."
+}

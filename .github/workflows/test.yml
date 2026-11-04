@@ -1,0 +1,58 @@
+name: Tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  core:
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ['3.10', '3.13']
+    runs-on: ${{ matrix.os }}
+    env:
+      SOURCE_DATE_EPOCH: '1792886400'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Core tests (optional dependency/profile skips are reported)
+        run: python -m unittest discover -s tests -v
+      - name: Check the published measurement tables
+        run: python tools/build_measurement_tables.py --check
+      - run: python tools/check_color_samples.py
+      - run: python tools/check_public_tree.py
+      - run: python tools/export_candidate.py --check
+      - name: Provision the locally verified build backend
+        run: "python -m pip install --only-binary=:all: --no-deps setuptools==84.1.0"
+      - name: Build without resolving additional backend dependencies
+        run: python -m pip wheel --no-build-isolation --no-index --no-deps . --wheel-dir dist
+      - run: python tools/check_wheel.py dist/*.whl
+  research-and-print:
+    timeout-minutes: 10
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install the checked research and image libraries
+        run: "python -m pip install --only-binary=:all: --no-deps numpy==2.3.5 Pillow==13.0.0 pypdfium2==5.14.0"
+      - name: Check the paper, brief, palette and camera evidence
+        run: |
+          python tools/check_research_sync.py
+          python tools/check_camera_pvalues.py
+          python tools/analyze_face_law_17.py --check
+          python tools/analyze_perspective.py --output output/perspective-replay
+      - run: python -m unittest discover -s tests -p test_preview_images.py -v
+      - run: python -m unittest discover -s tests -p test_png.py -v
+      - name: Print checks (real CMYK profile is not bundled)
+        run: python -m unittest discover -s tests -p test_print.py -v

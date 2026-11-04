@@ -1,0 +1,1222 @@
+{
+  "status": "PASS",
+  "renderer_version": "0.6.0.dev7",
+  "source_sha256": "abf2c4819e6f2a0b098dfbe4428c1eb5b4fe56b512aafe6bf09d80a8dfbf5c79",
+  "method": "Actual preset camera, automatic geometry target/distance, documented frame. Only positive uniform scale and translation fitted to seven body corners. Stud tops reserved. All 3x3 threshold combinations.",
+  "scope": "Two known source images used in recipe selection; not new independent validation or exact camera recovery.",
+  "instruction_beats_presentation": "18/18",
+  "records": [
+    {
+      "id": "11038-p19-X1",
+      "preset": "instruction",
+      "frame_points": [
+        323,
+        217
+      ],
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6215.960836937397,
+        "distance_ldu": 3512.1554057344206,
+        "target_ldu": [
+          -1.7763568394002505e-15,
+          11.999999999999998,
+          -3.552713678800501e-15
+        ],
+        "position_ldu": [
+          1650.1732589109865,
+          -2002.4895815322116,
+          2356.691650492865
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 3454.264582233515,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "02add4a1bdd093b32ad4fae85a32055b2e647e820f79181a486235dc0cbf368b",
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "cap_rms_px": 0.7499682827185342,
+          "alignment_scale": 0.9506256237344173,
+          "alignment_shift": [
+            -21.314968181560104,
+            -25.475978563426864
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "cap_rms_px": 0.7643062395711732,
+          "alignment_scale": 0.9506256237344173,
+          "alignment_shift": [
+            -21.314968181560104,
+            -25.475978563426864
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "cap_rms_px": 0.7581997181091761,
+          "alignment_scale": 0.9506256237344173,
+          "alignment_shift": [
+            -21.314968181560104,
+            -25.475978563426864
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "cap_rms_px": 0.6433030510876221,
+          "alignment_scale": 0.9502150604794527,
+          "alignment_shift": [
+            -21.396903292116818,
+            -25.487431254031037
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "cap_rms_px": 0.6541430641832582,
+          "alignment_scale": 0.9502150604794527,
+          "alignment_shift": [
+            -21.396903292116818,
+            -25.487431254031037
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "cap_rms_px": 0.6529592106897659,
+          "alignment_scale": 0.9502150604794527,
+          "alignment_shift": [
+            -21.396903292116818,
+            -25.487431254031037
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "cap_rms_px": 0.6574338421603977,
+          "alignment_scale": 0.9502525658928682,
+          "alignment_shift": [
+            -21.405353529311355,
+            -25.47220434384836
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "cap_rms_px": 0.6683540349919577,
+          "alignment_scale": 0.9502525658928682,
+          "alignment_shift": [
+            -21.405353529311355,
+            -25.47220434384836
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "cap_rms_px": 0.667470377760372,
+          "alignment_scale": 0.9502525658928682,
+          "alignment_shift": [
+            -21.405353529311355,
+            -25.47220434384836
+          ]
+        }
+      ],
+      "primary_rms_px": 0.6541430641832582
+    },
+    {
+      "id": "11038-p19-X1",
+      "preset": "instruction-depth",
+      "frame_points": [
+        323,
+        217
+      ],
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 5.0,
+        "focal_length_points": 2485.058562004785,
+        "distance_ldu": 1422.7499463223153,
+        "target_ldu": [
+          -1.7763568394002505e-15,
+          11.999999999999998,
+          -3.552713678800501e-15
+        ],
+        "position_ldu": [
+          668.4738128913135,
+          -804.0558440301958,
+          954.6795434400307
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1364.8591228214098,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction-depth",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 5.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: 5 degrees is best of the tested settings for the white brick, but worse for the brown brick. Not a theme-specific preset.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "02add4a1bdd093b32ad4fae85a32055b2e647e820f79181a486235dc0cbf368b",
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "cap_rms_px": 1.6081165153301569,
+          "alignment_scale": 0.9620469395908886,
+          "alignment_shift": [
+            -21.61680217052337,
+            -27.407456635122628
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "cap_rms_px": 1.6205629347497872,
+          "alignment_scale": 0.9620469395908886,
+          "alignment_shift": [
+            -21.61680217052337,
+            -27.407456635122628
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "cap_rms_px": 1.5986315197355137,
+          "alignment_scale": 0.9620469395908886,
+          "alignment_shift": [
+            -21.61680217052337,
+            -27.407456635122628
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "cap_rms_px": 1.4764779165150015,
+          "alignment_scale": 0.9616323528946912,
+          "alignment_shift": [
+            -21.698739036810665,
+            -27.41818078340306
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "cap_rms_px": 1.48745396496814,
+          "alignment_scale": 0.9616323528946912,
+          "alignment_shift": [
+            -21.698739036810665,
+            -27.41818078340306
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "cap_rms_px": 1.466182591095893,
+          "alignment_scale": 0.9616323528946912,
+          "alignment_shift": [
+            -21.698739036810665,
+            -27.41818078340306
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "cap_rms_px": 1.4753119283577807,
+          "alignment_scale": 0.9616724441753144,
+          "alignment_shift": [
+            -21.707511424571805,
+            -27.40327814716565
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "cap_rms_px": 1.486437526735963,
+          "alignment_scale": 0.9616724441753144,
+          "alignment_shift": [
+            -21.707511424571805,
+            -27.40327814716565
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "cap_rms_px": 1.4652736534670665,
+          "alignment_scale": 0.9616724441753144,
+          "alignment_shift": [
+            -21.707511424571805,
+            -27.40327814716565
+          ]
+        }
+      ],
+      "primary_rms_px": 1.48745396496814
+    },
+    {
+      "id": "11038-p19-X1",
+      "preset": "presentation",
+      "frame_points": [
+        323,
+        217
+      ],
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 30.0,
+        "focal_length_points": 404.92751262122323,
+        "distance_ldu": 262.38305082027165,
+        "target_ldu": [
+          -1.7763568394002505e-15,
+          11.999999999999998,
+          -3.552713678800501e-15
+        ],
+        "position_ldu": [
+          123.27970833755164,
+          -138.49673524840685,
+          176.0616697340236
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 204.49222731936607,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "presentation",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 30.0
+          },
+          "overrides": {},
+          "evidence": "Engineering default and matched LDView control; not fitted to official instructions.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "02add4a1bdd093b32ad4fae85a32055b2e647e820f79181a486235dc0cbf368b",
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "cap_rms_px": 10.904958012111887,
+          "alignment_scale": 1.061301266971489,
+          "alignment_shift": [
+            -25.918861923600062,
+            -43.47659450672738
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "cap_rms_px": 10.913055519663963,
+          "alignment_scale": 1.061301266971489,
+          "alignment_shift": [
+            -25.918861923600062,
+            -43.47659450672738
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "cap_rms_px": 10.890390305378133,
+          "alignment_scale": 1.061301266971489,
+          "alignment_shift": [
+            -25.918861923600062,
+            -43.47659450672738
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "cap_rms_px": 10.79453156961527,
+          "alignment_scale": 1.0608588134780539,
+          "alignment_shift": [
+            -26.00096850650941,
+            -43.4821892839298
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "cap_rms_px": 10.802356366288695,
+          "alignment_scale": 1.0608588134780539,
+          "alignment_shift": [
+            -26.00096850650941,
+            -43.4821892839298
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "cap_rms_px": 10.779825298109781,
+          "alignment_scale": 1.0608588134780539,
+          "alignment_shift": [
+            -26.00096850650941,
+            -43.4821892839298
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "cap_rms_px": 10.788200733563006,
+          "alignment_scale": 1.0609266167516673,
+          "alignment_shift": [
+            -26.013120829829035,
+            -43.47079609474024
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "cap_rms_px": 10.796052114416515,
+          "alignment_scale": 1.0609266167516673,
+          "alignment_shift": [
+            -26.013120829829035,
+            -43.47079609474024
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "cap_rms_px": 10.773520296645367,
+          "alignment_scale": 1.0609266167516673,
+          "alignment_shift": [
+            -26.013120829829035,
+            -43.47079609474024
+          ]
+        }
+      ],
+      "primary_rms_px": 10.802356366288695
+    },
+    {
+      "id": "11038-p19-X1",
+      "preset": "orthographic",
+      "frame_points": [
+        323,
+        217
+      ],
+      "camera": {
+        "projection": "orthographic",
+        "depth_encoding": "linear world depth",
+        "scale_definition": "uniform points per LDU",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "orthographic",
+          "revision": 1,
+          "settings": {
+            "projection": "orthographic",
+            "azimuth": 35.0,
+            "elevation": 35.0
+          },
+          "overrides": {},
+          "evidence": "Comparison control, not a claim that instruction cameras are orthographic.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "02add4a1bdd093b32ad4fae85a32055b2e647e820f79181a486235dc0cbf368b",
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "cap_rms_px": 1.0092748533029554,
+          "alignment_scale": 0.942760964939975,
+          "alignment_shift": [
+            131.16476101822903,
+            61.58841982430137
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "cap_rms_px": 1.013792194001896,
+          "alignment_scale": 0.942760964939975,
+          "alignment_shift": [
+            131.16476101822903,
+            61.58841982430137
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "cap_rms_px": 1.029928026215127,
+          "alignment_scale": 0.942760964939975,
+          "alignment_shift": [
+            131.16476101822903,
+            61.58841982430137
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "cap_rms_px": 1.0217409186676243,
+          "alignment_scale": 0.9423532769056617,
+          "alignment_shift": [
+            131.01696463907396,
+            61.539377710116604
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "cap_rms_px": 1.022472683813932,
+          "alignment_scale": 0.9423532769056617,
+          "alignment_shift": [
+            131.01696463907396,
+            61.539377710116604
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "cap_rms_px": 1.042190277137043,
+          "alignment_scale": 0.9423532769056617,
+          "alignment_shift": [
+            131.01696463907396,
+            61.539377710116604
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "cap_rms_px": 1.038078041369703,
+          "alignment_scale": 0.9423891406472107,
+          "alignment_shift": [
+            131.01451188548472,
+            61.558071767456944
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "cap_rms_px": 1.038995657048444,
+          "alignment_scale": 0.9423891406472107,
+          "alignment_shift": [
+            131.01451188548472,
+            61.558071767456944
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "cap_rms_px": 1.0585814615612725,
+          "alignment_scale": 0.9423891406472107,
+          "alignment_shift": [
+            131.01451188548472,
+            61.558071767456944
+          ]
+        }
+      ],
+      "primary_rms_px": 1.022472683813932
+    },
+    {
+      "id": "11037-p8-X2",
+      "preset": "instruction",
+      "frame_points": [
+        216,
+        173
+      ],
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 4955.58168106069,
+        "distance_ldu": 2622.055284895868,
+        "target_ldu": [
+          -2.6645352591003757e-15,
+          11.999999999999998,
+          -4.440892098500626e-15
+        ],
+        "position_ldu": [
+          1231.9630012546702,
+          -1491.9491262259992,
+          1759.4255046218902
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 2582.958313810681,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "02305b92a73ce3811deeeba7e02b930a8ab39dc32bfd89cc79f7525c946ac080",
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "cap_rms_px": 0.8766847279804602,
+          "alignment_scale": 0.8919202286994247,
+          "alignment_shift": [
+            -18.693643113006104,
+            -21.20204146352839
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "cap_rms_px": 0.8365919868149488,
+          "alignment_scale": 0.8919202286994247,
+          "alignment_shift": [
+            -18.693643113006104,
+            -21.20204146352839
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "cap_rms_px": 0.8335434590010229,
+          "alignment_scale": 0.8919202286994247,
+          "alignment_shift": [
+            -18.693643113006104,
+            -21.20204146352839
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "cap_rms_px": 0.7412976694249065,
+          "alignment_scale": 0.8963324657624095,
+          "alignment_shift": [
+            -18.986792283869704,
+            -21.64240980674255
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "cap_rms_px": 0.7047224843597327,
+          "alignment_scale": 0.8963324657624095,
+          "alignment_shift": [
+            -18.986792283869704,
+            -21.64240980674255
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "cap_rms_px": 0.7056663530500799,
+          "alignment_scale": 0.8963324657624095,
+          "alignment_shift": [
+            -18.986792283869704,
+            -21.64240980674255
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "cap_rms_px": 0.6928074308906035,
+          "alignment_scale": 0.8966014190825151,
+          "alignment_shift": [
+            -19.0489963689801,
+            -21.707031383845816
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "cap_rms_px": 0.6574422641263161,
+          "alignment_scale": 0.8966014190825151,
+          "alignment_shift": [
+            -19.0489963689801,
+            -21.707031383845816
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "cap_rms_px": 0.6580716619268447,
+          "alignment_scale": 0.8966014190825151,
+          "alignment_shift": [
+            -19.0489963689801,
+            -21.707031383845816
+          ]
+        }
+      ],
+      "primary_rms_px": 0.7047224843597327
+    },
+    {
+      "id": "11037-p8-X2",
+      "preset": "instruction-depth",
+      "frame_points": [
+        216,
+        173
+      ],
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 5.0,
+        "focal_length_points": 1981.175719939299,
+        "distance_ldu": 1055.619423314012,
+        "target_ldu": [
+          -2.6645352591003757e-15,
+          11.999999999999998,
+          -4.440892098500626e-15
+        ],
+        "position_ldu": [
+          495.97889122322664,
+          -593.4784269673975,
+          708.3312648866151
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1016.5224522288246,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction-depth",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 5.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: 5 degrees is best of the tested settings for the white brick, but worse for the brown brick. Not a theme-specific preset.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "02305b92a73ce3811deeeba7e02b930a8ab39dc32bfd89cc79f7525c946ac080",
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "cap_rms_px": 0.7156813498331642,
+          "alignment_scale": 0.8973920357062168,
+          "alignment_shift": [
+            -18.89328402260726,
+            -21.94170382190623
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "cap_rms_px": 0.6579399364368862,
+          "alignment_scale": 0.8973920357062168,
+          "alignment_shift": [
+            -18.89328402260726,
+            -21.94170382190623
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "cap_rms_px": 0.6666739452789253,
+          "alignment_scale": 0.8973920357062168,
+          "alignment_shift": [
+            -18.89328402260726,
+            -21.94170382190623
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "cap_rms_px": 0.7053621009397018,
+          "alignment_scale": 0.9018387247635506,
+          "alignment_shift": [
+            -19.188170633551138,
+            -22.38639875958117
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "cap_rms_px": 0.6587831629092598,
+          "alignment_scale": 0.9018387247635506,
+          "alignment_shift": [
+            -19.188170633551138,
+            -22.38639875958117
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "cap_rms_px": 0.6723629457299392,
+          "alignment_scale": 0.9018387247635506,
+          "alignment_shift": [
+            -19.188170633551138,
+            -22.38639875958117
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "cap_rms_px": 0.6614554372663852,
+          "alignment_scale": 0.9021035523707202,
+          "alignment_shift": [
+            -19.24984836550057,
+            -22.450721183398315
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "cap_rms_px": 0.6157080424322527,
+          "alignment_scale": 0.9021035523707202,
+          "alignment_shift": [
+            -19.24984836550057,
+            -22.450721183398315
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "cap_rms_px": 0.6298198011035712,
+          "alignment_scale": 0.9021035523707202,
+          "alignment_shift": [
+            -19.24984836550057,
+            -22.450721183398315
+          ]
+        }
+      ],
+      "primary_rms_px": 0.6587831629092598
+    },
+    {
+      "id": "11037-p8-X2",
+      "preset": "presentation",
+      "frame_points": [
+        216,
+        173
+      ],
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 30.0,
+        "focal_length_points": 322.8223948547079,
+        "distance_ldu": 192.6117507073448,
+        "target_ldu": [
+          -2.6645352591003757e-15,
+          11.999999999999998,
+          -4.440892098500626e-15
+        ],
+        "position_ldu": [
+          90.49792040817344,
+          -98.47756157005493,
+          129.24442464523943
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 153.5147796221574,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "presentation",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 30.0
+          },
+          "overrides": {},
+          "evidence": "Engineering default and matched LDView control; not fitted to official instructions.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "02305b92a73ce3811deeeba7e02b930a8ab39dc32bfd89cc79f7525c946ac080",
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "cap_rms_px": 3.2354373584490816,
+          "alignment_scale": 0.9886278460965908,
+          "alignment_shift": [
+            -25.682624450074613,
+            -31.92054029573906
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "cap_rms_px": 3.2077050838581216,
+          "alignment_scale": 0.9886278460965908,
+          "alignment_shift": [
+            -25.682624450074613,
+            -31.92054029573906
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "cap_rms_px": 3.227081276064406,
+          "alignment_scale": 0.9886278460965908,
+          "alignment_shift": [
+            -25.682624450074613,
+            -31.92054029573906
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "cap_rms_px": 3.4692493700554,
+          "alignment_scale": 0.9935769434413206,
+          "alignment_shift": [
+            -26.01613766678355,
+            -32.41931952885636
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "cap_rms_px": 3.4456411036639474,
+          "alignment_scale": 0.9935769434413206,
+          "alignment_shift": [
+            -26.01613766678355,
+            -32.41931952885636
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "cap_rms_px": 3.464709626302888,
+          "alignment_scale": 0.9935769434413206,
+          "alignment_shift": [
+            -26.01613766678355,
+            -32.41931952885636
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "cap_rms_px": 3.4684843889192916,
+          "alignment_scale": 0.9938181870213008,
+          "alignment_shift": [
+            -26.07481608905826,
+            -32.48193182251033
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "cap_rms_px": 3.445586543288253,
+          "alignment_scale": 0.9938181870213008,
+          "alignment_shift": [
+            -26.07481608905826,
+            -32.48193182251033
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "cap_rms_px": 3.4645850364523367,
+          "alignment_scale": 0.9938181870213008,
+          "alignment_shift": [
+            -26.07481608905826,
+            -32.48193182251033
+          ]
+        }
+      ],
+      "primary_rms_px": 3.4456411036639474
+    },
+    {
+      "id": "11037-p8-X2",
+      "preset": "orthographic",
+      "frame_points": [
+        216,
+        173
+      ],
+      "camera": {
+        "projection": "orthographic",
+        "depth_encoding": "linear world depth",
+        "scale_definition": "uniform points per LDU",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "orthographic",
+          "revision": 1,
+          "settings": {
+            "projection": "orthographic",
+            "azimuth": 35.0,
+            "elevation": 35.0
+          },
+          "overrides": {},
+          "evidence": "Comparison control, not a claim that instruction cameras are orthographic.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "02305b92a73ce3811deeeba7e02b930a8ab39dc32bfd89cc79f7525c946ac080",
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "cap_rms_px": 1.0741259251123731,
+          "alignment_scale": 0.8881356317164179,
+          "alignment_shift": [
+            77.37192085534113,
+            39.55013960031848
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "cap_rms_px": 1.0449313956694453,
+          "alignment_scale": 0.8881356317164179,
+          "alignment_shift": [
+            77.37192085534113,
+            39.55013960031848
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "cap_rms_px": 1.0369969116149713,
+          "alignment_scale": 0.8881356317164179,
+          "alignment_shift": [
+            77.37192085534113,
+            39.55013960031848
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "cap_rms_px": 0.8932187728926275,
+          "alignment_scale": 0.8925240424990467,
+          "alignment_shift": [
+            77.55396860285187,
+            39.41041890308381
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "cap_rms_px": 0.8670595621685112,
+          "alignment_scale": 0.8925240424990467,
+          "alignment_shift": [
+            77.55396860285187,
+            39.41041890308381
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "cap_rms_px": 0.8611840069862813,
+          "alignment_scale": 0.8925240424990467,
+          "alignment_shift": [
+            77.55396860285187,
+            39.41041890308381
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "cap_rms_px": 0.849480770431653,
+          "alignment_scale": 0.8927956605375599,
+          "alignment_shift": [
+            77.52075451048866,
+            39.36403261235908
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "cap_rms_px": 0.8250588619030584,
+          "alignment_scale": 0.8927956605375599,
+          "alignment_shift": [
+            77.52075451048866,
+            39.36403261235908
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "cap_rms_px": 0.8185732550516157,
+          "alignment_scale": 0.8927956605375599,
+          "alignment_shift": [
+            77.52075451048866,
+            39.36403261235908
+          ]
+        }
+      ],
+      "primary_rms_px": 0.8670595621685112
+    }
+  ]
+}

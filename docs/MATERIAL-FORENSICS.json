@@ -1,0 +1,1177 @@
+{
+  "scope": "Five previously sampled pages; resource and operator audit plus independent full-page/extracted-image visual review. No original material parameters are inferred from flattened pixels.",
+  "preview_note": "Local extracted-image PNGs use basic PIL conversion for inspection only; they are not ICC-accurate palette measurements. Color observations use the existing CoreGraphics sRGB page renders.",
+  "cases": [
+    {
+      "id": "lighthouse-light",
+      "source_filename": "6167581.pdf",
+      "sha256": "fdab1177de2f087c5a08b510d8602e294c90cdee1ca1392b6a1f2046143daf69",
+      "page": 74,
+      "role": "glass and separate light symbol",
+      "graphics_states": [
+        {
+          "name": "/GS3",
+          "values": {
+            "/OPM": "1",
+            "/Type": "/ExtGState"
+          }
+        },
+        {
+          "name": "/GS4",
+          "values": {
+            "/Type": "/ExtGState",
+            "/OPM": "1",
+            "/BM": "/Normal",
+            "/SMask": "/None",
+            "/SA": "True"
+          }
+        },
+        {
+          "name": "/GS6",
+          "values": {
+            "/OPM": "0",
+            "/Type": "/ExtGState"
+          }
+        }
+      ],
+      "form_resources": [],
+      "operators": {
+        "q": 11,
+        "gs": 3,
+        "cs": 5,
+        "scn": 5,
+        "re": 8,
+        "f": 9,
+        "W": 6,
+        "n": 6,
+        "BT": 2,
+        "Tr": 2,
+        "Tc": 2,
+        "Tw": 2,
+        "Tf": 2,
+        "Tm": 2,
+        "TJ": 2,
+        "ET": 2,
+        "Q": 11,
+        "m": 9,
+        "l": 53,
+        "h": 8,
+        "cm": 4,
+        "Do": 4,
+        "sc": 2,
+        "CS": 1,
+        "SCN": 1,
+        "w": 1,
+        "M": 1,
+        "v": 4,
+        "S": 1
+      },
+      "images": [
+        {
+          "name": "X1",
+          "pixels": [
+            211,
+            610
+          ],
+          "bounds_pt": [
+            136.75765,
+            171.94719999999995,
+            288.43536,
+            610.66561
+          ],
+          "ppi": [
+            100.15974001717194,
+            100.10977200614853
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X2",
+          "pixels": [
+            25,
+            12
+          ],
+          "bounds_pt": [
+            136.75765,
+            343.83849999999995,
+            154.72894000000002,
+            352.46903
+          ],
+          "ppi": [
+            100.15975480892017,
+            100.10972674911018
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X3",
+          "pixels": [
+            12,
+            4
+          ],
+          "bounds_pt": [
+            136.75765,
+            346.71535,
+            145.38387,
+            349.59219
+          ],
+          "ppi": [
+            100.1597455200541,
+            100.10984274412148
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X4",
+          "pixels": [
+            211,
+            335
+          ],
+          "bounds_pt": [
+            329.68961,
+            37.547879999999964,
+            481.6096,
+            278.61562
+          ],
+          "ppi": [
+            100.00000658241224,
+            100.05486424687102
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        }
+      ]
+    },
+    {
+      "id": "creator-context",
+      "source_filename": "31376-6616307.pdf",
+      "sha256": "b0ede540908070edbab2c05e2f5e3376f1997af73516a61c976072032b1e58dd",
+      "page": 10,
+      "role": "faded white context card",
+      "graphics_states": [
+        {
+          "name": "/GS1",
+          "values": {
+            "/OPM": "1",
+            "/SA": "True",
+            "/Type": "/ExtGState"
+          }
+        },
+        {
+          "name": "/GS2",
+          "values": {
+            "/SA": "False",
+            "/Type": "/ExtGState"
+          }
+        }
+      ],
+      "form_resources": [],
+      "operators": {
+        "q": 18,
+        "re": 18,
+        "W": 13,
+        "n": 13,
+        "gs": 6,
+        "cs": 2,
+        "scn": 2,
+        "f": 27,
+        "Q": 18,
+        "cm": 4,
+        "Do": 4,
+        "sc": 18,
+        "m": 25,
+        "c": 139,
+        "l": 92,
+        "h": 6,
+        "BT": 4,
+        "Tf": 4,
+        "Tm": 4,
+        "TJ": 4,
+        "ET": 4
+      },
+      "images": [
+        {
+          "name": "X1",
+          "pixels": [
+            124,
+            90
+          ],
+          "bounds_pt": [
+            151.90124,
+            178.28592,
+            210.93349,
+            220.9951
+          ],
+          "ppi": [
+            151.2393649234105,
+            151.72382143604722
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X2",
+          "pixels": [
+            130,
+            111
+          ],
+          "bounds_pt": [
+            59.75233,
+            22.296780000000012,
+            121.66495,
+            75.18583000000001
+          ],
+          "ppi": [
+            151.18080934064815,
+            151.10878338710944
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X3",
+          "pixels": [
+            51,
+            49
+          ],
+          "bounds_pt": [
+            49.7802,
+            106.95148000000003,
+            74.01046,
+            130.22132000000002
+          ],
+          "ppi": [
+            151.54604201523222,
+            151.61255943315476
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X4",
+          "pixels": [
+            64,
+            52
+          ],
+          "bounds_pt": [
+            101.40944,
+            105.51119,
+            131.63402,
+            130.22164
+          ],
+          "ppi": [
+            152.45869421510577,
+            151.51484493402583
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        }
+      ]
+    },
+    {
+      "id": "orchid-current",
+      "source_filename": "10343-6555769.pdf",
+      "sha256": "d4218be6ca7a7e664fdb83365c2fff7d98ace0fb269c37c761aba86ae12d08a1",
+      "page": 14,
+      "role": "blue current-step emphasis",
+      "graphics_states": [
+        {
+          "name": "/GS1",
+          "values": {
+            "/OPM": "1",
+            "/SA": "True",
+            "/Type": "/ExtGState"
+          }
+        }
+      ],
+      "form_resources": [],
+      "operators": {
+        "q": 58,
+        "gs": 1,
+        "cs": 1,
+        "scn": 1,
+        "re": 37,
+        "f": 55,
+        "m": 134,
+        "l": 995,
+        "h": 77,
+        "W": 42,
+        "n": 42,
+        "cm": 15,
+        "Do": 15,
+        "Q": 58,
+        "sc": 28,
+        "c": 272,
+        "BT": 14,
+        "Tf": 14,
+        "Tm": 14,
+        "TJ": 14,
+        "ET": 14,
+        "y": 7,
+        "v": 4
+      },
+      "images": [
+        {
+          "name": "X1",
+          "pixels": [
+            351,
+            379
+          ],
+          "bounds_pt": [
+            182.45807,
+            241.11607999999998,
+            350.45569,
+            422.79517
+          ],
+          "ppi": [
+            150.4307025301906,
+            150.19890291172197
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X2",
+          "pixels": [
+            100,
+            77
+          ],
+          "bounds_pt": [
+            32.27383,
+            47.88359000000003,
+            80.02903,
+            84.35086000000001
+          ],
+          "ppi": [
+            150.76892149964817,
+            152.02673520666622
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X3",
+          "pixels": [
+            111,
+            130
+          ],
+          "bounds_pt": [
+            96.35001,
+            22.199070000000006,
+            149.14131,
+            84.35543999999999
+          ],
+          "ppi": [
+            151.3885810730177,
+            150.58794456626092
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X4",
+          "pixels": [
+            401,
+            269
+          ],
+          "bounds_pt": [
+            284.8461,
+            177.14425999999997,
+            413.66346999999996,
+            369.62423
+          ],
+          "ppi": [
+            224.13126428524356,
+            100.62345707971586
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X5",
+          "pixels": [
+            273,
+            534
+          ],
+          "bounds_pt": [
+            284.79057,
+            241.35544,
+            350.21671000000003,
+            369.5157
+          ],
+          "ppi": [
+            300.43037843895405,
+            299.9993913870025
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X6",
+          "pixels": [
+            391,
+            132
+          ],
+          "bounds_pt": [
+            349.49422,
+            177.14425999999997,
+            412.70572,
+            364.82422999999994
+          ],
+          "ppi": [
+            445.3619990033459,
+            50.63939428379066
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X7",
+          "pixels": [
+            222,
+            6
+          ],
+          "bounds_pt": [
+            297.01303,
+            363.27569,
+            350.2167,
+            364.71569
+          ],
+          "ppi": [
+            300.43040263951724,
+            300.00000000000045
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X8",
+          "pixels": [
+            21,
+            29
+          ],
+          "bounds_pt": [
+            349.9731,
+            284.66425,
+            363.86046999999996,
+            294.74424999999997
+          ],
+          "ppi": [
+            108.87590666915352,
+            207.14285714285748
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X9",
+          "pixels": [
+            4,
+            3
+          ],
+          "bounds_pt": [
+            360.98722,
+            288.50424999999996,
+            362.42384,
+            290.42425
+          ],
+          "ppi": [
+            200.47054892734266,
+            112.49999999999906
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X10",
+          "pixels": [
+            54,
+            40
+          ],
+          "bounds_pt": [
+            285.74919,
+            359.19568,
+            298.69062,
+            368.7957
+          ],
+          "ppi": [
+            300.4304779301818,
+            299.9993750013012
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X11",
+          "pixels": [
+            3,
+            6
+          ],
+          "bounds_pt": [
+            297.01303,
+            363.27569,
+            297.732,
+            364.71569
+          ],
+          "ppi": [
+            300.4297814929637,
+            300.00000000000045
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X12",
+          "pixels": [
+            3,
+            269
+          ],
+          "bounds_pt": [
+            284.8461,
+            176.66426,
+            413.66346999999996,
+            178.10426
+          ],
+          "ppi": [
+            1.676792500887109,
+            13450.000000000022
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X13",
+          "pixels": [
+            3,
+            4
+          ],
+          "bounds_pt": [
+            410.79022,
+            176.66426,
+            412.70572,
+            178.10426
+          ],
+          "ppi": [
+            112.76429130775203,
+            200.0000000000003
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X14",
+          "pixels": [
+            237,
+            269
+          ],
+          "bounds_pt": [
+            209.69769,
+            22.94898999999998,
+            323.21587,
+            151.58567
+          ],
+          "ppi": [
+            150.31953472122262,
+            150.56358730651317
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X15",
+          "pixels": [
+            308,
+            215
+          ],
+          "bounds_pt": [
+            340.34561,
+            66.00772999999998,
+            487.94435,
+            168.72343999999998
+          ],
+          "ppi": [
+            150.24518501987217,
+            150.70722871895643
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        }
+      ]
+    },
+    {
+      "id": "daisies-current",
+      "source_filename": "11508-6618829.pdf",
+      "sha256": "12f55f3a9380a9a8719791a89a1373f4d65da0981fb2a3b3b3a1a37b608d93b2",
+      "page": 32,
+      "role": "red current-step emphasis",
+      "graphics_states": [
+        {
+          "name": "/GS1",
+          "values": {
+            "/OPM": "1",
+            "/SA": "True",
+            "/Type": "/ExtGState"
+          }
+        },
+        {
+          "name": "/GS2",
+          "values": {
+            "/SA": "False",
+            "/Type": "/ExtGState"
+          }
+        }
+      ],
+      "form_resources": [],
+      "operators": {
+        "q": 20,
+        "gs": 5,
+        "cs": 1,
+        "scn": 1,
+        "re": 21,
+        "f": 38,
+        "W": 15,
+        "n": 15,
+        "cm": 4,
+        "Do": 4,
+        "Q": 20,
+        "sc": 19,
+        "m": 34,
+        "c": 192,
+        "l": 150,
+        "h": 10,
+        "BT": 5,
+        "Tf": 5,
+        "Tm": 5,
+        "TJ": 5,
+        "ET": 5,
+        "y": 14,
+        "v": 8,
+        "CS": 1,
+        "SCN": 1,
+        "w": 1,
+        "M": 1,
+        "S": 2
+      },
+      "images": [
+        {
+          "name": "X1",
+          "pixels": [
+            119,
+            208
+          ],
+          "bounds_pt": [
+            171.01666,
+            103.27060999999998,
+            227.89267,
+            202.62615
+          ],
+          "ppi": [
+            150.64347868284008,
+            150.73140360366415
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X2",
+          "pixels": [
+            68,
+            36
+          ],
+          "bounds_pt": [
+            74.63576,
+            25.780550000000005,
+            106.78128000000001,
+            42.80646999999999
+          ],
+          "ppi": [
+            152.30738217953854,
+            152.23846934556266
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X3",
+          "pixels": [
+            118,
+            339
+          ],
+          "bounds_pt": [
+            171.49671,
+            289.89245999999997,
+            227.89268,
+            452.37136
+          ],
+          "ppi": [
+            150.64906233548245,
+            150.22258274766753
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X4",
+          "pixels": [
+            113,
+            54
+          ],
+          "bounds_pt": [
+            65.45398,
+            231.97041,
+            119.44977,
+            257.392
+          ],
+          "ppi": [
+            150.67841400227684,
+            152.94086640528772
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        }
+      ]
+    },
+    {
+      "id": "lily-current",
+      "source_filename": "11504-6618828.pdf",
+      "sha256": "30e34a10970e28248f1aa4e1e003f888e92dfc9034e3349258505b576bfa8acb",
+      "page": 10,
+      "role": "red emphasis on slate page",
+      "graphics_states": [
+        {
+          "name": "/GS1",
+          "values": {
+            "/OPM": "1",
+            "/SA": "True",
+            "/Type": "/ExtGState"
+          }
+        },
+        {
+          "name": "/GS2",
+          "values": {
+            "/SA": "False",
+            "/Type": "/ExtGState"
+          }
+        }
+      ],
+      "form_resources": [],
+      "operators": {
+        "q": 34,
+        "gs": 17,
+        "k": 3,
+        "re": 17,
+        "f": 41,
+        "W": 17,
+        "n": 17,
+        "cm": 16,
+        "Do": 16,
+        "Q": 34,
+        "K": 1,
+        "M": 1,
+        "m": 81,
+        "l": 804,
+        "S": 2,
+        "h": 53,
+        "sc": 14,
+        "c": 174,
+        "cs": 3,
+        "scn": 3
+      },
+      "images": [
+        {
+          "name": "X1",
+          "pixels": [
+            671,
+            772
+          ],
+          "bounds_pt": [
+            66.88158,
+            220.82817999999997,
+            227.92191000000003,
+            406.10856
+          ],
+          "ppi": [
+            299.9993852471613,
+            299.99938471628775
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X2",
+          "pixels": [
+            175,
+            147
+          ],
+          "bounds_pt": [
+            46.60463,
+            38.52995999999996,
+            88.60471,
+            73.81002999999998
+          ],
+          "ppi": [
+            299.99942857251705,
+            299.9994047630856
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X3",
+          "pixels": [
+            241,
+            155
+          ],
+          "bounds_pt": [
+            105.31887,
+            36.60991999999999,
+            163.15899000000002,
+            73.81
+          ],
+          "ppi": [
+            299.99937759465223,
+            299.999354840097
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X4",
+          "pixels": [
+            675,
+            515
+          ],
+          "bounds_pt": [
+            333.60831,
+            282.50822,
+            495.60865,
+            406.10847
+          ],
+          "ppi": [
+            299.99937037169184,
+            299.9993932051108
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X5",
+          "pixels": [
+            99,
+            95
+          ],
+          "bounds_pt": [
+            331.51529,
+            37.06603999999999,
+            355.27533999999997,
+            59.866089999999986
+          ],
+          "ppi": [
+            299.9993686881975,
+            299.9993421067059
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X6",
+          "pixels": [
+            123,
+            73
+          ],
+          "bounds_pt": [
+            383.14166,
+            42.34599999999995,
+            412.66172,
+            59.86602999999997
+          ],
+          "ppi": [
+            299.9993902451418,
+            299.9994863022491
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X7",
+          "pixels": [
+            457,
+            235
+          ],
+          "bounds_pt": [
+            349.39035,
+            198.68588,
+            458.99036,
+            254.92586999999997
+          ],
+          "ppi": [
+            300.21895070994975,
+            300.8535385585952
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X8",
+          "pixels": [
+            457,
+            118
+          ],
+          "bounds_pt": [
+            349.39035,
+            254.76587999999998,
+            458.99036,
+            282.92588
+          ],
+          "ppi": [
+            300.21895070994975,
+            301.7045454545452
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X9",
+          "pixels": [
+            457,
+            201
+          ],
+          "bounds_pt": [
+            349.44833,
+            282.66819999999996,
+            458.88855,
+            330.8283
+          ],
+          "ppi": [
+            300.6572903453593,
+            300.4977149133823
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X10",
+          "pixels": [
+            304,
+            54
+          ],
+          "bounds_pt": [
+            386.03037,
+            198.76587999999998,
+            458.91037,
+            211.64587999999998
+          ],
+          "ppi": [
+            300.3293084522503,
+            301.8633540372672
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X11",
+          "pixels": [
+            474,
+            211
+          ],
+          "bounds_pt": [
+            395.33271,
+            151.87964999999997,
+            509.09293,
+            202.51975
+          ],
+          "ppi": [
+            299.9994198323456,
+            299.99940758410816
+          ],
+          "filter": "/DCTDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "CMYK"
+        },
+        {
+          "name": "X12",
+          "pixels": [
+            70,
+            47
+          ],
+          "bounds_pt": [
+            492.0529,
+            190.75973,
+            508.85293,
+            202.03974999999997
+          ],
+          "ppi": [
+            299.99946428667107,
+            299.99946808605006
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X13",
+          "pixels": [
+            33,
+            45
+          ],
+          "bounds_pt": [
+            492.2929,
+            190.99973,
+            500.21292,
+            201.79975000000002
+          ],
+          "ppi": [
+            299.99924242615464,
+            299.99944444547276
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X14",
+          "pixels": [
+            34,
+            46
+          ],
+          "bounds_pt": [
+            492.2929,
+            190.99972999999994,
+            500.45291999999995,
+            202.03974999999997
+          ],
+          "ppi": [
+            299.9992647076855,
+            299.99945652272294
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X15",
+          "pixels": [
+            28,
+            33
+          ],
+          "bounds_pt": [
+            501.65292,
+            193.87973,
+            508.37293,
+            201.79975000000002
+          ],
+          "ppi": [
+            299.9995535720928,
+            299.99924242615464
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        },
+        {
+          "name": "X16",
+          "pixels": [
+            30,
+            34
+          ],
+          "bounds_pt": [
+            501.41292,
+            193.87973,
+            508.61293,
+            202.03974999999997
+          ],
+          "ppi": [
+            299.9995833339112,
+            299.9992647076855
+          ],
+          "filter": "/FlateDecode",
+          "soft_mask": false,
+          "mask": false,
+          "decoded_image_mode": "RGB"
+        }
+      ]
+    }
+  ]
+}

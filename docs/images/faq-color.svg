@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="420" viewBox="0 0 1080 420">
+<title>faq-color</title>
+<rect x="0" y="0" width="1080" height="420" fill="#f5f9fc" stroke="none" stroke-width="1"/>
+<text x="28" y="40" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#173342">The same measured brown on three different backgrounds</text>
+<text x="28" y="70" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526b78">Original color swatches, not official part illustrations. Interior face samples only.</text>
+<rect x="30" y="115" width="320" height="220" fill="#B2D7F3" stroke="none" stroke-width="1"/>
+<rect x="110" y="165" width="160" height="115" fill="#5b2b13" stroke="none" stroke-width="1"/>
+<text x="30" y="365" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#173342">Classic 11038 / p21</text>
+<rect x="380" y="115" width="320" height="220" fill="#D8E6D9" stroke="none" stroke-width="1"/>
+<rect x="460" y="165" width="160" height="115" fill="#5b2b13" stroke="none" stroke-width="1"/>
+<text x="380" y="365" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#173342">Minecraft 21269 / p27</text>
+<rect x="730" y="115" width="320" height="220" fill="#899093" stroke="none" stroke-width="1"/>
+<rect x="810" y="165" width="160" height="115" fill="#5b2b13" stroke="none" stroke-width="1"/>
+<text x="730" y="365" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#173342">Star Wars 75375 / p20</text>
+<text x="30" y="402" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#173342">All three face medians: sRGB (91, 43, 19). Whole images differ; backgrounds differ.</text>
+</svg>

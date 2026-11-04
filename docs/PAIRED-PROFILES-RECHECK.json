@@ -1,0 +1,103 @@
+{
+  "checked_date": "2026-10-26",
+  "original_PAIRED_PARTS_sha256": "75230aa1e30f8f8399be12cd14dd4f5d7c592b93c6a32d0916dfa33c9733c542",
+  "method": "Direct recursive /Indexed base /ICCBased stream resolution from hash-verified native PDF Image XObjects; no profile inference from empty values.",
+  "observations": [
+    {
+      "set": "10343",
+      "catalogue_id": "4216581",
+      "page": 41,
+      "image": "X39.png",
+      "PDF_sha256": "d4218be6ca7a7e664fdb83365c2fff7d98ace0fb269c37c761aba86ae12d08a1",
+      "route": [
+        "/Indexed",
+        "base",
+        "/ICCBased"
+      ],
+      "N": 3,
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "profile_bytes": 3144,
+      "lookup_sha256": "0a5741ae656dd6709352829273998179847203002b061377903bf9a518c20580",
+      "lookup_bytes": 597,
+      "maximum_index": 198,
+      "width": 19,
+      "height": 18,
+      "decoded_index_bytes_sha256": "84d8a2072a78ce3909ce151366ca15844fa48d94630ef3e83668196945f8b113",
+      "previous_profile_sha256": null
+    },
+    {
+      "set": "10344",
+      "catalogue_id": "4216581",
+      "page": 41,
+      "image": "X29.png",
+      "PDF_sha256": "1adf450129b009d9e89eba83b6cd6344f19c01c724369a72a2a1a022408bb93d",
+      "route": [
+        "/Indexed",
+        "base",
+        "/ICCBased"
+      ],
+      "N": 3,
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "profile_bytes": 3144,
+      "lookup_sha256": "0a5741ae656dd6709352829273998179847203002b061377903bf9a518c20580",
+      "lookup_bytes": 597,
+      "maximum_index": 198,
+      "width": 19,
+      "height": 18,
+      "decoded_index_bytes_sha256": "84d8a2072a78ce3909ce151366ca15844fa48d94630ef3e83668196945f8b113",
+      "previous_profile_sha256": null
+    },
+    {
+      "set": "21269",
+      "catalogue_id": "302426",
+      "page": 82,
+      "image": "X13.png",
+      "PDF_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "route": [
+        "/Indexed",
+        "base",
+        "/ICCBased"
+      ],
+      "N": 3,
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "profile_bytes": 3144,
+      "lookup_sha256": "a449802016c510fcab99c4da8ec18539e0c927aadc7e0888f7f25fa7d1537186",
+      "lookup_bytes": 624,
+      "maximum_index": 207,
+      "width": 26,
+      "height": 22,
+      "decoded_index_bytes_sha256": "a156984a8f044bd020a5fb8d23301f396d4fe1dac2dba484b95fde0b7e523db7",
+      "previous_profile_sha256": null
+    },
+    {
+      "set": "21270",
+      "catalogue_id": "302426",
+      "page": 118,
+      "image": "X26.png",
+      "PDF_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "route": [
+        "/Indexed",
+        "base",
+        "/ICCBased"
+      ],
+      "N": 3,
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "profile_bytes": 3144,
+      "lookup_sha256": "a449802016c510fcab99c4da8ec18539e0c927aadc7e0888f7f25fa7d1537186",
+      "lookup_bytes": 624,
+      "maximum_index": 207,
+      "width": 26,
+      "height": 22,
+      "decoded_index_bytes_sha256": "a156984a8f044bd020a5fb8d23301f396d4fe1dac2dba484b95fde0b7e523db7",
+      "previous_profile_sha256": null
+    }
+  ],
+  "source_artwork_distributed": false,
+  "limits": [
+    "Rechecks color-space streams only; catalogue-to-image spatial association remains the earlier bounded candidate association.",
+    "Identical assets do not recover the production shader or prove large-assembly camera equality."
+  ],
+  "outcome": "Both indexed comparisons have identical explicit base ICC profiles, identical lookup palettes and identical decoded index bytes; all 14 complete comparisons now have nonempty verified profile hashes.",
+  "profile_correction_intermediate_PAIRED_PARTS_sha256": "869d06628d97961ce33e09b2c3f3b8cc8b9edc5c67162a619ad2b9fa51a2825d",
+  "subsequent_revision": "PAIRED-ASSOCIATION-RECHECK.json resolves the five previously unextracted comparisons; this profile-only receipt binds its earlier intermediate revision."
+}

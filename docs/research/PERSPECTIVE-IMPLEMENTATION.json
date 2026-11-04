@@ -1,0 +1,927 @@
+{
+  "method": "Finite pinhole: 30 degree vertical FOV; same eye, target, azimuth/elevation, page centre and framing. Eight colored cubes per model at distinct noncoplanar locations. Pixel bbox centers compared with projection of all cube vertices; no fitted screen transform. Four-times LDView raster, errors reported at 800x600.",
+  "reports": [
+    {
+      "name": "brick",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 30,
+        "focal_length_points": 559.8076211353316,
+        "distance_ldu": 130.59058323632632,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          61.3575037056519,
+          -62.903681353696726,
+          87.62759661589867
+        ],
+        "principal_point_points": [
+          200.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 100.89053835899799,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "a515246c90b06c2a7d1cbba993caff5282ee0423c3513b13e0dd3f5cedb64d85",
+      "markers": [
+        {
+          "rgb": "FF0000",
+          "xyz": [
+            -12.0,
+            1.5999999999999996,
+            -12.0
+          ],
+          "expected_bbox_center_3200": [
+            1694.924414934078,
+            613.2855905856909
+          ],
+          "counterfactual_ortho_center_3200": [
+            1700.5609568794303,
+            578.6014501594876
+          ],
+          "measured_bbox_center_3200": [
+            1694.5,
+            613.0
+          ],
+          "error_px_at_800": 0.12788911674368247,
+          "orthographic_error_px_at_800": 8.732108241371778
+        },
+        {
+          "rgb": "00FF00",
+          "xyz": [
+            -12.0,
+            1.5999999999999996,
+            12.0
+          ],
+          "expected_bbox_center_3200": [
+            2211.9522746958264,
+            949.261741945399
+          ],
+          "counterfactual_ortho_center_3200": [
+            2172.6451674234813,
+            965.310196303202
+          ],
+          "measured_bbox_center_3200": [
+            2212.0,
+            949.5
+          ],
+          "error_px_at_800": 0.0607477392792984,
+          "orthographic_error_px_at_800": 10.602962894492034
+        },
+        {
+          "rgb": "0000FF",
+          "xyz": [
+            -12.0,
+            18.4,
+            -12.0
+          ],
+          "expected_bbox_center_3200": [
+            1688.7089497891923,
+            1068.0302303717212
+          ],
+          "counterfactual_ortho_center_3200": [
+            1700.5609568794303,
+            1050.5457371715256
+          ],
+          "measured_bbox_center_3200": [
+            1689.0,
+            1068.0
+          ],
+          "error_px_at_800": 0.07315399023020977,
+          "orthographic_error_px_at_800": 5.233945780034817
+        },
+        {
+          "rgb": "FFFF00",
+          "xyz": [
+            -12.0,
+            18.4,
+            12.0
+          ],
+          "expected_bbox_center_3200": [
+            2167.190388855256,
+            1434.995302143285
+          ],
+          "counterfactual_ortho_center_3200": [
+            2172.6451674234813,
+            1437.2544833152401
+          ],
+          "measured_bbox_center_3200": [
+            2167.0,
+            1435.0
+          ],
+          "error_px_at_800": 0.04761170159702573,
+          "orthographic_error_px_at_800": 1.5196753406943306
+        },
+        {
+          "rgb": "FF00FF",
+          "xyz": [
+            12.0,
+            1.5999999999999996,
+            -12.0
+          ],
+          "expected_bbox_center_3200": [
+            1010.3286995162912,
+            839.5981688119057
+          ],
+          "counterfactual_ortho_center_3200": [
+            1026.3548325765187,
+            849.3778293009416
+          ],
+          "measured_bbox_center_3200": [
+            1010.5,
+            839.5
+          ],
+          "error_px_at_800": 0.0493589982613658,
+          "orthographic_error_px_at_800": 4.670032305348499
+        },
+        {
+          "rgb": "00FFFF",
+          "xyz": [
+            12.0,
+            1.5999999999999996,
+            12.0
+          ],
+          "expected_bbox_center_3200": [
+            1480.5272546421147,
+            1242.5792398150086
+          ],
+          "counterfactual_ortho_center_3200": [
+            1498.4390431205697,
+            1236.0865754446559
+          ],
+          "measured_bbox_center_3200": [
+            1480.5,
+            1242.5
+          ],
+          "error_px_at_800": 0.020948991323263378,
+          "orthographic_error_px_at_800": 4.762754472261508
+        },
+        {
+          "rgb": "FF8000",
+          "xyz": [
+            12.0,
+            18.4,
+            -12.0
+          ],
+          "expected_bbox_center_3200": [
+            1051.867592376058,
+            1315.90533597153
+          ],
+          "counterfactual_ortho_center_3200": [
+            1026.3548325765187,
+            1321.3221163129795
+          ],
+          "measured_bbox_center_3200": [
+            1052.0,
+            1316.0
+          ],
+          "error_px_at_800": 0.04069171995333803,
+          "orthographic_error_px_at_800": 6.547898203943336
+        },
+        {
+          "rgb": "8000FF",
+          "xyz": [
+            12.0,
+            18.4,
+            12.0
+          ],
+          "expected_bbox_center_3200": [
+            1490.0360207990811,
+            1750.2984725462024
+          ],
+          "counterfactual_ortho_center_3200": [
+            1498.4390431205697,
+            1708.0308624566937
+          ],
+          "measured_bbox_center_3200": [
+            1490.0,
+            1750.0
+          ],
+          "error_px_at_800": 0.07515956309870687,
+          "orthographic_error_px_at_800": 10.702295182926285
+        }
+      ],
+      "rms_px_at_800": 0.06877884973719008,
+      "max_px_at_800": 0.12788911674368247,
+      "counterfactual_orthographic_rms_px_at_800": 7.248131336922328
+    },
+    {
+      "name": "plate",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 30,
+        "focal_length_points": 559.8076211353316,
+        "distance_ldu": 271.3893874869482,
+        "target_ldu": [
+          4.440892098500626e-16,
+          4.0,
+          2.220446049250313e-16
+        ],
+        "position_ldu": [
+          127.51130239054638,
+          -151.66255773825694,
+          182.10501234614983
+        ],
+        "principal_point_points": [
+          200.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 218.08717547685097,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "1fafdd671824ef9995744d217042c5f8189b6359b83b5e4c8a369ffb503a9a5d",
+      "markers": [
+        {
+          "rgb": "FF0000",
+          "xyz": [
+            -48.0,
+            -1.5999999999999996,
+            -12.0
+          ],
+          "expected_bbox_center_3200": [
+            2085.6982409759494,
+            809.536836272866
+          ],
+          "counterfactual_ortho_center_3200": [
+            2134.764356273411,
+            770.1693671686927
+          ],
+          "measured_bbox_center_3200": [
+            2085.5,
+            809.5
+          ],
+          "error_px_at_800": 0.05040857785636595,
+          "orthographic_error_px_at_800": 15.759670598446617
+        },
+        {
+          "rgb": "00FF00",
+          "xyz": [
+            -48.0,
+            -1.5999999999999996,
+            12.0
+          ],
+          "expected_bbox_center_3200": [
+            2331.48970190938,
+            965.9713848252629
+          ],
+          "counterfactual_ortho_center_3200": [
+            2361.9278167258694,
+            956.2507801860858
+          ],
+          "measured_bbox_center_3200": [
+            2331.5,
+            965.5
+          ],
+          "error_px_at_800": 0.11787432506662013,
+          "orthographic_error_px_at_800": 7.950629290617518
+        },
+        {
+          "rgb": "0000FF",
+          "xyz": [
+            -48.0,
+            5.6,
+            -12.0
+          ],
+          "expected_bbox_center_3200": [
+            2079.069546935448,
+            902.0519704059368
+          ],
+          "counterfactual_ortho_center_3200": [
+            2134.764356273411,
+            867.4962801436386
+          ],
+          "measured_bbox_center_3200": [
+            2079.0,
+            902.0
+          ],
+          "error_px_at_800": 0.021704981172927233,
+          "orthographic_error_px_at_800": 16.393920585300414
+        },
+        {
+          "rgb": "FFFF00",
+          "xyz": [
+            -48.0,
+            5.6,
+            12.0
+          ],
+          "expected_bbox_center_3200": [
+            2320.9496290100524,
+            1061.4287298637669
+          ],
+          "counterfactual_ortho_center_3200": [
+            2361.9278167258694,
+            1053.5776931610317
+          ],
+          "measured_bbox_center_3200": [
+            2321.0,
+            1061.5
+          ],
+          "error_px_at_800": 0.02181838236870419,
+          "orthographic_error_px_at_800": 10.421879411834515
+        },
+        {
+          "rgb": "FF00FF",
+          "xyz": [
+            48.0,
+            -1.5999999999999996,
+            -12.0
+          ],
+          "expected_bbox_center_3200": [
+            783.8320286751273,
+            1297.7736956566423
+          ],
+          "counterfactual_ortho_center_3200": [
+            837.0721832741306,
+            1291.351799630665
+          ],
+          "measured_bbox_center_3200": [
+            784.0,
+            1298.0
+          ],
+          "error_px_at_800": 0.07045744362825357,
+          "orthographic_error_px_at_800": 13.371740737544538
+        },
+        {
+          "rgb": "00FFFF",
+          "xyz": [
+            48.0,
+            -1.5999999999999996,
+            12.0
+          ],
+          "expected_bbox_center_3200": [
+            988.0389309961706,
+            1517.0048957091062
+          ],
+          "counterfactual_ortho_center_3200": [
+            1064.2356437265892,
+            1477.433212648058
+          ],
+          "measured_bbox_center_3200": [
+            988.0,
+            1517.0
+          ],
+          "error_px_at_800": 0.009809403748730098,
+          "orthographic_error_px_at_800": 21.472953970869412
+        },
+        {
+          "rgb": "FF8000",
+          "xyz": [
+            48.0,
+            5.6,
+            -12.0
+          ],
+          "expected_bbox_center_3200": [
+            796.8981264657823,
+            1398.6540717095063
+          ],
+          "counterfactual_ortho_center_3200": [
+            837.0721832741306,
+            1388.678712605611
+          ],
+          "measured_bbox_center_3200": [
+            797.0,
+            1398.5
+          ],
+          "error_px_at_800": 0.04617650149440071,
+          "orthographic_error_px_at_800": 10.314545428782516
+        },
+        {
+          "rgb": "8000FF",
+          "xyz": [
+            48.0,
+            5.6,
+            12.0
+          ],
+          "expected_bbox_center_3200": [
+            998.4865128050861,
+            1620.8609480340465
+          ],
+          "counterfactual_ortho_center_3200": [
+            1064.2356437265892,
+            1574.7601256230041
+          ],
+          "measured_bbox_center_3200": [
+            998.5,
+            1620.5
+          ],
+          "error_px_at_800": 0.09029998190360716,
+          "orthographic_error_px_at_800": 20.020787578433985
+        }
+      ],
+      "rms_px_at_800": 0.06396225550559578,
+      "max_px_at_800": 0.11787432506662013,
+      "counterfactual_orthographic_rms_px_at_800": 15.149541706643737
+    },
+    {
+      "name": "lantern",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 30,
+        "focal_length_points": 559.8076211353316,
+        "distance_ldu": 698.3246624083462,
+        "target_ldu": [
+          -141.1769582241625,
+          -415.82834303220056,
+          -21.680870541856322
+        ],
+        "position_ldu": [
+          186.9283078648043,
+          -816.3709143124272,
+          446.90201122469267
+        ],
+        "principal_point_points": [
+          200.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 575.7429694532724,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "cc4fc8e1706b91873f6355fe980f4e87f029cce26d2541a8c4388bd8ea77afcd",
+      "markers": [
+        {
+          "rgb": "FF0000",
+          "xyz": [
+            -188.0,
+            -521.5999400000001,
+            -85.02534757352856
+          ],
+          "expected_bbox_center_3200": [
+            1612.406990014354,
+            358.8111558278419
+          ],
+          "counterfactual_ortho_center_3200": [
+            1612.469255940749,
+            354.18588853548044
+          ],
+          "measured_bbox_center_3200": [
+            1612.5,
+            358.5
+          ],
+          "error_px_at_800": 0.08118990340162319,
+          "orthographic_error_px_at_800": 1.078555252568172
+        },
+        {
+          "rgb": "00FF00",
+          "xyz": [
+            -188.0,
+            -521.5999400000001,
+            23.743663106617852
+          ],
+          "expected_bbox_center_3200": [
+            2057.9777319880873,
+            625.0537207185441
+          ],
+          "counterfactual_ortho_center_3200": [
+            2012.5686496087174,
+            681.9281247773827
+          ],
+          "measured_bbox_center_3200": [
+            2058.0,
+            625.0
+          ],
+          "error_px_at_800": 0.014538268370585796,
+          "orthographic_error_px_at_800": 18.20854708139276
+        },
+        {
+          "rgb": "0000FF",
+          "xyz": [
+            -188.0,
+            -346.39976,
+            -85.02534757352856
+          ],
+          "expected_bbox_center_3200": [
+            1610.7901132588436,
+            1264.8206915744377
+          ],
+          "counterfactual_ortho_center_3200": [
+            1612.469255940749,
+            1274.572899325677
+          ],
+          "measured_bbox_center_3200": [
+            1611.0,
+            1265.0
+          ],
+          "error_px_at_800": 0.069012659885211,
+          "orthographic_error_px_at_800": 2.4212485740699896
+        },
+        {
+          "rgb": "FFFF00",
+          "xyz": [
+            -188.0,
+            -346.39976,
+            23.743663106617852
+          ],
+          "expected_bbox_center_3200": [
+            1994.834138094937,
+            1585.0196782403589
+          ],
+          "counterfactual_ortho_center_3200": [
+            2012.5686496087174,
+            1602.3151355675795
+          ],
+          "measured_bbox_center_3200": [
+            1995.0,
+            1585.0
+          ],
+          "error_px_at_800": 0.04175629046526981,
+          "orthographic_error_px_at_800": 6.166803106135821
+        },
+        {
+          "rgb": "FF00FF",
+          "xyz": [
+            -92.0,
+            -521.5999400000001,
+            -85.02534757352856
+          ],
+          "expected_bbox_center_3200": [
+            1077.2820136757352,
+            516.3690227976762
+          ],
+          "counterfactual_ortho_center_3200": [
+            1108.1481243308451,
+            556.7326246438827
+          ],
+          "measured_bbox_center_3200": [
+            1077.5,
+            516.0
+          ],
+          "error_px_at_800": 0.10714938834729894,
+          "orthographic_error_px_at_800": 12.743758853303396
+        },
+        {
+          "rgb": "00FFFF",
+          "xyz": [
+            -92.0,
+            -521.5999400000001,
+            23.743663106617852
+          ],
+          "expected_bbox_center_3200": [
+            1490.3910007645604,
+            822.8608878061397
+          ],
+          "counterfactual_ortho_center_3200": [
+            1508.2475179988132,
+            884.4748608857849
+          ],
+          "measured_bbox_center_3200": [
+            1490.5,
+            822.5
+          ],
+          "error_px_at_800": 0.09424729503635172,
+          "orthographic_error_px_at_800": 16.116485691929302
+        },
+        {
+          "rgb": "FF8000",
+          "xyz": [
+            -92.0,
+            -346.39976,
+            -85.02534757352856
+          ],
+          "expected_bbox_center_3200": [
+            1146.556292507919,
+            1455.4229043620953
+          ],
+          "counterfactual_ortho_center_3200": [
+            1108.1481243308451,
+            1477.1196354340796
+          ],
+          "measured_bbox_center_3200": [
+            1146.5,
+            1455.5
+          ],
+          "error_px_at_800": 0.023864963638836875,
+          "orthographic_error_px_at_800": 11.006461180951913
+        },
+        {
+          "rgb": "8000FF",
+          "xyz": [
+            -92.0,
+            -346.39976,
+            23.743663106617852
+          ],
+          "expected_bbox_center_3200": [
+            1506.4084937983002,
+            1817.0409219937058
+          ],
+          "counterfactual_ortho_center_3200": [
+            1508.2475179988132,
+            1804.8618716759815
+          ],
+          "measured_bbox_center_3200": [
+            1506.0,
+            1817.0
+          ],
+          "error_px_at_800": 0.10263460455013829,
+          "orthographic_error_px_at_800": 3.0861130119995654
+        }
+      ],
+      "rms_px_at_800": 0.07481346742477885,
+      "max_px_at_800": 0.10714938834729894,
+      "counterfactual_orthographic_rms_px_at_800": 10.778550200950999
+    },
+    {
+      "name": "kiosk",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 30,
+        "focal_length_points": 559.8076211353316,
+        "distance_ldu": 551.6978332847267,
+        "target_ldu": [
+          -4.759685088289295,
+          -40.45373303019913,
+          -6.797534771560521
+        ],
+        "position_ldu": [
+          254.4535063323267,
+          -356.89461018824625,
+          363.39726787705445
+        ],
+        "principal_point_points": [
+          200.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 439.43493797245753,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "cad5c45bf7bbe263188627260706bccd62aead47ff64044eb3b6bcdd25edd36c",
+      "markers": [
+        {
+          "rgb": "FF0000",
+          "xyz": [
+            -48.0,
+            -91.19999999999999,
+            -48.0
+          ],
+          "expected_bbox_center_3200": [
+            1692.0329894578406,
+            609.6043412443579
+          ],
+          "counterfactual_ortho_center_3200": [
+            1695.187229530915,
+            589.4352485411221
+          ],
+          "measured_bbox_center_3200": [
+            1692.0,
+            609.5
+          ],
+          "error_px_at_800": 0.02735804223940627,
+          "orthographic_error_px_at_800": 5.079078922337201
+        },
+        {
+          "rgb": "00FF00",
+          "xyz": [
+            -48.0,
+            -91.19999999999999,
+            48.0
+          ],
+          "expected_bbox_center_3200": [
+            2191.028984815601,
+            933.6336015663228
+          ],
+          "counterfactual_ortho_center_3200": [
+            2142.1692452082643,
+            955.5814804436368
+          ],
+          "measured_bbox_center_3200": [
+            2191.0,
+            933.5
+          ],
+          "error_px_at_800": 0.03417738475523277,
+          "orthographic_error_px_at_800": 13.397841225625983
+        },
+        {
+          "rgb": "0000FF",
+          "xyz": [
+            -48.0,
+            -16.800000000000004,
+            -48.0
+          ],
+          "expected_bbox_center_3200": [
+            1685.5931564493196,
+            1095.7403968839312
+          ],
+          "counterfactual_ortho_center_3200": [
+            1695.187229530915,
+            1084.1615164639854
+          ],
+          "measured_bbox_center_3200": [
+            1686.0,
+            1096.0
+          ],
+          "error_px_at_800": 0.12065328751292764,
+          "orthographic_error_px_at_800": 3.746288821005088
+        },
+        {
+          "rgb": "FFFF00",
+          "xyz": [
+            -48.0,
+            -16.800000000000004,
+            48.0
+          ],
+          "expected_bbox_center_3200": [
+            2145.032472911873,
+            1451.6343361223421
+          ],
+          "counterfactual_ortho_center_3200": [
+            2142.1692452082643,
+            1450.3077483665002
+          ],
+          "measured_bbox_center_3200": [
+            2145.0,
+            1451.5
+          ],
+          "error_px_at_800": 0.03455130584672431,
+          "orthographic_error_px_at_800": 0.7678963410072633
+        },
+        {
+          "rgb": "FF00FF",
+          "xyz": [
+            48.0,
+            -91.19999999999999,
+            -48.0
+          ],
+          "expected_bbox_center_3200": [
+            1029.7172516537953,
+            828.1532834092661
+          ],
+          "counterfactual_ortho_center_3200": [
+            1056.830754791736,
+            845.8136002063434
+          ],
+          "measured_bbox_center_3200": [
+            1029.5,
+            828.0
+          ],
+          "error_px_at_800": 0.06647089806498001,
+          "orthographic_error_px_at_800": 8.155881734205044
+        },
+        {
+          "rgb": "00FFFF",
+          "xyz": [
+            48.0,
+            -91.19999999999999,
+            48.0
+          ],
+          "expected_bbox_center_3200": [
+            1484.9891398413445,
+            1214.4207303406426
+          ],
+          "counterfactual_ortho_center_3200": [
+            1503.812770469085,
+            1211.959832108858
+          ],
+          "measured_bbox_center_3200": [
+            1485.0,
+            1214.0
+          ],
+          "error_px_at_800": 0.10521762048942386,
+          "orthographic_error_px_at_800": 4.73076776106774
+        },
+        {
+          "rgb": "FF8000",
+          "xyz": [
+            48.0,
+            -16.800000000000004,
+            -48.0
+          ],
+          "expected_bbox_center_3200": [
+            1072.5163205087813,
+            1336.469164074067
+          ],
+          "counterfactual_ortho_center_3200": [
+            1056.830754791736,
+            1340.5398681292068
+          ],
+          "measured_bbox_center_3200": [
+            1072.5,
+            1336.5
+          ],
+          "error_px_at_800": 0.008722146148675117,
+          "orthographic_error_px_at_800": 4.04541237003479
+        },
+        {
+          "rgb": "8000FF",
+          "xyz": [
+            48.0,
+            -16.800000000000004,
+            48.0
+          ],
+          "expected_bbox_center_3200": [
+            1494.6909869649658,
+            1755.0182855492615
+          ],
+          "counterfactual_ortho_center_3200": [
+            1503.812770469085,
+            1706.6861000317217
+          ],
+          "measured_bbox_center_3200": [
+            1494.5,
+            1755.5
+          ],
+          "error_px_at_800": 0.12954845445748334,
+          "orthographic_error_px_at_800": 12.423577695059661
+        }
+      ],
+      "rms_px_at_800": 0.07906925007869232,
+      "max_px_at_800": 0.12954845445748334,
+      "counterfactual_orthographic_rms_px_at_800": 7.742195678452956
+    }
+  ],
+  "marker_count": 32,
+  "max_error_px_at_800": 0.12954845445748334
+}

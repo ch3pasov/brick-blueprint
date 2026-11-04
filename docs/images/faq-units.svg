@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="430" viewBox="0 0 1080 430">
+<title>faq-units</title>
+<rect x="0" y="0" width="1080" height="430" fill="#f5f9fc" stroke="none" stroke-width="1"/>
+<text x="28" y="40" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#173342">Physical units survive zoom; screenshots do not</text>
+<text x="28" y="70" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526b78">Measured source values and renderer normalizations must remain separate.</text>
+<rect x="30" y="110" width="480" height="240" fill="#B7D7F3" stroke="#202021" stroke-width="2"/>
+<text x="55" y="150" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#173342">SOURCE / 31051, 2016</text>
+<text x="55" y="195" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">Frame: about 0.5 pt</text>
+<text x="55" y="235" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">Inner corner: about 7.09 pt</text>
+<text x="55" y="275" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">Quantity: Chalet Bold, 8 pt</text>
+<text x="55" y="320" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">Step number: 38 pt</text>
+<rect x="545" y="110" width="505" height="240" fill="#fff" stroke="#9eb6c4" stroke-width="1"/>
+<text x="570" y="150" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#173342">TOOL / normalized layout</text>
+<text x="570" y="195" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">Corner: 7.087 pt / padding: 14.17 pt</text>
+<text x="570" y="235" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">Page inset: 12 pt / quantity: 8 pt</text>
+<text x="570" y="275" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">Model outline: 0.32 pt (separate)</text>
+<text x="570" y="320" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">72 pt = 1 inch = 25.4 mm</text>
+<text x="30" y="397" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#173342">Modern sampled frames: ~0.75 pt; Friends: ~2 pt. These are not model outline widths.</text>
+</svg>

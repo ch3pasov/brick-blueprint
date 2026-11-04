@@ -1,0 +1,31 @@
+{
+  "checked_date": "2026-10-26",
+  "purpose": "Optional CMYK/PNG compatibility environment; core renderer remains Pillow-free",
+  "wheel": {
+    "source": "https://pypi.org/pypi/Pillow/13.0.0/json",
+    "filename": "pillow-13.0.0-cp312-cp312-macosx_11_0_arm64.whl",
+    "expected_sha256": "fc481f742ccda20e9ed760b8f978dff50f2a4e9bc253ac167fb0a05b0783ef52",
+    "actual_sha256": "fc481f742ccda20e9ed760b8f978dff50f2a4e9bc253ac167fb0a05b0783ef52",
+    "version": "13.0.0",
+    "requires_python": ">=3.11",
+    "license_expression": "MIT-CMU",
+    "installed_globally": false
+  },
+  "global_environment_changed": false,
+  "python": "3.12.14",
+  "Pillow": "13.0.0",
+  "LittleCMS": "2.19",
+  "support": "Core Python>=3.10; optional print extra Python>=3.11 and Pillow>=13.0",
+  "limitations": [
+    "A pinned tested environment is not an exhaustive vulnerability scan or a claim about future versions.",
+    "The Arrow advisory GHSA-654x-cwwv-5j9c lists no patched version on this date; this project does not use Arrow APIs."
+  ],
+  "compatibility_tests": {
+    "executed": 85,
+    "passed": 85,
+    "skipped": 0,
+    "real_CMYK_profile_supplied": true,
+    "platform": "Darwin arm64",
+    "claim": "Local full-source dev3 iteration 8; selected-scope checkout is checked separately"
+  }
+}

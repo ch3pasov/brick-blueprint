@@ -1,0 +1,842 @@
+{
+  "method": "Native embedded images; element-ID association visually checked. RGB images retain embedded sRGB values; old CMYK converted with embedded ISO Coated v2 to sRGB using LittleCMS relative colorimetric. No page screenshot sampling. Interior rectangles use identical coordinates for same-size modern illustrations. Pixel differences are not measured physical ink differences or perceptual DeltaE.",
+  "observations": [
+    {
+      "set": "31051",
+      "theme": "Creator 3in1",
+      "pdf_page": 181,
+      "element_id": "4211104",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6167581.pdf",
+      "pdf_sha256": "fdab1177de2f087c5a08b510d8602e294c90cdee1ca1392b6a1f2046143daf69",
+      "image_name": "X115.jpg",
+      "image_pixels": [
+        36,
+        29
+      ],
+      "mode": "CMYK",
+      "encoded_sha256": "d16f4eb4c457b4ff9fe1315635c30eddfd1148f4f707c713ea5cf7ced711486e",
+      "decoded_sha256": "31607ab203e48418dbe413f69d8bcd0d49bdc532ab48b178331e8349374eb998",
+      "image_bbox_pt": [
+        145.57153,
+        499.62973999999997,
+        170.91976,
+        520.31641
+      ],
+      "id_bbox_pt": [
+        146.2757,
+        527.8211,
+        166.5209,
+        533.8211
+      ],
+      "profile_description": "ISO Coated v2 (ECI)",
+      "profile_sha256": "128dc02f7246cc3807af0323695379f64151a8f27a587736acc59f8b6ce894b8",
+      "managed_rgb_sha256": "fe3f2cd9049ab3ae28f87a125e1010e8d05125d032173c60c203d38605c883e3",
+      "background_rgb": [
+        215,
+        238,
+        252
+      ]
+    },
+    {
+      "set": "31051",
+      "theme": "Creator 3in1",
+      "pdf_page": 181,
+      "element_id": "6066097",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6167581.pdf",
+      "pdf_sha256": "fdab1177de2f087c5a08b510d8602e294c90cdee1ca1392b6a1f2046143daf69",
+      "image_name": "X98.png",
+      "image_pixels": [
+        27,
+        18
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "2332af9acce956681a098645b7fbc6acd64f0d19b8a799fdb944553ab493f5cf",
+      "decoded_sha256": "a2e5b4a24aacd869452e8a33a45394646847363a6e129f33865afde863f8b4c0",
+      "image_bbox_pt": [
+        55.99451,
+        363.72516,
+        74.85131,
+        376.68516
+      ],
+      "id_bbox_pt": [
+        56.6929,
+        384.18312999999995,
+        81.70270000000001,
+        390.18312999999995
+      ],
+      "profile_description": "ISO Coated v2 (ECI)",
+      "profile_sha256": "128dc02f7246cc3807af0323695379f64151a8f27a587736acc59f8b6ce894b8",
+      "managed_rgb_sha256": "f61d336a25ec0eac954f7a9ac59b3bf0c3c66ad5c5b28aec8d9e970e5d7a58ed",
+      "background_rgb": [
+        214,
+        238,
+        252
+      ]
+    },
+    {
+      "set": "11038",
+      "theme": "Classic",
+      "pdf_page": 53,
+      "element_id": "4211210",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+      "pdf_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+      "image_name": "X61.jpg",
+      "image_pixels": [
+        48,
+        45
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "f3b1f14da7ae30ee535ab5227bce809a5c4594fa7efc2a4738e4e7245e68c454",
+      "decoded_sha256": "451d850e4a1e0bd2ba3f1802479d879dad7efded912054c3213d20969c75623b",
+      "image_bbox_pt": [
+        495.62921,
+        304.94474,
+        518.35621,
+        326.23083
+      ],
+      "id_bbox_pt": [
+        496.10269,
+        334.2638,
+        517.47829,
+        340.2638
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "451d850e4a1e0bd2ba3f1802479d879dad7efded912054c3213d20969c75623b",
+      "background_rgb": [
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "set": "21062",
+      "theme": "Architecture",
+      "pdf_page": 218,
+      "element_id": "4211104",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566168.pdf",
+      "pdf_sha256": "78719e05f06b32c5648af42712aa93864e368128e1356ce1b767835e05347eb7",
+      "image_name": "X7.png",
+      "image_pixels": [
+        52,
+        43
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "19946886b508406929bcfab08710c651619b2f0e5beeb865be48aefd0f49a34f",
+      "decoded_sha256": "9a4d4d65fda35ef9e7228e24867d336640a1b0b05615b75f7b451b5b38dc1aad",
+      "image_bbox_pt": [
+        483.03328,
+        218.36143999999996,
+        507.74372999999997,
+        238.56098999999995
+      ],
+      "id_bbox_pt": [
+        483.50851,
+        246.61518999999993,
+        503.85091,
+        252.61518999999993
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "9a4d4d65fda35ef9e7228e24867d336640a1b0b05615b75f7b451b5b38dc1aad",
+      "background_rgb": [
+        137,
+        144,
+        147
+      ]
+    },
+    {
+      "set": "21062",
+      "theme": "Architecture",
+      "pdf_page": 218,
+      "element_id": "6066097",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566168.pdf",
+      "pdf_sha256": "78719e05f06b32c5648af42712aa93864e368128e1356ce1b767835e05347eb7",
+      "image_name": "X51.jpg",
+      "image_pixels": [
+        39,
+        26
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "99712eb5dc2ea95c59cf47da284defdb76b85a8fdcd2375971bff551d2b3a491",
+      "decoded_sha256": "28c8dc3cb7727ab613bb54b4569529a19ec93085b689fb8f75fec56340e1efdb",
+      "image_bbox_pt": [
+        195.45639,
+        301.00283999999994,
+        213.86021,
+        313.09286
+      ],
+      "id_bbox_pt": [
+        195.9283,
+        319.6758,
+        219.9283,
+        325.6758
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "28c8dc3cb7727ab613bb54b4569529a19ec93085b689fb8f75fec56340e1efdb",
+      "background_rgb": [
+        136,
+        144,
+        147
+      ]
+    },
+    {
+      "set": "21062",
+      "theme": "Architecture",
+      "pdf_page": 218,
+      "element_id": "4211399",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566168.pdf",
+      "pdf_sha256": "78719e05f06b32c5648af42712aa93864e368128e1356ce1b767835e05347eb7",
+      "image_name": "X143.png",
+      "image_pixels": [
+        26,
+        22
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "aeaea60fd23a9b2dceea782e9622f6ee51ea2409e92a31d789bf7612cdf24517",
+      "decoded_sha256": "96f416eb6fd2cef2ee5cdbcd7e024175986bf31b75d001307caf292d40f1b2cb",
+      "image_bbox_pt": [
+        140.21826,
+        300.30683999999997,
+        152.30828,
+        310.40486
+      ],
+      "id_bbox_pt": [
+        140.6833,
+        316.99379,
+        164.6833,
+        322.99379
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "96f416eb6fd2cef2ee5cdbcd7e024175986bf31b75d001307caf292d40f1b2cb",
+      "background_rgb": [
+        137,
+        144,
+        147
+      ]
+    },
+    {
+      "set": "21269",
+      "theme": "Minecraft",
+      "pdf_page": 82,
+      "element_id": "4211210",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556015.pdf",
+      "pdf_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "image_name": "X55.jpg",
+      "image_pixels": [
+        48,
+        45
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "132b8d7d8e3c7e3f9b111d2dd406bbb2dc3a3b76405a415a9c4c7b9771e2f728",
+      "decoded_sha256": "2449cf974c7715bd8748c67c0210ff2d63779cbc3bdb060a743780e57ef9929a",
+      "image_bbox_pt": [
+        475.78668,
+        120.30120000000002,
+        498.51364,
+        141.58725
+      ],
+      "id_bbox_pt": [
+        476.26019,
+        149.62021000000001,
+        497.63579000000004,
+        155.62021000000001
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "2449cf974c7715bd8748c67c0210ff2d63779cbc3bdb060a743780e57ef9929a",
+      "background_rgb": [
+        235,
+        245,
+        236
+      ]
+    },
+    {
+      "set": "21269",
+      "theme": "Minecraft",
+      "pdf_page": 83,
+      "element_id": "4211399",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556015.pdf",
+      "pdf_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "image_name": "X7.png",
+      "image_pixels": [
+        26,
+        22
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "2667e0ee7d38cee8636f71ba4ce0bf81dc439e15607abc944cb4f30f16e57888",
+      "decoded_sha256": "4f2e4c1d567f34419b98728feb8aad85eccc416e0c9abe0d737e21f48a701321",
+      "image_bbox_pt": [
+        33.55075,
+        192.37807,
+        45.64075,
+        202.47607000000002
+      ],
+      "id_bbox_pt": [
+        34.0157,
+        209.06499000000002,
+        58.0157,
+        215.06499000000002
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "4f2e4c1d567f34419b98728feb8aad85eccc416e0c9abe0d737e21f48a701321",
+      "background_rgb": [
+        235,
+        245,
+        236
+      ]
+    },
+    {
+      "set": "75375",
+      "theme": "Star Wars",
+      "pdf_page": 181,
+      "element_id": "6066097",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+      "pdf_sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+      "image_name": "X39.jpg",
+      "image_pixels": [
+        39,
+        26
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "73cd5838141503eac3b14611753ca9ef2c34cf810bdd31937e69b33f8da2d972",
+      "decoded_sha256": "182777e19bd6d6444404ed9068aa33610d9c0975679b66bcac25d0db24feeda6",
+      "image_bbox_pt": [
+        264.58731,
+        335.85257,
+        282.99113,
+        348.13759
+      ],
+      "id_bbox_pt": [
+        265.0592,
+        356.1891,
+        288.929,
+        362.1891
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "182777e19bd6d6444404ed9068aa33610d9c0975679b66bcac25d0db24feeda6",
+      "background_rgb": [
+        136,
+        144,
+        147
+      ]
+    },
+    {
+      "set": "75375",
+      "theme": "Star Wars",
+      "pdf_page": 181,
+      "element_id": "4211210",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+      "pdf_sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+      "image_name": "X85.jpg",
+      "image_pixels": [
+        48,
+        45
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "6e915eee5ead857287ea98555e8c29e2c5afe1c9d602fd3f91b516e6cfa8dcec",
+      "decoded_sha256": "ef7c5543c16f97551789bf77f8322230429a61445ff7ba3ed179e2b7a3743a7d",
+      "image_bbox_pt": [
+        33.54227,
+        170.80045,
+        56.269270000000006,
+        192.08654
+      ],
+      "id_bbox_pt": [
+        34.0157,
+        200.1375,
+        54.4151,
+        206.1375
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "ef7c5543c16f97551789bf77f8322230429a61445ff7ba3ed179e2b7a3743a7d",
+      "background_rgb": [
+        136,
+        144,
+        147
+      ]
+    },
+    {
+      "set": "75375",
+      "theme": "Star Wars",
+      "pdf_page": 181,
+      "element_id": "4211399",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+      "pdf_sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+      "image_name": "X5.png",
+      "image_pixels": [
+        26,
+        22
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "d0c8aec0a94eda77a6d271ac947afb8f853ef9a35a63e22142e42126fcd4362f",
+      "decoded_sha256": "0e6a5f137ab1e76fe4c6e6414d6e953ae3614bca1e7fd7a873d0a5733540603e",
+      "image_bbox_pt": [
+        110.56524,
+        142.68703999999997,
+        122.65526,
+        152.78506
+      ],
+      "id_bbox_pt": [
+        111.0302,
+        160.84999,
+        132.0014,
+        166.84999
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "0e6a5f137ab1e76fe4c6e6414d6e953ae3614bca1e7fd7a873d0a5733540603e",
+      "background_rgb": [
+        137,
+        144,
+        147
+      ]
+    },
+    {
+      "set": "75375",
+      "theme": "Star Wars",
+      "pdf_page": 182,
+      "element_id": "4211104",
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+      "pdf_sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+      "image_name": "X34.png",
+      "image_pixels": [
+        52,
+        43
+      ],
+      "mode": "RGB",
+      "encoded_sha256": "19946886b508406929bcfab08710c651619b2f0e5beeb865be48aefd0f49a34f",
+      "decoded_sha256": "9a4d4d65fda35ef9e7228e24867d336640a1b0b05615b75f7b451b5b38dc1aad",
+      "image_bbox_pt": [
+        383.6195,
+        232.01549,
+        408.32995,
+        252.21504
+      ],
+      "id_bbox_pt": [
+        384.0947,
+        260.26919999999996,
+        404.4371,
+        266.26919999999996
+      ],
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "managed_rgb_sha256": "9a4d4d65fda35ef9e7228e24867d336640a1b0b05615b75f7b451b5b38dc1aad",
+      "background_rgb": [
+        137,
+        144,
+        147
+      ]
+    }
+  ],
+  "modern_pairs": [
+    {
+      "element_id": "4211210",
+      "sets": [
+        "11038",
+        "21269"
+      ],
+      "same_dimensions": true,
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "region": "side_face",
+          "bbox_native_pixels": [
+            29,
+            28,
+            38,
+            32
+          ],
+          "median_rgb_a": [
+            91.5,
+            42.5,
+            19.0
+          ],
+          "median_rgb_b": [
+            91.5,
+            42.5,
+            19.0
+          ],
+          "mean_absolute_channel_difference": 0.0,
+          "max_channel_difference": 0,
+          "equal_pixels_percent": 100.0,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            0.5092592592592593
+          ]
+        },
+        {
+          "region": "other_side",
+          "bbox_native_pixels": [
+            7,
+            25,
+            11,
+            29
+          ],
+          "median_rgb_a": [
+            81.0,
+            38.5,
+            14.5
+          ],
+          "median_rgb_b": [
+            81.0,
+            39.0,
+            14.5
+          ],
+          "mean_absolute_channel_difference": 0.7916666666666666,
+          "max_channel_difference": 9,
+          "equal_pixels_percent": 75.0,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            1.3958333333333333
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "4211210",
+      "sets": [
+        "11038",
+        "75375"
+      ],
+      "same_dimensions": true,
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "region": "side_face",
+          "bbox_native_pixels": [
+            29,
+            28,
+            38,
+            32
+          ],
+          "median_rgb_a": [
+            91.5,
+            42.5,
+            19.0
+          ],
+          "median_rgb_b": [
+            91.5,
+            42.5,
+            19.0
+          ],
+          "mean_absolute_channel_difference": 0.0,
+          "max_channel_difference": 0,
+          "equal_pixels_percent": 100.0,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            0.5555555555555556
+          ]
+        },
+        {
+          "region": "other_side",
+          "bbox_native_pixels": [
+            7,
+            25,
+            11,
+            29
+          ],
+          "median_rgb_a": [
+            81.0,
+            38.5,
+            14.5
+          ],
+          "median_rgb_b": [
+            81.0,
+            38.5,
+            15.5
+          ],
+          "mean_absolute_channel_difference": 0.625,
+          "max_channel_difference": 6,
+          "equal_pixels_percent": 75.0,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            1.2708333333333333
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "4211210",
+      "sets": [
+        "21269",
+        "75375"
+      ],
+      "same_dimensions": true,
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "region": "side_face",
+          "bbox_native_pixels": [
+            29,
+            28,
+            38,
+            32
+          ],
+          "median_rgb_a": [
+            91.5,
+            42.5,
+            19.0
+          ],
+          "median_rgb_b": [
+            91.5,
+            42.5,
+            19.0
+          ],
+          "mean_absolute_channel_difference": 0.0,
+          "max_channel_difference": 0,
+          "equal_pixels_percent": 100.0,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            0.6018518518518519
+          ]
+        },
+        {
+          "region": "other_side",
+          "bbox_native_pixels": [
+            7,
+            25,
+            11,
+            29
+          ],
+          "median_rgb_a": [
+            81.0,
+            39.0,
+            14.5
+          ],
+          "median_rgb_b": [
+            81.0,
+            38.5,
+            15.5
+          ],
+          "mean_absolute_channel_difference": 0.625,
+          "max_channel_difference": 7,
+          "equal_pixels_percent": 75.0,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "4211399",
+      "sets": [
+        "21062",
+        "21269"
+      ],
+      "same_dimensions": true,
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "region": "side_face",
+          "bbox_native_pixels": [
+            14,
+            15,
+            18,
+            17
+          ],
+          "median_rgb_a": [
+            169.0,
+            169.0,
+            169.0
+          ],
+          "median_rgb_b": [
+            169.0,
+            169.0,
+            169.0
+          ],
+          "mean_absolute_channel_difference": 0.125,
+          "max_channel_difference": 1,
+          "equal_pixels_percent": 87.5,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            2.5416666666666665
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "4211399",
+      "sets": [
+        "21062",
+        "75375"
+      ],
+      "same_dimensions": true,
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "region": "side_face",
+          "bbox_native_pixels": [
+            14,
+            15,
+            18,
+            17
+          ],
+          "median_rgb_a": [
+            169.0,
+            169.0,
+            169.0
+          ],
+          "median_rgb_b": [
+            169.0,
+            169.0,
+            169.0
+          ],
+          "mean_absolute_channel_difference": 0.0,
+          "max_channel_difference": 0,
+          "equal_pixels_percent": 100.0,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            0.041666666666666664
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "4211399",
+      "sets": [
+        "21269",
+        "75375"
+      ],
+      "same_dimensions": true,
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "region": "side_face",
+          "bbox_native_pixels": [
+            14,
+            15,
+            18,
+            17
+          ],
+          "median_rgb_a": [
+            169.0,
+            169.0,
+            169.0
+          ],
+          "median_rgb_b": [
+            169.0,
+            169.0,
+            169.0
+          ],
+          "mean_absolute_channel_difference": 0.125,
+          "max_channel_difference": 1,
+          "equal_pixels_percent": 87.5,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            2.5416666666666665
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "4211104",
+      "sets": [
+        "21062",
+        "75375"
+      ],
+      "same_dimensions": true,
+      "decoded_rgb_identical": true,
+      "regions": [
+        {
+          "region": "side_face",
+          "bbox_native_pixels": [
+            25,
+            23,
+            36,
+            29
+          ],
+          "median_rgb_a": [
+            117.0,
+            117.0,
+            117.0
+          ],
+          "median_rgb_b": [
+            117.0,
+            117.0,
+            117.0
+          ],
+          "mean_absolute_channel_difference": 0.0,
+          "max_channel_difference": 0,
+          "equal_pixels_percent": 100.0,
+          "same_shift_both_images_mean_difference_range": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "element_id": "6066097",
+      "sets": [
+        "21062",
+        "75375"
+      ],
+      "same_dimensions": true,
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "region": "top_face",
+          "bbox_native_pixels": [
+            8,
+            14,
+            14,
+            16
+          ],
+          "median_rgb_a": [
+            163.0,
+            163.0,
+            163.0
+          ],
+          "median_rgb_b": [
+            163.0,
+            163.0,
+            163.0
+          ],
+          "mean_absolute_channel_difference": 2.75,
+          "max_channel_difference": 5,
+          "equal_pixels_percent": 16.666666666666664,
+          "same_shift_both_images_mean_difference_range": [
+            2.1666666666666665,
+            4.361111111111111
+          ]
+        }
+      ]
+    }
+  ],
+  "scope": {
+    "elements": 4,
+    "occurrences": 12,
+    "sets": 5,
+    "themes": 5,
+    "inventory_pages": 7,
+    "modern_comparison_occurrences": 10,
+    "older_profile_controls": 2,
+    "page_role": "end-of-book bill of materials; not a direct study of per-step inventory or assembly shading"
+  },
+  "identities": {
+    "4211104": "dark gray 1x3 brick",
+    "6066097": "light gray 1x2 jumper plate",
+    "4211210": "reddish brown 2x2 brick",
+    "4211399": "light gray 1x1 plate"
+  },
+  "visual_checks": [
+    "Full seven source pages inspected.",
+    "All twelve image-to-element-ID associations checked on rendered source crops.",
+    "ROI overlays checked on native source-image enlargements."
+  ],
+  "limits": [
+    "Only four opaque elements; no transparent parts, prints or bright saturated colors.",
+    "Common element IDs match shape/color, but do not isolate theme from edition or production pipeline.",
+    "Inventory-role result does not establish equivalence of assembled-model shading or step emphasis.",
+    "Tiny original images limit numeric precision. ROI sweep is not a confidence interval.",
+    "Minor residual differences are consistent with compression/antialiasing but their origin is not proven.",
+    "RGB byte equality with identical ICC is stronger than apparent equality on screen; neither is a physical ink measurement."
+  ]
+}

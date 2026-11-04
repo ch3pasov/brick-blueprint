@@ -1,0 +1,390 @@
+{
+  "examples": [
+    {
+      "preset": "creator-blue",
+      "set": "31051",
+      "pdf_page": 8,
+      "step": "2",
+      "manifest": "examples/source-steps/creator-blue.json",
+      "parts": [
+        {
+          "dat": "3023.dat",
+          "color_ldraw": 0,
+          "quantity": 1,
+          "description": "~Moved to 3023b",
+          "dat_sha256": "fa3eeab92b077488bae3dbc0fe974ef3327a77f130776d2965f13d3ebc22ab57"
+        },
+        {
+          "dat": "60470b.dat",
+          "color_ldraw": 71,
+          "quantity": 1,
+          "description": "Plate  1 x  2 with  2 Clips Horizontal (Thick C-Clips)",
+          "dat_sha256": "04cb0b662f4d4f9fbe0a5d50a4c285ee318944ff95d9cf02d017fba5360fe31b"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "modern-blue",
+      "set": "31168",
+      "pdf_page": 10,
+      "step": "11",
+      "manifest": "examples/source-steps/modern-blue.json",
+      "parts": [
+        {
+          "dat": "3004.dat",
+          "color_ldraw": 71,
+          "quantity": 1,
+          "description": "Brick  1 x  2",
+          "dat_sha256": "e1caee3b32175393c9d6ea176a47f8869173a01d03a451e1cfe10d09167c0203"
+        },
+        {
+          "dat": "2431.dat",
+          "color_ldraw": 72,
+          "quantity": 2,
+          "description": "Tile  1 x  4 with Groove",
+          "dat_sha256": "8e5999a1352d8204101b2311ca435f88c7d7af20fb8214fa588e9bacd3942315"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "classic-white",
+      "set": "11038",
+      "pdf_page": 21,
+      "step": "4",
+      "manifest": "examples/source-steps/classic-white.json",
+      "parts": [
+        {
+          "dat": "3003.dat",
+          "color_ldraw": 70,
+          "quantity": 2,
+          "description": "Brick  2 x  2",
+          "dat_sha256": "aed0ccd750126a58d38b012a4e8b16c172896339547c120ef67b69e1386f490d"
+        },
+        {
+          "dat": "3002.dat",
+          "color_ldraw": 70,
+          "quantity": 1,
+          "description": "Brick  2 x  3",
+          "dat_sha256": "02065cff45c9f5cbc52259757813d3ac66e013777b759bf35a6bb94c9cbf1681"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "friends-aqua",
+      "set": "42603",
+      "pdf_page": 20,
+      "step": "13",
+      "manifest": "examples/source-steps/friends-aqua.json",
+      "parts": [
+        {
+          "dat": "3004.dat",
+          "color_ldraw": 2,
+          "quantity": 1,
+          "description": "Brick  1 x  2",
+          "dat_sha256": "e1caee3b32175393c9d6ea176a47f8869173a01d03a451e1cfe10d09167c0203"
+        },
+        {
+          "dat": "3040b.dat",
+          "color_ldraw": 70,
+          "quantity": 1,
+          "description": "Slope Brick 45  2 x  1",
+          "dat_sha256": "47a73c42c206e34c11f6d54a48ee186e53a5a941d56923b5221bd244f7926fed"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "technic-gray",
+      "set": "42163",
+      "pdf_page": 12,
+      "step": "8",
+      "manifest": "examples/source-steps/technic-gray.json",
+      "parts": [
+        {
+          "dat": "60485.dat",
+          "color_ldraw": 71,
+          "quantity": 1,
+          "description": "Technic Axle  9",
+          "dat_sha256": "e649e13795fc8b715e86c46f33d9db857e42d6f8be50ec749e1edf9c23027746"
+        },
+        {
+          "dat": "10928.dat",
+          "color_ldraw": 72,
+          "quantity": 1,
+          "description": "Technic Gear  8 Tooth Reinforced",
+          "dat_sha256": "9c2af4f7128bbf5012f458a6cc63626ba65df2549c17f1445c66c17eeb2bc697"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "fortnite-lilac",
+      "set": "77071",
+      "pdf_page": 20,
+      "step": "33",
+      "manifest": "examples/source-steps/fortnite-lilac.json",
+      "parts": [
+        {
+          "dat": "3001.dat",
+          "color_ldraw": 0,
+          "quantity": 1,
+          "description": "Brick  2 x  4",
+          "dat_sha256": "70968cb5e4baa92dc6a1939aca7526b8566a17dbea49da9b91182aa864e412c4"
+        },
+        {
+          "dat": "3010.dat",
+          "color_ldraw": 26,
+          "quantity": 1,
+          "description": "Brick  1 x  4",
+          "dat_sha256": "7d1cb3082199042666045d92388b3b3ab697f969268e87a6c001f80f92a2e0b2"
+        },
+        {
+          "dat": "3004.dat",
+          "color_ldraw": 3,
+          "quantity": 2,
+          "description": "Brick  1 x  2",
+          "dat_sha256": "e1caee3b32175393c9d6ea176a47f8869173a01d03a451e1cfe10d09167c0203"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "botanicals-gray",
+      "set": "10344",
+      "pdf_page": 11,
+      "step": "3",
+      "manifest": "examples/source-steps/botanicals-gray.json",
+      "parts": [
+        {
+          "dat": "3020.dat",
+          "color_ldraw": 70,
+          "quantity": 4,
+          "description": "Plate  2 x  4",
+          "dat_sha256": "551e433cc4bcfdeeb6e390e509d52ee2e62c90d3eae625ee36928ef32291bb79"
+        },
+        {
+          "dat": "4073.dat",
+          "color_ldraw": 70,
+          "quantity": 4,
+          "description": "~Moved to 6141",
+          "dat_sha256": "18f33637a25a55fc066769ec283719fc096e90eb7007136531bfffdc00126e0a"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "speed-chamfer",
+      "set": "77242",
+      "pdf_page": 10,
+      "step": "5",
+      "manifest": "examples/source-steps/speed-chamfer.json",
+      "parts": [
+        {
+          "dat": "3023.dat",
+          "color_ldraw": 14,
+          "quantity": 1,
+          "description": "~Moved to 3023b",
+          "dat_sha256": "fa3eeab92b077488bae3dbc0fe974ef3327a77f130776d2965f13d3ebc22ab57"
+        },
+        {
+          "dat": "3666.dat",
+          "color_ldraw": 72,
+          "quantity": 2,
+          "description": "Plate  1 x  6",
+          "dat_sha256": "f4fc83d8c3fc1df32c1a217dc09775a99fad1ced348cffc5167f9c6a69aa9bca"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "ninjago-peach",
+      "set": "71833",
+      "pdf_page": 11,
+      "step": "3",
+      "manifest": "examples/source-steps/ninjago-peach.json",
+      "parts": [
+        {
+          "dat": "3020.dat",
+          "color_ldraw": 72,
+          "quantity": 1,
+          "description": "Plate  2 x  4",
+          "dat_sha256": "551e433cc4bcfdeeb6e390e509d52ee2e62c90d3eae625ee36928ef32291bb79"
+        },
+        {
+          "dat": "15573.dat",
+          "color_ldraw": 28,
+          "quantity": 1,
+          "description": "Plate  1 x  2 with Groove with 1 Centre Stud, without Understud",
+          "dat_sha256": "c6946965875a8275996c4559cd355ea13a20197e96f33585cd750bb1da89b56d"
+        },
+        {
+          "dat": "35480.dat",
+          "color_ldraw": 15,
+          "quantity": 1,
+          "description": "Plate  1 x  2 with Round Ends and 2 Open Studs",
+          "dat_sha256": "61d6d988e6549678ec0b6343bf7554ff14781006321da10da9adbbf4e68f2613"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "botanicals-green",
+      "set": "11509",
+      "pdf_page": 10,
+      "step": "19",
+      "manifest": "examples/source-steps/botanicals-green.json",
+      "parts": [
+        {
+          "dat": "15535.dat",
+          "color_ldraw": 0,
+          "quantity": 2,
+          "description": "Tile  2 x  2 Round with Hole",
+          "dat_sha256": "b4866080c6c7e9b2e525c4b8ae17a589a98f6c320afa64f605974ef914cd091d"
+        },
+        {
+          "dat": "4032a.dat",
+          "color_ldraw": 72,
+          "quantity": 4,
+          "description": "Plate  2 x  2 Round with Axlehole",
+          "dat_sha256": "ac5774e2a8eeb9811db795707f6c03cc0b834313b9b9ac5ba25dbb576c9851cb"
+        },
+        {
+          "dat": "4032a.dat",
+          "color_ldraw": 19,
+          "quantity": 2,
+          "description": "Plate  2 x  2 Round with Axlehole",
+          "dat_sha256": "ac5774e2a8eeb9811db795707f6c03cc0b834313b9b9ac5ba25dbb576c9851cb"
+        },
+        {
+          "dat": "3941.dat",
+          "color_ldraw": 15,
+          "quantity": 2,
+          "description": "Brick  2 x  2 Round without Reinforcement",
+          "dat_sha256": "d0cf49833082c39c358c248fd19c7568030ffc43d7add011feae168d5ad6e693"
+        },
+        {
+          "dat": "3020.dat",
+          "color_ldraw": 4,
+          "quantity": 2,
+          "description": "Plate  2 x  4",
+          "dat_sha256": "551e433cc4bcfdeeb6e390e509d52ee2e62c90d3eae625ee36928ef32291bb79"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "botanicals-slate",
+      "set": "11504",
+      "pdf_page": 10,
+      "step": "8",
+      "manifest": "examples/source-steps/botanicals-slate.json",
+      "parts": [
+        {
+          "dat": "3700.dat",
+          "color_ldraw": 1,
+          "quantity": 4,
+          "description": "Technic Brick  1 x  2 with Hole",
+          "dat_sha256": "6cb6522c580754cf970dad0fae688bb78cb3253a7237038dad83965fe47cfec6"
+        },
+        {
+          "dat": "6558.dat",
+          "color_ldraw": 1,
+          "quantity": 4,
+          "description": "Technic Pin Long with Friction and Slot",
+          "dat_sha256": "28d5dfb1009599f84edfae076be13eb648bbfae32cdba57b12b7d7829465057c"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "minecraft-green",
+      "set": "21270",
+      "pdf_page": 30,
+      "step": "17",
+      "manifest": "examples/source-steps/minecraft-green.json",
+      "parts": [
+        {
+          "dat": "3004.dat",
+          "color_ldraw": 70,
+          "quantity": 2,
+          "description": "Brick  1 x  2",
+          "dat_sha256": "e1caee3b32175393c9d6ea176a47f8869173a01d03a451e1cfe10d09167c0203"
+        },
+        {
+          "dat": "6111.dat",
+          "color_ldraw": 70,
+          "quantity": 1,
+          "description": "Brick  1 x 10",
+          "dat_sha256": "47beeadaec767df2caa76362bdd3d6a46e7439b822e3548cc75f638a76b7ec8c"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "display-slate",
+      "set": "75375",
+      "pdf_page": 20,
+      "step": "27",
+      "manifest": "examples/source-steps/display-slate.json",
+      "parts": [
+        {
+          "dat": "3020.dat",
+          "color_ldraw": 19,
+          "quantity": 2,
+          "description": "Plate  2 x  4",
+          "dat_sha256": "551e433cc4bcfdeeb6e390e509d52ee2e62c90d3eae625ee36928ef32291bb79"
+        },
+        {
+          "dat": "3710.dat",
+          "color_ldraw": 71,
+          "quantity": 1,
+          "description": "Plate  1 x  4",
+          "dat_sha256": "1a2d17e3e35750ccf02a54c7aee0cf7485c1c8596492746fc798d341399a3a6e"
+        },
+        {
+          "dat": "35480.dat",
+          "color_ldraw": 0,
+          "quantity": 1,
+          "description": "Plate  1 x  2 with Round Ends and 2 Open Studs",
+          "dat_sha256": "61d6d988e6549678ec0b6343bf7554ff14781006321da10da9adbbf4e68f2613"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "classic-space",
+      "set": "11037",
+      "pdf_page": 27,
+      "step": "3",
+      "manifest": "examples/source-steps/classic-space.json",
+      "parts": [
+        {
+          "dat": "3660a.dat",
+          "color_ldraw": 14,
+          "quantity": 1,
+          "description": "~Slope Brick 45  2 x  2 Inverted without Inner Stopper Ring (Obsolete)",
+          "dat_sha256": "5af0358d61d83b6767358a71055e8950e015f9f6fc9d49687f29ce8835541058"
+        },
+        {
+          "dat": "3660a.dat",
+          "color_ldraw": 14,
+          "quantity": 1,
+          "description": "~Slope Brick 45  2 x  2 Inverted without Inner Stopper Ring (Obsolete)",
+          "dat_sha256": "5af0358d61d83b6767358a71055e8950e015f9f6fc9d49687f29ce8835541058"
+        }
+      ],
+      "identity_basis": "Full official page and parts tray visually inspected; simple geometry/color matched to named LDraw part. Mold revision not certified; no whole-set build claim."
+    },
+    {
+      "preset": "starwars-foldout",
+      "set": "30654",
+      "role": "complete model, not an invented parts tray",
+      "model": "examples/source-steps/xwing.ldr",
+      "sha256": "ea1e386b33d41fe4fce9efd8b3529d055e1f6bcffdf834654b31c43dae4f1e6b"
+    }
+  ],
+  "scope": "Own vector renders; observed parts and counts from real steps, original arrangement and camera. Official illustrations are not bundled."
+}

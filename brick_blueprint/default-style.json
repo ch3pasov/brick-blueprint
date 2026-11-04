@@ -1,0 +1,320 @@
+{
+  "schema_version": 1,
+  "family": "Brick Blueprint measured sRGB reference v4",
+  "sampling": {
+    "geometry_supersample": 2,
+    "reduction": "box",
+    "codec": "RGB8_stored_DEFLATE"
+  },
+  "palette": {
+    "72": {
+      "side": [
+        105.0,
+        105.0,
+        105.0
+      ],
+      "top": [
+        113.0,
+        113.0,
+        113.0
+      ],
+      "front": [
+        117.0,
+        117.0,
+        117.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "14": {
+      "side": [
+        253.0,
+        202.0,
+        1.0
+      ],
+      "top": [
+        253.5,
+        218.0,
+        1.5
+      ],
+      "front": [
+        255.0,
+        226.0,
+        0.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "71": {
+      "side": [
+        152.0,
+        152.0,
+        152.0
+      ],
+      "top": [
+        164.0,
+        164.0,
+        164.0
+      ],
+      "front": [
+        170.0,
+        170.0,
+        170.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "0": {
+      "side": [
+        43.0,
+        43.0,
+        43.0
+      ],
+      "top": [
+        46.0,
+        46.0,
+        46.0
+      ],
+      "front": [
+        48.0,
+        48.0,
+        48.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "15": {
+      "side": [
+        222.0,
+        223.0,
+        225.0
+      ],
+      "top": [
+        237.0,
+        238.0,
+        240.0
+      ],
+      "front": [
+        245.0,
+        246.0,
+        248.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "4": {
+      "side": [
+        190.0,
+        2.0,
+        1.0
+      ],
+      "top": [
+        205.5,
+        0.0,
+        4.0
+      ],
+      "front": [
+        210.0,
+        0.0,
+        2.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "28": {
+      "side": [
+        141.0,
+        124.0,
+        99.0
+      ],
+      "top": [
+        152.0,
+        135.5,
+        112.5
+      ],
+      "front": [
+        156.0,
+        139.0,
+        114.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "70": {
+      "side": [
+        80.0,
+        38.0,
+        18.0
+      ],
+      "top": [
+        90.5,
+        40.0,
+        15.5
+      ],
+      "front": [
+        91.0,
+        43.0,
+        19.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "191": {
+      "side": [
+        247.0,
+        163.0,
+        36.0
+      ],
+      "top": [
+        253.0,
+        179.0,
+        42.0
+      ],
+      "front": [
+        254.0,
+        182.0,
+        43.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "25": {
+      "side": [
+        226.0,
+        129.0,
+        43.0
+      ],
+      "top": [
+        246.5,
+        139.5,
+        44.5
+      ],
+      "front": [
+        253.0,
+        146.0,
+        47.0
+      ],
+      "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions"
+    },
+    "19": {
+      "side": [
+        186.0,
+        167.0,
+        116.0
+      ],
+      "top": [
+        200.5,
+        182.5,
+        124.0
+      ],
+      "front": [
+        207.0,
+        187.0,
+        131.0
+      ],
+      "confidence": "observed opaque RGB anchors; 2x4 transfer gate passed; normal interpolation and opposite faces are illustration extensions"
+    }
+  },
+  "fallback": {
+    "mode": "installed_nominal_palette",
+    "confidence": "uncalibrated",
+    "normal_gains": [
+      1,
+      1,
+      1
+    ]
+  },
+  "explicit_colour": {
+    "black_rgb": [
+      0,
+      0,
+      0
+    ],
+    "confidence": "convention"
+  },
+  "stud_wall": {
+    "rgb": [
+      16,
+      16,
+      16
+    ],
+    "applies_when": "cylinder_axis_parallel_world_vertical",
+    "confidence": "bounded opaque vertical stud reference; two Classic2024 books plus new-color holdout"
+  },
+  "edges": {
+    "dark_rgb": [
+      3,
+      3,
+      3
+    ],
+    "light_rgb": [
+      220,
+      220,
+      220
+    ],
+    "width_points": 0.6,
+    "light_if_nominal_Y_below": 45,
+    "light_if_nominal_max_below": 65,
+    "confidence": "exploratory_polarity_and_width"
+  },
+  "step_states": {
+    "new": {
+      "gain": 1,
+      "bias": 0
+    },
+    "existing": {
+      "gain": 1,
+      "bias": 0
+    },
+    "unknown": {
+      "gain": 1,
+      "bias": 0
+    }
+  },
+  "annotation": {
+    "current_boundary_when": "ordinary_ink_is_light_and_existing_context",
+    "rgb": [
+      238,
+      38,
+      30
+    ],
+    "width_points": 0.6,
+    "probe_width_factor": 0.65,
+    "confidence": "exploratory_group_boundary"
+  },
+  "arrows": {
+    "internal_assembly": {
+      "rgb": [
+        238,
+        28,
+        37
+      ],
+      "width_points": 1.2,
+      "head_length_points": 7,
+      "head_width_points": 5
+    },
+    "subassembly_placement": {
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "width_points": 1.2,
+      "head_length_points": 7,
+      "head_width_points": 5
+    }
+  },
+  "page": {
+    "width_points": 595.276,
+    "height_points": 420.945,
+    "background_rgb": [
+      212,
+      237,
+      252
+    ],
+    "text_rgb": [
+      20,
+      20,
+      20
+    ],
+    "callout_rgb": [
+      255,
+      247,
+      213
+    ],
+    "font_name": "sans-serif",
+    "step_font_points": 25,
+    "count_font_points": 13
+  }
+}

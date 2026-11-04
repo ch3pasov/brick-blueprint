@@ -1,0 +1,1046 @@
+{
+  "name": "Little Blue Kiosk",
+  "parts": 41,
+  "steps": 8,
+  "design_origin": "Created from stud-grid coordinates for Brick Blueprint on 2026-10-26 with AI assistance. No commercial set instructions or model were used.",
+  "axes": {
+    "right": "+X",
+    "front": "+Z",
+    "up": "-Y",
+    "stud_pitch_ldu": 20
+  },
+  "geometry_source": "External LDraw library; DAT geometry is not included.",
+  "color_scope": "Nominal LDraw colors; physical color availability was not catalog-verified.",
+  "validation_scope": "A digital illustration model, not a physically built or certified set.",
+  "files": {
+    "kiosk.ldr": "91cb1f7c21ff5224a12b6337745e44bd06f86682ea6650d9a70f809ea1e6e2bd",
+    "kiosk.mpd": "cad5c45bf7bbe263188627260706bccd62aead47ff64044eb3b6bcdd25edd36c"
+  },
+  "bom": [
+    {
+      "part": "2431.dat",
+      "color": 1,
+      "quantity": 2
+    },
+    {
+      "part": "2431.dat",
+      "color": 15,
+      "quantity": 2
+    },
+    {
+      "part": "2431.dat",
+      "color": 71,
+      "quantity": 2
+    },
+    {
+      "part": "3004.dat",
+      "color": 15,
+      "quantity": 4
+    },
+    {
+      "part": "3004.dat",
+      "color": 47,
+      "quantity": 4
+    },
+    {
+      "part": "3005.dat",
+      "color": 1,
+      "quantity": 6
+    },
+    {
+      "part": "3009.dat",
+      "color": 1,
+      "quantity": 2
+    },
+    {
+      "part": "3009.dat",
+      "color": 15,
+      "quantity": 3
+    },
+    {
+      "part": "3010.dat",
+      "color": 1,
+      "quantity": 1
+    },
+    {
+      "part": "3020.dat",
+      "color": 15,
+      "quantity": 1
+    },
+    {
+      "part": "3035.dat",
+      "color": 1,
+      "quantity": 1
+    },
+    {
+      "part": "3062b.dat",
+      "color": 14,
+      "quantity": 2
+    },
+    {
+      "part": "3623.dat",
+      "color": 1,
+      "quantity": 4
+    },
+    {
+      "part": "3623.dat",
+      "color": 15,
+      "quantity": 4
+    },
+    {
+      "part": "41539.dat",
+      "color": 71,
+      "quantity": 1
+    },
+    {
+      "part": "98138.dat",
+      "color": 4,
+      "quantity": 2
+    }
+  ],
+  "placements": [
+    {
+      "id": "p001",
+      "step": 1,
+      "part": "41539.dat",
+      "color": 71,
+      "xyz": [
+        0,
+        0,
+        0
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "8 x 8 foundation"
+    },
+    {
+      "id": "p002",
+      "step": 1,
+      "part": "2431.dat",
+      "color": 71,
+      "xyz": [
+        0,
+        -8,
+        50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "pavement"
+    },
+    {
+      "id": "p003",
+      "step": 1,
+      "part": "2431.dat",
+      "color": 71,
+      "xyz": [
+        0,
+        -8,
+        70
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "pavement"
+    },
+    {
+      "id": "p004",
+      "step": 2,
+      "part": "3009.dat",
+      "color": 15,
+      "xyz": [
+        0,
+        -24,
+        -50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "rear sill"
+    },
+    {
+      "id": "p005",
+      "step": 2,
+      "part": "3004.dat",
+      "color": 15,
+      "xyz": [
+        -50,
+        -24,
+        -20
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "side sill"
+    },
+    {
+      "id": "p006",
+      "step": 2,
+      "part": "3004.dat",
+      "color": 15,
+      "xyz": [
+        50,
+        -24,
+        -20
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "side sill"
+    },
+    {
+      "id": "p007",
+      "step": 2,
+      "part": "3009.dat",
+      "color": 1,
+      "xyz": [
+        0,
+        -24,
+        10
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "counter base"
+    },
+    {
+      "id": "p008",
+      "step": 3,
+      "part": "3020.dat",
+      "color": 15,
+      "xyz": [
+        0,
+        -32,
+        20
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "counter overhang"
+    },
+    {
+      "id": "p009",
+      "step": 3,
+      "part": "2431.dat",
+      "color": 15,
+      "xyz": [
+        0,
+        -40,
+        10
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "counter surface"
+    },
+    {
+      "id": "p010",
+      "step": 3,
+      "part": "2431.dat",
+      "color": 15,
+      "xyz": [
+        0,
+        -40,
+        30
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "counter surface"
+    },
+    {
+      "id": "p011",
+      "step": 4,
+      "part": "3010.dat",
+      "color": 1,
+      "xyz": [
+        0,
+        -48,
+        -50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "rear wall"
+    },
+    {
+      "id": "p012",
+      "step": 4,
+      "part": "3005.dat",
+      "color": 1,
+      "xyz": [
+        -50,
+        -48,
+        -50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "rear corner"
+    },
+    {
+      "id": "p013",
+      "step": 4,
+      "part": "3004.dat",
+      "color": 47,
+      "xyz": [
+        -50,
+        -48,
+        -20
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "clear side glazing"
+    },
+    {
+      "id": "p014",
+      "step": 4,
+      "part": "3005.dat",
+      "color": 1,
+      "xyz": [
+        -50,
+        -48,
+        10
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "front post"
+    },
+    {
+      "id": "p015",
+      "step": 4,
+      "part": "3005.dat",
+      "color": 1,
+      "xyz": [
+        50,
+        -48,
+        -50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "rear corner"
+    },
+    {
+      "id": "p016",
+      "step": 4,
+      "part": "3004.dat",
+      "color": 47,
+      "xyz": [
+        50,
+        -48,
+        -20
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "clear side glazing"
+    },
+    {
+      "id": "p017",
+      "step": 4,
+      "part": "3005.dat",
+      "color": 1,
+      "xyz": [
+        50,
+        -48,
+        10
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "front post"
+    },
+    {
+      "id": "p018",
+      "step": 5,
+      "part": "3009.dat",
+      "color": 1,
+      "xyz": [
+        0,
+        -72,
+        -50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "rear wall"
+    },
+    {
+      "id": "p019",
+      "step": 5,
+      "part": "3004.dat",
+      "color": 47,
+      "xyz": [
+        -50,
+        -72,
+        -20
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "clear side glazing"
+    },
+    {
+      "id": "p020",
+      "step": 5,
+      "part": "3005.dat",
+      "color": 1,
+      "xyz": [
+        -50,
+        -72,
+        10
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "front post"
+    },
+    {
+      "id": "p021",
+      "step": 5,
+      "part": "3004.dat",
+      "color": 47,
+      "xyz": [
+        50,
+        -72,
+        -20
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "clear side glazing"
+    },
+    {
+      "id": "p022",
+      "step": 5,
+      "part": "3005.dat",
+      "color": 1,
+      "xyz": [
+        50,
+        -72,
+        10
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "front post"
+    },
+    {
+      "id": "p023",
+      "step": 6,
+      "part": "3004.dat",
+      "color": 15,
+      "xyz": [
+        -50,
+        -96,
+        -20
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "side header"
+    },
+    {
+      "id": "p024",
+      "step": 6,
+      "part": "3004.dat",
+      "color": 15,
+      "xyz": [
+        50,
+        -96,
+        -20
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "side header"
+    },
+    {
+      "id": "p025",
+      "step": 6,
+      "part": "3009.dat",
+      "color": 15,
+      "xyz": [
+        0,
+        -96,
+        -50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "front or rear header"
+    },
+    {
+      "id": "p026",
+      "step": 6,
+      "part": "3009.dat",
+      "color": 15,
+      "xyz": [
+        0,
+        -96,
+        10
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "front or rear header"
+    },
+    {
+      "id": "p027",
+      "step": 7,
+      "part": "3035.dat",
+      "color": 1,
+      "xyz": [
+        0,
+        -104,
+        -20
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "roof"
+    },
+    {
+      "id": "p028",
+      "step": 7,
+      "part": "3623.dat",
+      "color": 15,
+      "xyz": [
+        -70,
+        -112,
+        10
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "striped canopy"
+    },
+    {
+      "id": "p029",
+      "step": 7,
+      "part": "3623.dat",
+      "color": 1,
+      "xyz": [
+        -50,
+        -112,
+        10
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "striped canopy"
+    },
+    {
+      "id": "p030",
+      "step": 7,
+      "part": "3623.dat",
+      "color": 15,
+      "xyz": [
+        -30,
+        -112,
+        10
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "striped canopy"
+    },
+    {
+      "id": "p031",
+      "step": 7,
+      "part": "3623.dat",
+      "color": 1,
+      "xyz": [
+        -10,
+        -112,
+        10
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "striped canopy"
+    },
+    {
+      "id": "p032",
+      "step": 7,
+      "part": "3623.dat",
+      "color": 15,
+      "xyz": [
+        10,
+        -112,
+        10
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "striped canopy"
+    },
+    {
+      "id": "p033",
+      "step": 7,
+      "part": "3623.dat",
+      "color": 1,
+      "xyz": [
+        30,
+        -112,
+        10
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "striped canopy"
+    },
+    {
+      "id": "p034",
+      "step": 7,
+      "part": "3623.dat",
+      "color": 15,
+      "xyz": [
+        50,
+        -112,
+        10
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "striped canopy"
+    },
+    {
+      "id": "p035",
+      "step": 7,
+      "part": "3623.dat",
+      "color": 1,
+      "xyz": [
+        70,
+        -112,
+        10
+      ],
+      "matrix": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        -1,
+        0,
+        0
+      ],
+      "role": "striped canopy"
+    },
+    {
+      "id": "p036",
+      "step": 7,
+      "part": "2431.dat",
+      "color": 1,
+      "xyz": [
+        -40,
+        -112,
+        -50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "roof trim"
+    },
+    {
+      "id": "p037",
+      "step": 7,
+      "part": "2431.dat",
+      "color": 1,
+      "xyz": [
+        40,
+        -112,
+        -50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "roof trim"
+    },
+    {
+      "id": "p038",
+      "step": 8,
+      "part": "3062b.dat",
+      "color": 14,
+      "xyz": [
+        -50,
+        -24,
+        50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "bollard"
+    },
+    {
+      "id": "p039",
+      "step": 8,
+      "part": "98138.dat",
+      "color": 4,
+      "xyz": [
+        -50,
+        -32,
+        50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "bollard cap"
+    },
+    {
+      "id": "p040",
+      "step": 8,
+      "part": "3062b.dat",
+      "color": 14,
+      "xyz": [
+        50,
+        -24,
+        50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "bollard"
+    },
+    {
+      "id": "p041",
+      "step": 8,
+      "part": "98138.dat",
+      "color": 4,
+      "xyz": [
+        50,
+        -32,
+        50
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "role": "bollard cap"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "demo.svg": {
+    "sha256": "ffdfbf3152e366b2dfbf25a09d99105805f46617ad5f94f9da8af202a3f3e302",
+    "model": "examples/demo.ldr",
+    "geometry": "examples/library",
+    "generator": "examples/generate_fixture.py",
+    "source": "Original synthetic test geometry; no external part library or official instruction art",
+    "license": "Synthetic illustration. The renderer has an MIT code license. No separate artwork license is specified."
+  }
+}

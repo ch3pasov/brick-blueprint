@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="500" viewBox="0 0 1080 500">
+<title>faq-projections</title>
+<rect x="0" y="0" width="1080" height="500" fill="#f5f9fc" stroke="none" stroke-width="1"/>
+<text x="28" y="40" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#173342">Isometric is one special camera, not a synonym for 3D</text>
+<text x="28" y="70" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526b78">Original cube diagrams. The perspective example is exaggerated for explanation.</text>
+<polygon points="96.662,328.889 190.000,382.778 190.000,275.000 96.662,221.111" fill="#8bb9d8"/>
+<polyline points="96.662,328.889 190.000,382.778 190.000,275.000 96.662,221.111 96.662,328.889" fill="none" stroke="#173342" stroke-width="2"/>
+<polygon points="283.338,328.889 190.000,382.778 190.000,275.000 283.338,221.111" fill="#b7d7f3"/>
+<polyline points="283.338,328.889 190.000,382.778 190.000,275.000 283.338,221.111 283.338,328.889" fill="none" stroke="#173342" stroke-width="2"/>
+<polygon points="190.000,167.222 96.662,221.111 190.000,275.000 283.338,221.111" fill="#d4edfc"/>
+<polyline points="190.000,167.222 96.662,221.111 190.000,275.000 283.338,221.111 190.000,167.222" fill="none" stroke="#173342" stroke-width="2"/>
+<polyline points="166.665,180.695 260.004,234.583" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="213.335,180.695 119.996,234.583" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="143.331,194.167 236.669,248.056" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="236.669,194.167 143.331,248.056" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="119.996,207.639 213.335,261.528" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="260.004,207.639 166.665,261.528" fill="none" stroke="#507a91" stroke-width="1"/>
+<text x="60" y="115" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#173342">Isometric</text>
+<text x="60" y="410" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#173342">Azimuth 45 / elevation 35.264 deg</text>
+<text x="60" y="443" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">Parallel axes; equal foreshortening</text>
+<polygon points="448.080,338.361 556.208,381.787 556.208,273.659 448.080,230.232" fill="#8bb9d8"/>
+<polyline points="448.080,338.361 556.208,381.787 556.208,273.659 448.080,230.232 448.080,338.361" fill="none" stroke="#173342" stroke-width="2"/>
+<polygon points="631.920,319.768 556.208,381.787 556.208,273.659 631.920,211.639" fill="#b7d7f3"/>
+<polyline points="631.920,319.768 556.208,381.787 556.208,273.659 631.920,211.639 631.920,319.768" fill="none" stroke="#173342" stroke-width="2"/>
+<polygon points="523.792,168.213 448.080,230.232 556.208,273.659 631.920,211.639" fill="#d4edfc"/>
+<polyline points="523.792,168.213 448.080,230.232 556.208,273.659 631.920,211.639 523.792,168.213" fill="none" stroke="#173342" stroke-width="2"/>
+<polyline points="504.864,183.718 612.992,227.144" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="550.824,179.069 475.112,241.089" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="485.936,199.223 594.064,242.649" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="577.856,189.926 502.144,251.946" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="467.008,214.728 575.136,258.154" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="604.888,200.783 529.176,262.802" fill="none" stroke="#507a91" stroke-width="1"/>
+<text x="410" y="115" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#173342">Other orthographic</text>
+<text x="410" y="410" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#173342">Azimuth 35 / elevation 35.000 deg</text>
+<text x="410" y="443" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">Parallel axes; unequal foreshortening</text>
+<polygon points="804.452,333.968 908.282,395.453 914.665,272.959 781.226,222.024" fill="#8bb9d8"/>
+<polyline points="804.452,333.968 908.282,395.453 914.665,272.959 781.226,222.024 804.452,333.968" fill="none" stroke="#173342" stroke-width="2"/>
+<polygon points="969.588,313.761 908.282,395.453 914.665,272.959 989.317,206.540" fill="#b7d7f3"/>
+<polyline points="969.588,313.761 908.282,395.453 914.665,272.959 989.317,206.540 969.588,313.761" fill="none" stroke="#173342" stroke-width="2"/>
+<polygon points="875.444,179.094 781.226,222.024 914.665,272.959 989.317,206.540" fill="#d4edfc"/>
+<polyline points="875.444,179.094 781.226,222.024 914.665,272.959 989.317,206.540 875.444,179.094" fill="none" stroke="#173342" stroke-width="2"/>
+<polyline points="856.421,187.762 975.031,219.251" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="900.149,185.049 808.693,232.509" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="834.791,197.617 958.322,234.118" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="927.132,191.552 839.598,244.305" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="809.978,208.923 938.516,251.739" fill="none" stroke="#507a91" stroke-width="1"/>
+<polyline points="956.723,198.684 874.627,257.676" fill="none" stroke="#507a91" stroke-width="1"/>
+<text x="760" y="115" font-family="Arial, Helvetica, sans-serif" font-size="23" fill="#173342">Perspective</text>
+<text x="760" y="410" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#173342">Azimuth 35 / elevation 35.000 deg</text>
+<text x="760" y="443" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">Depth changes scale; lines converge</text>
+</svg>

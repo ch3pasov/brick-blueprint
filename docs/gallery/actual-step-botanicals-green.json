@@ -1,0 +1,1254 @@
+{
+  "version": "0.4.0.dev0",
+  "layout": "parts-tray",
+  "preset": "botanicals-green",
+  "sources": [
+    "botanicals-2026"
+  ],
+  "manifest_sha256": "fe7c4e1f51bb4d37fbbd432be72bbc9f0a60dffa514f6498be5020fa9fa8693b",
+  "page_points": [
+    360,
+    240
+  ],
+  "columns": 3,
+  "rows": 2,
+  "points_per_ldu": 1.0686984702345885,
+  "line_width_points": 0.4,
+  "items": [
+    {
+      "quantity": 2,
+      "viewport_pt": [
+        26.17,
+        26.17,
+        94.55333333333333,
+        69.83
+      ],
+      "model_sha256": "fc71b95e5861a431dcef7169ea54d4474fef97f028cbff0802ef160c4969b851",
+      "model_structure": {
+        "format": "ldr",
+        "root": null,
+        "declared_submodels": 0,
+        "used_submodels": [],
+        "expanded_parts": 1,
+        "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+      },
+      "points_per_ldu": 1.0686984702345885,
+      "camera": {
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "parts": 1,
+      "dependencies": [
+        {
+          "file": "ldraw/p/1-4edge.dat",
+          "sha256": "9ce2de7e67bbac575d52cfdc771b9d00856efc9b88002d97db8e665e50f4d467",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-4ndis.dat",
+          "sha256": "ff6685838636e7ab6152356d8f09e4f00a38af0d878b0881423f5c45fb868f0c",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8cyli.dat",
+          "sha256": "46def63dc8293ad9a2dd1d1a5cb720b9ba883850e65d3280d2093c664a6140c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8cylo.dat",
+          "sha256": "870bbbf6052e075598de7dce7efe7a139ea5189820e7a296442fe2b3318c18bf",
+          "authors": [
+            "Author: Tim Gould [timgould]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8edge.dat",
+          "sha256": "50436a0bce461198c342dccbccb658a1bffae13e44b7c48689b158c946c2c2ab",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8ring18.dat",
+          "sha256": "bb03cb6a1df637953544d4721509130eefdbd76b49eae2673031fc7ca5e970fa",
+          "authors": [
+            "Author: Willy Tschager [Holly-Wood]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8ring19.dat",
+          "sha256": "3e960324d4741e841725a81b8be1efa24b72460f12d50c0ecaa9578a11c05641",
+          "authors": [
+            "Author: Willy Tschager [Holly-Wood]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8ring8.dat",
+          "sha256": "6166b3c447f674cfb20d21eb4fcaa5e3c0ab20d9aee25a1c6d981f38ec09e496",
+          "authors": [
+            "Author: Paul Easter [pneaster]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4cyli.dat",
+          "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4edge.dat",
+          "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring1.dat",
+          "sha256": "4ae21061a6d0c9c80c608decb750f16fe1d113d84e08ef2f6082bcbb0f55194c",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring2.dat",
+          "sha256": "6fb38804b1f5e9bee8c0b80caf1397b09454fc58b048dc19045b6f37c8762ab0",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring3.dat",
+          "sha256": "1f2835ac308154edc2d6f479d8e742a55be981f6167b20bfa100c195bc0731dd",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring9.dat",
+          "sha256": "f1b98f891616369b58e4ff5d25ba9598ff7ef71b63e72cf3c500e72540390efb",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/rect1.dat",
+          "sha256": "48fdcd3181587b4bdc89d356a5aee21268688f3f2fcdd4d6f5c1a3d49b1a1ceb",
+          "authors": [
+            "Author: Chris Dee [cwdee]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/rect2p.dat",
+          "sha256": "faac2b36241a9de0c0108471e59c45734df6c79813332d9cacf97f6391886acc",
+          "authors": [
+            "Author: Donald Sutter [technog]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/rect3.dat",
+          "sha256": "07ac46908b6668d993b6de0fb001a34cd996542106b80ebc7de63317d8dde865",
+          "authors": [
+            "Author: Mark Kennedy [mkennedy]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud4h.dat",
+          "sha256": "ad758cd52c58cadc5ed16cc8d2248e22ef159d3529f25ca8312ce0ba8d131a92",
+          "authors": [
+            "Author: Tim Gould [timgould]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/15535.dat",
+          "sha256": "b4866080c6c7e9b2e525c4b8ae17a589a98f6c320afa64f605974ef914cd091d",
+          "authors": [
+            "Author: Max Martin Richter [MMR1988]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/s/15535s01.dat",
+          "sha256": "645c58e841efaec59ef35f9eb5ef9b5aeec4b6e2a10c539e0502577b004f5889",
+          "authors": [
+            "Author: Max Martin Richter [MMR1988]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/s/15535s02.dat",
+          "sha256": "4df4b43c8a74657711da3890d0a242eca23298bd153312b2de8793f3203d33d0",
+          "authors": [
+            "Author: Max Martin Richter [MMR1988]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        }
+      ],
+      "library_config": {
+        "file": "ldraw/LDConfig.ldr",
+        "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+        "authors": [
+          "Author: LDraw.org"
+        ],
+        "licenses": []
+      }
+    },
+    {
+      "quantity": 4,
+      "viewport_pt": [
+        132.72333333333333,
+        26.17,
+        94.55333333333333,
+        69.83
+      ],
+      "model_sha256": "1225fb24d0a186df7521544441b9e262c91072c99361b26734a02bbb53c9a881",
+      "model_structure": {
+        "format": "ldr",
+        "root": null,
+        "declared_submodels": 0,
+        "used_submodels": [],
+        "expanded_parts": 1,
+        "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+      },
+      "points_per_ldu": 1.0686984702345885,
+      "camera": {
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "parts": 1,
+      "dependencies": [
+        {
+          "file": "ldraw/p/1-8chrd.dat",
+          "sha256": "7694157b725563188a6efd69b3f558b00533b375b8a4e82f469497a03e471e74",
+          "authors": [
+            "Author: Orion Pobursky [OrionP]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8cyli.dat",
+          "sha256": "46def63dc8293ad9a2dd1d1a5cb720b9ba883850e65d3280d2093c664a6140c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8cylo.dat",
+          "sha256": "870bbbf6052e075598de7dce7efe7a139ea5189820e7a296442fe2b3318c18bf",
+          "authors": [
+            "Author: Tim Gould [timgould]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8edge.dat",
+          "sha256": "50436a0bce461198c342dccbccb658a1bffae13e44b7c48689b158c946c2c2ab",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4cyli.dat",
+          "sha256": "4a54732476cf4eaad2c9f7b40a3cef24db025132004328e4e84c0666cd217533",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4disc.dat",
+          "sha256": "86c45014c54ad4c82fcf8a96553942c756e39e6b2b109aeccb9f47873f5f3f52",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4edge.dat",
+          "sha256": "d7f5aff979bc227b601abbb8e0226d6055d08eafb5faaf507b3055f712cd4c04",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4cyli.dat",
+          "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4edge.dat",
+          "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ndis.dat",
+          "sha256": "21202dc15823f4336bc2544244d0b539b76745c89f7a59ad18cdd03ad45cc543",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring3.dat",
+          "sha256": "1f2835ac308154edc2d6f479d8e742a55be981f6167b20bfa100c195bc0731dd",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5ho10.dat",
+          "sha256": "5658b3df4183184a5d5104624ff85b3048a658972991b1dfc489dc05728278ba",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5hol8.dat",
+          "sha256": "95b2d384c0697cd5dd4ebcc9fd4ab2d005307af5aa611bea20ce832a91f8bc68",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5hol9.dat",
+          "sha256": "d46a457be819e6b46b7fc85f8610b8850e0d0a40556c65b74dbda04179b68a20",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axlehol2.dat",
+          "sha256": "9d3e161068b049c3a21fbb8c0970d8264215c08bfcefd3508b8bbff47974a319",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axlehol3.dat",
+          "sha256": "81caa1e48cb356fd74575f2a37a4422d75cafb930fae19182783f48381e48d2f",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/rect.dat",
+          "sha256": "ffeb2dd3d9b83c38841f18f1f74800fbba9e90c5fb6badfff2a795f08a96cb71",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud10.dat",
+          "sha256": "f7dc3947e0f3b81fadffe6509c52723940dfd4d36e30049874d95784a864315a",
+          "authors": [
+            "Author: Orion Pobursky [OrionP]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud4a.dat",
+          "sha256": "29e414ab757f2a79073aa0d5d10c4c925da1fc239d20019d7615c06db612e2f6",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stug10-2x2.dat",
+          "sha256": "860d8586325b33654acf4b20d9275ff078955468eaf86af3c6d7adc624446512",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/4032a.dat",
+          "sha256": "ac5774e2a8eeb9811db795707f6c03cc0b834313b9b9ac5ba25dbb576c9851cb",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/s/4032s01.dat",
+          "sha256": "0b12443c9f5975afabecf7ad9e50384a0237deb74d3fc641705e25cf3a544bb3",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        }
+      ],
+      "library_config": {
+        "file": "ldraw/LDConfig.ldr",
+        "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+        "authors": [
+          "Author: LDraw.org"
+        ],
+        "licenses": []
+      }
+    },
+    {
+      "quantity": 2,
+      "viewport_pt": [
+        239.27666666666664,
+        26.17,
+        94.55333333333333,
+        69.83
+      ],
+      "model_sha256": "40f43b947bdaad8b7a30e24072f88de84b3f8d03e8901833d9b8d5af18df2e03",
+      "model_structure": {
+        "format": "ldr",
+        "root": null,
+        "declared_submodels": 0,
+        "used_submodels": [],
+        "expanded_parts": 1,
+        "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+      },
+      "points_per_ldu": 1.0686984702345885,
+      "camera": {
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "parts": 1,
+      "dependencies": [
+        {
+          "file": "ldraw/p/1-8chrd.dat",
+          "sha256": "7694157b725563188a6efd69b3f558b00533b375b8a4e82f469497a03e471e74",
+          "authors": [
+            "Author: Orion Pobursky [OrionP]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8cyli.dat",
+          "sha256": "46def63dc8293ad9a2dd1d1a5cb720b9ba883850e65d3280d2093c664a6140c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8cylo.dat",
+          "sha256": "870bbbf6052e075598de7dce7efe7a139ea5189820e7a296442fe2b3318c18bf",
+          "authors": [
+            "Author: Tim Gould [timgould]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8edge.dat",
+          "sha256": "50436a0bce461198c342dccbccb658a1bffae13e44b7c48689b158c946c2c2ab",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4cyli.dat",
+          "sha256": "4a54732476cf4eaad2c9f7b40a3cef24db025132004328e4e84c0666cd217533",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4disc.dat",
+          "sha256": "86c45014c54ad4c82fcf8a96553942c756e39e6b2b109aeccb9f47873f5f3f52",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4edge.dat",
+          "sha256": "d7f5aff979bc227b601abbb8e0226d6055d08eafb5faaf507b3055f712cd4c04",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4cyli.dat",
+          "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4edge.dat",
+          "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ndis.dat",
+          "sha256": "21202dc15823f4336bc2544244d0b539b76745c89f7a59ad18cdd03ad45cc543",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring3.dat",
+          "sha256": "1f2835ac308154edc2d6f479d8e742a55be981f6167b20bfa100c195bc0731dd",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5ho10.dat",
+          "sha256": "5658b3df4183184a5d5104624ff85b3048a658972991b1dfc489dc05728278ba",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5hol8.dat",
+          "sha256": "95b2d384c0697cd5dd4ebcc9fd4ab2d005307af5aa611bea20ce832a91f8bc68",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5hol9.dat",
+          "sha256": "d46a457be819e6b46b7fc85f8610b8850e0d0a40556c65b74dbda04179b68a20",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axlehol2.dat",
+          "sha256": "9d3e161068b049c3a21fbb8c0970d8264215c08bfcefd3508b8bbff47974a319",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axlehol3.dat",
+          "sha256": "81caa1e48cb356fd74575f2a37a4422d75cafb930fae19182783f48381e48d2f",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/rect.dat",
+          "sha256": "ffeb2dd3d9b83c38841f18f1f74800fbba9e90c5fb6badfff2a795f08a96cb71",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud10.dat",
+          "sha256": "f7dc3947e0f3b81fadffe6509c52723940dfd4d36e30049874d95784a864315a",
+          "authors": [
+            "Author: Orion Pobursky [OrionP]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud4a.dat",
+          "sha256": "29e414ab757f2a79073aa0d5d10c4c925da1fc239d20019d7615c06db612e2f6",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stug10-2x2.dat",
+          "sha256": "860d8586325b33654acf4b20d9275ff078955468eaf86af3c6d7adc624446512",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/4032a.dat",
+          "sha256": "ac5774e2a8eeb9811db795707f6c03cc0b834313b9b9ac5ba25dbb576c9851cb",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/s/4032s01.dat",
+          "sha256": "0b12443c9f5975afabecf7ad9e50384a0237deb74d3fc641705e25cf3a544bb3",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        }
+      ],
+      "library_config": {
+        "file": "ldraw/LDConfig.ldr",
+        "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+        "authors": [
+          "Author: LDraw.org"
+        ],
+        "licenses": []
+      }
+    },
+    {
+      "quantity": 2,
+      "viewport_pt": [
+        26.17,
+        126.0,
+        94.55333333333333,
+        69.83
+      ],
+      "model_sha256": "ba010810db73a7cab7c8b67ae8cec41867cecb3037dcdf5ef665105349eddcb6",
+      "model_structure": {
+        "format": "ldr",
+        "root": null,
+        "declared_submodels": 0,
+        "used_submodels": [],
+        "expanded_parts": 1,
+        "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+      },
+      "points_per_ldu": 1.0686984702345885,
+      "camera": {
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "parts": 1,
+      "dependencies": [
+        {
+          "file": "ldraw/p/1-16chrd.dat",
+          "sha256": "e429dd760eb6f0cf460a74e6ebf52c023bedbdea82de7801efa1694b5a1a82e8",
+          "authors": [
+            "Author: Philippe Hurbain [Philo]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-4chrd.dat",
+          "sha256": "ccba3a97b5cc358754e476b78b4ce61cce5f404cd15e37471b73df3e81784aec",
+          "authors": [
+            "Author: Max Martin Richter [MMR1988]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8chrd.dat",
+          "sha256": "7694157b725563188a6efd69b3f558b00533b375b8a4e82f469497a03e471e74",
+          "authors": [
+            "Author: Orion Pobursky [OrionP]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8cyli.dat",
+          "sha256": "46def63dc8293ad9a2dd1d1a5cb720b9ba883850e65d3280d2093c664a6140c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/1-8edge.dat",
+          "sha256": "50436a0bce461198c342dccbccb658a1bffae13e44b7c48689b158c946c2c2ab",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4cyli.dat",
+          "sha256": "4a54732476cf4eaad2c9f7b40a3cef24db025132004328e4e84c0666cd217533",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4disc.dat",
+          "sha256": "86c45014c54ad4c82fcf8a96553942c756e39e6b2b109aeccb9f47873f5f3f52",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/3-4edge.dat",
+          "sha256": "d7f5aff979bc227b601abbb8e0226d6055d08eafb5faaf507b3055f712cd4c04",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4cyli.dat",
+          "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4cylo.dat",
+          "sha256": "d6ca97ee2e75918b3309a5c88aafcd2455b3a316f7cef8963517c19f1d86b38f",
+          "authors": [
+            "Author: Mark Kennedy [mkennedy]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4edge.dat",
+          "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ndis.dat",
+          "sha256": "21202dc15823f4336bc2544244d0b539b76745c89f7a59ad18cdd03ad45cc543",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring1.dat",
+          "sha256": "4ae21061a6d0c9c80c608decb750f16fe1d113d84e08ef2f6082bcbb0f55194c",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring3.dat",
+          "sha256": "1f2835ac308154edc2d6f479d8e742a55be981f6167b20bfa100c195bc0731dd",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5ho10.dat",
+          "sha256": "5658b3df4183184a5d5104624ff85b3048a658972991b1dfc489dc05728278ba",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5hol8.dat",
+          "sha256": "95b2d384c0697cd5dd4ebcc9fd4ab2d005307af5aa611bea20ce832a91f8bc68",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axl5hol9.dat",
+          "sha256": "d46a457be819e6b46b7fc85f8610b8850e0d0a40556c65b74dbda04179b68a20",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axlehol2.dat",
+          "sha256": "9d3e161068b049c3a21fbb8c0970d8264215c08bfcefd3508b8bbff47974a319",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axlehol3.dat",
+          "sha256": "81caa1e48cb356fd74575f2a37a4422d75cafb930fae19182783f48381e48d2f",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/axlehole.dat",
+          "sha256": "8dfcdd5058a66fba2ea4f59ddc7fd4510118baca9f745e5dfe341ccf0e24b49e",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/empty.dat",
+          "sha256": "192c9b9ee2e425cfbc9e9b12ff61ee0f05ae1cb0c12dc37d5590adb6abb65128",
+          "authors": [
+            "Author: Steffen [Steffen]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/rect.dat",
+          "sha256": "ffeb2dd3d9b83c38841f18f1f74800fbba9e90c5fb6badfff2a795f08a96cb71",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/rect1.dat",
+          "sha256": "48fdcd3181587b4bdc89d356a5aee21268688f3f2fcdd4d6f5c1a3d49b1a1ceb",
+          "authors": [
+            "Author: Chris Dee [cwdee]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud10.dat",
+          "sha256": "f7dc3947e0f3b81fadffe6509c52723940dfd4d36e30049874d95784a864315a",
+          "authors": [
+            "Author: Orion Pobursky [OrionP]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud4a.dat",
+          "sha256": "29e414ab757f2a79073aa0d5d10c4c925da1fc239d20019d7615c06db612e2f6",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stug10-2x2.dat",
+          "sha256": "860d8586325b33654acf4b20d9275ff078955468eaf86af3c6d7adc624446512",
+          "authors": [
+            "Author: Magnus Forsberg [MagFors]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/3941.dat",
+          "sha256": "d0cf49833082c39c358c248fd19c7568030ffc43d7add011feae168d5ad6e693",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/s/3941s01.dat",
+          "sha256": "0285481f2422f6e098a36f26cb5337338a26048c348a266a2220e154e6f3a7a2",
+          "authors": [
+            "Author: Gerald Lasser [GeraldLasser]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        }
+      ],
+      "library_config": {
+        "file": "ldraw/LDConfig.ldr",
+        "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+        "authors": [
+          "Author: LDraw.org"
+        ],
+        "licenses": []
+      }
+    },
+    {
+      "quantity": 2,
+      "viewport_pt": [
+        132.72333333333333,
+        126.0,
+        94.55333333333333,
+        69.83
+      ],
+      "model_sha256": "f1e83309078110be4b5071947e00323cd13f738c793fb1c57e6cf21a166974a0",
+      "model_structure": {
+        "format": "ldr",
+        "root": null,
+        "declared_submodels": 0,
+        "used_submodels": [],
+        "expanded_parts": 1,
+        "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+      },
+      "points_per_ldu": 1.0686984702345885,
+      "camera": {
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "parts": 1,
+      "dependencies": [
+        {
+          "file": "ldraw/p/4-4cyli.dat",
+          "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4disc.dat",
+          "sha256": "a00b5547776f61a7389d303616987c76b3c4de86ad8ec32f22857e1bd5e5e40f",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4edge.dat",
+          "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4ring3.dat",
+          "sha256": "1f2835ac308154edc2d6f479d8e742a55be981f6167b20bfa100c195bc0731dd",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/box5.dat",
+          "sha256": "ccb7b8a1d36692335b10ea6aa196849afcad4b15331683ed8112a10b50977318",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud.dat",
+          "sha256": "db037d518d7c08bcdc1f0e7497f4f98e97d99850531dd62d602965520f3bf8f4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud4.dat",
+          "sha256": "871cdcab26e7f5113488a24c453d6fabda75b275b06de592e0bfaad4292c12a3",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/3020.dat",
+          "sha256": "551e433cc4bcfdeeb6e390e509d52ee2e62c90d3eae625ee36928ef32291bb79",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        }
+      ],
+      "library_config": {
+        "file": "ldraw/LDConfig.ldr",
+        "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+        "authors": [
+          "Author: LDraw.org"
+        ],
+        "licenses": []
+      }
+    }
+  ],
+  "pdf": {
+    "PDF_version": "1.4",
+    "pages": 1,
+    "vector_Form_XObjects": 0,
+    "ExtGState_alphas": 0,
+    "image_XObjects": 0,
+    "image_tags_in_SVG": 0,
+    "embedded_raster_payloads": 0,
+    "SVG_sha256": "1b862b2ccd2913a08a330c4095dbd913c785adf5befb49ced78b5221cbca54ac",
+    "PDF_sha256": "7b2932d1346c093b918c0ae152c517c69a23008712c9d7b0fe548582aacfa36f",
+    "PDF_bytes": 75818,
+    "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+    "color_export": {
+      "mode": "rgb",
+      "input_color_assumption": "sRGB",
+      "conversion": "unchanged RGB",
+      "unique_source_colors": 11
+    },
+    "page_points": [
+      360.0,
+      240.0
+    ]
+  },
+  "font_substitute": "Helvetica-Bold / browser sans-serif",
+  "count_color": "#181716",
+  "limits": [
+    "One shared scale; per-item camera may differ.",
+    "Grid composition only; no automatic part identification or step generation."
+  ],
+  "full_render_receipt_sha256": "21970ed38c5b0550576f39e1eb78dcbbdcaec3fd2fcc6e55e7a94f6552e2e6b4"
+}

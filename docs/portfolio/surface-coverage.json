@@ -1,0 +1,1514 @@
+{
+  "renderer_source_sha256": "8c3e051a9f18f14bddda66a5942e4577e889aac2d9dbb91b5ab78603c5a2651c",
+  "page_points": [
+    500,
+    320
+  ],
+  "viewers": {
+    "svg": "librsvg 2.63.2 / sharp 0.35.5",
+    "pdf": "Poppler 26.05.0"
+  },
+  "method": {
+    "reference": "Plain image at six times the target width and height, box averaged in encoded RGB.",
+    "interior": "On the plain high-resolution image, change only the page from white to black. Average the largest absolute channel change over each 6 by 6 pixel block. Keep blocks with a mean of at most 5.",
+    "leaks_24": "Target pixels inside that fixed reference interior with a backdrop response of at least 24 in any RGB channel.",
+    "MAE": "Mean absolute channel error against the high-resolution reference. RGB levels range from 0 to 255.",
+    "timing": "Warm local files. Twelve timed pairs per subject, width and format following a warm-up. Alternate which variant runs first. Pool individual painted/plain time ratios. PDF includes process startup."
+  },
+  "gallery": {
+    "svg": {
+      "cases": 15,
+      "interior_leaks_plain": 19851,
+      "interior_leaks_underpaint": 21,
+      "file_growth_percent_range": [
+        1.7699679492290343,
+        2.627496295345244
+      ],
+      "viewer_time_median_paired_ratio": 1.0282875227259067,
+      "timing_by_model_and_size": [
+        {
+          "model": "harbor-pilot",
+          "width": 250,
+          "median_ratio": 1.0247251539825788
+        },
+        {
+          "model": "harbor-pilot",
+          "width": 500,
+          "median_ratio": 1.0277533680906314
+        },
+        {
+          "model": "harbor-pilot",
+          "width": 1000,
+          "median_ratio": 1.0290721670613023
+        },
+        {
+          "model": "rangefinder",
+          "width": 250,
+          "median_ratio": 1.02510956991053
+        },
+        {
+          "model": "rangefinder",
+          "width": 500,
+          "median_ratio": 1.0310509746563232
+        },
+        {
+          "model": "rangefinder",
+          "width": 1000,
+          "median_ratio": 1.0329620403441222
+        },
+        {
+          "model": "courtyard",
+          "width": 250,
+          "median_ratio": 1.031730381687387
+        },
+        {
+          "model": "courtyard",
+          "width": 500,
+          "median_ratio": 1.028106447897141
+        },
+        {
+          "model": "courtyard",
+          "width": 1000,
+          "median_ratio": 1.0259776117982229
+        },
+        {
+          "model": "signal-rocket",
+          "width": 250,
+          "median_ratio": 1.0147010506331693
+        },
+        {
+          "model": "signal-rocket",
+          "width": 500,
+          "median_ratio": 1.0190283701771665
+        },
+        {
+          "model": "signal-rocket",
+          "width": 1000,
+          "median_ratio": 1.0221858097885126
+        },
+        {
+          "model": "kiosk",
+          "width": 250,
+          "median_ratio": 1.0036334540080483
+        },
+        {
+          "model": "kiosk",
+          "width": 500,
+          "median_ratio": 1.0469414132621004
+        },
+        {
+          "model": "kiosk",
+          "width": 1000,
+          "median_ratio": 1.038429082522121
+        }
+      ]
+    },
+    "pdf": {
+      "cases": 15,
+      "interior_leaks_plain": 14592,
+      "interior_leaks_underpaint": 13,
+      "file_growth_percent_range": [
+        1.9634669427599505,
+        3.091712339088981
+      ],
+      "viewer_time_median_paired_ratio": 1.03347520424101,
+      "timing_by_model_and_size": [
+        {
+          "model": "harbor-pilot",
+          "width": 250,
+          "median_ratio": 1.0167298963628872
+        },
+        {
+          "model": "harbor-pilot",
+          "width": 500,
+          "median_ratio": 1.023716463759771
+        },
+        {
+          "model": "harbor-pilot",
+          "width": 1000,
+          "median_ratio": 1.0425851285523748
+        },
+        {
+          "model": "rangefinder",
+          "width": 250,
+          "median_ratio": 1.0290127475332458
+        },
+        {
+          "model": "rangefinder",
+          "width": 500,
+          "median_ratio": 1.0531743838057244
+        },
+        {
+          "model": "rangefinder",
+          "width": 1000,
+          "median_ratio": 1.1159186428728805
+        },
+        {
+          "model": "courtyard",
+          "width": 250,
+          "median_ratio": 1.0237520544223782
+        },
+        {
+          "model": "courtyard",
+          "width": 500,
+          "median_ratio": 1.0206760800010861
+        },
+        {
+          "model": "courtyard",
+          "width": 1000,
+          "median_ratio": 1.0488925795911315
+        },
+        {
+          "model": "signal-rocket",
+          "width": 250,
+          "median_ratio": 1.0201150172882265
+        },
+        {
+          "model": "signal-rocket",
+          "width": 500,
+          "median_ratio": 1.025919403887701
+        },
+        {
+          "model": "signal-rocket",
+          "width": 1000,
+          "median_ratio": 1.0522313292651544
+        },
+        {
+          "model": "kiosk",
+          "width": 250,
+          "median_ratio": 1.0221182580303063
+        },
+        {
+          "model": "kiosk",
+          "width": 500,
+          "median_ratio": 1.0298044920143996
+        },
+        {
+          "model": "kiosk",
+          "width": 1000,
+          "median_ratio": 1.0734665478853942
+        }
+      ]
+    }
+  },
+  "measurements": [
+    {
+      "group": "gallery",
+      "model": "harbor-pilot",
+      "format": "svg",
+      "width": 250,
+      "interior_pixels": 12927,
+      "plain": {
+        "sha256": "7a6bd896f628fdb506ba87718be1d28fb3f438077f178e4da7d9e4bfaad14ad8",
+        "bytes": 509349,
+        "leaks_24": 1155,
+        "leaks_12": 1697,
+        "interior_MAE": 3.06242036819458,
+        "interior_p99": 41.51106643676758,
+        "full_MAE": 2.8184828758239746
+      },
+      "underpaint": {
+        "sha256": "eeb8ced3a777eef4d4a289dc4b832e536cab7e028bd6a3abbc71a27f4d139555",
+        "bytes": 520281,
+        "leaks_24": 0,
+        "leaks_12": 0,
+        "interior_MAE": 1.900863528251648,
+        "interior_p99": 38.0166015625,
+        "full_MAE": 1.3890706300735474
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "harbor-pilot",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 56721,
+      "plain": {
+        "sha256": "7a6bd896f628fdb506ba87718be1d28fb3f438077f178e4da7d9e4bfaad14ad8",
+        "bytes": 509349,
+        "leaks_24": 1880,
+        "leaks_12": 4272,
+        "interior_MAE": 1.4161404371261597,
+        "interior_p99": 30.083330154418945,
+        "full_MAE": 1.5099869966506958
+      },
+      "underpaint": {
+        "sha256": "eeb8ced3a777eef4d4a289dc4b832e536cab7e028bd6a3abbc71a27f4d139555",
+        "bytes": 520281,
+        "leaks_24": 3,
+        "leaks_12": 41,
+        "interior_MAE": 0.8430310487747192,
+        "interior_p99": 22.871530532836914,
+        "full_MAE": 0.6617469191551208
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "harbor-pilot",
+      "format": "svg",
+      "width": 1000,
+      "interior_pixels": 240032,
+      "plain": {
+        "sha256": "7a6bd896f628fdb506ba87718be1d28fb3f438077f178e4da7d9e4bfaad14ad8",
+        "bytes": 509349,
+        "leaks_24": 1207,
+        "leaks_12": 3408,
+        "interior_MAE": 0.4796067178249359,
+        "interior_p99": 12.36111068725586,
+        "full_MAE": 0.6812821626663208
+      },
+      "underpaint": {
+        "sha256": "eeb8ced3a777eef4d4a289dc4b832e536cab7e028bd6a3abbc71a27f4d139555",
+        "bytes": 520281,
+        "leaks_24": 0,
+        "leaks_12": 85,
+        "interior_MAE": 0.302777498960495,
+        "interior_p99": 7.5555572509765625,
+        "full_MAE": 0.2806549370288849
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "rangefinder",
+      "format": "svg",
+      "width": 250,
+      "interior_pixels": 13307,
+      "plain": {
+        "sha256": "23b2ab087e220e919158a074561c46f3876be2026bd5861b47f8daaa0818ba82",
+        "bytes": 314975,
+        "leaks_24": 1042,
+        "leaks_12": 1362,
+        "interior_MAE": 2.318629264831543,
+        "interior_p99": 34.916664123535156,
+        "full_MAE": 0.9067912697792053
+      },
+      "underpaint": {
+        "sha256": "55904012c6e3a290ebc8502f44236539d3050b77e9f637ea150d0e216036a77e",
+        "bytes": 320572,
+        "leaks_24": 0,
+        "leaks_12": 1,
+        "interior_MAE": 1.069047451019287,
+        "interior_p99": 25.394533157348633,
+        "full_MAE": 0.45985186100006104
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "rangefinder",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 53985,
+      "plain": {
+        "sha256": "23b2ab087e220e919158a074561c46f3876be2026bd5861b47f8daaa0818ba82",
+        "bytes": 314975,
+        "leaks_24": 1493,
+        "leaks_12": 2883,
+        "interior_MAE": 0.9300740361213684,
+        "interior_p99": 21.166667938232422,
+        "full_MAE": 0.37886497378349304
+      },
+      "underpaint": {
+        "sha256": "55904012c6e3a290ebc8502f44236539d3050b77e9f637ea150d0e216036a77e",
+        "bytes": 320572,
+        "leaks_24": 0,
+        "leaks_12": 69,
+        "interior_MAE": 0.509942889213562,
+        "interior_p99": 13.73524284362793,
+        "full_MAE": 0.2064552754163742
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "rangefinder",
+      "format": "svg",
+      "width": 1000,
+      "interior_pixels": 217475,
+      "plain": {
+        "sha256": "23b2ab087e220e919158a074561c46f3876be2026bd5861b47f8daaa0818ba82",
+        "bytes": 314975,
+        "leaks_24": 1005,
+        "leaks_12": 2139,
+        "interior_MAE": 0.25952744483947754,
+        "interior_p99": 6.3333282470703125,
+        "full_MAE": 0.11162460595369339
+      },
+      "underpaint": {
+        "sha256": "55904012c6e3a290ebc8502f44236539d3050b77e9f637ea150d0e216036a77e",
+        "bytes": 320572,
+        "leaks_24": 6,
+        "leaks_12": 12,
+        "interior_MAE": 0.21314705908298492,
+        "interior_p99": 5.777778625488281,
+        "full_MAE": 0.0822548195719719
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "courtyard",
+      "format": "svg",
+      "width": 250,
+      "interior_pixels": 6893,
+      "plain": {
+        "sha256": "7c27e5bbbce03ecb5fadede05ee0fbc2a1a2f490f795c546343a190dd8fe1396",
+        "bytes": 747708,
+        "leaks_24": 1396,
+        "leaks_12": 1889,
+        "interior_MAE": 6.545498847961426,
+        "interior_p99": 43.117244720458984,
+        "full_MAE": 1.3971645832061768
+      },
+      "underpaint": {
+        "sha256": "a5557ba163b7559ab907c4de083ee8ba951ab69f3cbdb157c01b563e0df2fdca",
+        "bytes": 767354,
+        "leaks_24": 0,
+        "leaks_12": 4,
+        "interior_MAE": 2.705183982849121,
+        "interior_p99": 37.083335876464844,
+        "full_MAE": 0.6923242807388306
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "courtyard",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 28783,
+      "plain": {
+        "sha256": "7c27e5bbbce03ecb5fadede05ee0fbc2a1a2f490f795c546343a190dd8fe1396",
+        "bytes": 747708,
+        "leaks_24": 1836,
+        "leaks_12": 3909,
+        "interior_MAE": 2.6089515686035156,
+        "interior_p99": 35.23676300048828,
+        "full_MAE": 0.6247082948684692
+      },
+      "underpaint": {
+        "sha256": "a5557ba163b7559ab907c4de083ee8ba951ab69f3cbdb157c01b563e0df2fdca",
+        "bytes": 767354,
+        "leaks_24": 0,
+        "leaks_12": 115,
+        "interior_MAE": 1.2386540174484253,
+        "interior_p99": 25.32009506225586,
+        "full_MAE": 0.3078584671020508
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "courtyard",
+      "format": "svg",
+      "width": 1000,
+      "interior_pixels": 117561,
+      "plain": {
+        "sha256": "7c27e5bbbce03ecb5fadede05ee0fbc2a1a2f490f795c546343a190dd8fe1396",
+        "bytes": 747708,
+        "leaks_24": 769,
+        "leaks_12": 1492,
+        "interior_MAE": 0.6488189101219177,
+        "interior_p99": 13.0,
+        "full_MAE": 0.182814821600914
+      },
+      "underpaint": {
+        "sha256": "a5557ba163b7559ab907c4de083ee8ba951ab69f3cbdb157c01b563e0df2fdca",
+        "bytes": 767354,
+        "leaks_24": 6,
+        "leaks_12": 38,
+        "interior_MAE": 0.4051988124847412,
+        "interior_p99": 8.25,
+        "full_MAE": 0.10442452877759933
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "signal-rocket",
+      "format": "svg",
+      "width": 250,
+      "interior_pixels": 5733,
+      "plain": {
+        "sha256": "a5e4f2403ddb41aac0e87aff036ea3ebdc825122ccf0aa623be5fddd332680ea",
+        "bytes": 627130,
+        "leaks_24": 934,
+        "leaks_12": 1170,
+        "interior_MAE": 3.6025235652923584,
+        "interior_p99": 40.08333206176758,
+        "full_MAE": 0.6606720089912415
+      },
+      "underpaint": {
+        "sha256": "c4503dbcd44faa31b5cbf9ff92fdbbc1621874b4611273fd436e2f2210a93892",
+        "bytes": 638230,
+        "leaks_24": 0,
+        "leaks_12": 1,
+        "interior_MAE": 1.615454077720642,
+        "interior_p99": 29.75054168701172,
+        "full_MAE": 0.3476307988166809
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "signal-rocket",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 25181,
+      "plain": {
+        "sha256": "a5e4f2403ddb41aac0e87aff036ea3ebdc825122ccf0aa623be5fddd332680ea",
+        "bytes": 627130,
+        "leaks_24": 1620,
+        "leaks_12": 2685,
+        "interior_MAE": 1.5647162199020386,
+        "interior_p99": 32.19444274902344,
+        "full_MAE": 0.32027992606163025
+      },
+      "underpaint": {
+        "sha256": "c4503dbcd44faa31b5cbf9ff92fdbbc1621874b4611273fd436e2f2210a93892",
+        "bytes": 638230,
+        "leaks_24": 0,
+        "leaks_12": 37,
+        "interior_MAE": 0.8272451162338257,
+        "interior_p99": 19.682727813720703,
+        "full_MAE": 0.1891874372959137
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "signal-rocket",
+      "format": "svg",
+      "width": 1000,
+      "interior_pixels": 104875,
+      "plain": {
+        "sha256": "a5e4f2403ddb41aac0e87aff036ea3ebdc825122ccf0aa623be5fddd332680ea",
+        "bytes": 627130,
+        "leaks_24": 1358,
+        "leaks_12": 2172,
+        "interior_MAE": 0.5093974471092224,
+        "interior_p99": 12.69444465637207,
+        "full_MAE": 0.10983619838953018
+      },
+      "underpaint": {
+        "sha256": "c4503dbcd44faa31b5cbf9ff92fdbbc1621874b4611273fd436e2f2210a93892",
+        "bytes": 638230,
+        "leaks_24": 4,
+        "leaks_12": 76,
+        "interior_MAE": 0.37764763832092285,
+        "interior_p99": 8.61111068725586,
+        "full_MAE": 0.08306979387998581
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "kiosk",
+      "format": "svg",
+      "width": 250,
+      "interior_pixels": 10900,
+      "plain": {
+        "sha256": "c189f2e5a538f920b576e1ceb54b4a9395ba7ec0ef23f971bd92194a74b983ea",
+        "bytes": 575767,
+        "leaks_24": 1439,
+        "leaks_12": 1947,
+        "interior_MAE": 3.543735980987549,
+        "interior_p99": 41.66666793823242,
+        "full_MAE": 1.0570359230041504
+      },
+      "underpaint": {
+        "sha256": "8d9b2f4791e91bf3840eb635f9ec193b27ce727af61474942b3fc6735244c046",
+        "bytes": 589506,
+        "leaks_24": 0,
+        "leaks_12": 0,
+        "interior_MAE": 2.0751070976257324,
+        "interior_p99": 34.55582809448242,
+        "full_MAE": 0.6611928343772888
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "kiosk",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 44391,
+      "plain": {
+        "sha256": "c189f2e5a538f920b576e1ceb54b4a9395ba7ec0ef23f971bd92194a74b983ea",
+        "bytes": 575767,
+        "leaks_24": 1900,
+        "leaks_12": 3952,
+        "interior_MAE": 1.4276121854782104,
+        "interior_p99": 30.30555534362793,
+        "full_MAE": 0.4355100393295288
+      },
+      "underpaint": {
+        "sha256": "8d9b2f4791e91bf3840eb635f9ec193b27ce727af61474942b3fc6735244c046",
+        "bytes": 589506,
+        "leaks_24": 0,
+        "leaks_12": 54,
+        "interior_MAE": 0.9764625430107117,
+        "interior_p99": 24.055557250976562,
+        "full_MAE": 0.2995114028453827
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "kiosk",
+      "format": "svg",
+      "width": 1000,
+      "interior_pixels": 178858,
+      "plain": {
+        "sha256": "c189f2e5a538f920b576e1ceb54b4a9395ba7ec0ef23f971bd92194a74b983ea",
+        "bytes": 575767,
+        "leaks_24": 817,
+        "leaks_12": 1734,
+        "interior_MAE": 0.45496025681495667,
+        "interior_p99": 11.44444465637207,
+        "full_MAE": 0.13929133117198944
+      },
+      "underpaint": {
+        "sha256": "8d9b2f4791e91bf3840eb635f9ec193b27ce727af61474942b3fc6735244c046",
+        "bytes": 589506,
+        "leaks_24": 2,
+        "leaks_12": 4,
+        "interior_MAE": 0.40590983629226685,
+        "interior_p99": 9.979171752929688,
+        "full_MAE": 0.11988531053066254
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "harbor-pilot",
+      "format": "pdf",
+      "width": 250,
+      "interior_pixels": 14410,
+      "plain": {
+        "sha256": "bdf21966bd84a39e5b24f36f3b84cf99cba24cd3f946edca2515cb7f8e64da10",
+        "bytes": 259286,
+        "leaks_24": 1073,
+        "leaks_12": 1924,
+        "interior_MAE": 4.881333351135254,
+        "interior_p99": 47.9364128112793,
+        "full_MAE": 2.511554002761841
+      },
+      "underpaint": {
+        "sha256": "aa8a5e7efca6e3b339bc50985261baa34be15b5769ac6fad490fb960998d3b85",
+        "bytes": 265644,
+        "leaks_24": 0,
+        "leaks_12": 0,
+        "interior_MAE": 3.5812647342681885,
+        "interior_p99": 44.01974868774414,
+        "full_MAE": 1.9086560010910034
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "harbor-pilot",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 61287,
+      "plain": {
+        "sha256": "bdf21966bd84a39e5b24f36f3b84cf99cba24cd3f946edca2515cb7f8e64da10",
+        "bytes": 259286,
+        "leaks_24": 2604,
+        "leaks_12": 4452,
+        "interior_MAE": 2.8379433155059814,
+        "interior_p99": 43.5390625,
+        "full_MAE": 1.3952066898345947
+      },
+      "underpaint": {
+        "sha256": "aa8a5e7efca6e3b339bc50985261baa34be15b5769ac6fad490fb960998d3b85",
+        "bytes": 265644,
+        "leaks_24": 0,
+        "leaks_12": 35,
+        "interior_MAE": 1.9346644878387451,
+        "interior_p99": 34.01128387451172,
+        "full_MAE": 0.9481474161148071
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "harbor-pilot",
+      "format": "pdf",
+      "width": 1000,
+      "interior_pixels": 250189,
+      "plain": {
+        "sha256": "bdf21966bd84a39e5b24f36f3b84cf99cba24cd3f946edca2515cb7f8e64da10",
+        "bytes": 259286,
+        "leaks_24": 5846,
+        "leaks_12": 8629,
+        "interior_MAE": 1.4785913228988647,
+        "interior_p99": 31.86111068725586,
+        "full_MAE": 0.6973709464073181
+      },
+      "underpaint": {
+        "sha256": "aa8a5e7efca6e3b339bc50985261baa34be15b5769ac6fad490fb960998d3b85",
+        "bytes": 265644,
+        "leaks_24": 0,
+        "leaks_12": 28,
+        "interior_MAE": 1.0010199546813965,
+        "interior_p99": 22.305557250976562,
+        "full_MAE": 0.4626440703868866
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "rangefinder",
+      "format": "pdf",
+      "width": 250,
+      "interior_pixels": 13434,
+      "plain": {
+        "sha256": "34d09423c455fea11882f33cf175c2ba814c315b46b8dab3261a34b191edad69",
+        "bytes": 162264,
+        "leaks_24": 294,
+        "leaks_12": 901,
+        "interior_MAE": 2.452836036682129,
+        "interior_p99": 36.8331184387207,
+        "full_MAE": 1.0667145252227783
+      },
+      "underpaint": {
+        "sha256": "045b868f9470722489f5b99273b8792a6569b4961d31b0f97d2e2a330541e803",
+        "bytes": 165450,
+        "leaks_24": 0,
+        "leaks_12": 0,
+        "interior_MAE": 2.1631603240966797,
+        "interior_p99": 30.0,
+        "full_MAE": 1.002729892730713
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "rangefinder",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 54219,
+      "plain": {
+        "sha256": "34d09423c455fea11882f33cf175c2ba814c315b46b8dab3261a34b191edad69",
+        "bytes": 162264,
+        "leaks_24": 246,
+        "leaks_12": 1140,
+        "interior_MAE": 1.2264649868011475,
+        "interior_p99": 26.472225189208984,
+        "full_MAE": 0.5205466747283936
+      },
+      "underpaint": {
+        "sha256": "045b868f9470722489f5b99273b8792a6569b4961d31b0f97d2e2a330541e803",
+        "bytes": 165450,
+        "leaks_24": 0,
+        "leaks_12": 22,
+        "interior_MAE": 1.1152220964431763,
+        "interior_p99": 23.861114501953125,
+        "full_MAE": 0.4835982322692871
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "rangefinder",
+      "format": "pdf",
+      "width": 1000,
+      "interior_pixels": 217921,
+      "plain": {
+        "sha256": "34d09423c455fea11882f33cf175c2ba814c315b46b8dab3261a34b191edad69",
+        "bytes": 162264,
+        "leaks_24": 257,
+        "leaks_12": 1147,
+        "interior_MAE": 0.6452272534370422,
+        "interior_p99": 16.52777099609375,
+        "full_MAE": 0.25383639335632324
+      },
+      "underpaint": {
+        "sha256": "045b868f9470722489f5b99273b8792a6569b4961d31b0f97d2e2a330541e803",
+        "bytes": 165450,
+        "leaks_24": 1,
+        "leaks_12": 4,
+        "interior_MAE": 0.6197679042816162,
+        "interior_p99": 15.694442749023438,
+        "full_MAE": 0.24477103352546692
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "courtyard",
+      "format": "pdf",
+      "width": 250,
+      "interior_pixels": 7026,
+      "plain": {
+        "sha256": "fbc3c5798627f4ce334a01db94fb63e5727844509919ab1b199be15443ffcaad",
+        "bytes": 378237,
+        "leaks_24": 415,
+        "leaks_12": 1074,
+        "interior_MAE": 4.595258712768555,
+        "interior_p99": 40.30338668823242,
+        "full_MAE": 1.263282299041748
+      },
+      "underpaint": {
+        "sha256": "ea82627c994df34ed0749962caba93ec14f77422d944b6746d48a90cec88a713",
+        "bytes": 389931,
+        "leaks_24": 0,
+        "leaks_12": 0,
+        "interior_MAE": 3.543611764907837,
+        "interior_p99": 35.02777862548828,
+        "full_MAE": 1.1460399627685547
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "courtyard",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 29120,
+      "plain": {
+        "sha256": "fbc3c5798627f4ce334a01db94fb63e5727844509919ab1b199be15443ffcaad",
+        "bytes": 378237,
+        "leaks_24": 406,
+        "leaks_12": 1318,
+        "interior_MAE": 2.359689712524414,
+        "interior_p99": 32.75,
+        "full_MAE": 0.6287966966629028
+      },
+      "underpaint": {
+        "sha256": "ea82627c994df34ed0749962caba93ec14f77422d944b6746d48a90cec88a713",
+        "bytes": 389931,
+        "leaks_24": 0,
+        "leaks_12": 25,
+        "interior_MAE": 1.8486428260803223,
+        "interior_p99": 25.555557250976562,
+        "full_MAE": 0.5263175368309021
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "courtyard",
+      "format": "pdf",
+      "width": 1000,
+      "interior_pixels": 118346,
+      "plain": {
+        "sha256": "fbc3c5798627f4ce334a01db94fb63e5727844509919ab1b199be15443ffcaad",
+        "bytes": 378237,
+        "leaks_24": 571,
+        "leaks_12": 1126,
+        "interior_MAE": 1.1088974475860596,
+        "interior_p99": 22.333328247070312,
+        "full_MAE": 0.28401339054107666
+      },
+      "underpaint": {
+        "sha256": "ea82627c994df34ed0749962caba93ec14f77422d944b6746d48a90cec88a713",
+        "bytes": 389931,
+        "leaks_24": 5,
+        "leaks_12": 7,
+        "interior_MAE": 0.9714092016220093,
+        "interior_p99": 18.666667938232422,
+        "full_MAE": 0.24899332225322723
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "signal-rocket",
+      "format": "pdf",
+      "width": 250,
+      "interior_pixels": 6085,
+      "plain": {
+        "sha256": "a5299e6b66f90cc3aade3e7d81dab25c3fb942c8d3b80b9effe96ea0ea90eea0",
+        "bytes": 295478,
+        "leaks_24": 376,
+        "leaks_12": 758,
+        "interior_MAE": 4.399370193481445,
+        "interior_p99": 48.67729949951172,
+        "full_MAE": 0.9877539277076721
+      },
+      "underpaint": {
+        "sha256": "ed08e4bad4201103171d9b013cb7b8ab590044e0a288d66a6bc9344b90f5e6b5",
+        "bytes": 302014,
+        "leaks_24": 0,
+        "leaks_12": 0,
+        "interior_MAE": 3.9497547149658203,
+        "interior_p99": 46.8995246887207,
+        "full_MAE": 0.9261187314987183
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "signal-rocket",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 25844,
+      "plain": {
+        "sha256": "a5299e6b66f90cc3aade3e7d81dab25c3fb942c8d3b80b9effe96ea0ea90eea0",
+        "bytes": 295478,
+        "leaks_24": 684,
+        "leaks_12": 1340,
+        "interior_MAE": 2.8636622428894043,
+        "interior_p99": 48.861114501953125,
+        "full_MAE": 0.6174455881118774
+      },
+      "underpaint": {
+        "sha256": "ed08e4bad4201103171d9b013cb7b8ab590044e0a288d66a6bc9344b90f5e6b5",
+        "bytes": 302014,
+        "leaks_24": 0,
+        "leaks_12": 7,
+        "interior_MAE": 2.6351876258850098,
+        "interior_p99": 47.593753814697266,
+        "full_MAE": 0.5775541067123413
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "signal-rocket",
+      "format": "pdf",
+      "width": 1000,
+      "interior_pixels": 106308,
+      "plain": {
+        "sha256": "a5299e6b66f90cc3aade3e7d81dab25c3fb942c8d3b80b9effe96ea0ea90eea0",
+        "bytes": 295478,
+        "leaks_24": 1198,
+        "leaks_12": 1680,
+        "interior_MAE": 1.5971643924713135,
+        "interior_p99": 33.111114501953125,
+        "full_MAE": 0.3118085265159607
+      },
+      "underpaint": {
+        "sha256": "ed08e4bad4201103171d9b013cb7b8ab590044e0a288d66a6bc9344b90f5e6b5",
+        "bytes": 302014,
+        "leaks_24": 7,
+        "leaks_12": 71,
+        "interior_MAE": 1.533563494682312,
+        "interior_p99": 31.493925094604492,
+        "full_MAE": 0.29875943064689636
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "kiosk",
+      "format": "pdf",
+      "width": 250,
+      "interior_pixels": 10937,
+      "plain": {
+        "sha256": "796750454e0276e316a8ea3c1d6d3d1ed94ba4edf1515571961e4f392a857113",
+        "bytes": 295989,
+        "leaks_24": 316,
+        "leaks_12": 985,
+        "interior_MAE": 4.905579566955566,
+        "interior_p99": 48.802791595458984,
+        "full_MAE": 1.636120319366455
+      },
+      "underpaint": {
+        "sha256": "afa66e00be3fe938de2144e00836e3ba289416a173a25fe25d4e65327743a0af",
+        "bytes": 303707,
+        "leaks_24": 0,
+        "leaks_12": 0,
+        "interior_MAE": 4.729124069213867,
+        "interior_p99": 47.77224349975586,
+        "full_MAE": 1.6208480596542358
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "kiosk",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 44432,
+      "plain": {
+        "sha256": "796750454e0276e316a8ea3c1d6d3d1ed94ba4edf1515571961e4f392a857113",
+        "bytes": 295989,
+        "leaks_24": 106,
+        "leaks_12": 986,
+        "interior_MAE": 2.655078887939453,
+        "interior_p99": 40.58332824707031,
+        "full_MAE": 0.8732291460037231
+      },
+      "underpaint": {
+        "sha256": "afa66e00be3fe938de2144e00836e3ba289416a173a25fe25d4e65327743a0af",
+        "bytes": 303707,
+        "leaks_24": 0,
+        "leaks_12": 12,
+        "interior_MAE": 2.6368911266326904,
+        "interior_p99": 40.52907943725586,
+        "full_MAE": 0.8668909072875977
+      }
+    },
+    {
+      "group": "gallery",
+      "model": "kiosk",
+      "format": "pdf",
+      "width": 1000,
+      "interior_pixels": 179016,
+      "plain": {
+        "sha256": "796750454e0276e316a8ea3c1d6d3d1ed94ba4edf1515571961e4f392a857113",
+        "bytes": 295989,
+        "leaks_24": 200,
+        "leaks_12": 739,
+        "interior_MAE": 1.388337254524231,
+        "interior_p99": 24.888885498046875,
+        "full_MAE": 0.43165308237075806
+      },
+      "underpaint": {
+        "sha256": "afa66e00be3fe938de2144e00836e3ba289416a173a25fe25d4e65327743a0af",
+        "bytes": 303707,
+        "leaks_24": 0,
+        "leaks_12": 2,
+        "interior_MAE": 1.3752992153167725,
+        "interior_p99": 24.75,
+        "full_MAE": 0.42630672454833984
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "beam-front",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 27058,
+      "plain": {
+        "sha256": "fedeb5a03f99dd82b1ccf168e7ac64ad7cf4eed2948806a68a02f53928c3ad97",
+        "bytes": 73714,
+        "leaks_24": 382,
+        "leaks_12": 596,
+        "interior_MAE": 0.568692684173584,
+        "interior_p99": 18.66666603088379,
+        "full_MAE": 0.18805885314941406
+      },
+      "underpaint": {
+        "sha256": "9672be7fcc2980f3bf32529c281ade2e4c12a6cd21c0d2f4770365b2fcca7d12",
+        "bytes": 75713,
+        "leaks_24": 0,
+        "leaks_12": 92,
+        "interior_MAE": 0.2856237590312958,
+        "interior_p99": 4.0,
+        "full_MAE": 0.1412854790687561
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "clear-brick",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 54761,
+      "plain": {
+        "sha256": "39ce046c2a0d03fb8aa603303494a47fa8464ffcb2ace0477d09152f4a31c1cb",
+        "bytes": 58232,
+        "leaks_24": 0,
+        "leaks_12": 464,
+        "interior_MAE": 0.42028895020484924,
+        "interior_p99": 13.866321563720703,
+        "full_MAE": 0.1576458364725113
+      },
+      "underpaint": {
+        "sha256": "1e7dc755881c7d3e67b3cdce1df4fef8e144832364ed3a4a3ef10e165c69e335",
+        "bytes": 59939,
+        "leaks_24": 0,
+        "leaks_12": 313,
+        "interior_MAE": 0.3945481479167938,
+        "interior_p99": 13.921878814697266,
+        "full_MAE": 0.14919422566890717
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "blue-plate",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 39473,
+      "plain": {
+        "sha256": "81ede54be9fa36aa6b61fbf36e9d5fe0529ff77982f1b1b20f7b974098388843",
+        "bytes": 111688,
+        "leaks_24": 701,
+        "leaks_12": 1523,
+        "interior_MAE": 0.754343569278717,
+        "interior_p99": 22.08333396911621,
+        "full_MAE": 0.228108212351799
+      },
+      "underpaint": {
+        "sha256": "0b8f668c955813ec7465a01b6582cdb2d801bdb71a0ac8f7f9cf8c44f8c84bf2",
+        "bytes": 112331,
+        "leaks_24": 0,
+        "leaks_12": 46,
+        "interior_MAE": 0.3157704770565033,
+        "interior_p99": 10.361114501953125,
+        "full_MAE": 0.11708715558052063
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "garden-module",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 49520,
+      "plain": {
+        "sha256": "836a18db20f75a8d2724048a6e87c02c056b92342a62c7a235605c0b596ecb65",
+        "bytes": 685134,
+        "leaks_24": 1696,
+        "leaks_12": 3506,
+        "interior_MAE": 1.4542038440704346,
+        "interior_p99": 25.11111068725586,
+        "full_MAE": 0.4981108009815216
+      },
+      "underpaint": {
+        "sha256": "4607c7bb2c489eacffd39535496ddaee813b1351734203cb1a9512cfe5219e26",
+        "bytes": 700730,
+        "leaks_24": 0,
+        "leaks_12": 69,
+        "interior_MAE": 0.834997296333313,
+        "interior_p99": 17.555557250976562,
+        "full_MAE": 0.29629257321357727
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "lantern",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 24203,
+      "plain": {
+        "sha256": "a6dd17a0323c3c818ca1c1b4fdea2401202dc3ed4622b03b8046c5b7d336a0bf",
+        "bytes": 1128738,
+        "leaks_24": 1570,
+        "leaks_12": 2952,
+        "interior_MAE": 3.3269286155700684,
+        "interior_p99": 36.58115768432617,
+        "full_MAE": 0.6799156069755554
+      },
+      "underpaint": {
+        "sha256": "5673a860c4d6cb8e3050f51da485e77f4170f3f28c2a010cda166fae0798aff7",
+        "bytes": 1163135,
+        "leaks_24": 13,
+        "leaks_12": 62,
+        "interior_MAE": 1.8359531164169312,
+        "interior_p99": 33.888885498046875,
+        "full_MAE": 0.35136678814888
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "x-wing",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 31558,
+      "plain": {
+        "sha256": "43248c0bf84b8d59c83b0c81519b41b1efed85e8f2e61eb3805a3f357e6f7404",
+        "bytes": 988544,
+        "leaks_24": 2085,
+        "leaks_12": 5186,
+        "interior_MAE": 1.734896183013916,
+        "interior_p99": 30.77777862548828,
+        "full_MAE": 0.5119547247886658
+      },
+      "underpaint": {
+        "sha256": "0211350ac85aae063442916468530da621bfd32f71de55ba8d304eb622186701",
+        "bytes": 1023760,
+        "leaks_24": 0,
+        "leaks_12": 73,
+        "interior_MAE": 1.4315690994262695,
+        "interior_p99": 26.88888931274414,
+        "full_MAE": 0.37870916724205017
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "lighthouse",
+      "format": "svg",
+      "width": 500,
+      "interior_pixels": 31007,
+      "plain": {
+        "sha256": "5cdea1a19a495cf3440053b3f2ed451f04726a477bbd99b12e5f439e782cfd07",
+        "bytes": 4985626,
+        "leaks_24": 3262,
+        "leaks_12": 7831,
+        "interior_MAE": 4.398010730743408,
+        "interior_p99": 34.36111068725586,
+        "full_MAE": 1.1232223510742188
+      },
+      "underpaint": {
+        "sha256": "20ba4fc928435270416df781cdda8ded7473bfc9553ca3a8070adcacca5f4096",
+        "bytes": 5137137,
+        "leaks_24": 2,
+        "leaks_12": 126,
+        "interior_MAE": 2.1577420234680176,
+        "interior_p99": 27.944442749023438,
+        "full_MAE": 0.5531548261642456
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "beam-front",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 27066,
+      "plain": {
+        "sha256": "984749867bd9e3b364ddccd20b6eb93e793c1ced15b225cb3d9d93ae721d7e4d",
+        "bytes": 32681,
+        "leaks_24": 40,
+        "leaks_12": 63,
+        "interior_MAE": 0.7027348875999451,
+        "interior_p99": 19.166671752929688,
+        "full_MAE": 0.37623417377471924
+      },
+      "underpaint": {
+        "sha256": "0fa105d45a3560c454e08d31fe25b1f0f6c2b12ff9bcf16f396312c92a1fb901",
+        "bytes": 33582,
+        "leaks_24": 0,
+        "leaks_12": 41,
+        "interior_MAE": 0.6715641617774963,
+        "interior_p99": 19.166671752929688,
+        "full_MAE": 0.39686036109924316
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "clear-brick",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 54772,
+      "plain": {
+        "sha256": "a287c70c1deccf15f44149a8b2a838553afce11f54cbf168744becdae6e8b985",
+        "bytes": 31725,
+        "leaks_24": 0,
+        "leaks_12": 96,
+        "interior_MAE": 0.5651106238365173,
+        "interior_p99": 15.321610450744629,
+        "full_MAE": 0.2549600899219513
+      },
+      "underpaint": {
+        "sha256": "b8e1e7fa23889d5cf9c4cb121d1e4c31c0aa49d605a746cbb6eb2b533f2dfb00",
+        "bytes": 32721,
+        "leaks_24": 0,
+        "leaks_12": 29,
+        "interior_MAE": 0.5588388442993164,
+        "interior_p99": 15.38888931274414,
+        "full_MAE": 0.2530047595500946
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "blue-plate",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 39487,
+      "plain": {
+        "sha256": "803734dc4829ae033564a141c8cc60681f8b046f2674efcd6dc47b14537ddf3e",
+        "bytes": 56455,
+        "leaks_24": 3,
+        "leaks_12": 417,
+        "interior_MAE": 0.6373808979988098,
+        "interior_p99": 15.288846015930176,
+        "full_MAE": 0.28032153844833374
+      },
+      "underpaint": {
+        "sha256": "1b93237e67a7b999ea3dc6e91f61f189096cdd5610ac607bd4b30d0aac3984df",
+        "bytes": 56847,
+        "leaks_24": 0,
+        "leaks_12": 3,
+        "interior_MAE": 0.5410097241401672,
+        "interior_p99": 13.305557250976562,
+        "full_MAE": 0.26356157660484314
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "garden-module",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 49598,
+      "plain": {
+        "sha256": "10bda22eb8987d9096d5effeda9a65ef6aa8b9926eaf2e3d8f65b047b64713d9",
+        "bytes": 360335,
+        "leaks_24": 158,
+        "leaks_12": 1004,
+        "interior_MAE": 1.5127147436141968,
+        "interior_p99": 23.5,
+        "full_MAE": 0.585161030292511
+      },
+      "underpaint": {
+        "sha256": "5c8228ac6d2522f8cd1e81de58e3783930486f92d087428eaee56c61bb83138c",
+        "bytes": 369319,
+        "leaks_24": 0,
+        "leaks_12": 14,
+        "interior_MAE": 1.4717745780944824,
+        "interior_p99": 23.52777099609375,
+        "full_MAE": 0.5747317671775818
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "lantern",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 24892,
+      "plain": {
+        "sha256": "8db60c1c7c4886e5237cb5497f8c10626dd82ef8d0baf903b4d89427be4b7f3c",
+        "bytes": 578606,
+        "leaks_24": 657,
+        "leaks_12": 1352,
+        "interior_MAE": 5.094734191894531,
+        "interior_p99": 45.72222137451172,
+        "full_MAE": 0.960650622844696
+      },
+      "underpaint": {
+        "sha256": "84a76883f0833f2acf249b3bf3b4d3f1bf32820f37c5541452ba606b2d1e5370",
+        "bytes": 597911,
+        "leaks_24": 6,
+        "leaks_12": 32,
+        "interior_MAE": 4.397944450378418,
+        "interior_p99": 44.52777099609375,
+        "full_MAE": 0.8129034042358398
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "x-wing",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 33399,
+      "plain": {
+        "sha256": "a487610b26e771c41b18ff56d70b4e59c30f21a1722190e1bb4095172b98dc56",
+        "bytes": 510699,
+        "leaks_24": 1050,
+        "leaks_12": 2351,
+        "interior_MAE": 4.870640754699707,
+        "interior_p99": 46.223304748535156,
+        "full_MAE": 1.2456830739974976
+      },
+      "underpaint": {
+        "sha256": "e25751e7fbf8d89809d34e97800c33531a3fb85e13969d001218a31b04c40b14",
+        "bytes": 530466,
+        "leaks_24": 0,
+        "leaks_12": 10,
+        "interior_MAE": 4.875881195068359,
+        "interior_p99": 46.5,
+        "full_MAE": 1.2508894205093384
+      }
+    },
+    {
+      "group": "additional_models",
+      "model": "lighthouse",
+      "format": "pdf",
+      "width": 500,
+      "interior_pixels": 31828,
+      "plain": {
+        "sha256": "0ba008452f9892bf7991d1f08a93f6ef049fda90ef02245779913c70e1f53517",
+        "bytes": 2470473,
+        "leaks_24": 860,
+        "leaks_12": 2431,
+        "interior_MAE": 7.650791168212891,
+        "interior_p99": 50.83332824707031,
+        "full_MAE": 1.7944546937942505
+      },
+      "underpaint": {
+        "sha256": "f01760a657e05fd642f58e76079748f923d418b365c7f50b9fac4004da494540",
+        "bytes": 2552041,
+        "leaks_24": 0,
+        "leaks_12": 34,
+        "interior_MAE": 7.030275821685791,
+        "interior_p99": 48.55555725097656,
+        "full_MAE": 1.6219273805618286
+      }
+    }
+  ],
+  "projected_footprints_in_square_svg_units": {
+    "gallery": {
+      "harbor-pilot": {
+        "older_outside_projected_geometry": 0.2750958127465,
+        "new_outside_projected_geometry": 0.2750933764405,
+        "area_restored": 3.857254772908,
+        "area_lost": 9.1481e-07,
+        "newly_painted_without_3D_geometry": 0
+      },
+      "rangefinder": {
+        "older_outside_projected_geometry": 0.2055786836265,
+        "new_outside_projected_geometry": 0.2055674416175,
+        "area_restored": 1.452424523926,
+        "area_lost": 4.41645e-08,
+        "newly_painted_without_3D_geometry": 0
+      },
+      "courtyard": {
+        "older_outside_projected_geometry": 0.302419771399,
+        "new_outside_projected_geometry": 0.302422245838,
+        "area_restored": 2.574911104237,
+        "area_lost": 1.341172e-06,
+        "newly_painted_without_3D_geometry": 1.226867e-06
+      },
+      "signal-rocket": {
+        "older_outside_projected_geometry": 0.201402672986,
+        "new_outside_projected_geometry": 0.2014049201225,
+        "area_restored": 1.640051356587,
+        "area_lost": 1.9422085e-06,
+        "newly_painted_without_3D_geometry": 0
+      },
+      "kiosk": {
+        "older_outside_projected_geometry": 0.1957703743975,
+        "new_outside_projected_geometry": 0.1957691889735,
+        "area_restored": 2.581272119647,
+        "area_lost": 0,
+        "newly_painted_without_3D_geometry": 0
+      }
+    },
+    "additional_models": {
+      "beam-front": {
+        "older_outside_projected_geometry": 0.448619961165,
+        "new_outside_projected_geometry": 0.4486137805045,
+        "area_restored": 0.6849572506915,
+        "area_lost": 1.2413625e-06,
+        "newly_painted_without_3D_geometry": 0
+      },
+      "clear-brick": {
+        "older_outside_projected_geometry": 0.278902308917,
+        "new_outside_projected_geometry": 0.278902308917,
+        "area_restored": 0.238248900468,
+        "area_lost": 1.4630495e-06,
+        "newly_painted_without_3D_geometry": 0
+      },
+      "blue-plate": {
+        "older_outside_projected_geometry": 0.249814899714,
+        "new_outside_projected_geometry": 0.249814387957,
+        "area_restored": 1.305681864909,
+        "area_lost": 2.253915e-07,
+        "newly_painted_without_3D_geometry": 0
+      },
+      "garden-module": {
+        "older_outside_projected_geometry": 0.212853595202,
+        "new_outside_projected_geometry": 0.212848092811,
+        "area_restored": 2.6790538053215,
+        "area_lost": 2.665417e-06,
+        "newly_painted_without_3D_geometry": 0
+      },
+      "lantern": {
+        "older_outside_projected_geometry": 0.3211127974425,
+        "new_outside_projected_geometry": 0.321102296528,
+        "area_restored": 2.590550078066,
+        "area_lost": 2.1099425e-06,
+        "newly_painted_without_3D_geometry": 0
+      },
+      "x-wing": {
+        "older_outside_projected_geometry": 0.3655648264725,
+        "new_outside_projected_geometry": 0.365578639996,
+        "area_restored": 3.166415698573,
+        "area_lost": 4.1503815e-06,
+        "newly_painted_without_3D_geometry": 2.270175e-07
+      },
+      "lighthouse": {
+        "older_outside_projected_geometry": 0.4536950380555,
+        "new_outside_projected_geometry": 0.45369574594,
+        "area_restored": 6.544685449588,
+        "area_lost": 1.27738095e-05,
+        "newly_painted_without_3D_geometry": 6.9309e-08
+      }
+    }
+  },
+  "beam_openings": {
+    "centers_ldu": [
+      [
+        -60.0,
+        10.0,
+        0.0
+      ],
+      [
+        -40.0,
+        10.0,
+        0.0
+      ],
+      [
+        -20.0,
+        10.0,
+        0.0
+      ],
+      [
+        0.0,
+        10.0,
+        0.0
+      ],
+      [
+        20.0,
+        10.0,
+        0.0
+      ],
+      [
+        40.0,
+        10.0,
+        0.0
+      ],
+      [
+        60.0,
+        10.0,
+        0.0
+      ]
+    ],
+    "centers_in_500px_image": [
+      [
+        419,
+        160
+      ],
+      [
+        363,
+        160
+      ],
+      [
+        306,
+        160
+      ],
+      [
+        250,
+        160
+      ],
+      [
+        194,
+        160
+      ],
+      [
+        137,
+        160
+      ],
+      [
+        81,
+        160
+      ]
+    ],
+    "checks": [
+      {
+        "mode": "plain",
+        "background": "black",
+        "format": "svg",
+        "openings_passing": 7,
+        "pixels_sampled_per_opening": 25
+      },
+      {
+        "mode": "plain",
+        "background": "black",
+        "format": "pdf",
+        "openings_passing": 7,
+        "pixels_sampled_per_opening": 25
+      },
+      {
+        "mode": "plain",
+        "background": "white",
+        "format": "svg",
+        "openings_passing": 7,
+        "pixels_sampled_per_opening": 25
+      },
+      {
+        "mode": "plain",
+        "background": "white",
+        "format": "pdf",
+        "openings_passing": 7,
+        "pixels_sampled_per_opening": 25
+      },
+      {
+        "mode": "underpaint",
+        "background": "black",
+        "format": "svg",
+        "openings_passing": 7,
+        "pixels_sampled_per_opening": 25
+      },
+      {
+        "mode": "underpaint",
+        "background": "black",
+        "format": "pdf",
+        "openings_passing": 7,
+        "pixels_sampled_per_opening": 25
+      },
+      {
+        "mode": "underpaint",
+        "background": "white",
+        "format": "svg",
+        "openings_passing": 7,
+        "pixels_sampled_per_opening": 25
+      },
+      {
+        "mode": "underpaint",
+        "background": "white",
+        "format": "pdf",
+        "openings_passing": 7,
+        "pixels_sampled_per_opening": 25
+      }
+    ],
+    "all_nonopaque_groups_identical": true
+  }
+}

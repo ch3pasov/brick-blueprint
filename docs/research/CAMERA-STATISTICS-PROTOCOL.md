@@ -1,0 +1,13 @@
+# Retrospective analysis plan, 26 October 2026
+
+This is an exploratory reanalysis of existing measurements, not preregistered or newly collected evidence. The earlier ~35/35 result and the roll-aware estimate have already been inspected. Freeze the analysis below before calculating uncertainty and p values.
+
+1. Preserve every source coordinate; no residual-based exclusions. Inventory 75375 PDF60 X4, primary threshold140, 40 centers. Threshold120/160 are sensitivity settings of the SAME image, not independent samples.
+2. Correct image-to-page aspect ratio. Estimate an unrestricted affine map from integer square-grid coordinates. Use singular values for elevation and the right singular vector for acute axis azimuth. Roll is free; the axis convention is explicitly bounded. Retain the historical no-roll slope estimate separately.
+3. Exact-angle diagnostic: compare unrestricted affine (6 coefficients) against the four-dimensional linear space of translations, scale and in-plane rotation of a fixed35/35 projection. F(2,2n-6) requires independent, isotropic Gaussian landmark errors and a true affine image. Report conditional p, never probability of the angle being true.
+4. Delta-method t intervals and exploratory TOST around35 with +/-1 degree illustration tolerance; also show +/-0.5 and +/-0.1 sensitivity. These tolerances are analyst choices, not recovered LEGO standards. Requiring both angles is an intersection-union decision. No population claim or pooling across thresholds.
+5. Investigate assumptions using spatial residuals, row/column deletion and alternate threshold estimates. A conditional p cannot override model bias. Source resolution, centroid definitions and uncalibrated perspective remain systematic uncertainties.
+6. Recover 7 existing assembly held-out comparisons; keep both Minecraft views in one set when reporting count. No significance based on373 supposedly independent publication samples. A set-level sign calculation may be an explicitly illustrative conditional calculation, not a population test on a random corpus.
+7. Four manual pilot measurements: use their saved +/-6px sensitivity envelopes. These are NOT confidence intervals; no invented random error law/p value is assigned.
+8. Existing color and layout findings become bounded results sections; do not derive missing illumination constants. Source images stay in private work. Public preprint companion uses our own charts, numeric data and links.
+9. Verify statistics with analytic/synthetic controls and check the PDF visually. No accepted models, rendering defaults, CV, remote or license changes.

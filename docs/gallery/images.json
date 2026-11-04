@@ -1,0 +1,756 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "file": "docs/images/lighthouse.png",
+      "sha256": "3f98ad4702097672549721972e7d7e79a3abdb4a5522f72f8ec650a0145e2991",
+      "description": "537-part staged lighthouse scene; simplified minifigure details; no claim of assembly certification.",
+      "renders": [
+        "gallery-lighthouse"
+      ],
+      "format_note": "PNG preview of our vector renders; renderer exports contain no raster images."
+    },
+    {
+      "file": "docs/images/creator-blue.png",
+      "sha256": "513a4416ab23c66fc5d1dc7a9f12121b753670b2eb04c55d685d72cdbdf5207c",
+      "description": "Creator 31051 · 2016; PDF p8 · step 2 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-creator-blue"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/modern-blue.png",
+      "sha256": "f54414466d95bbcca3d9c6ff1c1e9e77f528630a2325973ad00780ed8144ba38",
+      "description": "Creator 31168 · 2025; PDF p10 · step 11 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-modern-blue"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/classic-white.png",
+      "sha256": "bdb1762a6708e56ddc5362daf3d0401f448dc3234d34c81d56d257529368a061",
+      "description": "Classic 11038 · 2024; PDF p21 · step 4 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-classic-white"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/friends-aqua.png",
+      "sha256": "7ccf0afa7cc4f5bea259bd82206e8d8e6d9292b21cabe4d356031d1693722ddb",
+      "description": "Friends 42603 · 2024; PDF p20 · step 13 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-friends-aqua"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/technic-gray.png",
+      "sha256": "39d70214f415e90879b9f4bfcf240d8bab2727fe5743b4e567627d4901bb617b",
+      "description": "Technic 42163 · 2024; PDF p12 · step 8 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-technic-gray"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/fortnite-lilac.png",
+      "sha256": "52c30c35e21d2f26f11a6925cb60aabf9d2c6a0f2e1e328614f4cfef1a293f55",
+      "description": "Fortnite 77071 · 2024; PDF p20 · step 33 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-fortnite-lilac"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/starwars-foldout.png",
+      "sha256": "3b217eda8d9b0d0049467aeb0f5d602ad2d5495d894633049f5d3616d58f7065",
+      "description": "Star Wars 30654 · complete model; Foldout exception: no invented parts tray; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-starwars-foldout"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/presets.png",
+      "sha256": "b3f34b5bde9787dae9751ce572d41e17d9c9d2fd8826bede1466090c75e28967",
+      "description": "Fourteen actual-step trays and one explicitly labeled full X-Wing model; fifteen presets.",
+      "renders": [
+        "actual-step-creator-blue",
+        "actual-step-modern-blue",
+        "actual-step-classic-white",
+        "actual-step-friends-aqua",
+        "actual-step-technic-gray",
+        "actual-step-fortnite-lilac",
+        "actual-step-botanicals-gray",
+        "actual-step-speed-chamfer",
+        "actual-step-ninjago-peach",
+        "actual-step-botanicals-green",
+        "actual-step-botanicals-slate",
+        "actual-step-minecraft-green",
+        "actual-step-display-slate",
+        "actual-step-classic-space",
+        "actual-step-starwars-foldout"
+      ],
+      "format_note": "Editorial composition of our vector-render previews."
+    },
+    {
+      "file": "docs/images/panel-roles.png",
+      "sha256": "6866e653eb3ea9cd22c54293c0515532f9e654113316f8deec79c1a3bea8c6d5",
+      "description": "PARTS ABOVE. SUBASSEMBLIES BELOW.; actual individual parts in inventory cards, assemblies only in assembly-role examples.",
+      "renders": [
+        "parts-style-v2-modern-blue",
+        "parts-style-v2-friends-aqua",
+        "parts-style-v2-fortnite-lilac",
+        "subassembly-modern-blue",
+        "subassembly-friends-aqua",
+        "subassembly-fortnite-lilac"
+      ],
+      "format_note": "Own vector-render previews; editorial composition is separate."
+    },
+    {
+      "file": "docs/images/details.png",
+      "sha256": "f724bce1d79791e54296da57c903607859d6e3eb5c466b867a87e89cdaa292f5",
+      "description": "Crops of the same freshly rendered scene; no official illustration is embedded.",
+      "renders": [
+        "gallery-lighthouse"
+      ],
+      "format_note": "PNG preview of our vector renders; renderer exports contain no raster images."
+    },
+    {
+      "file": "docs/images/botanicals-gray.png",
+      "sha256": "198bc66a2f62a8f0701afd735bcc2bc1c145c5a1074a61486fb50bf9579a7f0d",
+      "description": "Botanicals 10344 · 2025; PDF p11 · step 3 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-botanicals-gray"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/speed-chamfer.png",
+      "sha256": "aed571887301022330a6d9d4355f3c2d3b4cae8fa16658360fb75a4521769d05",
+      "description": "Speed Champions 77242 · 2025; PDF p10 · step 5 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-speed-chamfer"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/ninjago-peach.png",
+      "sha256": "80644699df59d891f671891f165e0d3ff49f54db8a159c89f9ba7ee3d00e98a7",
+      "description": "NINJAGO 71833 · 2025; PDF p11 · step 3 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-ninjago-peach"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/parts-tray.png",
+      "sha256": "06d3324978950d4b592b379bbc6a7ad87f3af8d9764fcaad57e95652832aad61",
+      "description": "Six real part specimens, a common physical scale, separate quantities.",
+      "renders": [
+        "parts-tray-v2"
+      ],
+      "format_note": "Own vector-render previews; editorial composition is separate from the renderer."
+    },
+    {
+      "file": "docs/images/materials.png",
+      "sha256": "0a95f90366daaf820aa40a1a32f13320ce9884f94274a396276d0b93d6bfe59c",
+      "description": "One 2x4 brick geometry in six colors/materials; exposes inherited transparent stud-wall approximation.",
+      "renders": [
+        "materials-tray-v2"
+      ],
+      "format_note": "Own vector-render previews; editorial composition is separate from the renderer."
+    },
+    {
+      "file": "docs/images/grayscale-proof.png",
+      "sha256": "e67b938ed7040f724a0c5d783821b6e85a1a733e0d9b9161eaa3c74a7ef127ae",
+      "description": "Screen-only grayscale conversion of our material tray; not a calibrated print proof.",
+      "renders": [
+        "materials-tray-v2"
+      ],
+      "format_note": "Own vector-render previews; editorial composition is separate from the renderer."
+    },
+    {
+      "file": "docs/images/glass.png",
+      "sha256": "cee8d593cee3ddd5d60cbdc505ad30798a5fe1a5e588fd0ed87ed9bfd5db426d",
+      "description": "Same 66-part lantern, camera, scale and line width with three shell opacity settings; no physical lighting simulation.",
+      "renders": [
+        "glass-35",
+        "glass-65",
+        "glass-90"
+      ],
+      "format_note": "Own vector-render previews; editorial composition is separate from the renderer."
+    },
+    {
+      "file": "docs/images/cameras.png",
+      "sha256": "99529a6ac848d19b44de03edfc7241fe4efd7b5879fda952d351989227bd6554",
+      "description": "The same brick shown from above, below and a frontal azimuth at one scale.",
+      "renders": [
+        "cameras-tray-v2"
+      ],
+      "format_note": "Own vector-render previews; editorial composition is separate from the renderer."
+    },
+    {
+      "file": "docs/images/botanicals-comparison.png",
+      "sha256": "ba260ed5c2ae4e6a005f2e795ad64331adfb0189b87858a7a600d5d57670837d",
+      "description": "BOTANICALS HAS MORE THAN ONE STYLE; actual individual parts in inventory cards, assemblies only in assembly-role examples.",
+      "renders": [
+        "parts-style-v2-botanicals-gray",
+        "parts-style-v2-botanicals-green",
+        "parts-style-v2-botanicals-slate",
+        "subassembly-botanicals-slate"
+      ],
+      "format_note": "Own vector-render previews; editorial composition is separate."
+    },
+    {
+      "file": "docs/images/theme-controls.png",
+      "sha256": "7e8cd53d560da636806de7e04597174734459a5ad7c2e24c9573a5ac76dfa088",
+      "description": "PAGE COLOR IS ONLY HALF THE STORY; actual individual parts in inventory cards, assemblies only in assembly-role examples.",
+      "renders": [
+        "parts-style-v2-minecraft-green",
+        "subassembly-minecraft-green",
+        "parts-style-v2-display-slate",
+        "subassembly-display-slate"
+      ],
+      "format_note": "Own vector-render previews; editorial composition is separate."
+    },
+    {
+      "file": "docs/images/print-comparison.png",
+      "sha256": "cd4560452c2f2b26bbe8f5387a866136f60a4ce6b231b1dd929c106bf1138c3f",
+      "description": "Original RGB and two vector print exports of the same native lighthouse scene; CMYK uses a locally supplied demonstration profile.",
+      "renders": [
+        "gallery-lighthouse"
+      ],
+      "print_exports": [
+        "print-lighthouse-cmyk",
+        "print-lighthouse-gray"
+      ],
+      "format_note": "Poppler screen previews; not a physical print or calibrated soft proof."
+    },
+    {
+      "file": "docs/images/faq-fonts.png",
+      "sha256": "126f978aa8871419e8655a78b8c89a2f4fafdde532c8a3efb97da92068a805b0",
+      "description": "Original type specimen using four OFL fonts; sources and font hashes in FONT-SOURCES.json. No official artwork.",
+      "renders": [],
+      "research": "FONT-STUDY.md"
+    },
+    {
+      "file": "docs/images/faq-camera-bricks.png",
+      "sha256": "55ae8bf52e623534086f3cf7ccdd8538fb9eb2a791570d55e30ff8ef317b8c33",
+      "description": "Same unchanged LDraw geometry and common physical scale, rendered from three cameras; native vector outputs rasterized for preview.",
+      "renders": [
+        "faq-brick30",
+        "faq-brick35",
+        "faq-brick-under"
+      ]
+    },
+    {
+      "file": "docs/images/faq-camera-garden.png",
+      "sha256": "184ab881ca8a308dccc722f403808baa32658b4cfef90bf4ecf67543eb305ed4",
+      "description": "Same unchanged LDraw geometry and common physical scale, rendered from three cameras; native vector outputs rasterized for preview.",
+      "renders": [
+        "faq-garden30-v2",
+        "faq-garden35-v2",
+        "faq-garden-back-v2"
+      ]
+    },
+    {
+      "file": "docs/images/botanicals-green.png",
+      "sha256": "39c59fc250107f5a662bab85e14035d6076220f8e270ad2f787bd1a26ea454ab",
+      "description": "Botanicals 11509 · 2026; PDF p10 · step 19 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-botanicals-green"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/botanicals-slate.png",
+      "sha256": "6af45089359837e5093c28215a33381ea2b13ca4bfa5e085df45ce280a748347",
+      "description": "Botanicals 11504 · 2026; PDF p10 · step 8 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-botanicals-slate"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/minecraft-green.png",
+      "sha256": "71c4546cce5ba1a04a0ec484e95aec2462030a401964038774b260c26decc262",
+      "description": "Minecraft 21270 · 2025; PDF p30 · step 17 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-minecraft-green"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/display-slate.png",
+      "sha256": "a0838cc5057fe10ad9c41df3533b363527cb6d2e401cf3a7ed83834a2f9a1807",
+      "description": "Star Wars 75375 · 2024; PDF p20 · step 27 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-display-slate"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/classic-space.png",
+      "sha256": "f98f9e93dc1689cd19ecdb68a41192e201c8315e980582488d305a44a3bd2ef0",
+      "description": "Classic 11037 · no count labels; PDF p27 · step 3 · individual parts; own vectors, documented source-based selection.",
+      "renders": [
+        "actual-step-classic-space"
+      ],
+      "format_note": "Preview of our vector output; source images excluded."
+    },
+    {
+      "file": "docs/images/kiosk-hero.png",
+      "sha256": "b3d0e1f9b769188d20ae7feac44747ba0ca4d295afe2a832ae970261035e6620",
+      "description": "Original 41-part Little Blue Kiosk sample; editorial title with Outfit; external LDraw geometry.",
+      "renders": [
+        "kiosk"
+      ],
+      "format_note": "Editorial PNG preview from our native-vector PDFs; source instruction artwork excluded."
+    },
+    {
+      "file": "docs/images/kiosk-cameras.png",
+      "sha256": "775def495e3f822a56ca2254486be7bbd0f822c0f51641c1c4327d321775409d",
+      "description": "Unchanged original kiosk placements and shared physical scale, with three camera views.",
+      "renders": [
+        "kiosk-camera-front",
+        "kiosk-camera-back",
+        "kiosk-camera-under"
+      ],
+      "format_note": "Editorial PNG preview from our native-vector PDFs; source instruction artwork excluded."
+    },
+    {
+      "file": "docs/images/kiosk-stages.png",
+      "sha256": "3456d6703f45b7140550b1b6a3031986dd41ddc56d86450860b522731c20948e",
+      "description": "Eight explicit saved original-design checkpoints; not automatic instruction generation.",
+      "renders": [
+        "kiosk-stage-01",
+        "kiosk-stage-02",
+        "kiosk-stage-03",
+        "kiosk-stage-04",
+        "kiosk-stage-05",
+        "kiosk-stage-06",
+        "kiosk-stage-07",
+        "kiosk-stage-08"
+      ],
+      "format_note": "Editorial PNG preview from our native-vector PDFs; source instruction artwork excluded."
+    },
+    {
+      "file": "docs/images/kiosk-inventory.png",
+      "sha256": "7fd7292a7d10a7cfcf4e12d81b5229412127f5caa25158b83fd560d331972acc",
+      "description": "Complete original kiosk BOM: 16 part/color rows totaling 41 placements at one physical scale.",
+      "renders": [
+        "kiosk-inventory"
+      ],
+      "format_note": "Editorial PNG preview from our native-vector PDFs; source instruction artwork excluded."
+    },
+    {
+      "file": "docs/images/kiosk-print-comparison.png",
+      "sha256": "759cdce9e92bd3095ed232a8e3f97b723b1f6bea80938a8d89c0c0c6fc14b7cd",
+      "description": "Original kiosk rendered once, then exported as RGB, grayscale and caller-profile ICC CMYK vectors. Actual PDF previews; no physical-printer proof.",
+      "renders": [
+        "kiosk"
+      ],
+      "print_exports": [
+        "kiosk-print-rgb",
+        "kiosk-print-gray",
+        "kiosk-print-cmyk"
+      ],
+      "format_note": "Editorial comparison of actual PDF rasterizations; no source instruction imagery."
+    },
+    {
+      "file": "docs/images/kiosk-presets.png",
+      "sha256": "2b098f2cfc509a747286fd9a8ece3be4a41bb5d7ff342beb309a690a1e5e9009",
+      "description": "Four quantity-1 original-kiosk part specimens in fourteen measured presentation trays, plus an explicitly labeled original canopy subassembly card. Not an official source-step reconstruction.",
+      "renders": [
+        "kiosk-preset-creator-blue",
+        "kiosk-preset-modern-blue",
+        "kiosk-preset-classic-white",
+        "kiosk-preset-friends-aqua",
+        "kiosk-preset-technic-gray",
+        "kiosk-preset-fortnite-lilac",
+        "kiosk-preset-botanicals-gray",
+        "kiosk-preset-speed-chamfer",
+        "kiosk-preset-ninjago-peach",
+        "kiosk-preset-botanicals-green",
+        "kiosk-preset-botanicals-slate",
+        "kiosk-preset-minecraft-green",
+        "kiosk-preset-display-slate",
+        "kiosk-preset-classic-space",
+        "kiosk-preset-starwars-foldout"
+      ],
+      "format_note": "Editorial composition of actual native-vector PDF previews; no official source artwork."
+    },
+    {
+      "file": "docs/images/calibrated-bricks-own.png",
+      "sha256": "508627287f671e246f850c77e8680377b9014598d4f5f6795faf894820eb1786",
+      "renders": [
+        "camera-calibrated-11038-p19-X1",
+        "camera-calibrated-11037-p8-X2"
+      ],
+      "description": "Current native vectors replaying the fixed source-specific numeric camera solutions.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "db69205ad0ce39fb813cc104381dffa0d8d7f91130ec32de51f29737c0bf6cea"
+    },
+    {
+      "file": "docs/images/current-preset-creator-blue.png",
+      "sha256": "7fec4c313097c5301168bcef4363f8270924f4d2597737ac53ce7a83b40688b1",
+      "renders": [
+        "current-preset-creator-blue"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-modern-blue.png",
+      "sha256": "e50eb1480af0feda4e1a06f6040c116493ae98f59cf5a0f7e3251dd039c3299f",
+      "renders": [
+        "current-preset-modern-blue"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-classic-white.png",
+      "sha256": "32dedf8cad60ca2c8f4cbd4984316ce176a9f3af6460d58c581e2fb326a3b815",
+      "renders": [
+        "current-preset-classic-white"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-friends-aqua.png",
+      "sha256": "b0422cda3db50b32e15616d14aca183cde31c49a7968401e2f127412b91cbb2f",
+      "renders": [
+        "current-preset-friends-aqua"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-technic-gray.png",
+      "sha256": "9be8878c9f4680f6377aec9661a2e08c78df16831c84c5b10e0d84a2831e5ab2",
+      "renders": [
+        "current-preset-technic-gray"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-fortnite-lilac.png",
+      "sha256": "93cb2594057c63263bccea6cdb99361e966346b6a3251e93e693ce69f0d67624",
+      "renders": [
+        "current-preset-fortnite-lilac"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-botanicals-gray.png",
+      "sha256": "e5a8c8c7a895717a8e55da56c78bf2c4270b60198fd62e9c1c28a2de00ef95b7",
+      "renders": [
+        "current-preset-botanicals-gray"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-speed-chamfer.png",
+      "sha256": "9bc70b95c2ddc7f28f05554d815e964dabcab92beb7a892b03481b4de3ff4cfa",
+      "renders": [
+        "current-preset-speed-chamfer"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-ninjago-peach.png",
+      "sha256": "3278023b982718862068ba7b48388af5d6fc0bb72452be95ed013740fceceaf3",
+      "renders": [
+        "current-preset-ninjago-peach"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-botanicals-green.png",
+      "sha256": "dc9c0fffa679d9a52338bd0f5afde827a4b128b4363439f3dee3039472ca88a8",
+      "renders": [
+        "current-preset-botanicals-green"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-botanicals-slate.png",
+      "sha256": "d40f48bd2bbf41b2c75db97a36e29bf7f3f2a9b8dc134a9b339fbb9882cee39e",
+      "renders": [
+        "current-preset-botanicals-slate"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-minecraft-green.png",
+      "sha256": "3a350368a21ded3441cd4a8d4510b5448fede2523fa68f1d380148e6b6d82b1d",
+      "renders": [
+        "current-preset-minecraft-green"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-display-slate.png",
+      "sha256": "3508354be09848a40ae83ea13766c95d5e4d1b3ac857467536d1a5aa3e62056d",
+      "renders": [
+        "current-preset-display-slate"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-classic-space.png",
+      "sha256": "cb84064a285d67551056d9cb179056c5ad0e3bd9dded28df831a321de67dcbc8",
+      "renders": [
+        "current-preset-classic-space"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/current-preset-starwars-foldout.png",
+      "sha256": "144e9c00bf2d9b05fe476edeea6c98e71ca203b8864ef3845bb131f081b68de0",
+      "renders": [
+        "current-preset-starwars-foldout"
+      ],
+      "description": "Current native preset, source-step part selection with declared foldout exception.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/presets-current.png",
+      "sha256": "4179c4755f5374364692bd6351afb6e5360a4be716267d2d9e86e43682e5f754",
+      "renders": [
+        "current-preset-creator-blue",
+        "current-preset-modern-blue",
+        "current-preset-classic-white",
+        "current-preset-friends-aqua",
+        "current-preset-technic-gray",
+        "current-preset-fortnite-lilac",
+        "current-preset-botanicals-gray",
+        "current-preset-speed-chamfer",
+        "current-preset-ninjago-peach",
+        "current-preset-botanicals-green",
+        "current-preset-botanicals-slate",
+        "current-preset-minecraft-green",
+        "current-preset-display-slate",
+        "current-preset-classic-space",
+        "current-preset-starwars-foldout"
+      ],
+      "description": "Fifteen current paper presets with dev6 perspective/research outputs.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f"
+    },
+    {
+      "file": "docs/images/color-law-own.png",
+      "sha256": "3d13f54b9e054db4923bf4df680e82b1e4bd28118ea36f7596bf954bd134ff5a",
+      "renders": [
+        "color-law-191-reference",
+        "color-law-191-face-law",
+        "color-law-191-ldraw-law",
+        "color-law-70-reference",
+        "color-law-70-face-law",
+        "color-law-70-ldraw-law",
+        "color-law-28-reference",
+        "color-law-28-face-law",
+        "color-law-28-ldraw-law",
+        "color-law-0-reference",
+        "color-law-0-face-law",
+        "color-law-0-ldraw-law"
+      ],
+      "description": "Measured reference, whole-color-held-out face transfer and nominal LDraw predictions; all geometry/cameras matched.",
+      "format_note": "Own native render previews or numeric charts only; no official source pixels.",
+      "generator_sha256": "ceccba93d1b0d3f96d80e44b74c9fb5382c91563a3db373d1f4e2a03842c17ca"
+    },
+    {
+      "file": "docs/images/camera-perspective-kiosk.png",
+      "sha256": "dbf43dd0994ef1067f56b261fbdccf56222f018e2e3d4d69a8e85e4bb8cc844a",
+      "renders": [
+        "camera-current-kiosk-orthographic",
+        "camera-current-kiosk-perspective"
+      ],
+      "description": "Same model, target-plane scale and materials; orthographic versus perspective.",
+      "format_note": "Own vector renders only; no official artwork or fonts.",
+      "generator_sha256": "34d0ffb53ac733dee44db912cb96fc89d8baee7a798086be9caca0de9cea7a99"
+    },
+    {
+      "file": "docs/images/angular-material-pairs.png",
+      "sha256": "44b4fb4ce7373a621e43008b52965261698528b552fcede4b1ec21aa98e8f771",
+      "renders": [
+        "angular-white-low-research",
+        "angular-white-low-research-angular",
+        "angular-gray-low-research",
+        "angular-gray-low-research-angular",
+        "angular-white-shallow-research",
+        "angular-white-shallow-research-angular",
+        "angular-brown-steep-research",
+        "angular-brown-steep-research-angular",
+        "angular-white-steep-research",
+        "angular-white-steep-research-angular",
+        "angular-white-right-research",
+        "angular-white-right-research-angular"
+      ],
+      "description": "Six matched pairs: research and opt-in research-angular. Cameras and geometry identical within each pair.",
+      "format_note": "Own vector renders only; no official artwork or fonts.",
+      "generator_sha256": "5f813f4b0ea50633a2a952038135e466e9ee3b83b13c51987a3b0e1552bf5f05"
+    },
+    {
+      "file": "docs/images/camera-presets.png",
+      "sha256": "1ef11dfb6307dd4284ec776fb7a6f1ac41e31b19bae42099079fee305eae988a",
+      "description": "Four built-in cameras on own vector plate and kiosk examples; no official pixels.",
+      "renders": [
+        "preset-camera-plate-instruction",
+        "preset-camera-kiosk-instruction",
+        "preset-camera-plate-instruction-depth",
+        "preset-camera-kiosk-instruction-depth",
+        "preset-camera-plate-presentation",
+        "preset-camera-kiosk-presentation",
+        "preset-camera-plate-orthographic",
+        "preset-camera-kiosk-orthographic"
+      ],
+      "format_note": "Own vector render previews only.",
+      "generator_sha256": "aebd71b6bf85b0f9ead626d95c28d8527ecfd75621b6fafdb0ce6a63400e678a"
+    },
+    {
+      "file": "docs/images/kiosk-instruction.png",
+      "sha256": "09eddd8cb0e62222a564723210bee5eb5d9cc7e9a784a817cfd5dacca328ee9d",
+      "description": "Original kiosk, instruction camera preset, FOV2 and measured research materials.",
+      "renders": [
+        "preset-camera-kiosk-instruction"
+      ],
+      "format_note": "Own native vector render preview; no official source pixels."
+    },
+    {
+      "file": "docs/images/kiosk-current-hero.png",
+      "sha256": "ab058a46102ea311a4afe8ac896fe201ee12f74f4ce826a67fa383e69d232e21",
+      "description": "Current Brick Blueprint vector output, instruction preset, measured materials; no official artwork.",
+      "renders": [
+        "material-current-kiosk-research"
+      ],
+      "format_note": "PNG previews of own vector renders.",
+      "generator_sha256": "fdc97f6528b668ca0961154bcff7f0e7b61202e813d8e32930d2dc2dad5db51e"
+    },
+    {
+      "file": "docs/images/brick-2x4-current-materials.png",
+      "sha256": "b51feae2277f25069c2cacc85e54af0f506c440ad95fc458bdc870133083ff8a",
+      "description": "Current Brick Blueprint vector output, instruction preset, measured materials; no official artwork.",
+      "renders": [
+        "material-current-brick-2x4-research"
+      ],
+      "format_note": "PNG previews of own vector renders.",
+      "generator_sha256": "fdc97f6528b668ca0961154bcff7f0e7b61202e813d8e32930d2dc2dad5db51e"
+    },
+    {
+      "file": "docs/images/kiosk-current-materials.png",
+      "sha256": "770153641c4998e105c221ae53d63e49910cb867ae9c4927a1792c9e5c0c769c",
+      "description": "Current Brick Blueprint vector output, instruction preset, measured materials; no official artwork.",
+      "renders": [
+        "material-current-kiosk-research"
+      ],
+      "format_note": "PNG previews of own vector renders.",
+      "generator_sha256": "fdc97f6528b668ca0961154bcff7f0e7b61202e813d8e32930d2dc2dad5db51e"
+    },
+    {
+      "file": "docs/images/material-current-colors.png",
+      "sha256": "9882139c5af3eb2e751ab101732261d22adb7f0fb2a25063c1b4f2a4b23c39cf",
+      "description": "Current Brick Blueprint vector output, instruction preset, measured materials; no official artwork.",
+      "renders": [
+        "material-current-brick-72-research",
+        "material-current-brick-14-research",
+        "material-current-brick-71-research",
+        "material-current-brick-0-research",
+        "material-current-brick-15-research",
+        "material-current-brick-4-research",
+        "material-current-brick-28-research",
+        "material-current-brick-70-research",
+        "material-current-brick-191-research",
+        "material-current-brick-25-research",
+        "material-current-brick-19-research"
+      ],
+      "format_note": "PNG previews of own vector renders.",
+      "generator_sha256": "fdc97f6528b668ca0961154bcff7f0e7b61202e813d8e32930d2dc2dad5db51e"
+    },
+    {
+      "file": "docs/images/ldraw-rgb-holdouts.png",
+      "sha256": "8f80e76d9ee525e570d5b9af35b373bd572ef76c35a34c1e4686d249ddec21b7",
+      "description": "All13 own vector renders using nested whole-color held-out RGB-only models; includes failures, no official pixels.",
+      "renders": [
+        "ldraw-transfer-72",
+        "ldraw-transfer-14",
+        "ldraw-transfer-71",
+        "ldraw-transfer-0",
+        "ldraw-transfer-15",
+        "ldraw-transfer-4",
+        "ldraw-transfer-28",
+        "ldraw-transfer-70",
+        "ldraw-transfer-191",
+        "ldraw-transfer-25",
+        "ldraw-transfer-19",
+        "ldraw-transfer-2",
+        "ldraw-transfer-322"
+      ],
+      "format_note": "Own vector previews; only RGB input color and cross-validated prediction displayed."
+    },
+    {
+      "file": "docs/images/palette-holdouts-1.png",
+      "sha256": "9402c91c943ea357cb8978fe6f1b86369871b38ec0e0eebc2f3a6c26ee1667bc",
+      "description": "Own vector predictions from frozen formulas: nominal RGB versus measured-left input. No official illustration pixels.",
+      "renders": [
+        "palette-holdout-368-nominal_current",
+        "palette-holdout-368-measured_left_law",
+        "palette-holdout-353-nominal_current",
+        "palette-holdout-353-measured_left_law"
+      ],
+      "format_note": "Both variants use identical geometry, camera and source-matched plain background."
+    },
+    {
+      "file": "docs/images/palette-holdouts-2.png",
+      "sha256": "5d252bad1488989b7445c4f7234c9c8c127e87847ec5b99e938f9ab6303e40f5",
+      "description": "Own vector predictions from frozen formulas: nominal RGB versus measured-left input. No official illustration pixels.",
+      "renders": [
+        "palette-holdout-27-nominal_current",
+        "palette-holdout-27-measured_left_law",
+        "palette-holdout-30-nominal_current",
+        "palette-holdout-30-measured_left_law"
+      ],
+      "format_note": "Both variants use identical geometry, camera and source-matched plain background."
+    },
+    {
+      "file": "docs/images/plate-ldview.png",
+      "sha256": "e557f9c2e1a632ae6ead00530d1a5865c4a90b61f1fa3f6ba3d58d61cc8214c0",
+      "renders": [
+        "plate-ldview-control"
+      ],
+      "description": "LDView 4.7 full-frame plate control. Shared geometry, camera and frame with the Brick Blueprint vector.",
+      "format_note": "Downsampled local LDView snapshot. The official illustration is linked separately."
+    }
+  ]
+}

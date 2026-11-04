@@ -1,0 +1,273 @@
+{
+  "role": "per-step parts inventory",
+  "observations": [
+    {
+      "set": "11038",
+      "theme": "Classic",
+      "pdf_page": 21,
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+      "source_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+      "element": "reddish brown 2x2 brick, visual identity matched to element4211210 inventory",
+      "identity_basis": "Same shape/color; step images have no printed element ID. Full pages visually inspected.",
+      "image": "X2.jpg",
+      "image_pixels": [
+        63,
+        59
+      ],
+      "encoded_sha256": "170bd4e021a2c187efc815c0970655799720d6b49bf849a0b35ba950c32fbf46",
+      "decoded_rgb_sha256": "c5bdcebafd44d000ef0adcaf8b3bdeb6c768781dce4174af51645c7f75971ee3",
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "placement_bbox_pt": [
+        62.83783,
+        25.321640000000002,
+        92.83001999999999,
+        53.39327000000003
+      ],
+      "page_size_pt": [
+        552.756,
+        354.331
+      ]
+    },
+    {
+      "set": "21269",
+      "theme": "Minecraft",
+      "pdf_page": 27,
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556015.pdf",
+      "source_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "element": "reddish brown 2x2 brick, visual identity matched to element4211210 inventory",
+      "identity_basis": "Same shape/color; step images have no printed element ID. Full pages visually inspected.",
+      "image": "X3.jpg",
+      "image_pixels": [
+        63,
+        59
+      ],
+      "encoded_sha256": "23bbe726af21f6a5be727157f59dcc3da338b2e8461236adc01c6567c018f391",
+      "decoded_rgb_sha256": "b7bc6ecd1a9149a6e9ce9b618197de29dba47ccff7a79195b8f61f222b48a6cd",
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "placement_bbox_pt": [
+        95.555,
+        22.20165000000003,
+        125.54713000000001,
+        50.27323000000001
+      ],
+      "page_size_pt": [
+        552.756,
+        354.331
+      ]
+    },
+    {
+      "set": "75375",
+      "theme": "Star Wars",
+      "pdf_page": 20,
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+      "source_sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+      "element": "reddish brown 2x2 brick, visual identity matched to element4211210 inventory",
+      "identity_basis": "Same shape/color; step images have no printed element ID. Full pages visually inspected.",
+      "image": "X1.jpg",
+      "image_pixels": [
+        63,
+        59
+      ],
+      "encoded_sha256": "285de5a2bd4341c8c7b5512c837825da67d18cbc593a6f2c9b0437c53effd6f0",
+      "decoded_rgb_sha256": "1b5127050e989ba56978f2200d7adc7ec9ac5b259ae19d41e4cbf9a266f249d2",
+      "profile_description": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "placement_bbox_pt": [
+        75.71241,
+        24.12139000000002,
+        105.7046,
+        52.19301999999999
+      ],
+      "page_size_pt": [
+        552.756,
+        496.063
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "sets": [
+        "11038",
+        "21269"
+      ],
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "name": "side_face",
+          "bbox_native_pixels": [
+            38,
+            37,
+            49,
+            42
+          ],
+          "median_rgb_a": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "median_rgb_b": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "mean_absolute_channel_difference": 0.06060606060606061,
+          "max_channel_difference": 4,
+          "shift_sweep_range": [
+            0.0,
+            0.24242424242424243
+          ]
+        },
+        {
+          "name": "other_side",
+          "bbox_native_pixels": [
+            9,
+            33,
+            14,
+            38
+          ],
+          "median_rgb_a": [
+            80.0,
+            38.0,
+            18.0
+          ],
+          "median_rgb_b": [
+            80.0,
+            38.0,
+            18.0
+          ],
+          "mean_absolute_channel_difference": 0.0,
+          "max_channel_difference": 0,
+          "shift_sweep_range": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "sets": [
+        "11038",
+        "75375"
+      ],
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "name": "side_face",
+          "bbox_native_pixels": [
+            38,
+            37,
+            49,
+            42
+          ],
+          "median_rgb_a": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "median_rgb_b": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "mean_absolute_channel_difference": 0.08484848484848485,
+          "max_channel_difference": 5,
+          "shift_sweep_range": [
+            0.0,
+            0.19393939393939394
+          ]
+        },
+        {
+          "name": "other_side",
+          "bbox_native_pixels": [
+            9,
+            33,
+            14,
+            38
+          ],
+          "median_rgb_a": [
+            80.0,
+            38.0,
+            18.0
+          ],
+          "median_rgb_b": [
+            80.0,
+            38.0,
+            18.0
+          ],
+          "mean_absolute_channel_difference": 0.0,
+          "max_channel_difference": 0,
+          "shift_sweep_range": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    {
+      "sets": [
+        "21269",
+        "75375"
+      ],
+      "decoded_rgb_identical": false,
+      "regions": [
+        {
+          "name": "side_face",
+          "bbox_native_pixels": [
+            38,
+            37,
+            49,
+            42
+          ],
+          "median_rgb_a": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "median_rgb_b": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "mean_absolute_channel_difference": 0.048484848484848485,
+          "max_channel_difference": 4,
+          "shift_sweep_range": [
+            0.0,
+            0.1696969696969697
+          ]
+        },
+        {
+          "name": "other_side",
+          "bbox_native_pixels": [
+            9,
+            33,
+            14,
+            38
+          ],
+          "median_rgb_a": [
+            80.0,
+            38.0,
+            18.0
+          ],
+          "median_rgb_b": [
+            80.0,
+            38.0,
+            18.0
+          ],
+          "mean_absolute_channel_difference": 0.0,
+          "max_channel_difference": 0,
+          "shift_sweep_range": [
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Step images are matched visually to the numbered inventory element; their step boxes do not print element IDs.",
+    "Only one opaque brown part, three themes; no universal palette inference."
+  ],
+  "visual_review": "Full pages confirm three per-step parts trays, with brown2x2 brick. Source IDs matched from end inventories, not printed on step cards."
+}

@@ -1,0 +1,2093 @@
+{
+  "scope": "New measured2x2 anchors tested on other geometry; gates fixed before target measurements. Private original pixel checks and public numeric replay are separate.",
+  "protocol": {
+    "frozen_at_utc": "2026-10-27T01:14:45.454386+00:00",
+    "question": "Do new2x2 measured anchors transfer to2x4 bricks of the same verified materials?",
+    "materials": [
+      2,
+      19,
+      322
+    ],
+    "input_measurements_sha256": "40e94d04ca9f49af99f9a591716d21851c23c1eb59622efc7b61c45748f5f71c",
+    "sample": "All unique native98x73image objects across the same34modern source books. Select every opaque unprinted standard2x4 full-height brick of the three verified new materials, before measuring target face RGB.",
+    "identity": "Exact element label and official LEGO color mapping; do not infer solely from pixel similarity. Keep unmatched candidates as unresolved.",
+    "ROIs": {
+      "left": [
+        13,
+        47,
+        20,
+        53
+      ],
+      "top": [
+        47,
+        22,
+        52,
+        26
+      ],
+      "right": [
+        50,
+        46,
+        65,
+        53
+      ]
+    },
+    "methods": "Compare fixed2x2 anchors and nominal current renderer fallback, plus frozen face-law transfer using measured target left. No refit on2x4; report all selected sources and nine window shifts.",
+    "tolerance": "Per material overall three-faceMAE<=3 and max_channel<=10; all9same-shift repeats must meet this for promotion of that new material. A rendering engineering gate, not a significance test.",
+    "deduplication": "Same source image reused is not a new independent control. Report per material and all raw images; avoid pooled frequency weighting as primary conclusion.",
+    "sources": [
+      {
+        "set": "10343",
+        "theme": "Botanicals",
+        "year": "2025",
+        "path": "private-source/10343-6555769.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6555769.pdf",
+        "sha256": "d4218be6ca7a7e664fdb83365c2fff7d98ace0fb269c37c761aba86ae12d08a1"
+      },
+      {
+        "set": "10344",
+        "theme": "Botanicals",
+        "year": "2025",
+        "path": "private-source/10344-6555770.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6555770.pdf",
+        "sha256": "1adf450129b009d9e89eba83b6cd6344f19c01c724369a72a2a1a022408bb93d"
+      },
+      {
+        "set": "11036",
+        "theme": "Classic",
+        "year": 2024,
+        "path": "private-source/11036-6497649.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497649.pdf",
+        "sha256": "6717b0089d321f682f8afc2bdbd349f8d7f9e523db1477fb79b7679b9d1aea16"
+      },
+      {
+        "set": "11037",
+        "theme": "Classic",
+        "year": "2024",
+        "path": "private-source/11037-6497651.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497651.pdf",
+        "sha256": "1eae62ea786d29fe43479f19e138812335a19e5235f44766faf5c23d8b769c95"
+      },
+      {
+        "set": "11038",
+        "theme": "Classic",
+        "year": "2024",
+        "path": "private-source/11038-6509312.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+        "sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827"
+      },
+      {
+        "set": "11043",
+        "theme": "Classic",
+        "year": 2025,
+        "path": "private-source/11043-6569382.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6569382.pdf",
+        "sha256": "1b51027c08191f96e2f95052c115fa34a0d841c0f674d6ff358f2f6b4281d903"
+      },
+      {
+        "set": "11501",
+        "theme": "Botanicals",
+        "year": "2026",
+        "path": "private-source/11501-6618826.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618826.pdf",
+        "sha256": "2847e73b6991bda48eda8a1f0d9c4655ff4c365b4763394a3b3d9a11a0f35db2"
+      },
+      {
+        "set": "11504",
+        "theme": "Botanicals",
+        "year": "2026",
+        "path": "private-source/11504-6618828.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618828.pdf",
+        "sha256": "30e34a10970e28248f1aa4e1e003f888e92dfc9034e3349258505b576bfa8acb"
+      },
+      {
+        "set": "11508",
+        "theme": "Botanicals",
+        "year": "2026",
+        "path": "private-source/11508-6618829.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618829.pdf",
+        "sha256": "12f55f3a9380a9a8719791a89a1373f4d65da0981fb2a3b3b3a1a37b608d93b2"
+      },
+      {
+        "set": "11509",
+        "theme": "Botanicals",
+        "year": "2026",
+        "path": "private-source/11509-6618824.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618824.pdf",
+        "sha256": "2508ae7c476caad75e6b0f2b9e898e2cb7307d66adc2b2d675acdf83adc86c23"
+      },
+      {
+        "set": "21062",
+        "theme": "Architecture",
+        "year": "2025",
+        "path": "private-source/21062-6566168.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566168.pdf",
+        "sha256": "78719e05f06b32c5648af42712aa93864e368128e1356ce1b767835e05347eb7"
+      },
+      {
+        "set": "21063",
+        "theme": "Architecture",
+        "year": "2025",
+        "path": "private-source/21063-6592611.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592611.pdf",
+        "sha256": "8843d50ba19d03d24f3eaf30c00947e31b2ad71789a1955c85781c9162262f4b"
+      },
+      {
+        "set": "21269",
+        "theme": "Minecraft",
+        "year": "2025",
+        "path": "private-source/21269-6556015.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556015.pdf",
+        "sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358"
+      },
+      {
+        "set": "21270",
+        "theme": "Minecraft",
+        "year": "2025",
+        "path": "private-source/21270-6586735.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf",
+        "sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60"
+      },
+      {
+        "set": "31139",
+        "theme": "Creator 3in1",
+        "year": "2023",
+        "path": "private-source/6456165.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6456165.pdf",
+        "sha256": "9e74082ca8a06c0bfb9317b2f8c8c290ce6d911a88c145cf1b6292554a0b8a15"
+      },
+      {
+        "set": "31168",
+        "theme": "Creator",
+        "year": "2025",
+        "path": "private-source/31168-6592820.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592820.pdf",
+        "sha256": "87c9dee34cb254d503c2aa7b9c8c18105e45dc5251f4a371f0e4ba6325f62376"
+      },
+      {
+        "set": "31169",
+        "theme": "Creator 3in1",
+        "year": "2025",
+        "path": "private-source/31169-6556274.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556274.pdf",
+        "sha256": "c7627062db573f2cff7debac6040d114c2bd49bbd2a98edf8e769dfb6e0ae9d6"
+      },
+      {
+        "set": "31376",
+        "theme": "Creator 3in1",
+        "year": "2026",
+        "path": "private-source/31376-6616307.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6616307.pdf",
+        "sha256": "b0ede540908070edbab2c05e2f5e3376f1997af73516a61c976072032b1e58dd"
+      },
+      {
+        "set": "42163",
+        "theme": "Technic",
+        "year": "2024",
+        "path": "private-source/42163-6495263.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6495263.pdf",
+        "sha256": "b574cca214a0c97d61040beff8c27d949eb237e4e6fd82513a3df205f08058ae"
+      },
+      {
+        "set": "42167",
+        "theme": "Technic",
+        "year": "2024",
+        "path": "private-source/42167-6495267.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6495267.pdf",
+        "sha256": "6cb9f8195af2b7662cd41c1fc604d08d478c1dabd078b95a98bccd1f025891ae"
+      },
+      {
+        "set": "42221",
+        "theme": "Technic",
+        "year": "2026",
+        "path": "private-source/42221-6621082.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6621082.pdf",
+        "sha256": "248fea08c4b5969b0a09e8f53ee380d25dc4fa3c729cdacc939151bb2e0ef0c0"
+      },
+      {
+        "set": "42603",
+        "theme": "Friends",
+        "year": "2024",
+        "path": "private-source/42603-6493659.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6493659.pdf",
+        "sha256": "1e86d7d7b8562c6b439028aa2472d55f4ee54e53c288a2e1dca70fc0fcecd5da"
+      },
+      {
+        "set": "42604",
+        "theme": "Friends",
+        "year": "2024",
+        "path": "private-source/42604-6493646.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6493646.pdf",
+        "sha256": "150376ba936acdda6a0574abdde587cc8a0090870e6809c92c6cf877a1009b4f"
+      },
+      {
+        "set": "60404",
+        "theme": "City",
+        "year": "2024",
+        "path": "private-source/60404-6490981.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6490981.pdf",
+        "sha256": "0ebdca8f457c02706d2c08a1ca96969f675a00551524b37f57bce3025bf035e3"
+      },
+      {
+        "set": "60405",
+        "theme": "City",
+        "year": "2024",
+        "path": "private-source/60405-6492739.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6492739.pdf",
+        "sha256": "8fc9839a5f99543a16be099307fa2798f1a14ccdcd725e860c6e09b643948579"
+      },
+      {
+        "set": "71488",
+        "theme": "DREAMZzz",
+        "year": "2025",
+        "path": "private-source/71488-6553546.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6553546.pdf",
+        "sha256": "2747b0ce3f2d116fee3ed0ff562d4298684e1ebb3ee190cbbd37d87d19399d7a"
+      },
+      {
+        "set": "71832",
+        "theme": "NINJAGO",
+        "year": "2025",
+        "path": "private-source/71832-6566338.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566338.pdf",
+        "sha256": "ccfc2b4e9b21bc1d8dadac31b0da1bf8d686b8076be9bb678464e9a60c673175"
+      },
+      {
+        "set": "71833",
+        "theme": "NINJAGO",
+        "year": "2025",
+        "path": "private-source/71833-6556903.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556903.pdf",
+        "sha256": "7e3774195aa8d599d173649dec3659320e180715631b049e44b38268850a9525"
+      },
+      {
+        "set": "75345",
+        "theme": "Star Wars",
+        "year": "2023",
+        "path": "private-source/75345-6449312.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6449312.pdf",
+        "sha256": "50dcdaac5f456959d7ce0daeaaa771bd8e167a790b1894675b40a265dfeb1103"
+      },
+      {
+        "set": "75375",
+        "theme": "Star Wars",
+        "year": "2024",
+        "path": "private-source/75375-6509377.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+        "sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb"
+      },
+      {
+        "set": "75376",
+        "theme": "Star Wars",
+        "year": "2024",
+        "path": "private-source/75376-6509379.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509379.pdf",
+        "sha256": "88c817e0ab4c9226d6576f3a09679bd5540206aa0d3ceb8a7d21be55638bf626"
+      },
+      {
+        "set": "77071",
+        "theme": "Fortnite",
+        "year": "2024",
+        "path": "private-source/77071-6544480.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6544480.pdf",
+        "sha256": "f897e4a1ec5e0ee21a664c6f230bef02b877ba68f78b5448601215426cfd592e"
+      },
+      {
+        "set": "77240",
+        "theme": "Speed Champions",
+        "year": "2025",
+        "path": "private-source/77240-6598214.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6598214.pdf",
+        "sha256": "89ad368afdbe1d261e015ec1ff06e0265bd58775c4a7a7af6f9fec7e76e11395"
+      },
+      {
+        "set": "77242",
+        "theme": "Speed Champions",
+        "year": "2025",
+        "path": "private-source/77242-6566098.pdf",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566098.pdf",
+        "sha256": "36fb212b804f24492c7448391030fca643fe2027f5b693ed20ef8f6cbc6d1277"
+      }
+    ]
+  },
+  "selection": {
+    "frozen_utc": "2026-10-27T01:15:45.913112+00:00",
+    "candidate_indices_pending_identity": [
+      1,
+      9,
+      13,
+      17,
+      23
+    ],
+    "primary_expected_visual": [
+      9,
+      13,
+      17
+    ],
+    "exclusion_rule": "All other shapes/colors visually unlike the three new materials; two darker blue/green candidates retained for ID resolution before exclusion. No face RGB or residual measured.",
+    "identity_resolved_utc": "2026-10-27T01:18:02.785223+00:00",
+    "selected": {
+      "9": 322,
+      "13": 19,
+      "17": 19
+    },
+    "excluded_by_verified_material": {
+      "1": "4655172 Dark Azur / LDraw321, not322",
+      "23": "4260493 Earth Green / LDraw288, not2"
+    },
+    "missing_materials": {
+      "2": "No standard Green2x4 among45 screen candidates; no geometric transfer claim for Green2"
+    }
+  },
+  "identities": {
+    "checked_utc": "2026-10-27T01:18:02.784520+00:00",
+    "records": [
+      {
+        "element": "4655172",
+        "LEGO_name": "Dark Azur",
+        "LDraw_code": 321,
+        "official_url": "https://www.lego.com/fr-fr/pick-and-build/pick-a-brick?appearsIn=72051",
+        "official_fact": "BRICK 2X4; design3001; element and color shown in catalogue listing",
+        "LDConfig_comment": "0                              // LEGOID 321 - Dark Azur",
+        "LDConfig_line": "0 !COLOUR Dark_Azure                                            CODE   321   VALUE #469BC3   EDGE #333333"
+      },
+      {
+        "element": "4625629",
+        "LEGO_name": "Medium Azur",
+        "LDraw_code": 322,
+        "official_url": "https://www.lego.com/de-de/pick-and-build/pick-a-brick?appearsIn=72155",
+        "official_fact": "BRICK 2X4; design3001; element and color shown in catalogue listing",
+        "LDConfig_comment": "0                              // LEGOID 322 - Medium Azur",
+        "LDConfig_line": "0 !COLOUR Medium_Azure                                          CODE   322   VALUE #68C3E2   EDGE #333333"
+      },
+      {
+        "element": "4114319",
+        "LEGO_name": "Brick Yellow",
+        "LDraw_code": 19,
+        "official_url": "https://www.lego.com/en-gb/pick-and-build/pick-a-brick?appearsIn=40975",
+        "official_fact": "BRICK 2X4; design3001; element and color shown in catalogue listing",
+        "LDConfig_comment": "0                              // LEGOID   5 - Brick Yellow",
+        "LDConfig_line": "0 !COLOUR Tan                                                   CODE    19   VALUE #D7BA8C   EDGE #333333"
+      },
+      {
+        "element": "4260493",
+        "LEGO_name": "Earth Green",
+        "LDraw_code": 288,
+        "official_url": "https://www.lego.com/en-gb/pick-and-build/pick-a-brick?appearsIn=21597",
+        "official_fact": "BRICK 2X4; design3001; element and color shown in catalogue listing",
+        "LDConfig_comment": "0                              // LEGOID 141 - Earth Green",
+        "LDConfig_line": "0 !COLOUR Dark_Green                                            CODE   288   VALUE #00451A   EDGE #808080"
+      }
+    ]
+  },
+  "results": {
+    "measured_utc": "2026-10-27T01:19:17.161386+00:00",
+    "protocol_sha256": "caf0e8181e1a1911c2ca1de60b61dade0b28ba9177caece18c6a530a2eb6254b",
+    "selection_sha256": "98a5176042f13da8f7656034fdf31d8aac92e2c601549cb664794640d132111f",
+    "identity_sha256": "37736b9d98c64bb4a141afa174a9cb7f89526fb3b16975f8da7016048ca0c4a3",
+    "anchor_measurements_sha256": "40e94d04ca9f49af99f9a591716d21851c23c1eb59622efc7b61c45748f5f71c",
+    "summary": {
+      "19": {
+        "MAE": 1.3888888888888888,
+        "max_channel_error": 5.0,
+        "images": 2,
+        "nominal_control": {
+          "MAE": 13.38888888888889,
+          "max_channel_error": 30.0
+        },
+        "all_nine_shifts_pass": true,
+        "central_gate_pass": true,
+        "shift_MAE_range": [
+          1.0555555555555556,
+          1.6666666666666667
+        ],
+        "max_shift_channel_error": 5.0,
+        "shift_results": [
+          {
+            "MAE": 1.1111111111111112,
+            "max_channel_error": 3.5
+          },
+          {
+            "MAE": 1.0555555555555556,
+            "max_channel_error": 5.0
+          },
+          {
+            "MAE": 1.5555555555555556,
+            "max_channel_error": 5.0
+          },
+          {
+            "MAE": 1.5,
+            "max_channel_error": 3.5
+          },
+          {
+            "MAE": 1.3888888888888888,
+            "max_channel_error": 5.0
+          },
+          {
+            "MAE": 1.6666666666666667,
+            "max_channel_error": 5.0
+          },
+          {
+            "MAE": 1.1111111111111112,
+            "max_channel_error": 3.0
+          },
+          {
+            "MAE": 1.3333333333333333,
+            "max_channel_error": 4.5
+          },
+          {
+            "MAE": 1.5,
+            "max_channel_error": 5.0
+          }
+        ]
+      },
+      "322": {
+        "MAE": 1.7222222222222223,
+        "max_channel_error": 8.0,
+        "images": 1,
+        "nominal_control": {
+          "MAE": 17.22222222222222,
+          "max_channel_error": 37.5
+        },
+        "all_nine_shifts_pass": false,
+        "central_gate_pass": true,
+        "shift_MAE_range": [
+          1.3888888888888888,
+          2.111111111111111
+        ],
+        "max_shift_channel_error": 12.0,
+        "shift_results": [
+          {
+            "MAE": 1.7777777777777777,
+            "max_channel_error": 8.0
+          },
+          {
+            "MAE": 1.8888888888888888,
+            "max_channel_error": 9.0
+          },
+          {
+            "MAE": 2.111111111111111,
+            "max_channel_error": 12.0
+          },
+          {
+            "MAE": 1.8888888888888888,
+            "max_channel_error": 9.0
+          },
+          {
+            "MAE": 1.7222222222222223,
+            "max_channel_error": 8.0
+          },
+          {
+            "MAE": 2.0,
+            "max_channel_error": 12.0
+          },
+          {
+            "MAE": 1.7777777777777777,
+            "max_channel_error": 9.0
+          },
+          {
+            "MAE": 1.3888888888888888,
+            "max_channel_error": 6.0
+          },
+          {
+            "MAE": 1.6111111111111112,
+            "max_channel_error": 8.0
+          }
+        ]
+      }
+    },
+    "observations": [
+      {
+        "index": 9,
+        "ldraw_code": 322,
+        "source": {
+          "index": 9,
+          "set": "11043",
+          "year": 2025,
+          "theme": "Classic",
+          "page": 15,
+          "image": "X4.jpg",
+          "object": 3268,
+          "source": "private-source/11043-6569382.pdf",
+          "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6569382.pdf",
+          "source_sha256": "1b51027c08191f96e2f95052c115fa34a0d841c0f674d6ff358f2f6b4281d903",
+          "encoded_sha256": "443ece6071231b67da62511480d77208dd80c993a9cd291daec00bf64f41a93e",
+          "decoded_sha256": "82e9d8bb7d56d9250baf829a43e84ff4ac84a09cf656de395c7cb698e377cedc",
+          "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+          "mode": "RGB",
+          "native_size": [
+            98,
+            73
+          ]
+        },
+        "anchor_source_id": "E5",
+        "faces": {
+          "left": {
+            "observed": [
+              96.5,
+              163.0,
+              188.5
+            ],
+            "anchor_prediction": [
+              96.0,
+              163.0,
+              187.0
+            ],
+            "anchor_error": [
+              -0.5,
+              0.0,
+              -1.5
+            ],
+            "nominal_prediction": [
+              104,
+              195,
+              226
+            ],
+            "nominal_error": [
+              7.5,
+              32.0,
+              37.5
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  96.0,
+                  163.0,
+                  189.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  -2.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  96.0,
+                  162.5,
+                  189.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.5,
+                  -2.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  96.0,
+                  163.0,
+                  189.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  -2.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  97.0,
+                  163.0,
+                  189.0
+                ],
+                "anchor_error": [
+                  -1.0,
+                  0.0,
+                  -2.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  96.5,
+                  163.0,
+                  188.5
+                ],
+                "anchor_error": [
+                  -0.5,
+                  0.0,
+                  -1.5
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  96.0,
+                  163.0,
+                  189.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  -2.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  97.5,
+                  163.5,
+                  188.0
+                ],
+                "anchor_error": [
+                  -1.5,
+                  -0.5,
+                  -1.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  97.5,
+                  163.0,
+                  188.0
+                ],
+                "anchor_error": [
+                  -1.5,
+                  0.0,
+                  -1.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  97.0,
+                  163.0,
+                  188.0
+                ],
+                "anchor_error": [
+                  -1.0,
+                  0.0,
+                  -1.0
+                ]
+              }
+            ]
+          },
+          "top": {
+            "observed": [
+              103.0,
+              178.0,
+              197.0
+            ],
+            "anchor_prediction": [
+              104.0,
+              175.5,
+              205.0
+            ],
+            "anchor_error": [
+              1.0,
+              -2.5,
+              8.0
+            ],
+            "nominal_prediction": [
+              104,
+              195,
+              226
+            ],
+            "nominal_error": [
+              1.0,
+              17.0,
+              29.0
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  102.5,
+                  178.0,
+                  197.0
+                ],
+                "anchor_error": [
+                  1.5,
+                  -2.5,
+                  8.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  103.0,
+                  178.0,
+                  196.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -2.5,
+                  9.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  101.0,
+                  175.5,
+                  193.0
+                ],
+                "anchor_error": [
+                  3.0,
+                  0.0,
+                  12.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  103.0,
+                  177.5,
+                  196.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -2.0,
+                  9.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  103.0,
+                  178.0,
+                  197.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -2.5,
+                  8.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  103.0,
+                  174.5,
+                  193.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  1.0,
+                  12.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  103.0,
+                  176.5,
+                  196.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  9.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  104.0,
+                  177.5,
+                  199.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  -2.0,
+                  6.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  103.0,
+                  175.0,
+                  197.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  0.5,
+                  8.0
+                ]
+              }
+            ],
+            "frozen_face_law_prediction": [
+              104.19113388121755,
+              175.99124168537267,
+              203.52361385087573
+            ],
+            "frozen_face_law_error": [
+              1.191133881217553,
+              -2.008758314627329,
+              6.5236138508757335
+            ]
+          },
+          "right": {
+            "observed": [
+              106.0,
+              181.0,
+              211.0
+            ],
+            "anchor_prediction": [
+              108.0,
+              181.0,
+              211.0
+            ],
+            "anchor_error": [
+              2.0,
+              0.0,
+              0.0
+            ],
+            "nominal_prediction": [
+              104,
+              195,
+              226
+            ],
+            "nominal_error": [
+              -2.0,
+              14.0,
+              15.0
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  211.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  211.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  211.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  211.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  211.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  211.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  211.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  211.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  106.0,
+                  181.0,
+                  210.0
+                ],
+                "anchor_error": [
+                  2.0,
+                  0.0,
+                  1.0
+                ]
+              }
+            ],
+            "frozen_face_law_prediction": [
+              107.45030805604166,
+              181.49637526564553,
+              209.88997998511766
+            ],
+            "frozen_face_law_error": [
+              1.4503080560416635,
+              0.4963752656455256,
+              -1.1100200148823376
+            ]
+          }
+        },
+        "anchor_summary": {
+          "MAE": 1.7222222222222223,
+          "max_channel_error": 8.0
+        },
+        "nominal_summary": {
+          "MAE": 17.22222222222222,
+          "max_channel_error": 37.5
+        },
+        "face_law_summary": {
+          "MAE": 2.130034897215024,
+          "max_channel_error": 6.5236138508757335
+        }
+      },
+      {
+        "index": 13,
+        "ldraw_code": 19,
+        "source": {
+          "index": 13,
+          "set": "11509",
+          "year": "2026",
+          "theme": "Botanicals",
+          "page": 9,
+          "image": "X4.jpg",
+          "object": 225,
+          "source": "private-source/11509-6618824.pdf",
+          "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618824.pdf",
+          "source_sha256": "2508ae7c476caad75e6b0f2b9e898e2cb7307d66adc2b2d675acdf83adc86c23",
+          "encoded_sha256": "8eb1ba32b1994872190ae3f64e591e89a5a3c6faf384dbb95dcc95f81d8d1ca1",
+          "decoded_sha256": "4d7de1dd9a7c769763ae81884b04962a7ad898d3db80b7b3d615cdd75740f74c",
+          "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+          "mode": "RGB",
+          "native_size": [
+            98,
+            73
+          ]
+        },
+        "anchor_source_id": "C21",
+        "faces": {
+          "left": {
+            "observed": [
+              185.0,
+              168.0,
+              116.0
+            ],
+            "anchor_prediction": [
+              186.0,
+              167.0,
+              116.0
+            ],
+            "anchor_error": [
+              1.0,
+              -1.0,
+              0.0
+            ],
+            "nominal_prediction": [
+              215,
+              186,
+              140
+            ],
+            "nominal_error": [
+              30.0,
+              18.0,
+              24.0
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  117.5
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  -1.5
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  116.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  117.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  -1.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  117.5
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  -1.5
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  116.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  117.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  -1.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  185.0,
+                  167.0,
+                  117.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  0.0,
+                  -1.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  184.5,
+                  168.0,
+                  116.0
+                ],
+                "anchor_error": [
+                  1.5,
+                  -1.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  184.5,
+                  168.0,
+                  116.5
+                ],
+                "anchor_error": [
+                  1.5,
+                  -1.0,
+                  -0.5
+                ]
+              }
+            ]
+          },
+          "top": {
+            "observed": [
+              202.5,
+              181.0,
+              129.0
+            ],
+            "anchor_prediction": [
+              200.5,
+              182.5,
+              124.0
+            ],
+            "anchor_error": [
+              -2.0,
+              1.5,
+              -5.0
+            ],
+            "nominal_prediction": [
+              215,
+              186,
+              140
+            ],
+            "nominal_error": [
+              12.5,
+              5.0,
+              11.0
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  200.0,
+                  183.0,
+                  127.5
+                ],
+                "anchor_error": [
+                  0.5,
+                  -0.5,
+                  -3.5
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  201.0,
+                  182.5,
+                  129.0
+                ],
+                "anchor_error": [
+                  -0.5,
+                  0.0,
+                  -5.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  200.0,
+                  179.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.5,
+                  3.5,
+                  -5.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  201.5,
+                  179.0,
+                  127.5
+                ],
+                "anchor_error": [
+                  -1.0,
+                  3.5,
+                  -3.5
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  202.5,
+                  181.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  -2.0,
+                  1.5,
+                  -5.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  202.0,
+                  179.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  -1.5,
+                  3.5,
+                  -5.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  201.5,
+                  180.5,
+                  127.0
+                ],
+                "anchor_error": [
+                  -1.0,
+                  2.0,
+                  -3.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  202.0,
+                  181.0,
+                  128.5
+                ],
+                "anchor_error": [
+                  -1.5,
+                  1.5,
+                  -4.5
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  202.5,
+                  181.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  -2.0,
+                  1.5,
+                  -5.0
+                ]
+              }
+            ],
+            "frozen_face_law_prediction": [
+              199.7446608085518,
+              181.38974603154975,
+              125.24530083130816
+            ],
+            "frozen_face_law_error": [
+              -2.7553391914482006,
+              0.3897460315497483,
+              -3.754699168691843
+            ]
+          },
+          "right": {
+            "observed": [
+              207.0,
+              187.0,
+              129.0
+            ],
+            "anchor_prediction": [
+              207.0,
+              187.0,
+              131.0
+            ],
+            "anchor_error": [
+              0.0,
+              0.0,
+              2.0
+            ],
+            "nominal_prediction": [
+              215,
+              186,
+              140
+            ],
+            "nominal_error": [
+              8.0,
+              -1.0,
+              11.0
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              }
+            ],
+            "frozen_face_law_prediction": [
+              205.99281855303326,
+              187.0637487400518,
+              129.16306460622624
+            ],
+            "frozen_face_law_error": [
+              -1.0071814469667402,
+              0.06374874005180686,
+              0.16306460622624286
+            ]
+          }
+        },
+        "anchor_summary": {
+          "MAE": 1.3888888888888888,
+          "max_channel_error": 5.0
+        },
+        "nominal_summary": {
+          "MAE": 13.38888888888889,
+          "max_channel_error": 30.0
+        },
+        "face_law_summary": {
+          "MAE": 1.3556298641557636,
+          "max_channel_error": 3.754699168691843
+        }
+      },
+      {
+        "index": 17,
+        "ldraw_code": 19,
+        "source": {
+          "index": 17,
+          "set": "21063",
+          "year": "2025",
+          "theme": "Architecture",
+          "page": 104,
+          "image": "X4.jpg",
+          "object": 2609,
+          "source": "private-source/21063-6592611.pdf",
+          "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592611.pdf",
+          "source_sha256": "8843d50ba19d03d24f3eaf30c00947e31b2ad71789a1955c85781c9162262f4b",
+          "encoded_sha256": "81bceb1af1dc9fdf5c32cb4cb3e1fe58916a829fecfeda9899e2cfe866bb269e",
+          "decoded_sha256": "61b3777bcd3151fb0f6ebfc8f73bb0d73b4d67b7b8a4e555359fa97664402583",
+          "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+          "mode": "RGB",
+          "native_size": [
+            98,
+            73
+          ]
+        },
+        "anchor_source_id": "C21",
+        "faces": {
+          "left": {
+            "observed": [
+              185.0,
+              168.0,
+              116.0
+            ],
+            "anchor_prediction": [
+              186.0,
+              167.0,
+              116.0
+            ],
+            "anchor_error": [
+              1.0,
+              -1.0,
+              0.0
+            ],
+            "nominal_prediction": [
+              215,
+              186,
+              140
+            ],
+            "nominal_error": [
+              30.0,
+              18.0,
+              24.0
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  117.5
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  -1.5
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  116.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  117.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  -1.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  117.5
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  -1.5
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  116.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  185.0,
+                  168.0,
+                  117.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  -1.0,
+                  -1.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  185.0,
+                  167.0,
+                  117.0
+                ],
+                "anchor_error": [
+                  1.0,
+                  0.0,
+                  -1.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  184.5,
+                  168.0,
+                  116.0
+                ],
+                "anchor_error": [
+                  1.5,
+                  -1.0,
+                  0.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  184.5,
+                  168.0,
+                  116.5
+                ],
+                "anchor_error": [
+                  1.5,
+                  -1.0,
+                  -0.5
+                ]
+              }
+            ]
+          },
+          "top": {
+            "observed": [
+              202.5,
+              181.0,
+              129.0
+            ],
+            "anchor_prediction": [
+              200.5,
+              182.5,
+              124.0
+            ],
+            "anchor_error": [
+              -2.0,
+              1.5,
+              -5.0
+            ],
+            "nominal_prediction": [
+              215,
+              186,
+              140
+            ],
+            "nominal_error": [
+              12.5,
+              5.0,
+              11.0
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  200.0,
+                  183.0,
+                  127.5
+                ],
+                "anchor_error": [
+                  0.5,
+                  -0.5,
+                  -3.5
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  201.0,
+                  182.5,
+                  129.0
+                ],
+                "anchor_error": [
+                  -0.5,
+                  0.0,
+                  -5.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  200.0,
+                  179.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.5,
+                  3.5,
+                  -5.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  201.5,
+                  179.0,
+                  127.5
+                ],
+                "anchor_error": [
+                  -1.0,
+                  3.5,
+                  -3.5
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  202.5,
+                  181.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  -2.0,
+                  1.5,
+                  -5.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  202.0,
+                  179.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  -1.5,
+                  3.5,
+                  -5.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  201.5,
+                  180.5,
+                  127.0
+                ],
+                "anchor_error": [
+                  -1.0,
+                  2.0,
+                  -3.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  202.0,
+                  181.0,
+                  128.5
+                ],
+                "anchor_error": [
+                  -1.5,
+                  1.5,
+                  -4.5
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  202.5,
+                  181.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  -2.0,
+                  1.5,
+                  -5.0
+                ]
+              }
+            ],
+            "frozen_face_law_prediction": [
+              199.7446608085518,
+              181.38974603154975,
+              125.24530083130816
+            ],
+            "frozen_face_law_error": [
+              -2.7553391914482006,
+              0.3897460315497483,
+              -3.754699168691843
+            ]
+          },
+          "right": {
+            "observed": [
+              207.0,
+              187.0,
+              129.0
+            ],
+            "anchor_prediction": [
+              207.0,
+              187.0,
+              131.0
+            ],
+            "anchor_error": [
+              0.0,
+              0.0,
+              2.0
+            ],
+            "nominal_prediction": [
+              215,
+              186,
+              140
+            ],
+            "nominal_error": [
+              8.0,
+              -1.0,
+              11.0
+            ],
+            "shifted": [
+              {
+                "dx": -1,
+                "dy": -1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 0,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": -1,
+                "dy": 1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": -1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 0,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 0,
+                "dy": 1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": -1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 0,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              },
+              {
+                "dx": 1,
+                "dy": 1,
+                "rgb": [
+                  207.0,
+                  187.0,
+                  129.0
+                ],
+                "anchor_error": [
+                  0.0,
+                  0.0,
+                  2.0
+                ]
+              }
+            ],
+            "frozen_face_law_prediction": [
+              205.99281855303326,
+              187.0637487400518,
+              129.16306460622624
+            ],
+            "frozen_face_law_error": [
+              -1.0071814469667402,
+              0.06374874005180686,
+              0.16306460622624286
+            ]
+          }
+        },
+        "anchor_summary": {
+          "MAE": 1.3888888888888888,
+          "max_channel_error": 5.0
+        },
+        "nominal_summary": {
+          "MAE": 13.38888888888889,
+          "max_channel_error": 30.0
+        },
+        "face_law_summary": {
+          "MAE": 1.3556298641557636,
+          "max_channel_error": 3.754699168691843
+        }
+      }
+    ],
+    "unresolved": {
+      "2": "No same-material2x4 candidate. No promotion justified by this screen."
+    },
+    "limits": [
+      "Three images/two materials, not a universal new theme sample.",
+      "Tan observations share matched face RGB; repeated artwork is not independent evidence of rendering algorithms.",
+      "Measured top patch is small and biased by JPEG/contours; nine window shifts do not form confidence intervals."
+    ]
+  },
+  "pixel_checks": {
+    "status": "PASS",
+    "checks": 508,
+    "checked_utc": "2026-10-27T01:27:46.735060+00:00",
+    "method": "Independent standard-library medians/scalar residuals, all9ROI shifts, PDF/image/input hashes, gates and deliberately wrong material control. Does not claim independent visual selection.",
+    "results_sha256": "46a96b25696c8400fe4cd40a23b544b69895cd500f2be1e28e452b89069183fb",
+    "wrong_Dark_Tan_control": {
+      "MAE": 36.833333333333336,
+      "max_channel_error": 51.0
+    },
+    "no_runtime_palette_change": true
+  }
+}

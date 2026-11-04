@@ -1,0 +1,93 @@
+{
+  "source": "examples/portfolio/harbor-pilot.ldr",
+  "source_sha256": "8ed3ff741a3f2fc9f8578f50058db1e795c366950065b372ab62203beb5e73c6",
+  "edit": {
+    "part": "2551.dat",
+    "field": "placement color",
+    "from": 4,
+    "to": 14,
+    "placements_changed": 1
+  },
+  "edited_model_sha256": "69e8a71ec0e60d1576bee5fc1999e2371137b800470683f41cbde1c077a02c52",
+  "unchanged": {
+    "camera": {
+      "projection": "perspective",
+      "model": "pinhole",
+      "field_of_view_vertical_degrees": 2.0,
+      "focal_length_points": 9166.393860921507,
+      "distance_ldu": 5280.562278396814,
+      "target_ldu": [
+        -6.963958634282082,
+        -14.893118262531974,
+        6.840610472069976
+      ],
+      "position_ldu": [
+        2474.088744670673,
+        -3043.6992118351372,
+        3550.151083319176
+      ],
+      "principal_point_points": [
+        250.0,
+        160.0
+      ],
+      "near_clip_ldu": 0.1,
+      "minimum_geometry_eye_distance_ldu": 5196.972190276498,
+      "right": [
+        -0.8191520442889919,
+        0.0,
+        0.5735764363510462
+      ],
+      "down": [
+        0.32898992833716567,
+        0.8191520442889917,
+        0.4698463103929542
+      ],
+      "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+      "scale_definition": "points per LDU at the camera target plane",
+      "fit": "camera distance only; no post-projection scale or warp",
+      "near_plane_policy": "reject crossing geometry; no model slicing",
+      "field_of_view_status": "tool setting, not a recovered LEGO constant",
+      "azimuth": 35.0,
+      "elevation": 35.0,
+      "direction": [
+        0.4698463103929542,
+        -0.5735764363510462,
+        0.6710100716628344
+      ],
+      "preset": {
+        "name": "instruction",
+        "revision": 1,
+        "settings": {
+          "projection": "perspective",
+          "azimuth": 35.0,
+          "elevation": 35.0,
+          "field_of_view": 2.0
+        },
+        "overrides": {},
+        "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+        "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+      }
+    },
+    "part_count": 20,
+    "triangle_count": 13698,
+    "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+    "outline_width_pt": 0.55,
+    "glass_opacity": 0.75,
+    "underpaint": {
+      "method": "opaque-placement-footprints-v1",
+      "placement_masks": 20,
+      "inset_svg_units": 0.6,
+      "simplification_svg_units": 0.15
+    }
+  },
+  "drawing": {
+    "path": "docs/images/harbor-pilot-yellow.svg",
+    "svg_sha256": "02519e0ecfb8685ea3b0f54765e1a8bbd9ec64dedee100ba6522e469ed7597a7",
+    "pdf_sha256": "46dce25b2d8cf4856e6c1c5e0e1c2dc6b91630b780d72de031fe9559a4ea556b",
+    "image_xobjects": 0
+  },
+  "geometry_credits": "docs/portfolio/sources.json",
+  "library_config_sha256": "d3490047460ad7a511b150006b009830fc52ecc1899b514c7380e9de644b3cfb",
+  "renderer": "0.6.0.dev7",
+  "renderer_source_sha256": "8c3e051a9f18f14bddda66a5942e4577e889aac2d9dbb91b5ab78603c5a2651c"
+}

@@ -1,0 +1,321 @@
+{
+  "protocol": {
+    "hypothesis": "Eye direction from body center fixed at azimuth35 elevation35; optical rotation, eye distance, focal scale and principal point remain nuisance parameters. Seven free parameters instead of nine.",
+    "fit": "Same seven body corners, same three thresholds, same known PDF pixel aspect; no cap data used for fitting",
+    "primary_heldout_check": "Re-use all previously frozen stud centers and cap radii; report RMS and increase from free fit for all threshold combinations",
+    "working_tolerance": "Predeclared illustration criterion: held-out cap RMS <=1 native-x-equivalent pixel for every threshold combination of each source. This is an engineering tolerance, not a hypothesis-test p-value or confidence interval.",
+    "alternative_directions": "Optional33/34/35/36/37 grid is descriptive only; cannot replace the predeclared35/35 hypothesis after viewing results"
+  },
+  "fixed_direction_fits": [
+    {
+      "id": "11038-p19-X1",
+      "threshold": 35,
+      "camera": {
+        "parameters": [
+          0.5204167641096861,
+          0.6673430162556363,
+          0.05355515702143024,
+          8.246981662272315,
+          8.7636381168397,
+          271.98953142416804,
+          -223.26136859379153,
+          -324.03031107565243,
+          452.04990144074833
+        ],
+        "fixed_local_angles": [
+          35,
+          35
+        ],
+        "free_parameters": 7,
+        "rms_px": 0.4183172874006842
+      }
+    },
+    {
+      "id": "11038-p19-X1",
+      "threshold": 50,
+      "camera": {
+        "parameters": [
+          0.46272044831356807,
+          0.6101167846010952,
+          0.08875129067454561,
+          8.16912423470344,
+          8.682569543362138,
+          430.16787658370527,
+          -17.25080846903984,
+          -587.0581593517195,
+          106.52779584273236
+        ],
+        "fixed_local_angles": [
+          35,
+          35
+        ],
+        "free_parameters": 7,
+        "rms_px": 0.3818057304336042
+      }
+    },
+    {
+      "id": "11038-p19-X1",
+      "threshold": 65,
+      "camera": {
+        "parameters": [
+          0.4543245141129484,
+          0.6014638605413112,
+          0.09392640032438196,
+          8.084871180628896,
+          8.597784183114342,
+          420.6633912855182,
+          9.898280414740498,
+          -570.7526814972075,
+          61.15757695868887
+        ],
+        "fixed_local_angles": [
+          35,
+          35
+        ],
+        "free_parameters": 7,
+        "rms_px": 0.46231925698614307
+      }
+    },
+    {
+      "id": "11037-p8-X2",
+      "threshold": 120,
+      "camera": {
+        "parameters": [
+          0.5700633119446885,
+          0.49602585142078187,
+          0.022027041260686102,
+          8.499035447417535,
+          9.020228816323945,
+          177.7268279208024,
+          564.5260432005734,
+          -221.80223143806356,
+          -894.6693876037946
+        ],
+        "fixed_local_angles": [
+          35,
+          35
+        ],
+        "free_parameters": 7,
+        "rms_px": 0.2924248734091509
+      }
+    },
+    {
+      "id": "11037-p8-X2",
+      "threshold": 145,
+      "camera": {
+        "parameters": [
+          0.4768042200971853,
+          0.528069135785065,
+          0.07726782457111273,
+          8.054912921178461,
+          8.57790309498924,
+          368.37814181955537,
+          247.0967981533537,
+          -543.7914235752838,
+          -360.9399736622674
+        ],
+        "fixed_local_angles": [
+          35,
+          35
+        ],
+        "free_parameters": 7,
+        "rms_px": 0.36338170746652393
+      }
+    },
+    {
+      "id": "11037-p8-X2",
+      "threshold": 170,
+      "camera": {
+        "parameters": [
+          0.471997763241339,
+          0.5332596572155349,
+          0.07862329181324589,
+          8.290164697919895,
+          8.813222617158807,
+          480.62627272135114,
+          291.2464469723984,
+          -733.2772346478455,
+          -435.45693475865346
+        ],
+        "fixed_local_angles": [
+          35,
+          35
+        ],
+        "free_parameters": 7,
+        "rms_px": 0.299993393682073
+      }
+    }
+  ],
+  "frozen_stud_observations_sha256": "e3fbe5d1bd2001dfd9cb4511f26467d79b99e6fab2756e3099f96149bce702cd",
+  "results": [
+    {
+      "id": "11038-p19-X1",
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "fixed_35_35_rms_px": 0.7660348406300974,
+          "free_camera_rms_px": 0.9171247474032265,
+          "increase_px": -0.15108990677312906,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "fixed_35_35_rms_px": 0.7781207612009304,
+          "free_camera_rms_px": 0.9310275121578134,
+          "increase_px": -0.152906750956883,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "fixed_35_35_rms_px": 0.777709467443892,
+          "free_camera_rms_px": 0.9308896154397989,
+          "increase_px": -0.15318014799590685,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "fixed_35_35_rms_px": 0.7640400077134692,
+          "free_camera_rms_px": 0.807752590650268,
+          "increase_px": -0.043712582936798805,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "fixed_35_35_rms_px": 0.7659585541365932,
+          "free_camera_rms_px": 0.8092830096446465,
+          "increase_px": -0.043324455508053306,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "fixed_35_35_rms_px": 0.7807307544382718,
+          "free_camera_rms_px": 0.8251987095507132,
+          "increase_px": -0.04446795511244139,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "fixed_35_35_rms_px": 0.7757345282920158,
+          "free_camera_rms_px": 0.8110728100789916,
+          "increase_px": -0.035338281786975734,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "fixed_35_35_rms_px": 0.7768454924922176,
+          "free_camera_rms_px": 0.808884536492034,
+          "increase_px": -0.032039043999816386,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "fixed_35_35_rms_px": 0.7926225840164983,
+          "free_camera_rms_px": 0.8269070314735171,
+          "increase_px": -0.03428444745701875,
+          "within_predeclared_one_pixel": true
+        }
+      ],
+      "rms_range_px": [
+        0.7640400077134692,
+        0.7926225840164983
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "fixed_35_35_rms_px": 0.8580385434613715,
+          "free_camera_rms_px": 0.6963991329249751,
+          "increase_px": 0.1616394105363964,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "fixed_35_35_rms_px": 0.8312629039455618,
+          "free_camera_rms_px": 0.6657911116476548,
+          "increase_px": 0.16547179229790698,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "fixed_35_35_rms_px": 0.8277686193356597,
+          "free_camera_rms_px": 0.6630970763101417,
+          "increase_px": 0.164671543025518,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "fixed_35_35_rms_px": 0.8061258324481488,
+          "free_camera_rms_px": 0.684615886724514,
+          "increase_px": 0.12150994572363483,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "fixed_35_35_rms_px": 0.7740068679706839,
+          "free_camera_rms_px": 0.6493593271142442,
+          "increase_px": 0.1246475408564397,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "fixed_35_35_rms_px": 0.7752090925316802,
+          "free_camera_rms_px": 0.6496374821167905,
+          "increase_px": 0.12557161041488973,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "fixed_35_35_rms_px": 0.8085959229862179,
+          "free_camera_rms_px": 0.7478637631119848,
+          "increase_px": 0.06073215987423308,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "fixed_35_35_rms_px": 0.7796702645446674,
+          "free_camera_rms_px": 0.7168156882663986,
+          "increase_px": 0.06285457627826874,
+          "within_predeclared_one_pixel": true
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "fixed_35_35_rms_px": 0.7824321441884332,
+          "free_camera_rms_px": 0.7227980186903779,
+          "increase_px": 0.05963412549805536,
+          "within_predeclared_one_pixel": true
+        }
+      ],
+      "rms_range_px": [
+        0.7740068679706839,
+        0.8580385434613715
+      ]
+    }
+  ],
+  "passes_predeclared_tolerance": true,
+  "limits": [
+    "Two source illustrations only; all thresholds are repeated measurements, not independent renders",
+    "This is a local eye direction from the body center, not the optical-axis orientation",
+    "No p-value or exact-angle probability is inferred",
+    "Other camera parameters remain fitted; this does not validate default FOV30"
+  ]
+}

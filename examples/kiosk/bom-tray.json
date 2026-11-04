@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "model": "parts/2431-1.ldr",
+      "quantity": 2
+    },
+    {
+      "model": "parts/2431-15.ldr",
+      "quantity": 2
+    },
+    {
+      "model": "parts/2431-71.ldr",
+      "quantity": 2
+    },
+    {
+      "model": "parts/3004-15.ldr",
+      "quantity": 4
+    },
+    {
+      "model": "parts/3004-47.ldr",
+      "quantity": 4
+    },
+    {
+      "model": "parts/3005-1.ldr",
+      "quantity": 6
+    },
+    {
+      "model": "parts/3009-1.ldr",
+      "quantity": 2
+    },
+    {
+      "model": "parts/3009-15.ldr",
+      "quantity": 3
+    },
+    {
+      "model": "parts/3010-1.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/3020-15.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/3035-1.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/3062b-14.ldr",
+      "quantity": 2
+    },
+    {
+      "model": "parts/3623-1.ldr",
+      "quantity": 4
+    },
+    {
+      "model": "parts/3623-15.ldr",
+      "quantity": 4
+    },
+    {
+      "model": "parts/41539-71.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/98138-4.ldr",
+      "quantity": 2
+    }
+  ]
+}

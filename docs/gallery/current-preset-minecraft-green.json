@@ -1,0 +1,557 @@
+{
+  "version": "0.6.0.dev6",
+  "execution": {
+    "python_version": "3.12.14",
+    "python_implementation": "CPython",
+    "system": "Darwin",
+    "machine": "arm64",
+    "compiler": "clang++",
+    "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+    "native_source_sha256": "10f90d226bfef5cdf50d7d4e6b4a86f075997a5e988be8e02f9125962ffaf904",
+    "package_source_sha256": "df702f080e5e44c935cb2234e18df8a11184be90f31dcf0f1edcfabe6713bb3b",
+    "package_source_files": 44,
+    "native_cache_key": "9e241d6bd6bd227c9fbc",
+    "native_binary_sha256": {
+      "vector": "0f6f0f8f181b43f36de1e80dcb6cdbf54d1e6c437175384a84fb471549f26f13",
+      "union": "93b58453d5c84e3b65132c8b0bb1e1cae59843a83755a102ce1e677c19164b8e"
+    }
+  },
+  "layout": "parts-tray",
+  "preset": "minecraft-green",
+  "sources": [
+    "minecraft-2025"
+  ],
+  "manifest_sha256": "9ca0da9809e338c3bddb94a346f719a4d5abcafaf117ebe737351e142d7ba2d2",
+  "page_points": [
+    360,
+    240
+  ],
+  "columns": 2,
+  "rows": 1,
+  "points_per_ldu": 0.8384379336101226,
+  "line_width_points": 0.4,
+  "items": [
+    {
+      "quantity": 2,
+      "viewport_pt": [
+        26.17,
+        26.17,
+        147.82999999999998,
+        169.66
+      ],
+      "model_sha256": "eab0969850f8292a5923ab374e4240ca4d4335153f2046dcda63c83cd1433e0c",
+      "model_structure": {
+        "format": "ldr",
+        "root": null,
+        "declared_submodels": 0,
+        "used_submodels": [],
+        "expanded_parts": 1,
+        "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+      },
+      "points_per_ldu": 0.8384379336101226,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 8199.528098746474,
+        "target_ldu": [
+          -1.7763568394002505e-15,
+          11.999999999999998,
+          -3.552713678800501e-15
+        ],
+        "position_ldu": [
+          3852.5180241593857,
+          -4691.056106639271,
+          5501.965937141296
+        ],
+        "principal_point_points": [
+          100.085,
+          111.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 8176.538154585774,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "parts": 1,
+      "dependencies": [
+        {
+          "file": "ldraw/p/4-4cyli.dat",
+          "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4disc.dat",
+          "sha256": "a00b5547776f61a7389d303616987c76b3c4de86ad8ec32f22857e1bd5e5e40f",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4edge.dat",
+          "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/box4t.dat",
+          "sha256": "9e85c281fff9c33ce26931d772310c8faeeaba4dca1036acf1e6ac578dc50c00",
+          "authors": [
+            "Author: Tore Eriksson [Tore_Eriksson]"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/box5.dat",
+          "sha256": "ccb7b8a1d36692335b10ea6aa196849afcad4b15331683ed8112a10b50977318",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud.dat",
+          "sha256": "db037d518d7c08bcdc1f0e7497f4f98e97d99850531dd62d602965520f3bf8f4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud3.dat",
+          "sha256": "d29e9160faeaf85b2b72a098e89a81f41e0082517a82065d7b1f149b5fd2addd",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/3004.dat",
+          "sha256": "e1caee3b32175393c9d6ea176a47f8869173a01d03a451e1cfe10d09167c0203",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/s/3004s01.dat",
+          "sha256": "e05db7f7baead09713c4296b4e4e215b3fa5ccbf526e3431cb66a3ce19e321b5",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        }
+      ],
+      "library_config": {
+        "file": "ldraw/LDConfig.ldr",
+        "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+        "authors": [
+          "Author: LDraw.org"
+        ],
+        "licenses": []
+      },
+      "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+      "materials": {
+        "config_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+        "family": "Brick Blueprint measured sRGB reference v4",
+        "coverage": [
+          {
+            "nominal_colour": 70,
+            "feature": "body",
+            "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions",
+            "triangles": 28
+          },
+          {
+            "nominal_colour": 70,
+            "feature": "stud_cap_or_ring",
+            "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions",
+            "triangles": 48
+          },
+          {
+            "nominal_colour": 70,
+            "feature": "stud_cylinder_wall",
+            "confidence": "bounded opaque vertical stud reference",
+            "triangles": 96
+          }
+        ],
+        "fallback_colours": [],
+        "source_pixel_inputs": false,
+        "instance_selectors": false,
+        "step_material_fade": false,
+        "profile": "research",
+        "counts_scope": "submitted triangles, not visible area",
+        "usage": {
+          "axis_anchor": 76,
+          "opaque_vertical_stud_reference": 96
+        },
+        "research_profile": "measured-srgb-reference-v4",
+        "evidence_sha256": "acfc3aa6b13430e45d838a5145e52a7a41dba88561818c2b01ed0b8b73668927",
+        "data_sha256": "77f5935ea90149671617af98d93c0e7ed4a556a7390960b6d900350f8e378609",
+        "bindings": [
+          {
+            "ldraw_color": 70,
+            "ldraw_name": "Reddish_Brown",
+            "source_visual_label": "brown",
+            "observation_id": 25,
+            "catalogue_element_association": "4211210",
+            "source_set": "11038",
+            "source_page": 21,
+            "source_image": "X2.jpg",
+            "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+            "source_pdf_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+            "source_image_sha256": "170bd4e021a2c187efc815c0970655799720d6b49bf849a0b35ba950c32fbf46",
+            "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+            "anchor_RGB": {
+              "left": [
+                80.0,
+                38.0,
+                18.0
+              ],
+              "top": [
+                90.5,
+                40.0,
+                15.5
+              ],
+              "right": [
+                91.0,
+                43.0,
+                19.0
+              ]
+            }
+          }
+        ],
+        "coordinate_rule": "abs(world normal X/Y/Z) weights left/top/right anchors; +X is left and +Z right in the reference positive-X/positive-Z camera quadrant",
+        "interpolation_status": "convex encoded-RGB illustration interpolation, not a recovered light law",
+        "other_faces_status": "opposite faces share absolute-axis weights; their lighting is unmeasured",
+        "upper_stud_cap_status": "uses the planar-top anchor; two Classic2024 source cases agree within one RGB level in cap/plane medians; other materials unmeasured",
+        "stud_wall_reference": {
+          "data_file": "docs/research/STUD-SURFACE-STUDY.json",
+          "data_sha256": "80fc608aa5c72a6604dd2db083dd4d0d20e53639476d03edd2443217305a5e37",
+          "reference_RGB": [
+            16,
+            16,
+            16
+          ],
+          "scope": "Opaque vertical standard studs in two Classic2024 books; no universal theme or transparent/sideways calibration",
+          "transparent_or_sideways_RGB": [
+            7,
+            7,
+            7
+          ]
+        }
+      }
+    },
+    {
+      "quantity": 1,
+      "viewport_pt": [
+        186.0,
+        26.17,
+        147.82999999999998,
+        169.66
+      ],
+      "model_sha256": "ecad40c8f81563345320339d6858355342bc089ef3a149417aaaecfb6dcf2750",
+      "model_structure": {
+        "format": "ldr",
+        "root": null,
+        "declared_submodels": 0,
+        "used_submodels": [],
+        "expanded_parts": 1,
+        "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+      },
+      "points_per_ldu": 0.8384379336101226,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 8199.528098746474,
+        "target_ldu": [
+          -1.7763568394002505e-15,
+          11.999999999999998,
+          -3.552713678800501e-15
+        ],
+        "position_ldu": [
+          3852.5180241593857,
+          -4691.056106639271,
+          5501.965937141296
+        ],
+        "principal_point_points": [
+          259.91499999999996,
+          111.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 8138.950449754338,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "parts": 1,
+      "dependencies": [
+        {
+          "file": "ldraw/p/4-4cyli.dat",
+          "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4disc.dat",
+          "sha256": "a00b5547776f61a7389d303616987c76b3c4de86ad8ec32f22857e1bd5e5e40f",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/4-4edge.dat",
+          "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/box5.dat",
+          "sha256": "ccb7b8a1d36692335b10ea6aa196849afcad4b15331683ed8112a10b50977318",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud.dat",
+          "sha256": "db037d518d7c08bcdc1f0e7497f4f98e97d99850531dd62d602965520f3bf8f4",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/p/stud3.dat",
+          "sha256": "d29e9160faeaf85b2b72a098e89a81f41e0082517a82065d7b1f149b5fd2addd",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        },
+        {
+          "file": "ldraw/parts/6111.dat",
+          "sha256": "47beeadaec767df2caa76362bdd3d6a46e7439b822e3548cc75f638a76b7ec8c",
+          "authors": [
+            "Author: James Jessiman"
+          ],
+          "licenses": [
+            "Licensed under CC BY 4.0 : see CAreadme.txt"
+          ]
+        }
+      ],
+      "library_config": {
+        "file": "ldraw/LDConfig.ldr",
+        "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+        "authors": [
+          "Author: LDraw.org"
+        ],
+        "licenses": []
+      },
+      "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+      "materials": {
+        "config_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+        "family": "Brick Blueprint measured sRGB reference v4",
+        "coverage": [
+          {
+            "nominal_colour": 70,
+            "feature": "body",
+            "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions",
+            "triangles": 28
+          },
+          {
+            "nominal_colour": 70,
+            "feature": "stud_cap_or_ring",
+            "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions",
+            "triangles": 304
+          },
+          {
+            "nominal_colour": 70,
+            "feature": "stud_cylinder_wall",
+            "confidence": "bounded opaque vertical stud reference",
+            "triangles": 608
+          }
+        ],
+        "fallback_colours": [],
+        "source_pixel_inputs": false,
+        "instance_selectors": false,
+        "step_material_fade": false,
+        "profile": "research",
+        "counts_scope": "submitted triangles, not visible area",
+        "usage": {
+          "axis_anchor": 332,
+          "opaque_vertical_stud_reference": 608
+        },
+        "research_profile": "measured-srgb-reference-v4",
+        "evidence_sha256": "acfc3aa6b13430e45d838a5145e52a7a41dba88561818c2b01ed0b8b73668927",
+        "data_sha256": "77f5935ea90149671617af98d93c0e7ed4a556a7390960b6d900350f8e378609",
+        "bindings": [
+          {
+            "ldraw_color": 70,
+            "ldraw_name": "Reddish_Brown",
+            "source_visual_label": "brown",
+            "observation_id": 25,
+            "catalogue_element_association": "4211210",
+            "source_set": "11038",
+            "source_page": 21,
+            "source_image": "X2.jpg",
+            "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+            "source_pdf_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+            "source_image_sha256": "170bd4e021a2c187efc815c0970655799720d6b49bf849a0b35ba950c32fbf46",
+            "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+            "anchor_RGB": {
+              "left": [
+                80.0,
+                38.0,
+                18.0
+              ],
+              "top": [
+                90.5,
+                40.0,
+                15.5
+              ],
+              "right": [
+                91.0,
+                43.0,
+                19.0
+              ]
+            }
+          }
+        ],
+        "coordinate_rule": "abs(world normal X/Y/Z) weights left/top/right anchors; +X is left and +Z right in the reference positive-X/positive-Z camera quadrant",
+        "interpolation_status": "convex encoded-RGB illustration interpolation, not a recovered light law",
+        "other_faces_status": "opposite faces share absolute-axis weights; their lighting is unmeasured",
+        "upper_stud_cap_status": "uses the planar-top anchor; two Classic2024 source cases agree within one RGB level in cap/plane medians; other materials unmeasured",
+        "stud_wall_reference": {
+          "data_file": "docs/research/STUD-SURFACE-STUDY.json",
+          "data_sha256": "80fc608aa5c72a6604dd2db083dd4d0d20e53639476d03edd2443217305a5e37",
+          "reference_RGB": [
+            16,
+            16,
+            16
+          ],
+          "scope": "Opaque vertical standard studs in two Classic2024 books; no universal theme or transparent/sideways calibration",
+          "transparent_or_sideways_RGB": [
+            7,
+            7,
+            7
+          ]
+        }
+      }
+    }
+  ],
+  "pdf": {
+    "PDF_version": "1.4",
+    "pages": 1,
+    "vector_Form_XObjects": 0,
+    "ExtGState_alphas": 0,
+    "image_XObjects": 0,
+    "image_tags_in_SVG": 0,
+    "embedded_raster_payloads": 0,
+    "SVG_sha256": "f0ad9df051d324d5656b3ee8aef402ac2957aa96ae1e398c714dc761ac637a56",
+    "PDF_sha256": "1e65339f52ea2dffacedca4eb44ed8ed7641be80b786c29151dfed6d57eae73e",
+    "PDF_bytes": 35134,
+    "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+    "color_export": {
+      "mode": "rgb",
+      "input_color_assumption": "sRGB",
+      "conversion": "unchanged RGB",
+      "unique_source_colors": 8
+    },
+    "page_points": [
+      360.0,
+      240.0
+    ]
+  },
+  "font_substitute": "Helvetica-Bold / browser sans-serif",
+  "count_color": "#181716",
+  "limits": [
+    "One shared target-plane scale and perspective distance; per-item orientation/target may differ. Orthographic scale is uniform.",
+    "Grid composition only; no automatic part identification or step generation."
+  ],
+  "item_count": 2,
+  "rendered_parts": 2,
+  "represented_parts": 3
+}

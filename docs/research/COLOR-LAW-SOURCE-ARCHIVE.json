@@ -1,0 +1,10 @@
+{
+  "scope": "Immutable material metadata used when the ten-color transfer experiment was frozen. Runtime palette extensions must not refit or rewrite its holdout inputs.",
+  "sources": {
+    "brick_blueprint/material-research.json": {
+      "archive": "docs/research/COLOR-LAW-MATERIAL-BASELINE.json",
+      "sha256": "fecb9f4632c87a93a45e26ac52aa7fa0d56f6e604a0ba499374d2d182f14d42e",
+      "renderer_version": "0.6.0.dev4"
+    }
+  }
+}

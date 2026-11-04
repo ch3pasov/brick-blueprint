@@ -1,0 +1,937 @@
+{
+  "viewport_in_pixels": [
+    600,
+    480
+  ],
+  "sample_points": {
+    "left": [
+      180,
+      285
+    ],
+    "top": [
+      278,
+      144
+    ],
+    "right": [
+      382,
+      300
+    ]
+  },
+  "square_patch_width": 9,
+  "format": "RGB, absolute 8-bit channel values. The stored source medians can contain half levels. Each sampled native fill rounds every channel to the nearest integer, with half levels rounded up.",
+  "variants": [
+    "librsvg 2.63.2 / sharp 0.35.5",
+    "Poppler 26.05.0"
+  ],
+  "rows": [
+    {
+      "code": 72,
+      "source_page": 18,
+      "source_set": "11037",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497651.pdf#page=18",
+      "nominal_LDraw_RGB": [
+        100,
+        100,
+        100
+      ],
+      "source_patch_medians": {
+        "left": [
+          105.0,
+          105.0,
+          105.0
+        ],
+        "top": [
+          113.0,
+          113.0,
+          113.0
+        ],
+        "right": [
+          117.0,
+          117.0,
+          117.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          105,
+          105,
+          105
+        ],
+        "top": [
+          113,
+          113,
+          113
+        ],
+        "right": [
+          117,
+          117,
+          117
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            105,
+            105,
+            105
+          ],
+          "top": [
+            113,
+            113,
+            113
+          ],
+          "right": [
+            117,
+            117,
+            117
+          ]
+        },
+        "pdf": {
+          "left": [
+            105,
+            105,
+            105
+          ],
+          "top": [
+            113,
+            113,
+            113
+          ],
+          "right": [
+            117,
+            117,
+            117
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-72-research.json"
+    },
+    {
+      "code": 14,
+      "source_page": 27,
+      "source_set": "11037",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497651.pdf#page=27",
+      "nominal_LDraw_RGB": [
+        250,
+        200,
+        10
+      ],
+      "source_patch_medians": {
+        "left": [
+          253.0,
+          202.0,
+          1.0
+        ],
+        "top": [
+          253.5,
+          218.0,
+          1.5
+        ],
+        "right": [
+          255.0,
+          226.0,
+          0.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          253,
+          202,
+          1
+        ],
+        "top": [
+          254,
+          218,
+          2
+        ],
+        "right": [
+          255,
+          226,
+          0
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            253,
+            202,
+            1
+          ],
+          "top": [
+            254,
+            218,
+            2
+          ],
+          "right": [
+            255,
+            226,
+            0
+          ]
+        },
+        "pdf": {
+          "left": [
+            253,
+            202,
+            1
+          ],
+          "top": [
+            254,
+            218,
+            2
+          ],
+          "right": [
+            255,
+            226,
+            0
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-14-research.json"
+    },
+    {
+      "code": 71,
+      "source_page": 130,
+      "source_set": "31168",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592820.pdf#page=130",
+      "nominal_LDraw_RGB": [
+        150,
+        150,
+        150
+      ],
+      "source_patch_medians": {
+        "left": [
+          152.0,
+          152.0,
+          152.0
+        ],
+        "top": [
+          164.0,
+          164.0,
+          164.0
+        ],
+        "right": [
+          170.0,
+          170.0,
+          170.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          152,
+          152,
+          152
+        ],
+        "top": [
+          164,
+          164,
+          164
+        ],
+        "right": [
+          170,
+          170,
+          170
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            152,
+            152,
+            152
+          ],
+          "top": [
+            164,
+            164,
+            164
+          ],
+          "right": [
+            170,
+            170,
+            170
+          ]
+        },
+        "pdf": {
+          "left": [
+            152,
+            152,
+            152
+          ],
+          "top": [
+            164,
+            164,
+            164
+          ],
+          "right": [
+            170,
+            170,
+            170
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-71-research.json"
+    },
+    {
+      "code": 0,
+      "source_page": 42,
+      "source_set": "21270",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf#page=42",
+      "nominal_LDraw_RGB": [
+        27,
+        42,
+        52
+      ],
+      "source_patch_medians": {
+        "left": [
+          43.0,
+          43.0,
+          43.0
+        ],
+        "top": [
+          46.0,
+          46.0,
+          46.0
+        ],
+        "right": [
+          48.0,
+          48.0,
+          48.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          43,
+          43,
+          43
+        ],
+        "top": [
+          46,
+          46,
+          46
+        ],
+        "right": [
+          48,
+          48,
+          48
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            43,
+            43,
+            43
+          ],
+          "top": [
+            46,
+            46,
+            46
+          ],
+          "right": [
+            48,
+            48,
+            48
+          ]
+        },
+        "pdf": {
+          "left": [
+            43,
+            43,
+            43
+          ],
+          "top": [
+            46,
+            46,
+            46
+          ],
+          "right": [
+            48,
+            48,
+            48
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-0-research.json"
+    },
+    {
+      "code": 15,
+      "source_page": 43,
+      "source_set": "21270",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf#page=43",
+      "nominal_LDraw_RGB": [
+        244,
+        244,
+        244
+      ],
+      "source_patch_medians": {
+        "left": [
+          222.0,
+          223.0,
+          225.0
+        ],
+        "top": [
+          237.0,
+          238.0,
+          240.0
+        ],
+        "right": [
+          245.0,
+          246.0,
+          248.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          222,
+          223,
+          225
+        ],
+        "top": [
+          237,
+          238,
+          240
+        ],
+        "right": [
+          245,
+          246,
+          248
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            222,
+            223,
+            225
+          ],
+          "top": [
+            237,
+            238,
+            240
+          ],
+          "right": [
+            245,
+            246,
+            248
+          ]
+        },
+        "pdf": {
+          "left": [
+            222,
+            223,
+            225
+          ],
+          "top": [
+            237,
+            238,
+            240
+          ],
+          "right": [
+            245,
+            246,
+            248
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-15-research.json"
+    },
+    {
+      "code": 4,
+      "source_page": 47,
+      "source_set": "21270",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf#page=47",
+      "nominal_LDraw_RGB": [
+        180,
+        0,
+        0
+      ],
+      "source_patch_medians": {
+        "left": [
+          190.0,
+          2.0,
+          1.0
+        ],
+        "top": [
+          205.5,
+          0.0,
+          4.0
+        ],
+        "right": [
+          210.0,
+          0.0,
+          2.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          190,
+          2,
+          1
+        ],
+        "top": [
+          206,
+          0,
+          4
+        ],
+        "right": [
+          210,
+          0,
+          2
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            190,
+            2,
+            1
+          ],
+          "top": [
+            206,
+            0,
+            4
+          ],
+          "right": [
+            210,
+            0,
+            2
+          ]
+        },
+        "pdf": {
+          "left": [
+            190,
+            2,
+            1
+          ],
+          "top": [
+            206,
+            0,
+            4
+          ],
+          "right": [
+            210,
+            0,
+            2
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-4-research.json"
+    },
+    {
+      "code": 28,
+      "source_page": 69,
+      "source_set": "21270",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf#page=69",
+      "nominal_LDraw_RGB": [
+        137,
+        125,
+        98
+      ],
+      "source_patch_medians": {
+        "left": [
+          141.0,
+          124.0,
+          99.0
+        ],
+        "top": [
+          152.0,
+          135.5,
+          112.5
+        ],
+        "right": [
+          156.0,
+          139.0,
+          114.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          141,
+          124,
+          99
+        ],
+        "top": [
+          152,
+          136,
+          113
+        ],
+        "right": [
+          156,
+          139,
+          114
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            141,
+            124,
+            99
+          ],
+          "top": [
+            152,
+            136,
+            113
+          ],
+          "right": [
+            156,
+            139,
+            114
+          ]
+        },
+        "pdf": {
+          "left": [
+            141,
+            124,
+            99
+          ],
+          "top": [
+            152,
+            136,
+            113
+          ],
+          "right": [
+            156,
+            139,
+            114
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-28-research.json"
+    },
+    {
+      "code": 70,
+      "source_page": 21,
+      "source_set": "11038",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf#page=21",
+      "nominal_LDraw_RGB": [
+        95,
+        49,
+        9
+      ],
+      "source_patch_medians": {
+        "left": [
+          80.0,
+          38.0,
+          18.0
+        ],
+        "top": [
+          90.5,
+          40.0,
+          15.5
+        ],
+        "right": [
+          91.0,
+          43.0,
+          19.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          80,
+          38,
+          18
+        ],
+        "top": [
+          91,
+          40,
+          16
+        ],
+        "right": [
+          91,
+          43,
+          19
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            80,
+            38,
+            18
+          ],
+          "top": [
+            91,
+            40,
+            16
+          ],
+          "right": [
+            91,
+            43,
+            19
+          ]
+        },
+        "pdf": {
+          "left": [
+            80,
+            38,
+            18
+          ],
+          "top": [
+            91,
+            40,
+            16
+          ],
+          "right": [
+            91,
+            43,
+            19
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-70-research.json"
+    },
+    {
+      "code": 191,
+      "source_page": 44,
+      "source_set": "11038",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf#page=44",
+      "nominal_LDraw_RGB": [
+        252,
+        172,
+        0
+      ],
+      "source_patch_medians": {
+        "left": [
+          247.0,
+          163.0,
+          36.0
+        ],
+        "top": [
+          253.0,
+          179.0,
+          42.0
+        ],
+        "right": [
+          254.0,
+          182.0,
+          43.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          247,
+          163,
+          36
+        ],
+        "top": [
+          253,
+          179,
+          42
+        ],
+        "right": [
+          254,
+          182,
+          43
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            247,
+            163,
+            36
+          ],
+          "top": [
+            253,
+            179,
+            42
+          ],
+          "right": [
+            254,
+            182,
+            43
+          ]
+        },
+        "pdf": {
+          "left": [
+            247,
+            163,
+            36
+          ],
+          "top": [
+            253,
+            179,
+            42
+          ],
+          "right": [
+            254,
+            182,
+            43
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-191-research.json"
+    },
+    {
+      "code": 25,
+      "source_page": 27,
+      "source_set": "21269",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556015.pdf#page=27",
+      "nominal_LDraw_RGB": [
+        214,
+        121,
+        35
+      ],
+      "source_patch_medians": {
+        "left": [
+          226.0,
+          129.0,
+          43.0
+        ],
+        "top": [
+          246.5,
+          139.5,
+          44.5
+        ],
+        "right": [
+          253.0,
+          146.0,
+          47.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          226,
+          129,
+          43
+        ],
+        "top": [
+          247,
+          140,
+          45
+        ],
+        "right": [
+          253,
+          146,
+          47
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            226,
+            129,
+            43
+          ],
+          "top": [
+            247,
+            140,
+            45
+          ],
+          "right": [
+            253,
+            146,
+            47
+          ]
+        },
+        "pdf": {
+          "left": [
+            226,
+            129,
+            43
+          ],
+          "top": [
+            247,
+            140,
+            45
+          ],
+          "right": [
+            253,
+            146,
+            47
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-25-research.json"
+    },
+    {
+      "code": 19,
+      "source_page": 64,
+      "source_set": "21062",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566168.pdf#page=64",
+      "nominal_LDraw_RGB": [
+        215,
+        186,
+        140
+      ],
+      "source_patch_medians": {
+        "left": [
+          186.0,
+          167.0,
+          116.0
+        ],
+        "top": [
+          200.5,
+          182.5,
+          124.0
+        ],
+        "right": [
+          207.0,
+          187.0,
+          131.0
+        ]
+      },
+      "rendered_RGB": {
+        "left": [
+          186,
+          167,
+          116
+        ],
+        "top": [
+          201,
+          183,
+          124
+        ],
+        "right": [
+          207,
+          187,
+          131
+        ]
+      },
+      "observed_uniform_pixel_triplets": {
+        "svg": {
+          "left": [
+            186,
+            167,
+            116
+          ],
+          "top": [
+            201,
+            183,
+            124
+          ],
+          "right": [
+            207,
+            187,
+            131
+          ]
+        },
+        "pdf": {
+          "left": [
+            186,
+            167,
+            116
+          ],
+          "top": [
+            201,
+            183,
+            124
+          ],
+          "right": [
+            207,
+            187,
+            131
+          ]
+        }
+      },
+      "native_receipt": "docs/gallery/material-current-brick-19-research.json"
+    }
+  ],
+  "scope": "Painted interiors of 11 axis-aligned opaque bricks in the instruction view. These samples verify the implementation of measured colors. Independent official-image transfer results are reported separately.",
+  "recipe": "tools/compose_material_guide.py",
+  "recipe_sha256": "528cb98d7adb2ac9eeb3df6e3fc0f273c77719eafb952fb78ac55a95c46f6ed9",
+  "figures": {
+    "material-palette.svg": "327e9b8bf627a8ba827840dd463f6f04cd36504302bad66cf1e46680e09644ad",
+    "brick-face-guide.svg": "f515ae43d930bfeb92057339750c7233e466c0982e1d4c96362257d9b05aca5a"
+  }
+}

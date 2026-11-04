@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560">
+<title>faq-perspective-evidence</title>
+<rect x="0" y="0" width="1080" height="560" fill="#f5f9fc" stroke="none" stroke-width="1"/>
+<text x="28" y="40" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#173342">Perspective evidence: predict unseen stud centers</text>
+<text x="28" y="70" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526b78">Held-out RMS in original image pixels. Lower is better; thresholds are a sensitivity check.</text>
+<text x="30" y="112" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">21062 / PDF p20 / foundation</text>
+<text x="30" y="160" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#173342">Threshold 60</text>
+<rect x="150" y="143" width="262.6348130937573" height="20" fill="#567a95" stroke="none" stroke-width="1"/>
+<text x="422.6348130937573" y="160" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.906</text>
+<rect x="150" y="173" width="38.51279060650885" height="20" fill="#00897e" stroke="none" stroke-width="1"/>
+<text x="198.51279060650884" y="190" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.133</text>
+<text x="30" y="260" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#173342">Threshold 80</text>
+<rect x="150" y="243" width="253.74182485634478" height="20" fill="#567a95" stroke="none" stroke-width="1"/>
+<text x="413.7418248563448" y="260" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.875</text>
+<rect x="150" y="273" width="42.66664127371475" height="20" fill="#00897e" stroke="none" stroke-width="1"/>
+<text x="202.66664127371476" y="290" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.147</text>
+<text x="30" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#173342">Threshold 100</text>
+<rect x="150" y="343" width="251.178579751995" height="20" fill="#567a95" stroke="none" stroke-width="1"/>
+<text x="411.178579751995" y="360" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.866</text>
+<rect x="150" y="373" width="44.25429203667716" height="20" fill="#00897e" stroke="none" stroke-width="1"/>
+<text x="204.25429203667716" y="390" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.153</text>
+<text x="30" y="480" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#173342">Strong, stable projective advantage</text>
+<text x="565" y="112" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">75375 / PDF p60 / parts tray</text>
+<text x="565" y="160" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#173342">Threshold 120</text>
+<rect x="685" y="143" width="82.94311659782885" height="20" fill="#567a95" stroke="none" stroke-width="1"/>
+<text x="777.9431165978289" y="160" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.286</text>
+<rect x="685" y="173" width="51.42384381154177" height="20" fill="#00897e" stroke="none" stroke-width="1"/>
+<text x="746.4238438115418" y="190" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.177</text>
+<text x="565" y="260" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#173342">Threshold 140</text>
+<rect x="685" y="243" width="86.3345047041996" height="20" fill="#567a95" stroke="none" stroke-width="1"/>
+<text x="781.3345047041996" y="260" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.298</text>
+<rect x="685" y="273" width="57.98015300955838" height="20" fill="#00897e" stroke="none" stroke-width="1"/>
+<text x="752.9801530095584" y="290" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.200</text>
+<text x="565" y="360" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#173342">Threshold 160</text>
+<rect x="685" y="343" width="114.89174693881976" height="20" fill="#567a95" stroke="none" stroke-width="1"/>
+<text x="809.8917469388198" y="360" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.396</text>
+<rect x="685" y="373" width="101.60470513315941" height="20" fill="#00897e" stroke="none" stroke-width="1"/>
+<text x="796.6047051331594" y="390" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#173342">0.350</text>
+<text x="565" y="480" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#173342">Weak, threshold-sensitive advantage</text>
+<rect x="30" y="514" width="18" height="16" fill="#567a95" stroke="none" stroke-width="1"/>
+<text x="58" y="528" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#173342">Affine / parallel projection</text>
+<rect x="340" y="514" width="18" height="16" fill="#00897e" stroke="none" stroke-width="1"/>
+<text x="368" y="528" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#173342">Projective / perspective-compatible</text>
+</svg>

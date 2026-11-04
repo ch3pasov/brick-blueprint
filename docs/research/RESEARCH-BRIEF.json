@@ -1,0 +1,191 @@
+{
+  "preprint_version": "0.22",
+  "renderer_version": "0.6.0.dev7",
+  "full_preprint_pages": 12,
+  "reviewed_date": "2026-11-04",
+  "title": "Brick Blueprint in thirteen questions",
+  "subtitle": "Research brief 0.22 · 4 November 2026",
+  "source_hashes": {
+    "docs/ANGULAR-MATERIALS.md": "c7e34474961a1d4a7ff5e528804580cc70d89bff71386ae5c97b2f0910c94eb7",
+    "docs/CAMERA-PRESETS.md": "fd9cb4784c743a67b2af8d0c24e98a8fdde84ec5adb8c94162f3d7e73a9b3d69",
+    "docs/COLOR-LAW.md": "665ecf0ca095f101628f36e8ed38363ced485f3bad3ef49781612a593333a133",
+    "docs/FAQ.md": "fdb93989e6e4bc9c5f81728e2f3e1740054a7383c2390f320ade8aec2bdc0c64",
+    "docs/FONT-MEASUREMENTS.json": "50e289ac68d2c728a56e64819d26022996c679b9862810c8ac5d162f1833e9df",
+    "docs/FONT-STUDY.md": "f6822aa6c4d596c5aed16789b8c8c0a2cb60efdcada4852aff4fa0aff7cc0bcd",
+    "docs/LDRAW-COLOR-TRANSFER.md": "4332cd078b5752e08a888d3c85ef49f502a65f10f1ab7aa72c63c3194f15667d",
+    "docs/MATERIAL-PROFILES.md": "1bfa68f61ae1a6c3a765ad47cb10b0590a135152b0222bb0eb1aa9816dfeb1eb",
+    "docs/MATERIALS-AND-EMPHASIS.md": "1d8a615b4cea4c3924909b7b4b5826a76d1e67f9d4337c2494f86a9f0042dc10",
+    "docs/PRESETS.md": "11b53f1000e1788dae85641db154692c79f3c0bea820c3793cb0824237e6e5e1",
+    "docs/RESEARCH-PREPRINT.md": "5e798359cf1e4a2ad6aa8a651caab6d1c68b1f59cc2232b7e30eb9b656681ff0",
+    "docs/research/COLOR-LAW-RESULTS.json": "04a7bd7cbae0e8a54e1ffcc23ca55315b51ffa610731e3da5896c40497a73ff8",
+    "docs/research/LDRAW-TRANSFER-RESULTS.json": "9063a9ab73cb2bf0e689d6bb7247ae12d518335d834a4f64e373defb39c768a8",
+    "docs/research/NEW-COLOR-HOLDOUT.json": "cd7917a5f03ea8297e9b373f5cd75277640fd627f3a9585cdd2c847647d63bea",
+    "docs/research/PERSPECTIVE-RESULTS.json": "69b58666e2ca229b23c7c67642c4c582879ce4a37178389d317fc567f91d8570",
+    "docs/research/PALETTE-HOLDOUT-2025.json": "ee459c9ee563f86d698de6253df81a4609e587f28d575206f86275270fff4021",
+    "docs/research/PALETTE-HOLDOUT-CHECKS.json": "d73bdd18ac8c34a4c2244fce2cda947ab3ec7c651c0a7d4e6eda1a976a967ae6",
+    "docs/research/PREPRINT-SECTIONS.json": "a432b4ed3202783e51ca7829a58aef2928a232d0613b2a1a62afabb80ce0e3e0",
+    "docs/research/COLOR-SPACE-TRANSFER.json": "1199b91ea82c609dcd3b2610a2afd6541f19e1333aede6d7e35ad44e9bffea74",
+    "docs/research/FACE-LAW-17.json": "f966c06815a079a89e9aae52f57ad6205f9573031e8b5016e6edc1efb21dcc2d",
+    "docs/CAMERA-PVALUES.md": "67a6079fbb7117789a10bafe2d3f12e689861f97cd36e8d91250b6c2963577d2",
+    "docs/research/CAMERA-PVALUES.json": "828a6fcc0d0a3621be7f4206f2acb82bc7bdd3829110f5d91d17bc09125a7a82",
+    "docs/research/CAMERA-PVALUES-CHECKS.json": "8809dc00e1b14db4c1e384b1cff1532298f1f9e7ddd091c6baa00f1024d97495"
+  },
+  "questions": [
+    {
+      "id": "projection",
+      "question": "Which projection fits the assemblies?",
+      "answer": "Perspective predicted held-out studs better in all 13 large views from 12 sets. On individual pieces its effect can be small.",
+      "doc": "RESEARCH-PREPRINT.md",
+      "reference": "Projection study",
+      "preprint_sections": [
+        "projection"
+      ],
+      "section_label": "Projection study",
+      "paper_heading": "1-perspective"
+    },
+    {
+      "id": "face-law",
+      "question": "Can one face predict the others?",
+      "answer": "For each measured left-face channel L, top ≈ min(255, 1.08 × L) and right ≈ min(255, 1.1144 × L). Across 17 colors, leaving one color out gave mean absolute errors of 1.56 and 1.22 RGB levels per channel.",
+      "doc": "COLOR-LAW.md",
+      "reference": "Face-color law",
+      "preprint_sections": [
+        "face-law"
+      ],
+      "section_label": "Face-color law",
+      "paper_heading": "3-from-a-nominal-color-to-a-printed-face"
+    },
+    {
+      "id": "ldraw-transfer",
+      "question": "Can nominal LDraw RGB predict all three faces?",
+      "answer": "None of the tested conversions met the accuracy target. Mean error reached 15.75 RGB on 13 omitted colors and 17.75 on four new materials. The renderer uses measured face values for eleven materials.",
+      "doc": "LDRAW-COLOR-TRANSFER.md",
+      "reference": "Palette study",
+      "preprint_sections": [
+        "ldraw-transfer"
+      ],
+      "section_label": "Palette study",
+      "paper_heading": "3-from-a-nominal-color-to-a-printed-face"
+    },
+    {
+      "id": "camera",
+      "question": "Which camera should I use?",
+      "answer": "The instruction preset uses a 35° azimuth, 35° elevation and 2° vertical field of view. Try instruction-depth at 5° for stronger depth. Two brick images support the working direction.",
+      "doc": "CAMERA-PRESETS.md",
+      "reference": "Camera recipes",
+      "preprint_sections": [
+        "camera"
+      ],
+      "section_label": "Camera recipes",
+      "paper_heading": "camera-recipes"
+    },
+    {
+      "id": "theme-colors",
+      "question": "Does part color change with the theme?",
+      "answer": "Eight recurring sloped elements differed by at most one RGB level between the sampled books. The paper behind the parts can change considerably.",
+      "doc": "ANGULAR-MATERIALS.md",
+      "reference": "Cross-book controls",
+      "preprint_sections": [
+        "theme-colors"
+      ],
+      "section_label": "Cross-book controls",
+      "paper_heading": "inclined-faces-and-transparent-parts"
+    },
+    {
+      "id": "slopes",
+      "question": "How do sloped faces get their colors?",
+      "answer": "The optional research-angular profile interpolates between measured directions. It passed eight prospective controls on two further geometries. Other orientations remain open.",
+      "doc": "ANGULAR-MATERIALS.md",
+      "reference": "Inclined faces",
+      "preprint_sections": [
+        "slopes"
+      ],
+      "section_label": "Inclined faces",
+      "paper_heading": "inclined-faces-and-transparent-parts"
+    },
+    {
+      "id": "scale",
+      "question": "Are the parts at a shared scale?",
+      "answer": "Two measured plates agree with a common scale. In a separate life-size guide the measured hole pitch was 8.009 mm against a nominal 8 mm. Print at actual size.",
+      "reference": "Scale measurements",
+      "doc": "FAQ.md",
+      "preprint_sections": [
+        "scale"
+      ],
+      "section_label": "Scale measurements",
+      "paper_heading": "4-printed-pages-shared-scale-and-type"
+    },
+    {
+      "id": "color-space",
+      "question": "Which color space do the books use?",
+      "answer": "Recent sampled image objects carry sRGB. Older Creator images from 2016 include CMYK with ISO Coated v2. Color space is a property of the individual PDF object.",
+      "reference": "Color profiles",
+      "doc": "FAQ.md",
+      "preprint_sections": [
+        "color-space"
+      ],
+      "section_label": "Color profiles",
+      "paper_heading": "4-printed-pages-shared-scale-and-type"
+    },
+    {
+      "id": "paper",
+      "question": "How do the parts panels vary?",
+      "answer": "Fifteen presets describe a sample of 38 books. Edition and panel role matter within a theme. Measured borders span roughly 0.5–2 pt and include square, rounded and clipped corners.",
+      "doc": "PRESETS.md",
+      "reference": "Page presets",
+      "preprint_sections": [
+        "paper"
+      ],
+      "section_label": "Page presets",
+      "paper_heading": "4-printed-pages-shared-scale-and-type"
+    },
+    {
+      "id": "ink-glass",
+      "question": "Can we recover ink width and glass opacity?",
+      "answer": "The pictures show light outlines on dark pieces and milky glass. Flattening, pixel size and the underlying background prevent a unique estimate of source stroke width or opacity here.",
+      "doc": "MATERIALS-AND-EMPHASIS.md",
+      "reference": "Ink and glass",
+      "preprint_sections": [
+        "ink-glass"
+      ],
+      "section_label": "Ink and glass",
+      "paper_heading": "inclined-faces-and-transparent-parts"
+    },
+    {
+      "id": "fonts",
+      "question": "Which fonts match the quantity labels?",
+      "answer": "Six inspected label runs used 8 pt type. Of four freely available families examined, Outfit Bold was closest to LEGOChalet60-Bold, and Jost Medium to CeraPro-Medium.",
+      "reference": "Type specimens",
+      "doc": "FONT-STUDY.md",
+      "preprint_sections": [
+        "fonts"
+      ],
+      "section_label": "Type specimens",
+      "paper_heading": "4-printed-pages-shared-scale-and-type"
+    },
+    {
+      "id": "statistics",
+      "question": "Do the observed bricks agree with 35°/35°?",
+      "answer": "Joint tests of both angles gave bootstrap p = 0.943 (11038) and 0.640 (11037), conditional on independent Gaussian corner errors. Two images support a working direction.",
+      "doc": "CAMERA-PVALUES.md",
+      "reference": "Angle test",
+      "preprint_sections": [
+        "statistics"
+      ],
+      "section_label": "Angle test",
+      "paper_heading": "testing-the-35-direction"
+    },
+    {
+      "id": "comparison",
+      "question": "How does it compare with LDView?",
+      "answer": "The camera comparison aligns geometry, viewpoint and frame. Our measured palette gave 1.01 RGB mean face-patch error on twelve held-out images. Overall visual similarity requires a separate test.",
+      "doc": "MATERIAL-PROFILES.md",
+      "reference": "Material validation",
+      "preprint_sections": [
+        "comparison"
+      ],
+      "section_label": "Material validation",
+      "paper_heading": "6-comparison-with-ldview"
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "profile_id": "measured-srgb-reference-v3",
+  "data_file": "docs/THREE-FACE-SHADING.json",
+  "data_sha256": "77f5935ea90149671617af98d93c0e7ed4a556a7390960b6d900350f8e378609",
+  "scope": "14 source images, ten opaque visual colors, six books; one common brick pose",
+  "coordinate_rule": "abs(world normal X/Y/Z) weights left/top/right anchors; +X is left and +Z right in the reference positive-X/positive-Z camera quadrant",
+  "interpolation_status": "convex encoded-RGB illustration interpolation, not a recovered light law",
+  "other_faces_status": "opposite faces share absolute-axis weights; their lighting is unmeasured",
+  "upper_stud_cap_status": "uses the planar-top anchor; two Classic2024 source cases agree within one RGB level in cap/plane medians; other materials unmeasured",
+  "stud_wall_reference": {
+    "data_file": "docs/research/STUD-SURFACE-STUDY.json",
+    "data_sha256": "80fc608aa5c72a6604dd2db083dd4d0d20e53639476d03edd2443217305a5e37",
+    "reference_RGB": [
+      16,
+      16,
+      16
+    ],
+    "scope": "Opaque vertical standard studs in two Classic2024 books; no universal theme or transparent/sideways calibration",
+    "transparent_or_sideways_RGB": [
+      7,
+      7,
+      7
+    ]
+  },
+  "unmeasured_colors": "nominal supplied library RGB, without fitted shading",
+  "transparent_colors": "nominal supplied library RGB and existing shell approximation",
+  "bindings": [
+    {
+      "ldraw_color": 72,
+      "ldraw_name": "Dark_Bluish_Grey",
+      "source_visual_label": "dark gray",
+      "observation_id": 0,
+      "catalogue_element_association": "4211060",
+      "source_set": "11037",
+      "source_page": 18,
+      "source_image": "X5.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497651.pdf",
+      "source_pdf_sha256": "1eae62ea786d29fe43479f19e138812335a19e5235f44766faf5c23d8b769c95",
+      "source_image_sha256": "3d478c46aaec330758e1da302cf170fa73f7d724629301522796c2118053abdd",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          105.0,
+          105.0,
+          105.0
+        ],
+        "top": [
+          113.0,
+          113.0,
+          113.0
+        ],
+        "right": [
+          117.0,
+          117.0,
+          117.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 14,
+      "ldraw_name": "Yellow",
+      "source_visual_label": "yellow",
+      "observation_id": 1,
+      "catalogue_element_association": "300324",
+      "source_set": "11037",
+      "source_page": 27,
+      "source_image": "X2.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497651.pdf",
+      "source_pdf_sha256": "1eae62ea786d29fe43479f19e138812335a19e5235f44766faf5c23d8b769c95",
+      "source_image_sha256": "ff1e5490e3434d95151cd542b5b1104b32641ae2f3a44189434f3d9cbfc5d903",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          253.0,
+          202.0,
+          1.0
+        ],
+        "top": [
+          253.5,
+          218.0,
+          1.5
+        ],
+        "right": [
+          255.0,
+          226.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 71,
+      "ldraw_name": "Light_Bluish_Grey",
+      "source_visual_label": "light gray",
+      "observation_id": 18,
+      "catalogue_element_association": "4211387",
+      "source_set": "31168",
+      "source_page": 130,
+      "source_image": "X5.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592820.pdf",
+      "source_pdf_sha256": "87c9dee34cb254d503c2aa7b9c8c18105e45dc5251f4a371f0e4ba6325f62376",
+      "source_image_sha256": "931dee5b7f3a859fd5fc8a0e85e05d0a161ddd0d391a4f13bb0d6f5d96e094dd",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          152.0,
+          152.0,
+          152.0
+        ],
+        "top": [
+          164.0,
+          164.0,
+          164.0
+        ],
+        "right": [
+          170.0,
+          170.0,
+          170.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 0,
+      "ldraw_name": "Black",
+      "source_visual_label": "black",
+      "observation_id": 20,
+      "catalogue_element_association": "300326",
+      "source_set": "21270",
+      "source_page": 42,
+      "source_image": "X3.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf",
+      "source_pdf_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "source_image_sha256": "02f5b551c9fac4bc5d125939d665567f40b61c1ecc1c64351cd8e1042a4e9d12",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          43.0,
+          43.0,
+          43.0
+        ],
+        "top": [
+          46.0,
+          46.0,
+          46.0
+        ],
+        "right": [
+          48.0,
+          48.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 15,
+      "ldraw_name": "White",
+      "source_visual_label": "white",
+      "observation_id": 21,
+      "catalogue_element_association": "300301",
+      "source_set": "21270",
+      "source_page": 43,
+      "source_image": "X2.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf",
+      "source_pdf_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "source_image_sha256": "6fd03020f5b4efe445a67f9518b513b28a4db70c7f5f75cc02c87ae9e15e160d",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          222.0,
+          223.0,
+          225.0
+        ],
+        "top": [
+          237.0,
+          238.0,
+          240.0
+        ],
+        "right": [
+          245.0,
+          246.0,
+          248.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 4,
+      "ldraw_name": "Red",
+      "source_visual_label": "red",
+      "observation_id": 22,
+      "catalogue_element_association": "300321",
+      "source_set": "21270",
+      "source_page": 47,
+      "source_image": "X3.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf",
+      "source_pdf_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "source_image_sha256": "75ff41b92c0bc7178670ad0209e5aeb1c644f31f453b771306779b0aa789d538",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          190.0,
+          2.0,
+          1.0
+        ],
+        "top": [
+          205.5,
+          0.0,
+          4.0
+        ],
+        "right": [
+          210.0,
+          0.0,
+          2.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 28,
+      "ldraw_name": "Dark_Tan",
+      "source_visual_label": "dark tan",
+      "observation_id": 23,
+      "catalogue_element_association": "4255416",
+      "source_set": "21270",
+      "source_page": 69,
+      "source_image": "X2.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf",
+      "source_pdf_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "source_image_sha256": "8292d5ac192bc2502b842c7f9705fac39301f765c3fea47f1e64e28c3b776cfa",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          141.0,
+          124.0,
+          99.0
+        ],
+        "top": [
+          152.0,
+          135.5,
+          112.5
+        ],
+        "right": [
+          156.0,
+          139.0,
+          114.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 70,
+      "ldraw_name": "Reddish_Brown",
+      "source_visual_label": "brown",
+      "observation_id": 25,
+      "catalogue_element_association": "4211210",
+      "source_set": "11038",
+      "source_page": 21,
+      "source_image": "X2.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+      "source_pdf_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+      "source_image_sha256": "170bd4e021a2c187efc815c0970655799720d6b49bf849a0b35ba950c32fbf46",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          80.0,
+          38.0,
+          18.0
+        ],
+        "top": [
+          90.5,
+          40.0,
+          15.5
+        ],
+        "right": [
+          91.0,
+          43.0,
+          19.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 191,
+      "ldraw_name": "Bright_Light_Orange",
+      "source_visual_label": "yellow orange",
+      "observation_id": 30,
+      "catalogue_element_association": "6295078",
+      "source_set": "11038",
+      "source_page": 44,
+      "source_image": "X2.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+      "source_pdf_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+      "source_image_sha256": "6f5c9f606c62238dcf41f67114389389a0af007f6a1960107e7e6effc372279b",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          247.0,
+          163.0,
+          36.0
+        ],
+        "top": [
+          253.0,
+          179.0,
+          42.0
+        ],
+        "right": [
+          254.0,
+          182.0,
+          43.0
+        ]
+      }
+    },
+    {
+      "ldraw_color": 25,
+      "ldraw_name": "Orange",
+      "source_visual_label": "orange",
+      "observation_id": 38,
+      "catalogue_element_association": "4153825",
+      "source_set": "21269",
+      "source_page": 27,
+      "source_image": "X2.jpg",
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556015.pdf",
+      "source_pdf_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "source_image_sha256": "021328bf7d40d20da0340d928e8c1b3e6ed3609fa1bda30c48f2e087678824b0",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "anchor_RGB": {
+        "left": [
+          226.0,
+          129.0,
+          43.0
+        ],
+        "top": [
+          246.5,
+          139.5,
+          44.5
+        ],
+        "right": [
+          253.0,
+          146.0,
+          47.0
+        ]
+      }
+    }
+  ]
+}

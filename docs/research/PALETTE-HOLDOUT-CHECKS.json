@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": 372,
+  "failed": [],
+  "nominal_gate": false,
+  "face_law_gates": {
+    "top": {
+      "all81_pass": true,
+      "MAE_range": [
+        1.1614313114385746,
+        2.3494660808551795
+      ],
+      "maximum_channel": 6.339318216016466
+    },
+    "right": {
+      "all81_pass": true,
+      "MAE_range": [
+        0.9781349606332755,
+        1.6826151886366592
+      ],
+      "maximum_channel": 4.432558503851482
+    }
+  },
+  "historical_nested_recomputed": true,
+  "scope": "Replay the frozen four-material test without official artwork.\n\nChecks numeric data flow, prior model identity, every held-out color, and all\n81 separately varied input/target ROI shifts. Source extraction and identity have\nseparate private evidence hashes; this tool does not claim to repeat them.\n"
+}

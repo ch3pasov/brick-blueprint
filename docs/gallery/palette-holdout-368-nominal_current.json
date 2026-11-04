@@ -1,0 +1,517 @@
+{
+  "model_sha256": "a73b984b6bfb101e442141ad4c661aa772728b95eb9c61320823ce391c1454d2",
+  "model_structure": {
+    "format": "ldr",
+    "root": null,
+    "declared_submodels": 0,
+    "used_submodels": [],
+    "expanded_parts": 1,
+    "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+  },
+  "parts": 1,
+  "triangles": 316,
+  "lines": 228,
+  "conditional_edges_shown": 12,
+  "scene_sha256": "dde80c4dab9a0bedb0860bb19ce3a4529cba26dcac7668874c120968ee7fe42e",
+  "page_points": [
+    300,
+    240
+  ],
+  "points_per_ldu": 3.688186080832746,
+  "line_width_points": 0.4,
+  "camera": {
+    "projection": "perspective",
+    "model": "pinhole",
+    "field_of_view_vertical_degrees": 2.0,
+    "focal_length_points": 6874.7953956911315,
+    "distance_ldu": 1864.0044848656034,
+    "target_ldu": [
+      -1.3322676295501878e-15,
+      12.0,
+      -2.6645352591003757e-15
+    ],
+    "position_ldu": [
+      875.7956297700231,
+      -1057.1490497715804,
+      1250.7657829695133
+    ],
+    "principal_point_points": [
+      150.0,
+      120.0
+    ],
+    "near_clip_ldu": 0.1,
+    "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+    "right": [
+      -0.8191520442889919,
+      0.0,
+      0.5735764363510462
+    ],
+    "down": [
+      0.32898992833716567,
+      0.8191520442889917,
+      0.4698463103929542
+    ],
+    "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+    "scale_definition": "points per LDU at the camera target plane",
+    "fit": "camera distance only; no post-projection scale or warp",
+    "near_plane_policy": "reject crossing geometry; no model slicing",
+    "field_of_view_status": "tool setting, not a recovered LEGO constant",
+    "azimuth": 35.0,
+    "elevation": 35.0,
+    "direction": [
+      0.4698463103929542,
+      -0.5735764363510462,
+      0.6710100716628344
+    ],
+    "preset": {
+      "name": "instruction",
+      "revision": 1,
+      "settings": {
+        "projection": "perspective",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "field_of_view": 2.0
+      },
+      "overrides": {},
+      "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+      "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+    }
+  },
+  "glass_opacity_override": null,
+  "detail_filter": {
+    "rule": "paired_shallow_concave_annular_detail_v1",
+    "parameters": {
+      "minimum_segments": 8,
+      "minimum_arc_degrees": 180,
+      "max_relative_band_width": 0.15,
+      "max_band_width_points": 1.5,
+      "minimum_crease_degrees": 5,
+      "maximum_crease_degrees": 50,
+      "coordinate_weld_LDU": 0.001,
+      "circle_bucket_LDU": 0.1,
+      "circle_residual_LDU": 0.0035,
+      "incidence_tolerance_LDU": 0.002,
+      "preserve_any_transparent_root": true,
+      "preserve_every_conditional_line": true,
+      "preserve_material_boundaries_and_explicit_lines": true,
+      "preserve_silhouette_pairs": true
+    },
+    "points_per_ldu": 3.748424323078346,
+    "scale_kind": "perspective Jacobian upper bound",
+    "view_direction": "per edge midpoint",
+    "input_lines": 312,
+    "removed_hard_segments": 0,
+    "output_lines": 312,
+    "pairs": [],
+    "circular_groups": [
+      {
+        "root_index": 0,
+        "circles": [
+          {
+            "centre": [
+              2.211772431870429e-16,
+              24.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999983
+          },
+          {
+            "centre": [
+              1.1783109210572462e-15,
+              24.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000017
+          },
+          {
+            "centre": [
+              2.211772431870429e-16,
+              4.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999983
+          },
+          {
+            "centre": [
+              1.1783109210572462e-15,
+              4.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000017
+          },
+          {
+            "centre": [
+              -10.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -10.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              10.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              10.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -10.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -10.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              10.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              10.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          }
+        ]
+      }
+    ],
+    "preservation_counts": {},
+    "surface_triangles_unchanged": true,
+    "conditional_lines_never_removed": true,
+    "no_design_instance_colour_id_or_ROI_selectors": true
+  },
+  "dependencies": [
+    {
+      "file": "ldraw/p/4-4cyli.dat",
+      "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4disc.dat",
+      "sha256": "a00b5547776f61a7389d303616987c76b3c4de86ad8ec32f22857e1bd5e5e40f",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4edge.dat",
+      "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4ring3.dat",
+      "sha256": "1f2835ac308154edc2d6f479d8e742a55be981f6167b20bfa100c195bc0731dd",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/box3u2p.dat",
+      "sha256": "df73118b95f23d693c3b7d25c57c483db3bf61ae017d757848119955d28d59e0",
+      "authors": [
+        "Author: Niels Karsdorp [nielsk]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/box5.dat",
+      "sha256": "ccb7b8a1d36692335b10ea6aa196849afcad4b15331683ed8112a10b50977318",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stud.dat",
+      "sha256": "db037d518d7c08bcdc1f0e7497f4f98e97d99850531dd62d602965520f3bf8f4",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stud4.dat",
+      "sha256": "871cdcab26e7f5113488a24c453d6fabda75b275b06de592e0bfaad4292c12a3",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stug-2x2.dat",
+      "sha256": "16114159ea25719341a852d5403dc9982a6211f2fcb23f5c4c3eac05a2ad43f7",
+      "authors": [
+        "Author: Steffen [Steffen]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/parts/3003.dat",
+      "sha256": "aed0ccd750126a58d38b012a4e8b16c172896339547c120ef67b69e1386f490d",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/parts/s/3003s01.dat",
+      "sha256": "58f0af5b23ccd2bf3b7569a1b6de0b62cb1ae95520994ba7aa0b37c35b2a8744",
+      "authors": [
+        "Author: Steffen [Steffen]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/parts/s/3003s02.dat",
+      "sha256": "ceb77e4263964fc1658630d9533118d8feeddf2aeb7d0a1116c6e5bc2318a92f",
+      "authors": [
+        "Author: Owen Burgoyne [C3POwen]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    }
+  ],
+  "library_config": {
+    "file": "ldraw/LDConfig.ldr",
+    "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+    "authors": [
+      "Author: LDraw.org"
+    ],
+    "licenses": []
+  },
+  "style_sha256": "c796bbad7ee48d39b44f541a7b300e7f79fc68e8328e0703357ecdb0d457d50e",
+  "materials": {
+    "config_sha256": "c796bbad7ee48d39b44f541a7b300e7f79fc68e8328e0703357ecdb0d457d50e",
+    "family": "Brick Blueprint measured sRGB reference v4",
+    "coverage": [
+      {
+        "nominal_colour": 368,
+        "feature": "body",
+        "confidence": "Frozen formula output; primary color never in fitting. Measured-left variant explicitly requires observed left input.",
+        "triangles": 28
+      },
+      {
+        "nominal_colour": 368,
+        "feature": "stud_cap_or_ring",
+        "confidence": "Frozen formula output; primary color never in fitting. Measured-left variant explicitly requires observed left input.",
+        "triangles": 96
+      },
+      {
+        "nominal_colour": 368,
+        "feature": "stud_cylinder_wall",
+        "confidence": "bounded opaque vertical stud reference; two Classic2024 books plus new-color holdout",
+        "triangles": 192
+      }
+    ],
+    "fallback_colours": [],
+    "source_pixel_inputs": false,
+    "instance_selectors": false,
+    "step_material_fade": false,
+    "profile": "custom",
+    "counts_scope": "submitted triangles, not visible area",
+    "usage": {
+      "legacy_stud_wall_convention": 192,
+      "axis_anchor": 124
+    }
+  },
+  "version": "0.6.0.dev7",
+  "execution": {
+    "python_version": "3.12.14",
+    "python_implementation": "CPython",
+    "system": "Darwin",
+    "machine": "arm64",
+    "compiler": "clang++",
+    "compiler_version": "Apple clang version 21.0.0 (clang-2100.4.1.1)",
+    "native_source_sha256": "d9039938857e9cd7b4ed748efe74934336d1ccc348f4c248bfe3f4f0048a2895",
+    "package_source_sha256": "8c3e051a9f18f14bddda66a5942e4577e889aac2d9dbb91b5ab78603c5a2651c",
+    "package_source_files": 46,
+    "native_cache_key": "3c075ed181d3b7210278",
+    "native_binary_sha256": {
+      "vector": "feb7ae908bb5d537ec3572b69d5210af91cc6c48b059169bc8f63768ec29b37f",
+      "union": "be467ff4914a4fa3e2a38f45ca8e1764ae479cf8dc68fbdae0883607b2100271"
+    }
+  },
+  "optimization": {
+    "input_vertices": 7857,
+    "output_vertices": 5972,
+    "output_polygons": 969,
+    "independent_winding_probes": 500,
+    "probe_mismatches": 0,
+    "coordinate_quantum_micro_px": 1000,
+    "seconds": 0.0103695
+  },
+  "pdf": {
+    "PDF_version": "1.4",
+    "pages": 1,
+    "vector_Form_XObjects": 0,
+    "ExtGState_alphas": 0,
+    "image_XObjects": 0,
+    "image_tags_in_SVG": 0,
+    "embedded_raster_payloads": 0,
+    "SVG_sha256": "6cb7197a2c143ed6a8c5c1fb62ee5fd8330685cd17d3e2e201291c9208abfabe",
+    "PDF_sha256": "b1b3277e4e4adfe98858a25ceebf3332fc5c7a6988ce4bc0edfe416a84440fb8",
+    "PDF_bytes": 15958,
+    "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+    "color_export": {
+      "mode": "rgb",
+      "input_color_assumption": "sRGB",
+      "conversion": "unchanged RGB",
+      "unique_source_colors": 6
+    },
+    "page_points": [
+      300.0,
+      240.0
+    ]
+  },
+  "limits": [
+    "Illustration only; projection is recorded in camera, not physical assembly validation.",
+    "Object-opacity shell approximation; no refraction or light simulation.",
+    "Assembly-only MPD; embedded custom geometry, TEXMAP and model INVERTNEXT are rejected."
+  ]
+}

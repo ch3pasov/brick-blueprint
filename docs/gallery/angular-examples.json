@@ -1,0 +1,410 @@
+{
+  "version": "0.6.0.dev6",
+  "recipe_sha256": "5f813f4b0ea50633a2a952038135e466e9ee3b83b13c51987a3b0e1552bf5f05",
+  "scope": "Matched own geometry/cameras. Official source cameras are not fitted here. No source images bundled.",
+  "rows": [
+    {
+      "id": "white-low",
+      "label": "18.435 degree white slope",
+      "part": "60477",
+      "color": 15,
+      "yaw": 270,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 8593.494244613914,
+        "distance_ldu": 1912.7352003166245,
+        "target_ldu": [
+          27.305072276521226,
+          15.289899283371655,
+          -3.8487556566002907
+        ],
+        "position_ldu": [
+          925.9966489040154,
+          -1081.8099405974424,
+          1279.615828179884
+        ],
+        "principal_point_points": [
+          225.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1886.0840943115759,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "cf48b924a303ac9f6796d935b7cc230f63a15168e133ac0d5f4bce7fa7bf3240",
+      "renders": {
+        "research": {
+          "folder": "white-low-research",
+          "receipt_sha256": "70af8f6b13b1fb3c62529cd11205477b4634322cbfc61ae828e8371c109ef16d",
+          "PDF_sha256": "77fef5faa81e8f3ade6323e74a0e736dae3366f3e4c7e6e9fe61233e70985c73",
+          "SVG_sha256": "4ab35c39277e0cdedc1930e3cff522ad0c0643906cb6fd7dee8142c73ab24361"
+        },
+        "research-angular": {
+          "folder": "white-low-research-angular",
+          "receipt_sha256": "1d7c1cc822f3a4f5ce2ffdb41713a43283f851db218e73ece88d8f909fbb4861",
+          "PDF_sha256": "45f84562f47cf06a2028f79f0bfae8294d260622558d11dddb01862d51ccc3fd",
+          "SVG_sha256": "fae77ed2c7ca85238eb5c4127a1d4024e84fe2490c3aaf709396d506279646b9"
+        }
+      }
+    },
+    {
+      "id": "gray-low",
+      "label": "18.435 degree light gray slope",
+      "part": "60477",
+      "color": 71,
+      "yaw": 270,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 8593.494244613914,
+        "distance_ldu": 1912.7352003166245,
+        "target_ldu": [
+          27.305072276521226,
+          15.289899283371655,
+          -3.8487556566002907
+        ],
+        "position_ldu": [
+          925.9966489040154,
+          -1081.8099405974424,
+          1279.615828179884
+        ],
+        "principal_point_points": [
+          225.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1886.0840943115759,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "3cce16b2653ba1bc0554a9fd869b9aaafcbc6ea032df8eff41d6de18c7025d40",
+      "renders": {
+        "research": {
+          "folder": "gray-low-research",
+          "receipt_sha256": "eb0747a0f13e6b1ab247bd42dbe1e5da3aa2427ce65191c1ee7b26ce63a23b6a",
+          "PDF_sha256": "2f6940d3bd3937a1d202ec234499db8bb08013b18ee877eb28b0449af6e03908",
+          "SVG_sha256": "6efc017c0f5cab88783827d361124b78cdf1980eef6b9f3af72f0e0d1b6d73f7"
+        },
+        "research-angular": {
+          "folder": "gray-low-research-angular",
+          "receipt_sha256": "77a16cdc33b8e4539f0dba193dd5e3003780c4c7b3f22ba59b73fbfdf0beb2a0",
+          "PDF_sha256": "644cebe7c11c1d18941235ebb8f7d493b332b51eb8a3fb92ac7f619dadcb2710",
+          "SVG_sha256": "d09673ff215ef80077ef6565a2c7e7a6ccd0274f3e2ef6614784e4122fd6178e"
+        }
+      }
+    },
+    {
+      "id": "white-shallow",
+      "label": "30.964 degree white slope",
+      "part": "85984",
+      "color": 15,
+      "yaw": 270,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 8593.494244613914,
+        "distance_ldu": 1263.7393882895992,
+        "target_ldu": [
+          -1.4346163263918368,
+          -6.07205128580673,
+          -2.0488444469761964
+        ],
+        "position_ldu": [
+          592.3286725597253,
+          -730.9231860974061,
+          845.9330130523743
+        ],
+        "principal_point_points": [
+          225.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1244.7603590978865,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "5f84d82e4a980e36da839dc6ffa058e25f2d3420704144b3f8ea4afb6875f258",
+      "renders": {
+        "research": {
+          "folder": "white-shallow-research",
+          "receipt_sha256": "400e4ca0287c8913fc8d1a86a92ad2af32f3df1b50968a6b7d8667d2611664e4",
+          "PDF_sha256": "af5fb2b7412bd0f780c1471fee1a9d617de4e52e274127b9390755c4488a0cc1",
+          "SVG_sha256": "d2a6fb3589725b8b517344334229a344c2cbd75f08cf6e39399d4ccd12714ac7"
+        },
+        "research-angular": {
+          "folder": "white-shallow-research-angular",
+          "receipt_sha256": "1af35368c43498dcd0c4544bef7b45e3c1d3b1181daea0646354deb6906664be",
+          "PDF_sha256": "d36ff6cb353308517d786d028ebc165e7fdd94ed3f9c44f805ae7754f24d4b80",
+          "SVG_sha256": "f6c53e3d2cc70b9c6e4700e19fb2df8aa1e1f4e5ca98489d863f570728e69ea6"
+        }
+      }
+    },
+    {
+      "id": "brown-steep",
+      "label": "65.556 degree brown slope",
+      "part": "3678b",
+      "color": 70,
+      "yaw": 270,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 8593.494244613914,
+        "distance_ldu": 2444.233672717877,
+        "target_ldu": [
+          7.792444446101279,
+          26.69492772347878,
+          -3.1527160640729512
+        ],
+        "position_ldu": [
+          1156.2066173108153,
+          -1375.2599118832707,
+          1636.9526958270628
+        ],
+        "principal_point_points": [
+          225.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 2412.349173708266,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "bdf80dae79233e7c7231048f06125f3d1654faa8e87edff5370d3dbe4d8ff6f9",
+      "renders": {
+        "research": {
+          "folder": "brown-steep-research",
+          "receipt_sha256": "e3737c6d9e5fa280a50164d687d26041227de066b0dd0fa7461c7f0db599e3de",
+          "PDF_sha256": "d6abfc9541f6d83cb64645aaa86591bfebdda0b9d3606ad628a064b2a53fc35b",
+          "SVG_sha256": "47e97cfed509b6b10f34fcba3faa7fbed0377528da9829d651642a7a9e65355a"
+        },
+        "research-angular": {
+          "folder": "brown-steep-research-angular",
+          "receipt_sha256": "068649429499efc995ad5e3614fb03d0d135a2e478f357ff72171f05d11f113b",
+          "PDF_sha256": "ec643302bf5c215ed8ab814a1f1c6d321d08d58789537868816213de42440ce3",
+          "SVG_sha256": "6c16d6ecd2d0e4b3e3e68e48e02636254c43ecc0531c02426da2c7e4295e1a62"
+        }
+      }
+    },
+    {
+      "id": "white-steep",
+      "label": "65.556 degree white slope",
+      "part": "3678b",
+      "color": 15,
+      "yaw": 270,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 8593.494244613914,
+        "distance_ldu": 2444.233672717877,
+        "target_ldu": [
+          7.792444446101279,
+          26.69492772347878,
+          -3.1527160640729512
+        ],
+        "position_ldu": [
+          1156.2066173108153,
+          -1375.2599118832707,
+          1636.9526958270628
+        ],
+        "principal_point_points": [
+          225.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 2412.349173708266,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "74073cbd7df9e0a8dae93e522bef2a839c041c9abe063107fe2aaacf6497360d",
+      "renders": {
+        "research": {
+          "folder": "white-steep-research",
+          "receipt_sha256": "7705a606598809d88d24580d8a9ee834428a140d3c82b2bc7758a733634030ae",
+          "PDF_sha256": "d1c5ae5b28e9607b25d851830ad2b0bb25e9e14e9e68e65f8ce29f14ecb8ef43",
+          "SVG_sha256": "2b4d4133d16b92ace964a70263771ef7c50e0dd0973037ae7c0b8deb5dee94ef"
+        },
+        "research-angular": {
+          "folder": "white-steep-research-angular",
+          "receipt_sha256": "7c5a2d4d7d0cac28414fcb7cfcf9897a32393cc199fc9132b61d32db964d47b2",
+          "PDF_sha256": "9836f7e6f2d7ebc5bdbb8ff23416cb0d25cfb95b80705519eaf5d1bc2a384c02",
+          "SVG_sha256": "ee46126d286310382d23e7306264d17e0a74780f0fb2ba8930bbd891d908c4ab"
+        }
+      }
+    },
+    {
+      "id": "white-right",
+      "label": "18.435 degree right-facing slope",
+      "part": "30363",
+      "color": 15,
+      "yaw": 180,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 8593.494244613914,
+        "distance_ldu": 2436.0494160402886,
+        "target_ldu": [
+          -2.694927723478781,
+          15.289899283371652,
+          26.151244343399718
+        ],
+        "position_ldu": [
+          1141.8739023379617,
+          -1381.9706435440642,
+          1660.7649375747997
+        ],
+        "principal_point_points": [
+          225.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 2398.664934093214,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "078813e77fc3752ae4adda3b5b73de1085c57b717077df70559f36c36c949d52",
+      "renders": {
+        "research": {
+          "folder": "white-right-research",
+          "receipt_sha256": "eeaf5fb69ec566601140f3197ebd8c9314550caf8d4eb41e661e05d24bb8ca49",
+          "PDF_sha256": "c437a018e35040a5be9ff5ba5fad6e2e7e59ea0a4034de2b4beb57e490372439",
+          "SVG_sha256": "215def24cdbf60c4793493e9482a53c6f70ce3718889c41abb036e1324672d7f"
+        },
+        "research-angular": {
+          "folder": "white-right-research-angular",
+          "receipt_sha256": "dd11c74981b3c67d28f75fd0ccd8f275ac7fdcb93a7c71c46cda400466df1382",
+          "PDF_sha256": "564c70aa34f2dff0162d164087437f987ce829d1a36bc271ea4146e2d48425c1",
+          "SVG_sha256": "e32eec1a0ccd1c3931a62f487c2d2d1a1af50fd11eccf6245b7033c2154ba09d"
+        }
+      }
+    }
+  ],
+  "preview_sha256": "44b4fb4ce7373a621e43008b52965261698528b552fcede4b1ec21aa98e8f771"
+}

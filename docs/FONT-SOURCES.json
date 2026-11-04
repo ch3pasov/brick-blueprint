@@ -1,0 +1,62 @@
+{
+  "downloaded": "2026-10-25",
+  "license": "SIL OFL 1.1",
+  "files": [
+    {
+      "family": "jost",
+      "name": "Jost[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jost/Jost%5Bwght%5D.ttf",
+      "git_blob": "cdf8630280e37a7e8040dd5a32e3c13a9794e6d4",
+      "sha256": "6343b70971000b04c5d401c96ae08ce371086135e999d5e1e1413039c0213076"
+    },
+    {
+      "family": "jost",
+      "name": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/jost/OFL.txt",
+      "git_blob": "85b6b99d12470b54d8cbc919bc45102d99f23437",
+      "sha256": "1af3438a4d5f0ed2bdbc5751a5a67ebf6d537334161184b7fbb68503ef0ea0c5"
+    },
+    {
+      "family": "outfit",
+      "name": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/outfit/OFL.txt",
+      "git_blob": "723cd447edee83ed3bb07c3343f478d352aa7440",
+      "sha256": "c676351bf8576b9aba743cd5eaa8c0e7ee0d51f805d720447b4df4ddb6a2e416"
+    },
+    {
+      "family": "outfit",
+      "name": "Outfit[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/outfit/Outfit%5Bwght%5D.ttf",
+      "git_blob": "466d6245f9582df39bf73da91a8b3c938fd061cd",
+      "sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade"
+    },
+    {
+      "family": "montserrat",
+      "name": "Montserrat[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/Montserrat%5Bwght%5D.ttf",
+      "git_blob": "c97aca18592834d8706549c279cb8d5ac5d85f69",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "family": "montserrat",
+      "name": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+      "git_blob": "fe576a2ee1f96353b05d030c0b7620d525cc53a8",
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "family": "leaguespartan",
+      "name": "LeagueSpartan[wght].ttf",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguespartan/LeagueSpartan%5Bwght%5D.ttf",
+      "git_blob": "bd81aef67d88acd3bf4b88d7c6ff86900b2e9ce3",
+      "sha256": "2dbb6290b39ab7c48a40b18f74ca59ef48a69a015c3ea0542703f0c6ce51d617"
+    },
+    {
+      "family": "leaguespartan",
+      "name": "OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/leaguespartan/OFL.txt",
+      "git_blob": "8f8a5890d59f2fffcd8515b3ed81576df4b5c62a",
+      "sha256": "41c9980cacc325ccd1afa6553bcae038cc6c74fa519aff60bacb99e3854292ce"
+    }
+  ]
+}

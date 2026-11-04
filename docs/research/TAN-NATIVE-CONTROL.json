@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "mode": "nominal-fallback",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 8593.494244613914,
+        "distance_ldu": 2234.1556925601385,
+        "target_ldu": [
+          -2.6645352591003757e-15,
+          11.999999999999998,
+          -4.440892098500626e-15
+        ],
+        "position_ldu": [
+          1049.7098089927965,
+          -1269.4590603920478,
+          1499.140971370708
+        ],
+        "principal_point_points": [
+          200.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 2195.058721474951,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "0e34f8613fb877158e18def2b58c2ea9150eaf96d6c211bac86158e3f4baa29b",
+      "version": "0.6.0.dev6",
+      "native_RGB": {
+        "left": [
+          215.0,
+          186.0,
+          140.0
+        ],
+        "top": [
+          215.0,
+          186.0,
+          140.0
+        ],
+        "right": [
+          215.0,
+          186.0,
+          140.0
+        ]
+      },
+      "receipt_sha256": "77ae01c62d3e5b325a924e713efab3e6794aa6f208caf288dceddb2e18125d19",
+      "PDF_sha256": "d3c13cdce346f341c75e58bfdf8540ed8582a7e162a1dc74c498048e83301c9d",
+      "image_XObjects": 0
+    },
+    {
+      "mode": "research",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 8593.494244613914,
+        "distance_ldu": 2234.1556925601385,
+        "target_ldu": [
+          -2.6645352591003757e-15,
+          11.999999999999998,
+          -4.440892098500626e-15
+        ],
+        "position_ldu": [
+          1049.7098089927965,
+          -1269.4590603920478,
+          1499.140971370708
+        ],
+        "principal_point_points": [
+          200.0,
+          150.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 2195.058721474951,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "0e34f8613fb877158e18def2b58c2ea9150eaf96d6c211bac86158e3f4baa29b",
+      "version": "0.6.0.dev6",
+      "native_RGB": {
+        "left": [
+          186.0,
+          167.0,
+          116.0
+        ],
+        "top": [
+          201.0,
+          183.0,
+          124.0
+        ],
+        "right": [
+          207.0,
+          187.0,
+          131.0
+        ]
+      },
+      "receipt_sha256": "1a4e47505032570a7b0cc1fd65d8470d797dd03ccc82af4a1cfd940e0d8688df",
+      "PDF_sha256": "ace8ce4e660fcea418f9a0439d6c20958969ceb94c76acf4765b0298e483cec6",
+      "image_XObjects": 0
+    }
+  ],
+  "source_image_sha256": "fe01d698e2437f86501a7c53da74bf2781e930ee54de67913dc5f4b1a94a1814",
+  "common_own_crop": [
+    102,
+    94,
+    1494,
+    1117
+  ],
+  "scope": "Actual native2x4 plane colors, currentdefault versus preserved nominalfallback; sourcecamera not fitted; no whole-image accuracy claim."
+}

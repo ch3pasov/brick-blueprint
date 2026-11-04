@@ -1,0 +1,1112 @@
+{
+  "reference_RGB": [
+    16,
+    16,
+    16
+  ],
+  "selection_rule": "Achromatic median of the six channel medians from the two primary geometry-selected wall masks: [15,16,19,16,16,16] ->16; chosen before pink holdout",
+  "scope": "Opaque vertical standard studs in two Classic2024 books; no universal theme or transparent/sideways calibration",
+  "application": "research profile uses16 for opaque vertical studs; legacy/custom behavior and transparent/sideways default7 preserved",
+  "source_camera_data_sha256": "58dae7e238fd682308640a0ebb1531c6d2242df460508a933b5c39cdaee1d4b6",
+  "surface_measurements": {
+    "protocol": {
+      "sources": [
+        {
+          "id": "11038-p19-X1",
+          "half_width": 80,
+          "color": 70,
+          "threshold": 50
+        },
+        {
+          "id": "11037-p8-X2",
+          "half_width": 40,
+          "color": 15,
+          "threshold": 145
+        }
+      ],
+      "method": "Nearest positive intersection among cap discs and radius6 stud cylinders, and body top plane. Cap core radius <=4 LDU; wall interior -15 <=Y<=-13 in centered body frame. All pixels chosen by geometry, not RGB.",
+      "primary_erosion_px": 1,
+      "sensitivity_erosion_px": [
+        0,
+        1,
+        2
+      ],
+      "question": "Do caps share the flat top color? Do opaque stud walls share the legacy RGB7 convention?"
+    },
+    "results": [
+      {
+        "id": "11038-p19-X1",
+        "parts": {
+          "cap_core": [
+            {
+              "erosion_px": 0,
+              "pixel_count": 1308,
+              "median_RGB": [
+                88.0,
+                41.0,
+                17.0
+              ],
+              "q10_RGB": [
+                82.0,
+                37.0,
+                10.0
+              ],
+              "q90_RGB": [
+                95.0,
+                46.0,
+                25.0
+              ]
+            },
+            {
+              "erosion_px": 1,
+              "pixel_count": 700,
+              "median_RGB": [
+                88.0,
+                41.0,
+                17.0
+              ],
+              "q10_RGB": [
+                82.0,
+                37.0,
+                10.0
+              ],
+              "q90_RGB": [
+                95.0,
+                45.0,
+                23.0
+              ]
+            },
+            {
+              "erosion_px": 2,
+              "pixel_count": 253,
+              "median_RGB": [
+                88.0,
+                41.0,
+                18.0
+              ],
+              "q10_RGB": [
+                82.0,
+                37.0,
+                11.0
+              ],
+              "q90_RGB": [
+                95.0,
+                45.0,
+                24.0
+              ]
+            }
+          ],
+          "wall_middle": [
+            {
+              "erosion_px": 0,
+              "pixel_count": 892,
+              "median_RGB": [
+                15.0,
+                17.0,
+                18.0
+              ],
+              "q10_RGB": [
+                9.0,
+                10.0,
+                9.0
+              ],
+              "q90_RGB": [
+                22.0,
+                21.0,
+                25.0
+              ]
+            },
+            {
+              "erosion_px": 1,
+              "pixel_count": 74,
+              "median_RGB": [
+                15.0,
+                16.0,
+                19.0
+              ],
+              "q10_RGB": [
+                10.0,
+                11.3,
+                12.3
+              ],
+              "q90_RGB": [
+                20.0,
+                19.700000000000003,
+                24.0
+              ]
+            },
+            {
+              "erosion_px": 2,
+              "pixel_count": 0,
+              "median_RGB": null,
+              "q10_RGB": null,
+              "q90_RGB": null
+            }
+          ]
+        }
+      },
+      {
+        "id": "11037-p8-X2",
+        "parts": {
+          "cap_core": [
+            {
+              "erosion_px": 0,
+              "pixel_count": 657,
+              "median_RGB": [
+                236.0,
+                239.0,
+                240.0
+              ],
+              "q10_RGB": [
+                234.0,
+                237.0,
+                238.0
+              ],
+              "q90_RGB": [
+                240.0,
+                242.0,
+                243.0
+              ]
+            },
+            {
+              "erosion_px": 1,
+              "pixel_count": 351,
+              "median_RGB": [
+                236.0,
+                239.0,
+                240.0
+              ],
+              "q10_RGB": [
+                233.0,
+                237.0,
+                238.0
+              ],
+              "q90_RGB": [
+                238.0,
+                241.0,
+                242.0
+              ]
+            },
+            {
+              "erosion_px": 2,
+              "pixel_count": 130,
+              "median_RGB": [
+                236.0,
+                239.0,
+                240.0
+              ],
+              "q10_RGB": [
+                233.0,
+                237.0,
+                238.0
+              ],
+              "q90_RGB": [
+                238.0,
+                241.0,
+                242.0
+              ]
+            }
+          ],
+          "wall_middle": [
+            {
+              "erosion_px": 0,
+              "pixel_count": 454,
+              "median_RGB": [
+                16.0,
+                16.0,
+                16.0
+              ],
+              "q10_RGB": [
+                13.0,
+                13.0,
+                13.0
+              ],
+              "q90_RGB": [
+                19.0,
+                19.0,
+                19.0
+              ]
+            },
+            {
+              "erosion_px": 1,
+              "pixel_count": 37,
+              "median_RGB": [
+                16.0,
+                16.0,
+                16.0
+              ],
+              "q10_RGB": [
+                14.0,
+                14.0,
+                14.0
+              ],
+              "q90_RGB": [
+                18.4,
+                18.4,
+                18.4
+              ]
+            },
+            {
+              "erosion_px": 2,
+              "pixel_count": 0,
+              "median_RGB": null,
+              "q10_RGB": null,
+              "q90_RGB": null
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "heldout_pink": {
+    "protocol": {
+      "id": "11037-p6-X1",
+      "purpose": "New-color holdout for achromatic stud-wall RGB16 proposed from brown/white geometry masks; not used to choose16",
+      "source_selection": "First isolated standard plate of a different color in the existing early-page contact sheet",
+      "centers_native": [
+        [
+          25,
+          50
+        ],
+        [
+          44,
+          66
+        ],
+        [
+          52,
+          38
+        ],
+        [
+          72,
+          54
+        ],
+        [
+          80,
+          27
+        ],
+        [
+          100,
+          42
+        ],
+        [
+          109,
+          16
+        ],
+        [
+          129,
+          31
+        ]
+      ],
+      "rectangle": "x-3 <=pixel x<=x+3; y-1<=pixel y<=y+1",
+      "sensitivity": "Nine integer shifts dx/dy in[-1,0,1], all reported; no RGB filtering",
+      "predictions": [
+        7,
+        16
+      ]
+    },
+    "rows": [
+      {
+        "center": [
+          25,
+          50
+        ],
+        "pixels": 21,
+        "median_RGB": [
+          13.0,
+          15.0,
+          15.0
+        ],
+        "MAE_RGB7": 7.333333333333333,
+        "MAE_RGB16": 1.6666666666666667,
+        "shifts": [
+          {
+            "dx": -1,
+            "dy": -1,
+            "median": [
+              17.0,
+              10.0,
+              14.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": -1,
+            "median": [
+              17.0,
+              10.0,
+              14.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": -1,
+            "median": [
+              14.0,
+              10.0,
+              14.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 0,
+            "median": [
+              13.0,
+              15.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 0,
+            "median": [
+              13.0,
+              15.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "median": [
+              13.0,
+              16.0,
+              16.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 1,
+            "median": [
+              17.0,
+              17.0,
+              17.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "median": [
+              17.0,
+              17.0,
+              18.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "median": [
+              18.0,
+              17.0,
+              19.0
+            ]
+          }
+        ],
+        "shift_max": 5.0
+      },
+      {
+        "center": [
+          44,
+          66
+        ],
+        "pixels": 21,
+        "median_RGB": [
+          15.0,
+          15.0,
+          16.0
+        ],
+        "MAE_RGB7": 8.333333333333334,
+        "MAE_RGB16": 0.6666666666666666,
+        "shifts": [
+          {
+            "dx": -1,
+            "dy": -1,
+            "median": [
+              18.0,
+              14.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": -1,
+            "median": [
+              19.0,
+              11.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": -1,
+            "median": [
+              18.0,
+              11.0,
+              14.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 0,
+            "median": [
+              15.0,
+              15.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 0,
+            "median": [
+              15.0,
+              15.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "median": [
+              15.0,
+              16.0,
+              16.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 1,
+            "median": [
+              18.0,
+              16.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "median": [
+              18.0,
+              17.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "median": [
+              17.0,
+              17.0,
+              16.0
+            ]
+          }
+        ],
+        "shift_max": 4.0
+      },
+      {
+        "center": [
+          52,
+          38
+        ],
+        "pixels": 21,
+        "median_RGB": [
+          15.0,
+          11.0,
+          15.0
+        ],
+        "MAE_RGB7": 6.666666666666667,
+        "MAE_RGB16": 2.3333333333333335,
+        "shifts": [
+          {
+            "dx": -1,
+            "dy": -1,
+            "median": [
+              22.0,
+              11.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": -1,
+            "median": [
+              21.0,
+              8.0,
+              19.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": -1,
+            "median": [
+              21.0,
+              11.0,
+              19.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 0,
+            "median": [
+              17.0,
+              12.0,
+              14.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 0,
+            "median": [
+              15.0,
+              11.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "median": [
+              13.0,
+              12.0,
+              15.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 1,
+            "median": [
+              19.0,
+              16.0,
+              18.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "median": [
+              19.0,
+              15.0,
+              18.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "median": [
+              21.0,
+              15.0,
+              18.0
+            ]
+          }
+        ],
+        "shift_max": 7.0
+      },
+      {
+        "center": [
+          72,
+          54
+        ],
+        "pixels": 21,
+        "median_RGB": [
+          11.0,
+          15.0,
+          15.0
+        ],
+        "MAE_RGB7": 6.666666666666667,
+        "MAE_RGB16": 2.3333333333333335,
+        "shifts": [
+          {
+            "dx": -1,
+            "dy": -1,
+            "median": [
+              13.0,
+              16.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": -1,
+            "median": [
+              12.0,
+              18.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": -1,
+            "median": [
+              12.0,
+              18.0,
+              16.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 0,
+            "median": [
+              12.0,
+              15.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 0,
+            "median": [
+              11.0,
+              15.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "median": [
+              11.0,
+              15.0,
+              16.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 1,
+            "median": [
+              12.0,
+              18.0,
+              18.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "median": [
+              14.0,
+              18.0,
+              18.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "median": [
+              15.0,
+              18.0,
+              18.0
+            ]
+          }
+        ],
+        "shift_max": 4.0
+      },
+      {
+        "center": [
+          80,
+          27
+        ],
+        "pixels": 21,
+        "median_RGB": [
+          17.0,
+          14.0,
+          15.0
+        ],
+        "MAE_RGB7": 8.333333333333334,
+        "MAE_RGB16": 1.3333333333333333,
+        "shifts": [
+          {
+            "dx": -1,
+            "dy": -1,
+            "median": [
+              20.0,
+              15.0,
+              19.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": -1,
+            "median": [
+              20.0,
+              17.0,
+              19.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": -1,
+            "median": [
+              19.0,
+              17.0,
+              17.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 0,
+            "median": [
+              19.0,
+              14.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 0,
+            "median": [
+              17.0,
+              14.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "median": [
+              19.0,
+              14.0,
+              14.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 1,
+            "median": [
+              19.0,
+              17.0,
+              19.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "median": [
+              18.0,
+              17.0,
+              19.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "median": [
+              19.0,
+              17.0,
+              17.0
+            ]
+          }
+        ],
+        "shift_max": 4.0
+      },
+      {
+        "center": [
+          100,
+          42
+        ],
+        "pixels": 21,
+        "median_RGB": [
+          17.0,
+          13.0,
+          16.0
+        ],
+        "MAE_RGB7": 8.333333333333334,
+        "MAE_RGB16": 1.3333333333333333,
+        "shifts": [
+          {
+            "dx": -1,
+            "dy": -1,
+            "median": [
+              31.0,
+              20.0,
+              26.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": -1,
+            "median": [
+              31.0,
+              20.0,
+              26.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": -1,
+            "median": [
+              31.0,
+              20.0,
+              26.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 0,
+            "median": [
+              18.0,
+              13.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 0,
+            "median": [
+              17.0,
+              13.0,
+              16.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "median": [
+              15.0,
+              13.0,
+              16.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 1,
+            "median": [
+              17.0,
+              13.0,
+              17.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "median": [
+              16.0,
+              13.0,
+              17.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "median": [
+              16.0,
+              14.0,
+              17.0
+            ]
+          }
+        ],
+        "shift_max": 14.0
+      },
+      {
+        "center": [
+          109,
+          16
+        ],
+        "pixels": 21,
+        "median_RGB": [
+          12.0,
+          13.0,
+          15.0
+        ],
+        "MAE_RGB7": 6.333333333333333,
+        "MAE_RGB16": 2.6666666666666665,
+        "shifts": [
+          {
+            "dx": -1,
+            "dy": -1,
+            "median": [
+              19.0,
+              8.0,
+              14.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": -1,
+            "median": [
+              20.0,
+              10.0,
+              14.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": -1,
+            "median": [
+              22.0,
+              10.0,
+              13.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 0,
+            "median": [
+              10.0,
+              14.0,
+              14.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 0,
+            "median": [
+              12.0,
+              13.0,
+              15.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "median": [
+              18.0,
+              13.0,
+              15.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 1,
+            "median": [
+              17.0,
+              17.0,
+              17.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "median": [
+              18.0,
+              17.0,
+              17.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "median": [
+              19.0,
+              16.0,
+              17.0
+            ]
+          }
+        ],
+        "shift_max": 10.0
+      },
+      {
+        "center": [
+          129,
+          31
+        ],
+        "pixels": 21,
+        "median_RGB": [
+          20.0,
+          9.0,
+          12.0
+        ],
+        "MAE_RGB7": 6.666666666666667,
+        "MAE_RGB16": 5.0,
+        "shifts": [
+          {
+            "dx": -1,
+            "dy": -1,
+            "median": [
+              61.0,
+              8.0,
+              17.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": -1,
+            "median": [
+              55.0,
+              13.0,
+              13.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": -1,
+            "median": [
+              29.0,
+              13.0,
+              12.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 0,
+            "median": [
+              20.0,
+              8.0,
+              12.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 0,
+            "median": [
+              20.0,
+              9.0,
+              12.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 0,
+            "median": [
+              20.0,
+              9.0,
+              12.0
+            ]
+          },
+          {
+            "dx": -1,
+            "dy": 1,
+            "median": [
+              15.0,
+              14.0,
+              13.0
+            ]
+          },
+          {
+            "dx": 0,
+            "dy": 1,
+            "median": [
+              15.0,
+              14.0,
+              13.0
+            ]
+          },
+          {
+            "dx": 1,
+            "dy": 1,
+            "median": [
+              15.0,
+              14.0,
+              13.0
+            ]
+          }
+        ],
+        "shift_max": 41.0
+      }
+    ],
+    "per_stud_mean_MAE_RGB7": 7.333333333333334,
+    "per_stud_mean_MAE_RGB16": 2.1666666666666665,
+    "source_profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+    "profile": "sRGB IEC61966-2.1",
+    "source_pdf_sha256": "1eae62ea786d29fe43479f19e138812335a19e5235f44766faf5c23d8b769c95",
+    "encoded_image_sha256": "07418762d2a1461eab13d6b9186bae0c87a93e65c7e8237e9632045be5f890ab",
+    "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497651.pdf#page=6"
+  },
+  "heldout_primary_images": 1,
+  "heldout_studs": 8,
+  "heldout_all_shift_improvements": 72,
+  "heldout_all_shift_combinations": 72,
+  "caps_result": "Brown cap core median[88,41,17] vs flat top[89,41,17]; white cap and flat top both[236,239,240]. Supports shared top anchor in two cases, not all materials.",
+  "limits": [
+    "Two parent books, three images, not independent observations per stud or per shift",
+    "Wall band is narrow: eroding two pixels leaves no interior; one pink patch shifts up to41 RGB levels",
+    "Native same sRGB profile; older CMYK books require explicit profile conversion and are not pooled here",
+    "Reference16 is an engineering achromatic estimate, not recovered exact shader constant"
+  ]
+}

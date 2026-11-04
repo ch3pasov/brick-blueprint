@@ -1,0 +1,54 @@
+{
+  "selection_frozen_before_measurement": true,
+  "source_candidates": "HELDOUT-STEP-CANDIDATES.json",
+  "selected": {
+    "0": 15,
+    "1": 191,
+    "3": 71,
+    "5": 70,
+    "6": 0,
+    "7": 4,
+    "8": 15,
+    "9": 28,
+    "11": 71,
+    "12": 70,
+    "14": 72,
+    "16": 0
+  },
+  "excluded": {
+    "2": "unmeasured lime",
+    "4": "sloped brick, different geometry",
+    "10": "unmeasured nougat",
+    "13": "unmeasured dark green",
+    "15": "unmeasured lime"
+  },
+  "geometry": "2 x 4 brick; visually selected, no refit of 2 x 2 material anchors",
+  "rois_native_half_open": {
+    "left": [
+      13,
+      47,
+      20,
+      53
+    ],
+    "top": [
+      47,
+      22,
+      52,
+      26
+    ],
+    "right": [
+      50,
+      46,
+      65,
+      53
+    ]
+  },
+  "thresholds": "No accept/reject threshold based on residual; report all selected images and all +/-1 px ROI shifts",
+  "heldout_claim": "New geometry; prior source books and repeated colors are not new independent shaders",
+  "color_identity": {
+    "element": "4255416",
+    "LEGO": "Sand Yellow138",
+    "LDraw": "Dark_Tan28",
+    "official_url": "https://www.lego.com/en-us/pick-and-build/pick-a-brick?query=4255416&selectedElement=4255416"
+  }
+}

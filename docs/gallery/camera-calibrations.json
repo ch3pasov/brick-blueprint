@@ -1,0 +1,129 @@
+{
+  "version": "0.6.0.dev6",
+  "numerical_results_sha256": "abf2c4819e6f2a0b098dfbe4428c1eb5b4fe56b512aafe6bf09d80a8dfbf5c79",
+  "recipe_sha256": "db69205ad0ce39fb813cc104381dffa0d8d7f91130ec32de51f29737c0bf6cea",
+  "renders": [
+    {
+      "id": "11038-p19-X1",
+      "model_sha256": "7afbba7e5e58ba411457c16e713b9ca718f1eda0be0f10e8e4ee965f72dc801c",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0205223905017586,
+        "focal_length_points": 6181.166579305293,
+        "distance_ldu": 3702.2558120516587,
+        "target_ldu": [
+          395.20242510278115,
+          -45.026243466021235,
+          -238.02105863007995
+        ],
+        "position_ldu": [
+          1745.5341164649426,
+          -2133.636184059218,
+          2504.425100773706
+        ],
+        "principal_point_points": [
+          -613.0745152631852,
+          62.9459275101815
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 3651.492497109351,
+        "right": [
+          -0.8706459088737847,
+          0.07538154214847516,
+          0.4861001177377549
+        ],
+        "down": [
+          0.33006994136054246,
+          0.8222273331946687,
+          0.4636766614331926
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "field_of_view_definition": "centred-equivalent vertical angle defining focal length; shifted page spans recorded separately",
+        "horizontal_page_span_degrees": 2.947112194862582,
+        "vertical_page_span_degrees": 2.020410289442034,
+        "roll_degrees": 5.2382156938003925,
+        "principal_point_source": "explicit cropped-frame calibration; not assumed to be image centre",
+        "azimuth": 26.214814383295945,
+        "elevation": 34.34295528903883,
+        "direction": [
+          0.3647321416760382,
+          -0.5641452256741176,
+          0.7407500450067549
+        ]
+      },
+      "PDF_sha256": "3a13ae291cd23f5369e3d7ea625d32d1e46f68931899d4752af203ed36b96bf8",
+      "receipt_sha256": "7dd0562f6b337543ccdddd2d92bf6b8242d53e358997feaf24f6196e302ea9d0",
+      "image_XObjects": 0
+    },
+    {
+      "id": "11037-p8-X2",
+      "model_sha256": "7b866e00add0835e2737565ef537ce206796fe888f45e025ea6157499962ae9f",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 1.8855412748389764,
+        "focal_length_points": 5256.46158050768,
+        "distance_ldu": 3109.915364386538,
+        "target_ldu": [
+          173.57066048868703,
+          -262.0825531809219,
+          -268.37935756321
+        ],
+        "position_ldu": [
+          1476.178399020486,
+          -1773.1841141920058,
+          2117.2775174870126
+        ],
+        "principal_point_points": [
+          -400.39814159619635,
+          -412.3086168411098
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 3071.988073140888,
+        "right": [
+          -0.8608201715597225,
+          0.05643762112109434,
+          0.5057701327264015
+        ],
+        "down": [
+          0.2890467201161231,
+          0.8721914687238074,
+          0.39463151860377205
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "field_of_view_definition": "centred-equivalent vertical angle defining focal length; shifted page spans recorded separately",
+        "horizontal_page_span_degrees": 2.3322809833692895,
+        "vertical_page_span_degrees": 1.8687210882979075,
+        "roll_degrees": 3.7023242307787547,
+        "principal_point_source": "explicit cropped-frame calibration; not assumed to be image centre",
+        "azimuth": 28.635263378711038,
+        "elevation": 29.071321693301375,
+        "direction": [
+          0.41885633076987333,
+          -0.4858979695446355,
+          0.767113119015963
+        ]
+      },
+      "PDF_sha256": "20a40413162a072fe5a78770ad0faa716332ff43b0739c3899131ad234d921e3",
+      "receipt_sha256": "880ddd3706a0a104cc934a03e1f0c03cd5fc25e877d2a849b0a4b2a7a45a1f20",
+      "image_XObjects": 0
+    }
+  ],
+  "scope": "Two source-specific geometry-bound camera fits. Intrinsics are ill-conditioned; do not treat as universal LEGO constants.",
+  "previews": {
+    "calibrated-bricks-own.png": "508627287f671e246f850c77e8680377b9014598d4f5f6795faf894820eb1786"
+  },
+  "editorial_font": {
+    "file": "Outfit[wght].ttf",
+    "sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade"
+  }
+}

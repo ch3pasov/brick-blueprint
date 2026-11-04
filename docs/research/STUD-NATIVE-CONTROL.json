@@ -1,0 +1,70 @@
+[
+  {
+    "id": "11038-p19-X1",
+    "surface": "wall_middle",
+    "pixels": 74,
+    "observed_median": [
+      16.0,
+      16.0,
+      16.0
+    ],
+    "expected": [
+      16,
+      16,
+      16
+    ],
+    "within_one_fraction": 1.0,
+    "max_error": 0.0
+  },
+  {
+    "id": "11038-p19-X1",
+    "surface": "cap_core",
+    "pixels": 700,
+    "observed_median": [
+      91.0,
+      40.0,
+      16.0
+    ],
+    "expected": [
+      90.5,
+      40,
+      15.5
+    ],
+    "within_one_fraction": 1.0,
+    "max_error": 0.5
+  },
+  {
+    "id": "11037-p8-X2",
+    "surface": "wall_middle",
+    "pixels": 37,
+    "observed_median": [
+      16.0,
+      16.0,
+      16.0
+    ],
+    "expected": [
+      16,
+      16,
+      16
+    ],
+    "within_one_fraction": 1.0,
+    "max_error": 0.0
+  },
+  {
+    "id": "11037-p8-X2",
+    "surface": "cap_core",
+    "pixels": 351,
+    "observed_median": [
+      237.0,
+      238.0,
+      240.0
+    ],
+    "expected": [
+      237,
+      238,
+      240
+    ],
+    "within_one_fraction": 1.0,
+    "max_error": 0.0
+  }
+]

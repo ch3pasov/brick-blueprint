@@ -1,0 +1,860 @@
+{
+  "version": "0.6.0.dev6",
+  "recipe_sha256": "50a8bb07650959061780ff46c528702bf5dc8d9f34a136433ea55d97ab2cad64",
+  "data_sha256": "04a7bd7cbae0e8a54e1ffcc23ca55315b51ffa610731e3da5896c40497a73ff8",
+  "records": [
+    {
+      "id": "color-law-191-reference",
+      "folder": "191-reference",
+      "code": 191,
+      "label": "yellow orange",
+      "mode": "reference",
+      "face_RGB": {
+        "left": [
+          247.0,
+          163.0,
+          36.0
+        ],
+        "top": [
+          253.0,
+          179.0,
+          42.0
+        ],
+        "right": [
+          254.0,
+          182.0,
+          43.0
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "6725e7210bbd3fda337f8603f5094243d219b32943cabd8ac0236ce0753acd4d",
+      "receipt_sha256": "2799ac9a56217774925291e0b8b27feee1427ce553f94749edb649401f53bf92"
+    },
+    {
+      "id": "color-law-191-face-law",
+      "folder": "191-face-law",
+      "code": 191,
+      "label": "yellow orange",
+      "mode": "face-law",
+      "face_RGB": {
+        "left": [
+          247.0,
+          163.0,
+          36.0
+        ],
+        "top": [
+          255.0,
+          175.77624793887256,
+          38.82174801103934
+        ],
+        "right": [
+          255.0,
+          181.4297073527032,
+          40.07036481409395
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "6725e7210bbd3fda337f8603f5094243d219b32943cabd8ac0236ce0753acd4d",
+      "receipt_sha256": "bbf603570066a03112ee9e00cbfd09c05f7a3d8cd2ed6a9579cb38d418f1b228"
+    },
+    {
+      "id": "color-law-191-ldraw-law",
+      "folder": "191-ldraw-law",
+      "code": 191,
+      "label": "yellow orange",
+      "mode": "ldraw-law",
+      "face_RGB": {
+        "left": [
+          248.50062983624258,
+          169.61154099934015,
+          0.0
+        ],
+        "top": [
+          255.0,
+          190.9308601606217,
+          0.0
+        ],
+        "right": [
+          255.0,
+          196.90836081049653,
+          0.0
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "6725e7210bbd3fda337f8603f5094243d219b32943cabd8ac0236ce0753acd4d",
+      "receipt_sha256": "d3469062a32f8d344fd2e6a5a5fbb2c50cca11bc74246555f803f36d128a8abf"
+    },
+    {
+      "id": "color-law-70-reference",
+      "folder": "70-reference",
+      "code": 70,
+      "label": "brown",
+      "mode": "reference",
+      "face_RGB": {
+        "left": [
+          80.0,
+          38.0,
+          18.0
+        ],
+        "top": [
+          90.5,
+          40.0,
+          15.5
+        ],
+        "right": [
+          91.0,
+          43.0,
+          19.0
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "268de6ea1e515fee4e79060fddbd75932941c9a275e39bcb68653e5dff6989a9",
+      "receipt_sha256": "52fbd7465e654e9c57634554643921f8078029a3a552738dd26292323f67b881"
+    },
+    {
+      "id": "color-law-70-face-law",
+      "folder": "70-face-law",
+      "code": 70,
+      "label": "brown",
+      "mode": "face-law",
+      "face_RGB": {
+        "left": [
+          80.0,
+          38.0,
+          18.0
+        ],
+        "top": [
+          86.33916946732612,
+          41.0111054969799,
+          19.426313130148372
+        ],
+        "right": [
+          89.05094859016586,
+          42.29920058032879,
+          20.03646343278732
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "268de6ea1e515fee4e79060fddbd75932941c9a275e39bcb68653e5dff6989a9",
+      "receipt_sha256": "43295506cb923d9d9d380aeffdba22a01c3e96b25eae45295f3194ff62ab8150"
+    },
+    {
+      "id": "color-law-70-ldraw-law",
+      "folder": "70-ldraw-law",
+      "code": 70,
+      "label": "brown",
+      "mode": "ldraw-law",
+      "face_RGB": {
+        "left": [
+          93.71289953873894,
+          48.33612713050746,
+          8.878064166827901
+        ],
+        "top": [
+          105.4634616561601,
+          54.39694338054574,
+          9.991275314794116
+        ],
+        "right": [
+          108.66148479099087,
+          56.04645005009003,
+          10.294245927567557
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "268de6ea1e515fee4e79060fddbd75932941c9a275e39bcb68653e5dff6989a9",
+      "receipt_sha256": "170f19cecff62d56a0e87185273899a7755e7b4bd40ac70b0ea6149ca793df0c"
+    },
+    {
+      "id": "color-law-28-reference",
+      "folder": "28-reference",
+      "code": 28,
+      "label": "dark tan",
+      "mode": "reference",
+      "face_RGB": {
+        "left": [
+          141.0,
+          124.0,
+          99.0
+        ],
+        "top": [
+          152.0,
+          135.5,
+          112.5
+        ],
+        "right": [
+          156.0,
+          139.0,
+          114.0
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "a16e7cf725654bb90cea6b23fde54225c85f0ec94e3c908edbcd2d3d8a6f571e",
+      "receipt_sha256": "d40daca5d11c8e9cd32bd8b5517233336f1cc294d9f536398254c19060c4d182"
+    },
+    {
+      "id": "color-law-28-face-law",
+      "folder": "28-face-law",
+      "code": 28,
+      "label": "dark tan",
+      "mode": "face-law",
+      "face_RGB": {
+        "left": [
+          141.0,
+          124.0,
+          99.0
+        ],
+        "top": [
+          152.00638859664474,
+          133.67937720555992,
+          106.72788986572928
+        ],
+        "right": [
+          156.8887363917097,
+          137.97307313880853,
+          110.15592129630681
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "a16e7cf725654bb90cea6b23fde54225c85f0ec94e3c908edbcd2d3d8a6f571e",
+      "receipt_sha256": "3e88af3a9366fcdc1a6ece02b5fc093213777ca5e808ef3cdc67712575227fa6"
+    },
+    {
+      "id": "color-law-28-ldraw-law",
+      "folder": "28-ldraw-law",
+      "code": 28,
+      "label": "dark tan",
+      "mode": "ldraw-law",
+      "face_RGB": {
+        "left": [
+          134.47500008582782,
+          122.69616796152172,
+          96.19379568183304
+        ],
+        "top": [
+          151.0938226299694,
+          137.85932721712535,
+          108.0817125382263
+        ],
+        "right": [
+          155.7980068357618,
+          142.15146609102356,
+          111.44674941536248
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "a16e7cf725654bb90cea6b23fde54225c85f0ec94e3c908edbcd2d3d8a6f571e",
+      "receipt_sha256": "cb26f7669cc0696d6a74c5a284c4cf38a4e368e6d48182fb1183c0885c16bd50"
+    },
+    {
+      "id": "color-law-0-reference",
+      "folder": "0-reference",
+      "code": 0,
+      "label": "black",
+      "mode": "reference",
+      "face_RGB": {
+        "left": [
+          43.0,
+          43.0,
+          43.0
+        ],
+        "top": [
+          46.0,
+          46.0,
+          46.0
+        ],
+        "right": [
+          48.0,
+          48.0,
+          48.0
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "8a5087d8f1e1637b716c81fae0e8ebbf9f62ff9c2ce0792ca5bfbf01a9428e0b",
+      "receipt_sha256": "f03c441f368ad23a60315d0168c773d08fc7e9b0d8a03f5b133dae5bb35855f2"
+    },
+    {
+      "id": "color-law-0-face-law",
+      "folder": "0-face-law",
+      "code": 0,
+      "label": "black",
+      "mode": "face-law",
+      "face_RGB": {
+        "left": [
+          43.0,
+          43.0,
+          43.0
+        ],
+        "top": [
+          46.43207768269697,
+          46.43207768269697,
+          46.43207768269697
+        ],
+        "right": [
+          47.87801714790905,
+          47.87801714790905,
+          47.87801714790905
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "8a5087d8f1e1637b716c81fae0e8ebbf9f62ff9c2ce0792ca5bfbf01a9428e0b",
+      "receipt_sha256": "f3778be50dcc991f5b2897dde032cca4084daa9a8ee5fbad41bd9e5b8cff1a4e"
+    },
+    {
+      "id": "color-law-0-ldraw-law",
+      "folder": "0-ldraw-law",
+      "code": 0,
+      "label": "black",
+      "mode": "ldraw-law",
+      "face_RGB": {
+        "left": [
+          26.555824856002044,
+          41.30906088711429,
+          51.14455157452246
+        ],
+        "top": [
+          29.814085827669043,
+          46.377466843040736,
+          57.41972085328853
+        ],
+        "right": [
+          30.70352737639344,
+          47.76104258550091,
+          59.13271939157255
+        ]
+      },
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "8a5087d8f1e1637b716c81fae0e8ebbf9f62ff9c2ce0792ca5bfbf01a9428e0b",
+      "receipt_sha256": "d03e3f1c904daeaa3f476822484ac63e49794b24b320bf3b3b28c3694e879a1f"
+    }
+  ],
+  "scope": "Reference uses measured anchors. Face-law uses measured left and held-out top/right predictions. LDraw-law predicts every face from nominal RGB. All formula coefficients omit the shown color."
+}

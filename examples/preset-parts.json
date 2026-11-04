@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "model": "parts/plate-1x2.ldr",
+      "quantity": 2
+    },
+    {
+      "model": "parts/brick-2x4.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/slope-2x2.ldr",
+      "quantity": 2
+    },
+    {
+      "model": "parts/pin.ldr",
+      "quantity": 3
+    }
+  ]
+}

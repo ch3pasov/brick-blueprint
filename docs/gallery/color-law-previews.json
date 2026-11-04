@@ -1,0 +1,26 @@
+{
+  "board_sha256": "3d13f54b9e054db4923bf4df680e82b1e4bd28118ea36f7596bf954bd134ff5a",
+  "recipe_sha256": "ceccba93d1b0d3f96d80e44b74c9fb5382c91563a3db373d1f4e2a03842c17ca",
+  "font_sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade",
+  "common_crop": [
+    85,
+    42,
+    516,
+    441
+  ],
+  "renders": [
+    "color-law-191-reference",
+    "color-law-191-face-law",
+    "color-law-191-ldraw-law",
+    "color-law-70-reference",
+    "color-law-70-face-law",
+    "color-law-70-ldraw-law",
+    "color-law-28-reference",
+    "color-law-28-face-law",
+    "color-law-28-ldraw-law",
+    "color-law-0-reference",
+    "color-law-0-face-law",
+    "color-law-0-ldraw-law"
+  ],
+  "source_artwork_included": false
+}

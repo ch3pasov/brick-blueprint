@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-27T13:19:21.598748+00:00",
+  "question": "One RGB-only transform from pinned LDraw VALUE to three instruction face colors; no color-code lookup.",
+  "data": "All10 base colors plus all3 previously measured new-color controls with verified identities. Retrospective, not prospective data.",
+  "inputs": "Only normalized LDConfig VALUE RGB. No CODE/name/theme/measured face used as an input feature.",
+  "families": [
+    "identity",
+    "shared clipped gain",
+    "shared channel quadratic",
+    "RGB affine matrix",
+    "linear-light affine matrix",
+    "RGB quadratic",
+    "RGB root-polynomial degree2"
+  ],
+  "architectures": [
+    "direct three faces",
+    "RGB to left then common left-to-top/right gains"
+  ],
+  "regularization": [
+    0.001,
+    0.01,
+    0.1,
+    1,
+    10
+  ],
+  "ridge": "Residual relative to identity; mean squared error per input row plus lambda times squared coefficients. All coefficients, including intercept, penalized. Shared-channel fits pool channels as rows. Features0..1.",
+  "selection": "Nested leave-one-color-out: outer color excluded from both fitting and family/penalty selection. Inner held-out MAE selects one of54 candidates. Fixed-family results also select only penalty inside each outer fold. Final candidate selected using LOCO on all13; not evaluated by its training fit.",
+  "gate": "Per-face outer MAE<=3 RGB and all channel errors<=10, inherited target from prior new-color protocol. No automatic default promotion.",
+  "sensitivity": "Rerun complete nested procedure for9 joint +/-1-native-pixel shifts of output ROIs; shifts are not independent observations.",
+  "reporting": "Report all14 architecture/family results, all13 predictions, maxima, exact source/hash/provenance, known-color geometry transfer. Failure of candidates is not a proof no function exists.",
+  "references": [
+    "https://ldraw.org/article/299.html",
+    "https://ldraw.org/article/547.html",
+    "https://www.w3.org/TR/css-color-4/#color-conversion-code",
+    "https://doi.org/10.1109/TIP.2015.2405336"
+  ]
+}

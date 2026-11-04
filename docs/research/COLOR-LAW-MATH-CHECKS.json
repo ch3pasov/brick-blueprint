@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "sRGB round trip",
+      "pass": true
+    },
+    {
+      "check": "known clipped gain 0.82",
+      "pass": true
+    },
+    {
+      "check": "known clipped gain 1.08",
+      "pass": true
+    },
+    {
+      "check": "known clipped gain 1.1135",
+      "pass": true
+    },
+    {
+      "check": "known clipped gain 2.4",
+      "pass": true
+    },
+    {
+      "check": "known clipped affine (1.2, -0.07)",
+      "pass": true
+    },
+    {
+      "check": "known clipped affine (0.8, 0.09)",
+      "pass": true
+    },
+    {
+      "check": "known clipped affine (1.7, 0.1)",
+      "pass": true
+    },
+    {
+      "check": "known clipped affine (0.6, -0.1)",
+      "pass": true
+    },
+    {
+      "check": "global affine solution beats dense grid 0",
+      "pass": true
+    },
+    {
+      "check": "global affine solution beats dense grid 1",
+      "pass": true
+    },
+    {
+      "check": "global affine solution beats dense grid 2",
+      "pass": true
+    },
+    {
+      "check": "global affine solution beats dense grid 3",
+      "pass": true
+    },
+    {
+      "check": "global affine solution beats dense grid 4",
+      "pass": true
+    },
+    {
+      "check": "nine transfers times seven candidate families",
+      "pass": true
+    },
+    {
+      "check": "each equation omits each whole color once",
+      "pass": true
+    },
+    {
+      "check": "all twelve transfer images reported",
+      "pass": true
+    },
+    {
+      "check": "81 shift pairs for each primary target",
+      "pass": true
+    },
+    {
+      "check": "verified Dark Tan input",
+      "pass": true
+    }
+  ],
+  "seed": 20261027
+}

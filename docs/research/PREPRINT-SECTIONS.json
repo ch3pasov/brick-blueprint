@@ -1,0 +1,72 @@
+{
+  "preprint_version": "0.22",
+  "edition": "English",
+  "page_count": 12,
+  "sections": [
+    {
+      "number": "projection",
+      "page": 2,
+      "text_anchor": "The ordering held in all 39"
+    },
+    {
+      "number": "face-law",
+      "page": 6,
+      "text_anchor": "Predicting from a measured left face"
+    },
+    {
+      "number": "ldraw-transfer",
+      "page": 6,
+      "text_anchor": "choosing among 54 models"
+    },
+    {
+      "number": "camera",
+      "page": 4,
+      "text_anchor": "The instruction preset pairs"
+    },
+    {
+      "number": "theme-colors",
+      "page": 7,
+      "text_anchor": "Eight repeated sloped elements"
+    },
+    {
+      "number": "slopes",
+      "page": 7,
+      "text_anchor": "interpolates using sine weights"
+    },
+    {
+      "number": "scale",
+      "page": 8,
+      "text_anchor": "Two measured plates in one tray"
+    },
+    {
+      "number": "color-space",
+      "page": 8,
+      "text_anchor": "Recent sampled embedded images carried sRGB"
+    },
+    {
+      "number": "paper",
+      "page": 7,
+      "text_anchor": "The paper-style corpus contains 38 books"
+    },
+    {
+      "number": "ink-glass",
+      "page": 7,
+      "text_anchor": "The glass control in the renderer"
+    },
+    {
+      "number": "fonts",
+      "page": 8,
+      "text_anchor": "The quantity label appeared at 8 pt"
+    },
+    {
+      "number": "statistics",
+      "page": 4,
+      "text_anchor": "The bootstrap tail probabilities were"
+    },
+    {
+      "number": "comparison",
+      "page": 9,
+      "text_anchor": "The blue 2 × 8 plate in Lighthouse Point offers"
+    }
+  ]
+}

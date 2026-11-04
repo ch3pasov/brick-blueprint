@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "profile_id": "empirical-angular-srgb-v1",
+  "data_file": "docs/research/ANGULAR-MATERIAL-CANDIDATE.json",
+  "data_sha256": "f9b5e9dc571664a0f9a3f339d25408a62f7f2445befc7d1ee8cd4c97e89f9618",
+  "palette_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+  "method": {
+    "space": "piecewise directional interpolation in linear-light sRGB; clipped to0..1 before sRGB encoding",
+    "weights": "sin(b-theta)/sin(b-a), sin(theta-a)/sin(b-a); not normalized by their sum",
+    "left_knots_deg": [
+      0,
+      26.56505117707799,
+      45,
+      90
+    ],
+    "right_knots_deg": [
+      0,
+      45,
+      90
+    ],
+    "left26_affine": [
+      1.0825688073394497,
+      -0.5504587155963689
+    ],
+    "left45_affine": [
+      1.0166342681639444,
+      -0.7151300438319507
+    ],
+    "right45_affine": [
+      1.119266055045872,
+      4.8715596330274655
+    ],
+    "white26_override": [
+      237,
+      239,
+      240.5
+    ],
+    "white26_source": {
+      "set": "40765",
+      "page": 60,
+      "image": "/X22",
+      "element": "428601",
+      "source_sha256": "5cb6bcc5e2d2fe4490cc73de1ded1d0872230c38e7c4674466a4271cc95a84d9",
+      "encoded_sha256": "37c378f4d7ba378819b7b50719ece7b21b2bf1afc5381b7b86681c1954999360",
+      "decoded_sha256": "c340ceff2da2f3875fbff9430eea1cf3ea93100ebbd950f372b802455f319e6c",
+      "native_size": [
+        68,
+        56
+      ],
+      "rois": {
+        "slope": [
+          24,
+          24,
+          32,
+          30
+        ],
+        "vertical": [
+          49,
+          25,
+          57,
+          31
+        ]
+      },
+      "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6569337.pdf"
+    },
+    "anchor_input": "Measured dark/left RGB plus measured top/right RGB, not nominal LDraw RGB",
+    "transfer_standard": "https://www.w3.org/TR/2026/CRD-css-color-4-20261026/#predefined-sRGB"
+  },
+  "scope": "Opt-in opaque body shading; positive principal upward sectors tested, diagonal and opposite directions extrapolated. Not a recovered LEGO light law.",
+  "scores": {
+    "all": {
+      "baseline": {
+        "n": 77,
+        "pass": 56,
+        "MAE": 2.506751770956319,
+        "failures": [
+          "knots-8",
+          "knots-12",
+          "knots-E72",
+          "knots-E76",
+          "knots-E90",
+          "knots-A18",
+          "knots-A35",
+          "knots-A48",
+          "knots-B5",
+          "knots-F15",
+          "angles-steep-S4",
+          "angles-steep-S6",
+          "angles-steep-S26",
+          "angles-steep-S41",
+          "angles-low-N0",
+          "white-26deg-control-W0",
+          "white-26deg-control-W1",
+          "white-26deg-control-W2",
+          "low-slope-geometry-holdout-L0",
+          "low-slope-geometry-holdout-L1",
+          "low-slope-geometry-holdout-L3"
+        ]
+      },
+      "candidate": {
+        "n": 77,
+        "pass": 77,
+        "MAE": 1.1335884934182818,
+        "failures": []
+      }
+    },
+    "angles": {
+      "baseline": {
+        "n": 38,
+        "pass": 33,
+        "MAE": 1.765874202551838,
+        "failures": [
+          "angles-steep-S4",
+          "angles-steep-S6",
+          "angles-steep-S26",
+          "angles-steep-S41",
+          "angles-low-N0"
+        ]
+      },
+      "candidate": {
+        "n": 38,
+        "pass": 38,
+        "MAE": 1.299418670315108,
+        "failures": []
+      }
+    },
+    "angular-model-holdout": {
+      "baseline": {
+        "n": 4,
+        "pass": 4,
+        "MAE": 1.875,
+        "failures": []
+      },
+      "candidate": {
+        "n": 4,
+        "pass": 4,
+        "MAE": 2.313143370004885,
+        "failures": []
+      }
+    },
+    "knots": {
+      "baseline": {
+        "n": 28,
+        "pass": 18,
+        "MAE": 2.7321428571428585,
+        "failures": [
+          "knots-8",
+          "knots-12",
+          "knots-E72",
+          "knots-E76",
+          "knots-E90",
+          "knots-A18",
+          "knots-A35",
+          "knots-A48",
+          "knots-B5",
+          "knots-F15"
+        ]
+      },
+      "candidate": {
+        "n": 28,
+        "pass": 28,
+        "MAE": 0.7233656298004072,
+        "failures": []
+      }
+    },
+    "low-slope-geometry-holdout": {
+      "baseline": {
+        "n": 4,
+        "pass": 1,
+        "MAE": 6.479166666666674,
+        "failures": [
+          "low-slope-geometry-holdout-L0",
+          "low-slope-geometry-holdout-L1",
+          "low-slope-geometry-holdout-L3"
+        ]
+      },
+      "candidate": {
+        "n": 4,
+        "pass": 4,
+        "MAE": 1.8920650183673307,
+        "failures": []
+      }
+    },
+    "white-26deg-control": {
+      "baseline": {
+        "n": 3,
+        "pass": 0,
+        "MAE": 5.333333333333333,
+        "failures": [
+          "white-26deg-control-W0",
+          "white-26deg-control-W1",
+          "white-26deg-control-W2"
+        ]
+      },
+      "candidate": {
+        "n": 3,
+        "pass": 3,
+        "MAE": 0.2777777777777778,
+        "failures": []
+      }
+    }
+  },
+  "limits": [
+    "77 different image pixels include training, method selection, calibration and repeats of the same material/shape. They are not77 independent validations.",
+    "Eight prospective new-geometry images represent two slope shapes and three colors; all left-facing.",
+    "Right-sector multicolor holdouts and diagonal azimuths are sparse or absent.",
+    "Runtime azimuth blend and mirrored back-face colors are illustration conventions, not validated lighting.",
+    "Default research profile remains available and unchanged; the angular profile is opt-in."
+  ]
+}

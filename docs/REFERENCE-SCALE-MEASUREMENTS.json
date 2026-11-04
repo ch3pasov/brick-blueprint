@@ -1,0 +1,613 @@
+{
+  "source": {
+    "set": "42221",
+    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6621082.pdf",
+    "sha256": "248fea08c4b5969b0a09e8f53ee380d25dc4fa3c729cdacc939151bb2e0ef0c0",
+    "pages": [
+      10,
+      16
+    ]
+  },
+  "page": {
+    "width_pt": 552.756,
+    "height_pt": 734.173,
+    "width_mm": 195.00003333333333,
+    "height_mm": 258.9999194444444,
+    "pdf_user_unit": 1,
+    "rotation": 0
+  },
+  "beam_reference": {
+    "pdf_page": 10,
+    "label": "13, 1:1",
+    "object": "X5",
+    "original_image_pixels": [
+      615,
+      48
+    ],
+    "encoded_image_sha256": "69948de249ea5925c825647e8ac8c3c36a94a53fb4c985501f0d99f5de1e9797",
+    "placement_bbox_pt": [
+      22.19758,
+      667.92121,
+      317.15738,
+      690.71082
+    ],
+    "holes": 13,
+    "intervals": 12,
+    "method": "Threshold bright hole interiors on 9 middle rows at 3 thresholds; center of each continuous bright run. Original image pixels, not resampled page screenshot. First-to-last centers divided by12 intervals.",
+    "threshold_sweep": [
+      {
+        "y": 20,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 20,
+        "threshold": 235,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.5,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          448.5,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 20,
+        "threshold": 245,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.5,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          448.5,
+          496.5,
+          543.5,
+          590.5
+        ],
+        "pitch_mm": 8.001539515770851
+      },
+      {
+        "y": 21,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.0,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.5,
+          544.0,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 21,
+        "threshold": 235,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 21,
+        "threshold": 245,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.5,
+          543.5,
+          590.5
+        ],
+        "pitch_mm": 8.001539515770851
+      },
+      {
+        "y": 22,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.0,
+          118.0,
+          165.0,
+          212.5,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.0,
+          544.0,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 22,
+        "threshold": 235,
+        "centers_px": [
+          23.0,
+          70.5,
+          118.0,
+          165.0,
+          212.5,
+          260.0,
+          307.0,
+          354.0,
+          401.5,
+          449.0,
+          496.0,
+          544.0,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 22,
+        "threshold": 245,
+        "centers_px": [
+          23.0,
+          70.5,
+          118.0,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.0,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 23,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.0,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 23,
+        "threshold": 235,
+        "centers_px": [
+          23.0,
+          70.0,
+          118.0,
+          165.0,
+          212.0,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.0,
+          544.0,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 23,
+        "threshold": 245,
+        "centers_px": [
+          23.0,
+          70.5,
+          118.0,
+          165.0,
+          212.0,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.0,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 24,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.0,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 24,
+        "threshold": 235,
+        "centers_px": [
+          23.0,
+          70.0,
+          118.0,
+          165.0,
+          212.0,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.0,
+          544.0,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 24,
+        "threshold": 245,
+        "centers_px": [
+          23.0,
+          70.5,
+          118.0,
+          165.0,
+          212.0,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.0,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 25,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.0,
+          118.0,
+          165.0,
+          212.0,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.0,
+          544.0,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 25,
+        "threshold": 235,
+        "centers_px": [
+          23.0,
+          70.5,
+          118.0,
+          165.0,
+          212.0,
+          260.0,
+          307.0,
+          354.0,
+          402.0,
+          449.0,
+          496.0,
+          544.0,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 25,
+        "threshold": 245,
+        "centers_px": [
+          23.0,
+          70.5,
+          118.0,
+          165.0,
+          212.5,
+          260.0,
+          307.0,
+          354.0,
+          401.5,
+          449.0,
+          496.0,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 26,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.0,
+          118.0,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.0,
+          544.0,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 26,
+        "threshold": 235,
+        "centers_px": [
+          23.0,
+          70.5,
+          118.0,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.0,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 26,
+        "threshold": 245,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 27,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 27,
+        "threshold": 235,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          448.5,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 27,
+        "threshold": 245,
+        "centers_px": [
+          23.5,
+          70.5,
+          117.5,
+          165.5,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          448.5,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.001539515770851
+      },
+      {
+        "y": 28,
+        "threshold": 220,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.5,
+          543.5,
+          591.0
+        ],
+        "pitch_mm": 8.008589330322192
+      },
+      {
+        "y": 28,
+        "threshold": 235,
+        "centers_px": [
+          23.5,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          448.5,
+          496.5,
+          543.5,
+          590.5
+        ],
+        "pitch_mm": 7.9944897012195115
+      },
+      {
+        "y": 28,
+        "threshold": 245,
+        "centers_px": [
+          23.0,
+          70.5,
+          117.5,
+          165.0,
+          212.5,
+          259.5,
+          307.0,
+          354.5,
+          401.5,
+          449.0,
+          496.5,
+          543.5,
+          590.5
+        ],
+        "pitch_mm": 8.001539515770851
+      }
+    ],
+    "pitch_mm_median": 8.008589330322192,
+    "threshold_range_mm": [
+      7.9944897012195115,
+      8.008589330322192
+    ],
+    "endpoint_sensitivity_mm": [
+      7.980390072116831,
+      8.03678858852755
+    ],
+    "sensitivity_note": "Analyst-selected +/-1 original pixel at each endpoint; not a confidence interval or printer tolerance."
+  },
+  "axle_reference": {
+    "pdf_page": 16,
+    "label": "3, 1:1",
+    "method": "Native filled PDF contours; separate yellow face from outer black ink.",
+    "yellow_fill_bbox_pt": [
+      22.89256,
+      678.55661,
+      88.68561,
+      690.3827
+    ],
+    "yellow_fill_length_mm": 23.21032597222222,
+    "outer_ink_bbox_pt": [
+      22.67709,
+      678.34169,
+      88.90106,
+      690.58094
+    ],
+    "outer_ink_length_mm": 23.362344972222225,
+    "interpretation": "Length class3 is not a command to stretch the silhouette to exactly24mm. End shape, contour choice and source drawing normalization matter. This audit does not identify the cause of the difference or certify a physical part."
+  },
+  "scope": "Reference guides on two existing sample pages, not a new corpus expansion. Does not establish common scale for all inventory parts, nor certify physical printing.",
+  "nominal_units_source": "https://www.ldraw.org/article/218.html",
+  "consequence": "Keep identification views, scoped inventory scale and physical-size references distinct. Print at100percent; fitting this195x259mm page to another paper size changes reference scale."
+}

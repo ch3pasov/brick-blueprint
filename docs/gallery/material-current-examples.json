@@ -1,0 +1,943 @@
+{
+  "version": "0.6.0.dev7",
+  "recipe_sha256": "fdc97f6528b668ca0961154bcff7f0e7b61202e813d8e32930d2dc2dad5db51e",
+  "scenes": [
+    {
+      "id": "brick-72",
+      "name": "Dark_Bluish_Grey",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "8ddc892cc8e5cbb49587ea53de3bf7b5573d86740ad1f686c8c28a70945b3e82",
+      "renders": {
+        "research": {
+          "receipt_sha256": "16fe639561fdfda2f9f53efa131f56872e1eec21afef7a738d67e79930ac8449",
+          "PDF_sha256": "cb40273ee2f3b86ec2270a93dfa749f5f98a8db992d784b6c5c2b2a75862fc2e",
+          "SVG_sha256": "b9e753e5f572fc30ed82371e1e3832ae7c1271c7375d4e4f0cb83964c319d4da",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-14",
+      "name": "Yellow",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "e488f08a29bec7282cfbe0952489aacee3cf4f83b87b46ff329268d20a1b0d12",
+      "renders": {
+        "research": {
+          "receipt_sha256": "036d0c22ffc0659ddd0a54d99e2e76ba0624b0379a1208c902e8e221e5a2537e",
+          "PDF_sha256": "3b79a29c0fab401b0e95b9d3dda6793dff8c3359309fc25413b9274e074cc120",
+          "SVG_sha256": "1f1e16dd4359143c10b98175395fa6c02d86c6bc70c528469625b3fa81e1f028",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-71",
+      "name": "Light_Bluish_Grey",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "dea5aad2de5b411c126acf02b0aac29007658f98df72bccb3bd3bd085a14f7a7",
+      "renders": {
+        "research": {
+          "receipt_sha256": "0e901da7591cbacd9b1b846ccfc552944f74d8ab22c17d05545a78dc26fcf6f9",
+          "PDF_sha256": "42ae831715b6335f7e1abb5a989a338ce894e16a1e3fb3b96ca8a97b0f2d3a04",
+          "SVG_sha256": "ade1d4f578c9456eeedd308636abfb7f776a787489e7b4dc2a526b3d115dc13c",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-0",
+      "name": "Black",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "1f0758b8c097a85f477419f55761413c19aca5119f5f399d8ff4aef7f197da09",
+      "renders": {
+        "research": {
+          "receipt_sha256": "a6d1a2e35d453f2de5b1464defc6e376b7887c9932e663becdf2dc87fba7e0af",
+          "PDF_sha256": "ea13a6e70dd55586b631eb7f767b0748cc9b60880ebdb511ecb2b1c23cf20ada",
+          "SVG_sha256": "55fc560aedc2eefd5fabf10c8a8a0857659019c010f94c8a5520b5705093ae82",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-15",
+      "name": "White",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "eb4c7ee90cd69f2eead4491dda54b91b7c84a5be0360ed0f7a41d0f5ad726d8a",
+      "renders": {
+        "research": {
+          "receipt_sha256": "2d6b67556315fe92f3284dadf7acade8c71700bc9aa9a9240495df8321b734fa",
+          "PDF_sha256": "944d7553aba94a4cb2747520bb27d0da2d66db53012ad77ec44f7b39c7890513",
+          "SVG_sha256": "3c055ac65a71595b17a1cf6eac29bfc358f536416c5b2117a79f27de008abb4f",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-4",
+      "name": "Red",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "2723ec10b873c18548865f230c78bfea7d1dd1d11dfe4e9b52b58e589dc00f9a",
+      "renders": {
+        "research": {
+          "receipt_sha256": "46cb1b437de2db3cb5da03b8525d03c2329005ae9516858b9231e8bd3277125b",
+          "PDF_sha256": "0d2d781e557675debba88d39f13bbcdc7e9a6dba9481c39977f65a2df139008f",
+          "SVG_sha256": "0cd619b903be606e567e72ee80288c3c62c57115fae9264dac66da3a2b6badf2",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-28",
+      "name": "Dark_Tan",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "63ddbe63cf57598fe82200588709b9605b466c2ad0ff9c081200be74614ebec7",
+      "renders": {
+        "research": {
+          "receipt_sha256": "dc4676ae7f0508c67d6eeff747554f594bc3f6a98ebd673dcb6b261a90dd2304",
+          "PDF_sha256": "93ce75676ece03131c5e2a0e04d7ac8898d6f231d162d059f15e0cb7922bd36d",
+          "SVG_sha256": "73a1cabafd27e336dee99f81a2a92d02300948875e044eab4e65bca955364cd5",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-70",
+      "name": "Reddish_Brown",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "1b1e7c75ff677aab0cbc0dd8b716678c7c3623aab1c7e1cc28e7b8e3dbd481cc",
+      "renders": {
+        "research": {
+          "receipt_sha256": "ad5cb1c0be72502b3e0651fb4a7f2fad8b2eb31dcb515fd16a0b698878a9aa02",
+          "PDF_sha256": "1cdd61013c8774bde565fb09d689911b1bae5553ea82f8e1c1d8b3f05d25070c",
+          "SVG_sha256": "7cccbd964c163ad511935e6e64510b529aded00a39b1ee5c28da23337317c8f8",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-191",
+      "name": "Bright_Light_Orange",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "94e3b59ef500937d4016ed8ce5365dd87cd58e80e2f6b48d58258600de36eba9",
+      "renders": {
+        "research": {
+          "receipt_sha256": "3ea2986694d9b99b12a0922beaaf219d84b712a766974b105f8a78a5f18df1bc",
+          "PDF_sha256": "557e993d3e5f6f27f41a5936f3f11ad16d83bc1862c2bf63d6f6d1ecea0ad7e2",
+          "SVG_sha256": "479cd8ef007f1ff4b959d25caa4cb2c855ea7c7c50ada991cdc2e7c5b4a2c3e9",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-25",
+      "name": "Orange",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "e3a01ac004e5ad907a897243e198b09534749e72ac55d11b5e0027e365a80672",
+      "renders": {
+        "research": {
+          "receipt_sha256": "d44e616ec14bf09a119cff80f661ec731bbfb5037377bfeb4b57835de33bb9fa",
+          "PDF_sha256": "e0d8f6e8d9898450f9fcd1b871677da47dea7e95028f93baa9d4390795c3736e",
+          "SVG_sha256": "2875fbd3a1716f517bc28729717bd9b2fa07d7aebd19e28812d42656ba1de521",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-19",
+      "name": "Tan",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 6874.7953956911315,
+        "distance_ldu": 1864.0044848656034,
+        "target_ldu": [
+          -1.3322676295501878e-15,
+          12.0,
+          -2.6645352591003757e-15
+        ],
+        "position_ldu": [
+          875.7956297700231,
+          -1057.1490497715804,
+          1250.7657829695133
+        ],
+        "principal_point_points": [
+          150.0,
+          120.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1834.3044399882751,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "66d3b662a617da6bcbb8c79b38982a5f96bb968f0ea70fe70ccaf99f8cd2f478",
+      "renders": {
+        "research": {
+          "receipt_sha256": "c2aefe7be6c2503a80ce40fb045ebda09545a21a6e20e0f821323b7a0c3f2eba",
+          "PDF_sha256": "6e4f3a95e9407c2038fa7f5ad7fa1f56e3fb78d41b4cd92be84d180d62586dca",
+          "SVG_sha256": "494373b5cbbc96677e7eca8948330acedd54bfd62729f824304606023b5b1354",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "brick-2x4",
+      "name": "2 x 4 control",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 10885.092709844292,
+        "distance_ldu": 2148.9961916079515,
+        "target_ldu": [
+          -2.6645352591003757e-15,
+          11.999999999999998,
+          -4.440892098500626e-15
+        ],
+        "position_ldu": [
+          1009.6979316755061,
+          -1220.6135773144588,
+          1441.9980885340099
+        ],
+        "principal_point_points": [
+          250.0,
+          190.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 2109.899220522764,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "f51060f0c13e06ae07b527f484a49d743eebfc4396ee73aa9c888fba04fce681",
+      "renders": {
+        "research": {
+          "receipt_sha256": "94acc0c18bed393cf9610ceb72347bb00a17a31fc17581d4b424174b696e0d9c",
+          "PDF_sha256": "53ac17b003dbb626cdde9f69f0d7e515e2bb43cdd3d3e7e0bbdbe202c6a100b1",
+          "SVG_sha256": "b97e739f3138a67670a85c0412e7692bdafb1b56d87a11afbacb77bd32edaaa1",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    },
+    {
+      "id": "kiosk",
+      "name": "Original kiosk",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 10885.092709844292,
+        "distance_ldu": 7175.587810989171,
+        "target_ldu": [
+          -4.759685088289295,
+          -40.45373303019913,
+          -6.797534771560521
+        ],
+        "position_ldu": [
+          3366.6637728056276,
+          -4156.201818381372,
+          4808.094156503244
+        ],
+        "principal_point_points": [
+          250.0,
+          190.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 7063.324915676902,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "model_sha256": "cad5c45bf7bbe263188627260706bccd62aead47ff64044eb3b6bcdd25edd36c",
+      "renders": {
+        "research": {
+          "receipt_sha256": "866ca3f9c607745f81b55371a963851f6b996c9a62448b0a044f0e195bcee9cb",
+          "PDF_sha256": "865fbbcecdb75085564d0bdd063bc9f9da5a0ab37bf9a9c22ceb27f4ab89765d",
+          "SVG_sha256": "a388a95c242cf2b91a03cd43747a09f9e4212724ccf6e530fdb393f05631fdd9",
+          "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2"
+        }
+      }
+    }
+  ],
+  "material_data_sha256": "77f5935ea90149671617af98d93c0e7ed4a556a7390960b6d900350f8e378609",
+  "material_evidence_sha256": "acfc3aa6b13430e45d838a5145e52a7a41dba88561818c2b01ed0b8b73668927",
+  "limits": "Opaque measured axis anchors only; intermediate normals and opposite faces use declared illustration extensions. Sources are not fitted or copied at render time.",
+  "editorial_font": {
+    "file": "Outfit[wght].ttf",
+    "sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade",
+    "variable_weight": "600 at sizes>=30, otherwise400; static fonts unchanged"
+  },
+  "previews": {
+    "kiosk-current-hero.png": "ab058a46102ea311a4afe8ac896fe201ee12f74f4ce826a67fa383e69d232e21",
+    "brick-2x4-current-materials.png": "b51feae2277f25069c2cacc85e54af0f506c440ad95fc458bdc870133083ff8a",
+    "kiosk-current-materials.png": "770153641c4998e105c221ae53d63e49910cb867ae9c4927a1792c9e5c0c769c",
+    "material-current-colors.png": "9882139c5af3eb2e751ab101732261d22adb7f0fb2a25063c1b4f2a4b23c39cf"
+  }
+}

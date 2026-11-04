@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "id": "plate-instruction",
+      "png_sha256": "2fc77ad3c8b90a5247ad65428988e5ad97f90bc24c14d0c5864e6cbf0d77c4cd",
+      "receipt_sha256": "65775a4e97b4ebac56b6b0f4ed4d084b35b92c95f1881f1f0559c60cb56268bf"
+    },
+    {
+      "id": "plate-instruction-depth",
+      "png_sha256": "848c0f3d58e26ace1ab51d341612ff222567fdce01582e1d7a6b03488ccd093c",
+      "receipt_sha256": "96eb3bf07d5b19069b9e0b5bf6b36ebdfcaecd298338364c9ab3a6ffea03b90b"
+    },
+    {
+      "id": "plate-presentation",
+      "png_sha256": "724272c0e2e677c3eaec6cbec087b2183e44b3b9192dbb96ba5bb64bdc926497",
+      "receipt_sha256": "a1303b676c3bdc2c9f435425ea2f509e9410f8c4837c126c2c5268d19636cc87"
+    },
+    {
+      "id": "plate-orthographic",
+      "png_sha256": "2d1ca509ed10ebf310e6ba9511bd91113b0c452b8d786ddcd2a05f03e23e831c",
+      "receipt_sha256": "37bf6ff8b8916627bbb84e73850ae3c60d62c40359003e67252fffff04685378"
+    },
+    {
+      "id": "kiosk-instruction",
+      "png_sha256": "09eddd8cb0e62222a564723210bee5eb5d9cc7e9a784a817cfd5dacca328ee9d",
+      "receipt_sha256": "9731efca2c9cc3e5b906796e086a6354d6faa1724197c82d8aa74bb4e411912a"
+    },
+    {
+      "id": "kiosk-instruction-depth",
+      "png_sha256": "36d0b72de3cf42c6436945ce70bf4184972da2d845c0319504c91d2503521f90",
+      "receipt_sha256": "9ae73a3082313f39918ad1f335a73ecbdc13643fdde745f1a7aa46d6f242074c"
+    },
+    {
+      "id": "kiosk-presentation",
+      "png_sha256": "410784296749d9b313031b3a2b64abbd85af173f0b0a5ee4df4b542853819498",
+      "receipt_sha256": "7bb7290e527c1742638fe8f2475c1ff9afc54e2ad5098e5752dd8c38778975ab"
+    },
+    {
+      "id": "kiosk-orthographic",
+      "png_sha256": "c11340de4736eeaecb357e156cb0afaab6dd214a5ea39c99342b52ec2af5d382",
+      "receipt_sha256": "bd8db446766820642b2f458373f10ba381179af269502ae424317a7410e5a1a2"
+    }
+  ],
+  "board_sha256": "1ef11dfb6307dd4284ec776fb7a6f1ac41e31b19bae42099079fee305eae988a",
+  "recipe_sha256": "aebd71b6bf85b0f9ead626d95c28d8527ecfd75621b6fafdb0ce6a63400e678a",
+  "font_sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade"
+}

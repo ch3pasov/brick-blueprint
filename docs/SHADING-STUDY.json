@@ -1,0 +1,729 @@
+{
+  "scope": "14 source images; 10 visually distinct opaque brick colors, same 63x59 framing. Face patches avoid outlines; four duplicates held as controls. Not material-ID certification.",
+  "rois_native_pixels": {
+    "right": [
+      38,
+      37,
+      49,
+      42
+    ],
+    "left": [
+      9,
+      33,
+      14,
+      38
+    ]
+  },
+  "observations": [
+    {
+      "i": 0,
+      "set": "11037",
+      "page": 18,
+      "image": "X5.jpg",
+      "source_sha256": "1eae62ea786d29fe43479f19e138812335a19e5235f44766faf5c23d8b769c95",
+      "encoded_sha256": "3d478c46aaec330758e1da302cf170fa73f7d724629301522796c2118053abdd",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "dark gray",
+      "faces": {
+        "right": [
+          117.0,
+          117.0,
+          117.0
+        ],
+        "left": [
+          105.0,
+          105.0,
+          105.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            117.0,
+            117.0,
+            117.0
+          ],
+          "max": [
+            117.0,
+            117.0,
+            117.0
+          ]
+        },
+        "left": {
+          "min": [
+            105.0,
+            105.0,
+            105.0
+          ],
+          "max": [
+            105.0,
+            105.0,
+            105.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 1,
+      "set": "11037",
+      "page": 27,
+      "image": "X2.jpg",
+      "source_sha256": "1eae62ea786d29fe43479f19e138812335a19e5235f44766faf5c23d8b769c95",
+      "encoded_sha256": "ff1e5490e3434d95151cd542b5b1104b32641ae2f3a44189434f3d9cbfc5d903",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "yellow",
+      "faces": {
+        "right": [
+          255.0,
+          226.0,
+          0.0
+        ],
+        "left": [
+          253.0,
+          202.0,
+          1.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            255.0,
+            226.0,
+            0.0
+          ],
+          "max": [
+            255.0,
+            226.0,
+            0.0
+          ]
+        },
+        "left": {
+          "min": [
+            253.0,
+            202.0,
+            1.0
+          ],
+          "max": [
+            253.0,
+            202.0,
+            1.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 18,
+      "set": "31168",
+      "page": 130,
+      "image": "X5.jpg",
+      "source_sha256": "87c9dee34cb254d503c2aa7b9c8c18105e45dc5251f4a371f0e4ba6325f62376",
+      "encoded_sha256": "931dee5b7f3a859fd5fc8a0e85e05d0a161ddd0d391a4f13bb0d6f5d96e094dd",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "light gray",
+      "faces": {
+        "right": [
+          170.0,
+          170.0,
+          170.0
+        ],
+        "left": [
+          152.0,
+          152.0,
+          152.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            170.0,
+            170.0,
+            170.0
+          ],
+          "max": [
+            170.0,
+            170.0,
+            170.0
+          ]
+        },
+        "left": {
+          "min": [
+            152.0,
+            152.0,
+            152.0
+          ],
+          "max": [
+            152.0,
+            152.0,
+            152.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 20,
+      "set": "21270",
+      "page": 42,
+      "image": "X3.jpg",
+      "source_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "encoded_sha256": "02f5b551c9fac4bc5d125939d665567f40b61c1ecc1c64351cd8e1042a4e9d12",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "black",
+      "faces": {
+        "right": [
+          48.0,
+          48.0,
+          48.0
+        ],
+        "left": [
+          43.0,
+          43.0,
+          43.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            48.0,
+            48.0,
+            48.0
+          ],
+          "max": [
+            48.0,
+            48.0,
+            48.0
+          ]
+        },
+        "left": {
+          "min": [
+            42.0,
+            42.0,
+            42.0
+          ],
+          "max": [
+            43.0,
+            43.0,
+            43.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 21,
+      "set": "21270",
+      "page": 43,
+      "image": "X2.jpg",
+      "source_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "encoded_sha256": "6fd03020f5b4efe445a67f9518b513b28a4db70c7f5f75cc02c87ae9e15e160d",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "white",
+      "faces": {
+        "right": [
+          245.0,
+          246.0,
+          248.0
+        ],
+        "left": [
+          222.0,
+          223.0,
+          225.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            245.0,
+            246.0,
+            248.0
+          ],
+          "max": [
+            245.0,
+            247.0,
+            249.0
+          ]
+        },
+        "left": {
+          "min": [
+            222.0,
+            223.0,
+            225.0
+          ],
+          "max": [
+            222.0,
+            223.0,
+            225.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 22,
+      "set": "21270",
+      "page": 47,
+      "image": "X3.jpg",
+      "source_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "encoded_sha256": "75ff41b92c0bc7178670ad0209e5aeb1c644f31f453b771306779b0aa789d538",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "red",
+      "faces": {
+        "right": [
+          210.0,
+          0.0,
+          2.0
+        ],
+        "left": [
+          190.0,
+          2.0,
+          1.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            209.0,
+            0.0,
+            1.0
+          ],
+          "max": [
+            210.0,
+            1.0,
+            2.0
+          ]
+        },
+        "left": {
+          "min": [
+            186.0,
+            1.0,
+            0.0
+          ],
+          "max": [
+            192.0,
+            2.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 23,
+      "set": "21270",
+      "page": 69,
+      "image": "X2.jpg",
+      "source_sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "encoded_sha256": "8292d5ac192bc2502b842c7f9705fac39301f765c3fea47f1e64e28c3b776cfa",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "tan",
+      "faces": {
+        "right": [
+          156.0,
+          139.0,
+          114.0
+        ],
+        "left": [
+          141.0,
+          124.0,
+          99.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            156.0,
+            139.0,
+            114.0
+          ],
+          "max": [
+            156.0,
+            139.0,
+            114.0
+          ]
+        },
+        "left": {
+          "min": [
+            140.0,
+            124.0,
+            99.0
+          ],
+          "max": [
+            141.0,
+            124.0,
+            101.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 25,
+      "set": "11038",
+      "page": 21,
+      "image": "X2.jpg",
+      "source_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+      "encoded_sha256": "170bd4e021a2c187efc815c0970655799720d6b49bf849a0b35ba950c32fbf46",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "brown",
+      "faces": {
+        "right": [
+          91.0,
+          43.0,
+          19.0
+        ],
+        "left": [
+          80.0,
+          38.0,
+          18.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "max": [
+            91.0,
+            43.0,
+            19.0
+          ]
+        },
+        "left": {
+          "min": [
+            79.0,
+            38.0,
+            17.0
+          ],
+          "max": [
+            80.0,
+            39.0,
+            18.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 30,
+      "set": "11038",
+      "page": 44,
+      "image": "X2.jpg",
+      "source_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+      "encoded_sha256": "6f5c9f606c62238dcf41f67114389389a0af007f6a1960107e7e6effc372279b",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "yellow orange",
+      "faces": {
+        "right": [
+          254.0,
+          182.0,
+          43.0
+        ],
+        "left": [
+          247.0,
+          163.0,
+          36.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            254.0,
+            182.0,
+            43.0
+          ],
+          "max": [
+            254.0,
+            183.0,
+            43.0
+          ]
+        },
+        "left": {
+          "min": [
+            246.0,
+            162.0,
+            35.0
+          ],
+          "max": [
+            248.0,
+            164.0,
+            42.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 33,
+      "set": "21269",
+      "page": 10,
+      "image": "X2.jpg",
+      "source_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "encoded_sha256": "c1f3f7592deb4f59ec49fe5dd82c3d08ab2542396f63ec5030f094fa75c20b00",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "dark gray",
+      "faces": {
+        "right": [
+          117.0,
+          117.0,
+          117.0
+        ],
+        "left": [
+          105.0,
+          105.0,
+          105.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            117.0,
+            117.0,
+            117.0
+          ],
+          "max": [
+            117.0,
+            117.0,
+            117.0
+          ]
+        },
+        "left": {
+          "min": [
+            105.0,
+            105.0,
+            105.0
+          ],
+          "max": [
+            105.0,
+            105.0,
+            105.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 36,
+      "set": "21269",
+      "page": 18,
+      "image": "X3.jpg",
+      "source_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "encoded_sha256": "a929a67f68373b2fb8adafa317d404880b7bea44134c805274ee208e10e72170",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "light gray",
+      "faces": {
+        "right": [
+          170.0,
+          170.0,
+          170.0
+        ],
+        "left": [
+          152.0,
+          152.0,
+          152.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            170.0,
+            170.0,
+            170.0
+          ],
+          "max": [
+            170.0,
+            170.0,
+            170.0
+          ]
+        },
+        "left": {
+          "min": [
+            152.0,
+            152.0,
+            152.0
+          ],
+          "max": [
+            152.0,
+            152.0,
+            152.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 37,
+      "set": "21269",
+      "page": 27,
+      "image": "X3.jpg",
+      "source_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "encoded_sha256": "23bbe726af21f6a5be727157f59dcc3da338b2e8461236adc01c6567c018f391",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "brown",
+      "faces": {
+        "right": [
+          91.0,
+          43.0,
+          19.0
+        ],
+        "left": [
+          80.0,
+          38.0,
+          18.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "max": [
+            91.0,
+            43.0,
+            19.0
+          ]
+        },
+        "left": {
+          "min": [
+            79.0,
+            38.0,
+            17.0
+          ],
+          "max": [
+            80.0,
+            39.0,
+            18.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 38,
+      "set": "21269",
+      "page": 27,
+      "image": "X2.jpg",
+      "source_sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "encoded_sha256": "021328bf7d40d20da0340d928e8c1b3e6ed3609fa1bda30c48f2e087678824b0",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "orange",
+      "faces": {
+        "right": [
+          253.0,
+          146.0,
+          47.0
+        ],
+        "left": [
+          226.0,
+          129.0,
+          43.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            252.0,
+            146.0,
+            47.0
+          ],
+          "max": [
+            253.0,
+            146.0,
+            47.0
+          ]
+        },
+        "left": {
+          "min": [
+            225.0,
+            129.0,
+            42.0
+          ],
+          "max": [
+            226.0,
+            130.0,
+            43.0
+          ]
+        }
+      }
+    },
+    {
+      "i": 39,
+      "set": "75375",
+      "page": 20,
+      "image": "X1.jpg",
+      "source_sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+      "encoded_sha256": "285de5a2bd4341c8c7b5512c837825da67d18cbc593a6f2c9b0437c53effd6f0",
+      "profile": "sRGB IEC61966-2.1",
+      "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+      "color_label_visual": "brown",
+      "faces": {
+        "right": [
+          91.0,
+          43.0,
+          19.0
+        ],
+        "left": [
+          80.0,
+          38.0,
+          18.0
+        ]
+      },
+      "roi_shift_1px": {
+        "right": {
+          "min": [
+            91.0,
+            43.0,
+            19.0
+          ],
+          "max": [
+            91.0,
+            43.0,
+            19.0
+          ]
+        },
+        "left": {
+          "min": [
+            79.0,
+            38.0,
+            17.0
+          ],
+          "max": [
+            80.0,
+            39.0,
+            18.0
+          ]
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "model": "left = k * right",
+      "space": "encoded RGB",
+      "k": 0.9129348266164773,
+      "fit_MAE_levels": 3.2493736344702673,
+      "leave_one_color_out_MAE_levels": 3.4338343031490823,
+      "leave_one_color_out_max_levels": 21.932462865551752
+    },
+    {
+      "model": "left = k * right",
+      "space": "linear RGB",
+      "k": 0.8344860696281471,
+      "fit_MAE_levels": 3.93388013169761,
+      "leave_one_color_out_MAE_levels": 4.255687864493337,
+      "leave_one_color_out_max_levels": 19.9136181868651
+    }
+  ],
+  "limits": [
+    "Only two vertical face orientations; not a recovered full lighting shader.",
+    "Color names are visual labels, not authoritative element IDs.",
+    "RGB transfer is tested after checking source profiles, not inferred from screenshot colors.",
+    "Black and white may have material-specific editorial treatment; test includes them rather than removing contrary evidence."
+  ]
+}

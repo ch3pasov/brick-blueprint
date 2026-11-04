@@ -1,0 +1,2255 @@
+{
+  "protocol": {
+    "question": "Does the generic35/35 FOV30 full-page auto-fit reproduce the weak perspective of these two inventory sources?",
+    "sources": [
+      "11038-p19-X1",
+      "11037-p8-X2"
+    ],
+    "FOV_grid_degrees": [
+      30,
+      15,
+      5,
+      2,
+      1,
+      0.1,
+      0
+    ],
+    "view": "Centered optical axis, local35/35, roll0, target body center, actual DAT vertices for distance-only fit",
+    "frame": "Native source width and cropped brick height plus30 points padding on each side; known pixel aspect applied. FOV values are relative to this declared frame, not original uncropped LEGO cameras.",
+    "alignment": "Only uniform positive scale and two translations fitted to seven body corners; no rotation, anisotropic scaling, shear or projective warp. Same alignment applied to held-out caps.",
+    "holdout": "Frozen stud-cap observations, radius6 height4, projected area centroid; all threshold comparisons reported",
+    "limits": [
+      "Two already-used Classic sources; no independent source claim",
+      "Sweep is descriptive, no p-value or universal preset inferred",
+      "Framing affects an auto-fit FOV; values cannot be copied to another page aspect/occupancy without checking"
+    ],
+    "orthographic_control": {
+      "projection": "Exact orthographic; 0 degrees is a plot label for the FOV-to-zero limit, not a pinhole parameter.",
+      "angle_degrees": [
+        35,
+        35
+      ],
+      "sources": [
+        "11038-p19-X1",
+        "11037-p8-X2"
+      ],
+      "source_results_sha256": "83b74ee85c03c76f8995252f3272452aa3bd0c5fce47171e42f2bf29a68167e2",
+      "source_caps_sha256": "e3fbe5d1bd2001dfd9cb4511f26467d79b99e6fab2756e3099f96149bce702cd",
+      "frame": "Same source dimensions, crop, pixel aspect and30pt border as the existing FOV sweep.",
+      "alignment": "Positive uniform scale and two translations fitted to seven body corners. No rotation or anisotropic/projective warp.",
+      "holdout": "Same frozen16/8 cap centroids; all3x3 threshold combinations. Main values use the middle edge/cap threshold.",
+      "comparison": "Report actual errors against FOV2 and0.1, regardless of their direction. These are two reused sources, not independent validation.",
+      "sanity": "Polygon centroid of an orthographically projected disk must equal its projected centre; reproduce the actual renderer screen transform."
+    },
+    "zero_label": "0 denotes the exact orthographic limit, rendered with projection=orthographic; it is not a zero-degree pinhole camera."
+  },
+  "results": [
+    {
+      "id": "11038-p19-X1",
+      "frame_points": [
+        323,
+        217
+      ],
+      "field_of_view": 30,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 30,
+        "focal_length_points": 404.92751262122323,
+        "distance_ldu": 262.38305082027165,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          123.27970833755164,
+          -138.49673524840685,
+          176.0616697340236
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 204.49222731936607,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "body_rms_px": 6.663268503137447,
+          "cap_rms_px": 10.904958012112298,
+          "alignment_scale": 1.061301266971489,
+          "alignment_shift": [
+            -25.918861923600062,
+            -43.47659450672738
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "body_rms_px": 6.663268503137447,
+          "cap_rms_px": 10.913055519664375,
+          "alignment_scale": 1.061301266971489,
+          "alignment_shift": [
+            -25.918861923600062,
+            -43.47659450672738
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "body_rms_px": 6.663268503137447,
+          "cap_rms_px": 10.89039030537854,
+          "alignment_scale": 1.061301266971489,
+          "alignment_shift": [
+            -25.918861923600062,
+            -43.47659450672738
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "body_rms_px": 6.629077541441021,
+          "cap_rms_px": 10.794531569615675,
+          "alignment_scale": 1.0608588134780539,
+          "alignment_shift": [
+            -26.00096850650941,
+            -43.4821892839298
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "body_rms_px": 6.629077541441021,
+          "cap_rms_px": 10.802356366289105,
+          "alignment_scale": 1.0608588134780539,
+          "alignment_shift": [
+            -26.00096850650941,
+            -43.4821892839298
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "body_rms_px": 6.629077541441021,
+          "cap_rms_px": 10.779825298110184,
+          "alignment_scale": 1.0608588134780539,
+          "alignment_shift": [
+            -26.00096850650941,
+            -43.4821892839298
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "body_rms_px": 6.579340017121896,
+          "cap_rms_px": 10.788200733563414,
+          "alignment_scale": 1.0609266167516673,
+          "alignment_shift": [
+            -26.013120829829035,
+            -43.47079609474024
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "body_rms_px": 6.579340017121896,
+          "cap_rms_px": 10.796052114416927,
+          "alignment_scale": 1.0609266167516673,
+          "alignment_shift": [
+            -26.013120829829035,
+            -43.47079609474024
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "body_rms_px": 6.579340017121896,
+          "cap_rms_px": 10.773520296645772,
+          "alignment_scale": 1.0609266167516673,
+          "alignment_shift": [
+            -26.013120829829035,
+            -43.47079609474024
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11038-p19-X1",
+      "frame_points": [
+        323,
+        217
+      ],
+      "field_of_view": 15,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 15,
+        "focal_length_points": 824.139321230679,
+        "distance_ldu": 492.59057103320845,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          231.44186233431142,
+          -270.53834431335457,
+          330.53323436942975
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 434.69974753230287,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "body_rms_px": 3.0955736005374606,
+          "cap_rms_px": 5.50074140631091,
+          "alignment_scale": 0.9971197663540626,
+          "alignment_shift": [
+            -22.332260769734958,
+            -33.439145187949805
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "body_rms_px": 3.0955736005374606,
+          "cap_rms_px": 5.509717202707476,
+          "alignment_scale": 0.9971197663540626,
+          "alignment_shift": [
+            -22.332260769734958,
+            -33.439145187949805
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "body_rms_px": 3.0955736005374606,
+          "cap_rms_px": 5.4861827922363045,
+          "alignment_scale": 0.9971197663540626,
+          "alignment_shift": [
+            -22.332260769734958,
+            -33.439145187949805
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "body_rms_px": 3.0757733479134957,
+          "cap_rms_px": 5.386911687583547,
+          "alignment_scale": 0.9966943151234161,
+          "alignment_shift": [
+            -22.414488123600293,
+            -33.44777210544625
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "body_rms_px": 3.0757733479134957,
+          "cap_rms_px": 5.395366156969599,
+          "alignment_scale": 0.9966943151234161,
+          "alignment_shift": [
+            -22.414488123600293,
+            -33.44777210544625
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "body_rms_px": 3.0757733479134957,
+          "cap_rms_px": 5.37206065479823,
+          "alignment_scale": 0.9966943151234161,
+          "alignment_shift": [
+            -22.414488123600293,
+            -33.44777210544625
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "body_rms_px": 3.038553427898103,
+          "cap_rms_px": 5.380661954211524,
+          "alignment_scale": 0.99674406470604,
+          "alignment_shift": [
+            -22.424445259253332,
+            -33.43408919478546
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "body_rms_px": 3.038553427898103,
+          "cap_rms_px": 5.389166993599807,
+          "alignment_scale": 0.99674406470604,
+          "alignment_shift": [
+            -22.424445259253332,
+            -33.43408919478546
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "body_rms_px": 3.038553427898103,
+          "cap_rms_px": 5.3658648938026525,
+          "alignment_scale": 0.99674406470604,
+          "alignment_shift": [
+            -22.424445259253332,
+            -33.43408919478546
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11038-p19-X1",
+      "frame_points": [
+        323,
+        217
+      ],
+      "field_of_view": 5,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 5,
+        "focal_length_points": 2485.058562004785,
+        "distance_ldu": 1422.7499463223153,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          668.4738128913135,
+          -804.0558440301958,
+          954.6795434400307
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1364.8591228214098,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "body_rms_px": 0.8566409223496637,
+          "cap_rms_px": 1.6081165153294343,
+          "alignment_scale": 0.9620469395908884,
+          "alignment_shift": [
+            -21.616802170523343,
+            -27.407456635122614
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "body_rms_px": 0.8566409223496637,
+          "cap_rms_px": 1.620562934749035,
+          "alignment_scale": 0.9620469395908884,
+          "alignment_shift": [
+            -21.616802170523343,
+            -27.407456635122614
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "body_rms_px": 0.8566409223496637,
+          "cap_rms_px": 1.5986315197346839,
+          "alignment_scale": 0.9620469395908884,
+          "alignment_shift": [
+            -21.616802170523343,
+            -27.407456635122614
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "body_rms_px": 0.8668235568866602,
+          "cap_rms_px": 1.476477916514303,
+          "alignment_scale": 0.9616323528946908,
+          "alignment_shift": [
+            -21.698739036810608,
+            -27.418180783403017
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "body_rms_px": 0.8668235568866602,
+          "cap_rms_px": 1.4874539649674086,
+          "alignment_scale": 0.9616323528946908,
+          "alignment_shift": [
+            -21.698739036810608,
+            -27.418180783403017
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "body_rms_px": 0.8668235568866602,
+          "cap_rms_px": 1.466182591095078,
+          "alignment_scale": 0.9616323528946908,
+          "alignment_shift": [
+            -21.698739036810608,
+            -27.418180783403017
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "body_rms_px": 0.8819911188398606,
+          "cap_rms_px": 1.4753119283570708,
+          "alignment_scale": 0.9616724441753142,
+          "alignment_shift": [
+            -21.707511424571777,
+            -27.403278147165622
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "body_rms_px": 0.8819911188398606,
+          "cap_rms_px": 1.4864375267352201,
+          "alignment_scale": 0.9616724441753142,
+          "alignment_shift": [
+            -21.707511424571777,
+            -27.403278147165622
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "body_rms_px": 0.8819911188398606,
+          "cap_rms_px": 1.4652736534662392,
+          "alignment_scale": 0.9616724441753142,
+          "alignment_shift": [
+            -21.707511424571777,
+            -27.403278147165622
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11038-p19-X1",
+      "frame_points": [
+        323,
+        217
+      ],
+      "field_of_view": 2,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 6215.960836937397,
+        "distance_ldu": 3512.1554057344206,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          1650.1732589109865,
+          -2002.4895815322116,
+          2356.691650492865
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 3454.264582233515,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "body_rms_px": 0.44807754388920906,
+          "cap_rms_px": 0.7499682827182318,
+          "alignment_scale": 0.9506256237344173,
+          "alignment_shift": [
+            -21.314968181560104,
+            -25.475978563426864
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "body_rms_px": 0.44807754388920906,
+          "cap_rms_px": 0.7643062395709129,
+          "alignment_scale": 0.9506256237344173,
+          "alignment_shift": [
+            -21.314968181560104,
+            -25.475978563426864
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "body_rms_px": 0.44807754388920906,
+          "cap_rms_px": 0.758199718109084,
+          "alignment_scale": 0.9506256237344173,
+          "alignment_shift": [
+            -21.314968181560104,
+            -25.475978563426864
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "body_rms_px": 0.4980945347453341,
+          "cap_rms_px": 0.6433030510873329,
+          "alignment_scale": 0.9502150604794527,
+          "alignment_shift": [
+            -21.396903292116818,
+            -25.487431254031037
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "body_rms_px": 0.4980945347453341,
+          "cap_rms_px": 0.6541430641830169,
+          "alignment_scale": 0.9502150604794527,
+          "alignment_shift": [
+            -21.396903292116818,
+            -25.487431254031037
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "body_rms_px": 0.4980945347453341,
+          "cap_rms_px": 0.652959210689721,
+          "alignment_scale": 0.9502150604794527,
+          "alignment_shift": [
+            -21.396903292116818,
+            -25.487431254031037
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "body_rms_px": 0.5860250293563892,
+          "cap_rms_px": 0.6574338421601095,
+          "alignment_scale": 0.9502525658928682,
+          "alignment_shift": [
+            -21.405353529311355,
+            -25.47220434384836
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "body_rms_px": 0.5860250293563892,
+          "cap_rms_px": 0.668354034991716,
+          "alignment_scale": 0.9502525658928682,
+          "alignment_shift": [
+            -21.405353529311355,
+            -25.47220434384836
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "body_rms_px": 0.5860250293563892,
+          "cap_rms_px": 0.6674703777603221,
+          "alignment_scale": 0.9502525658928682,
+          "alignment_shift": [
+            -21.405353529311355,
+            -25.47220434384836
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11038-p19-X1",
+      "frame_points": [
+        323,
+        217
+      ],
+      "field_of_view": 1,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 1,
+        "focal_length_points": 12432.868539030093,
+        "distance_ldu": 6993.790660747435,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          3286.0067376128836,
+          -3999.4735237767422,
+          4692.903972462998
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 6935.899837246529,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "body_rms_px": 0.48800552494611227,
+          "cap_rms_px": 0.7769487120579529,
+          "alignment_scale": 0.9467189807339027,
+          "alignment_shift": [
+            -21.20533041107224,
+            -24.818299933700516
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "body_rms_px": 0.48800552494611227,
+          "cap_rms_px": 0.7868298657153097,
+          "alignment_scale": 0.9467189807339027,
+          "alignment_shift": [
+            -21.20533041107224,
+            -24.818299933700516
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "body_rms_px": 0.48800552494611227,
+          "cap_rms_px": 0.7942265138386265,
+          "alignment_scale": 0.9467189807339027,
+          "alignment_shift": [
+            -21.20533041107224,
+            -24.818299933700516
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "body_rms_px": 0.5424491674296601,
+          "cap_rms_px": 0.7360432581867198,
+          "alignment_scale": 0.9463098358265486,
+          "alignment_shift": [
+            -21.28727328988431,
+            -24.830005658731764
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "body_rms_px": 0.5424491674296601,
+          "cap_rms_px": 0.7413274924023823,
+          "alignment_scale": 0.9463098358265486,
+          "alignment_shift": [
+            -21.28727328988431,
+            -24.830005658731764
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "body_rms_px": 0.5424491674296601,
+          "cap_rms_px": 0.754322534426177,
+          "alignment_scale": 0.9463098358265486,
+          "alignment_shift": [
+            -21.28727328988431,
+            -24.830005658731764
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "body_rms_px": 0.6416367836494755,
+          "cap_rms_px": 0.7534600368508739,
+          "alignment_scale": 0.9463465120932681,
+          "alignment_shift": [
+            -21.295619830473356,
+            -24.81467495502403
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "body_rms_px": 0.6416367836494755,
+          "cap_rms_px": 0.7588943148156051,
+          "alignment_scale": 0.9463465120932681,
+          "alignment_shift": [
+            -21.295619830473356,
+            -24.81467495502403
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "body_rms_px": 0.6416367836494755,
+          "cap_rms_px": 0.7718331575639216,
+          "alignment_scale": 0.9463465120932681,
+          "alignment_shift": [
+            -21.295619830473356,
+            -24.81467495502403
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11038-p19-X1",
+      "frame_points": [
+        323,
+        217
+      ],
+      "field_of_view": 0.1,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 0.1,
+        "focal_length_points": 124331.80998201639,
+        "distance_ldu": 69660.20267702946,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          32729.589209027683,
+          -39943.45080698217,
+          46742.69759036111
+        ],
+        "principal_point_points": [
+          161.5,
+          108.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 69602.31185352856,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "body_rms_px": 0.6037907242746114,
+          "cap_rms_px": 0.9798081847841021,
+          "alignment_scale": 0.943159107563501,
+          "alignment_shift": [
+            -21.10276041999147,
+            -24.22023017217664
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "body_rms_px": 0.6037907242746114,
+          "cap_rms_px": 0.98478257319889,
+          "alignment_scale": 0.943159107563501,
+          "alignment_shift": [
+            -21.10276041999147,
+            -24.22023017217664
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "body_rms_px": 0.6037907242746114,
+          "cap_rms_px": 1.000316084976263,
+          "alignment_scale": 0.943159107563501,
+          "alignment_shift": [
+            -21.10276041999147,
+            -24.22023017217664
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "body_rms_px": 0.6542838531730367,
+          "cap_rms_px": 0.9882305948354608,
+          "alignment_scale": 0.9427512721088422,
+          "alignment_shift": [
+            -21.184713809192786,
+            -24.23216799949212
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "body_rms_px": 0.6542838531730367,
+          "cap_rms_px": 0.9893073982240963,
+          "alignment_scale": 0.9427512721088422,
+          "alignment_shift": [
+            -21.184713809192786,
+            -24.23216799949212
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "body_rms_px": 0.6542838531730367,
+          "cap_rms_px": 1.0086122117185616,
+          "alignment_scale": 0.9427512721088422,
+          "alignment_shift": [
+            -21.184713809192786,
+            -24.23216799949212
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "body_rms_px": 0.7517199693171958,
+          "cap_rms_px": 1.0047256434504452,
+          "alignment_scale": 0.942787216350832,
+          "alignment_shift": [
+            -21.192968649535146,
+            -24.216745728621973
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "body_rms_px": 0.7517199693171958,
+          "cap_rms_px": 1.0059887070429079,
+          "alignment_scale": 0.942787216350832,
+          "alignment_shift": [
+            -21.192968649535146,
+            -24.216745728621973
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "body_rms_px": 0.7517199693171958,
+          "cap_rms_px": 1.0251609742455292,
+          "alignment_scale": 0.942787216350832,
+          "alignment_shift": [
+            -21.192968649535146,
+            -24.216745728621973
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "frame_points": [
+        216,
+        173
+      ],
+      "field_of_view": 30,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 30,
+        "focal_length_points": 322.8223948547079,
+        "distance_ldu": 192.6117507073448,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          90.49792040817344,
+          -98.47756157005493,
+          129.24442464523943
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 153.5147796221574,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "body_rms_px": 4.511397721109278,
+          "cap_rms_px": 3.2354373584483476,
+          "alignment_scale": 0.9886278460965906,
+          "alignment_shift": [
+            -25.682624450074584,
+            -31.920540295739016
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "body_rms_px": 4.511397721109278,
+          "cap_rms_px": 3.2077050838574017,
+          "alignment_scale": 0.9886278460965906,
+          "alignment_shift": [
+            -25.682624450074584,
+            -31.920540295739016
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "body_rms_px": 4.511397721109278,
+          "cap_rms_px": 3.227081276063669,
+          "alignment_scale": 0.9886278460965906,
+          "alignment_shift": [
+            -25.682624450074584,
+            -31.920540295739016
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "body_rms_px": 4.478663037350165,
+          "cap_rms_px": 3.469249370054637,
+          "alignment_scale": 0.9935769434413206,
+          "alignment_shift": [
+            -26.016137666783536,
+            -32.41931952885635
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "body_rms_px": 4.478663037350165,
+          "cap_rms_px": 3.445641103663199,
+          "alignment_scale": 0.9935769434413206,
+          "alignment_shift": [
+            -26.016137666783536,
+            -32.41931952885635
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "body_rms_px": 4.478663037350165,
+          "cap_rms_px": 3.4647096263021235,
+          "alignment_scale": 0.9935769434413206,
+          "alignment_shift": [
+            -26.016137666783536,
+            -32.41931952885635
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "body_rms_px": 4.536584184727305,
+          "cap_rms_px": 3.4684843889185455,
+          "alignment_scale": 0.9938181870213005,
+          "alignment_shift": [
+            -26.074816089058217,
+            -32.481931822510305
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "body_rms_px": 4.536584184727305,
+          "cap_rms_px": 3.4455865432875217,
+          "alignment_scale": 0.9938181870213005,
+          "alignment_shift": [
+            -26.074816089058217,
+            -32.481931822510305
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "body_rms_px": 4.536584184727305,
+          "cap_rms_px": 3.464585036451589,
+          "alignment_scale": 0.9938181870213005,
+          "alignment_shift": [
+            -26.074816089058217,
+            -32.481931822510305
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "frame_points": [
+        216,
+        173
+      ],
+      "field_of_view": 15,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 15,
+        "focal_length_points": 657.0327307507256,
+        "distance_ldu": 365.79338592381106,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          171.86667274244863,
+          -197.81046673896248,
+          245.4510461025273
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 326.69641483862364,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "body_rms_px": 2.22903783177323,
+          "cap_rms_px": 1.466564033696257,
+          "alignment_scale": 0.9332869107126862,
+          "alignment_shift": [
+            -21.510390522676687,
+            -25.90337690804084
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "body_rms_px": 2.22903783177323,
+          "cap_rms_px": 1.4261896322678551,
+          "alignment_scale": 0.9332869107126862,
+          "alignment_shift": [
+            -21.510390522676687,
+            -25.90337690804084
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "body_rms_px": 2.22903783177323,
+          "cap_rms_px": 1.4476872779336978,
+          "alignment_scale": 0.9332869107126862,
+          "alignment_shift": [
+            -21.510390522676687,
+            -25.90337690804084
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "body_rms_px": 2.1867580174128216,
+          "cap_rms_px": 1.6708355289478232,
+          "alignment_scale": 0.9379335762133025,
+          "alignment_shift": [
+            -21.820466540709177,
+            -26.369718674653384
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "body_rms_px": 2.1867580174128216,
+          "cap_rms_px": 1.6402924311781604,
+          "alignment_scale": 0.9379335762133025,
+          "alignment_shift": [
+            -21.820466540709177,
+            -26.369718674653384
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "body_rms_px": 2.1867580174128216,
+          "cap_rms_px": 1.6610554526385128,
+          "alignment_scale": 0.9379335762133025,
+          "alignment_shift": [
+            -21.820466540709177,
+            -26.369718674653384
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "body_rms_px": 2.237390503387801,
+          "cap_rms_px": 1.6608826795137785,
+          "alignment_scale": 0.9381894825809771,
+          "alignment_shift": [
+            -21.88095633872443,
+            -26.433430928874998
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "body_rms_px": 2.237390503387801,
+          "cap_rms_px": 1.631697811841869,
+          "alignment_scale": 0.9381894825809771,
+          "alignment_shift": [
+            -21.88095633872443,
+            -26.433430928874998
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "body_rms_px": 2.237390503387801,
+          "cap_rms_px": 1.6524198350983441,
+          "alignment_scale": 0.9381894825809771,
+          "alignment_shift": [
+            -21.88095633872443,
+            -26.433430928874998
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "frame_points": [
+        216,
+        173
+      ],
+      "field_of_view": 5,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 5,
+        "focal_length_points": 1981.175719939299,
+        "distance_ldu": 1055.6194233140122,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          495.9788912232267,
+          -593.4784269673976,
+          708.3312648866154
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 1016.5224522288248,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "body_rms_px": 0.7261878533610926,
+          "cap_rms_px": 0.715681349833175,
+          "alignment_scale": 0.8973920357062173,
+          "alignment_shift": [
+            -18.893284022607304,
+            -21.941703821906273
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "body_rms_px": 0.7261878533610926,
+          "cap_rms_px": 0.6579399364369196,
+          "alignment_scale": 0.8973920357062173,
+          "alignment_shift": [
+            -18.893284022607304,
+            -21.941703821906273
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "body_rms_px": 0.7261878533610926,
+          "cap_rms_px": 0.6666739452790025,
+          "alignment_scale": 0.8973920357062173,
+          "alignment_shift": [
+            -18.893284022607304,
+            -21.941703821906273
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "body_rms_px": 0.7243419266758965,
+          "cap_rms_px": 0.7053621009396744,
+          "alignment_scale": 0.9018387247635511,
+          "alignment_shift": [
+            -19.18817063355118,
+            -22.386398759581212
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "body_rms_px": 0.7243419266758965,
+          "cap_rms_px": 0.658783162909252,
+          "alignment_scale": 0.9018387247635511,
+          "alignment_shift": [
+            -19.18817063355118,
+            -22.386398759581212
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "body_rms_px": 0.7243419266758965,
+          "cap_rms_px": 0.6723629457299763,
+          "alignment_scale": 0.9018387247635511,
+          "alignment_shift": [
+            -19.18817063355118,
+            -22.386398759581212
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "body_rms_px": 0.7380497933562543,
+          "cap_rms_px": 0.6614554372663594,
+          "alignment_scale": 0.9021035523707207,
+          "alignment_shift": [
+            -19.249848365500625,
+            -22.450721183398358
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "body_rms_px": 0.7380497933562543,
+          "cap_rms_px": 0.6157080424322472,
+          "alignment_scale": 0.9021035523707207,
+          "alignment_shift": [
+            -19.249848365500625,
+            -22.450721183398358
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "body_rms_px": 0.7380497933562543,
+          "cap_rms_px": 0.6298198011036139,
+          "alignment_scale": 0.9021035523707207,
+          "alignment_shift": [
+            -19.249848365500625,
+            -22.450721183398358
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "frame_points": [
+        216,
+        173
+      ],
+      "field_of_view": 2,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2,
+        "focal_length_points": 4955.58168106069,
+        "distance_ldu": 2622.0552848958687,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          1231.9630012546704,
+          -1491.9491262259994,
+          1759.4255046218907
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 2582.9583138106814,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "body_rms_px": 0.38236419253819875,
+          "cap_rms_px": 0.8766847279805947,
+          "alignment_scale": 0.8919202286994248,
+          "alignment_shift": [
+            -18.693643113006118,
+            -21.202041463528403
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "body_rms_px": 0.38236419253819875,
+          "cap_rms_px": 0.8365919868150776,
+          "alignment_scale": 0.8919202286994248,
+          "alignment_shift": [
+            -18.693643113006118,
+            -21.202041463528403
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "body_rms_px": 0.38236419253819875,
+          "cap_rms_px": 0.8335434590012065,
+          "alignment_scale": 0.8919202286994248,
+          "alignment_shift": [
+            -18.693643113006118,
+            -21.202041463528403
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "body_rms_px": 0.4680188110219112,
+          "cap_rms_px": 0.7412976694252034,
+          "alignment_scale": 0.8963324657624098,
+          "alignment_shift": [
+            -18.986792283869733,
+            -21.642409806742563
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "body_rms_px": 0.4680188110219112,
+          "cap_rms_px": 0.7047224843600308,
+          "alignment_scale": 0.8963324657624098,
+          "alignment_shift": [
+            -18.986792283869733,
+            -21.642409806742563
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "body_rms_px": 0.4680188110219112,
+          "cap_rms_px": 0.7056663530504413,
+          "alignment_scale": 0.8963324657624098,
+          "alignment_shift": [
+            -18.986792283869733,
+            -21.642409806742563
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "body_rms_px": 0.42051453932576954,
+          "cap_rms_px": 0.6928074308909005,
+          "alignment_scale": 0.8966014190825151,
+          "alignment_shift": [
+            -19.0489963689801,
+            -21.707031383845816
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "body_rms_px": 0.42051453932576954,
+          "cap_rms_px": 0.6574422641266136,
+          "alignment_scale": 0.8966014190825151,
+          "alignment_shift": [
+            -19.0489963689801,
+            -21.707031383845816
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "body_rms_px": 0.42051453932576954,
+          "cap_rms_px": 0.6580716619272098,
+          "alignment_scale": 0.8966014190825151,
+          "alignment_shift": [
+            -19.0489963689801,
+            -21.707031383845816
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "frame_points": [
+        216,
+        173
+      ],
+      "field_of_view": 1,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 1,
+        "focal_length_points": 9911.918236185282,
+        "distance_ldu": 5232.251547106555,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          2458.3540844558415,
+          -2989.096196481626,
+          3510.893485581946
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 5193.154576021368,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "body_rms_px": 0.3507262714477416,
+          "cap_rms_px": 0.9691589613411088,
+          "alignment_scale": 0.8900418009690925,
+          "alignment_shift": [
+            -18.62157100070361,
+            -20.95047985791402
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "body_rms_px": 0.3507262714477416,
+          "cap_rms_px": 0.9348891065254163,
+          "alignment_scale": 0.8900418009690925,
+          "alignment_shift": [
+            -18.62157100070361,
+            -20.95047985791402
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "body_rms_px": 0.3507262714477416,
+          "cap_rms_px": 0.9291099821497365,
+          "alignment_scale": 0.8900418009690925,
+          "alignment_shift": [
+            -18.62157100070361,
+            -20.95047985791402
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "body_rms_px": 0.4722859652438589,
+          "cap_rms_px": 0.807375445589712,
+          "alignment_scale": 0.8944422121481896,
+          "alignment_shift": [
+            -18.914104996814572,
+            -21.389375622794333
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "body_rms_px": 0.4722859652438589,
+          "cap_rms_px": 0.7761529030967701,
+          "alignment_scale": 0.8944422121481896,
+          "alignment_shift": [
+            -18.914104996814572,
+            -21.389375622794333
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "body_rms_px": 0.4722859652438589,
+          "cap_rms_px": 0.7733271342532304,
+          "alignment_scale": 0.8944422121481896,
+          "alignment_shift": [
+            -18.914104996814572,
+            -21.389375622794333
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "body_rms_px": 0.4002211745197319,
+          "cap_rms_px": 0.7609254038396921,
+          "alignment_scale": 0.8947125064525768,
+          "alignment_shift": [
+            -18.97648207442731,
+            -21.454093096311226
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "body_rms_px": 0.4002211745197319,
+          "cap_rms_px": 0.7312386987239301,
+          "alignment_scale": 0.8947125064525768,
+          "alignment_shift": [
+            -18.97648207442731,
+            -21.454093096311226
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "body_rms_px": 0.4002211745197319,
+          "cap_rms_px": 0.7278922885160714,
+          "alignment_scale": 0.8947125064525768,
+          "alignment_shift": [
+            -18.97648207442731,
+            -21.454093096311226
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "frame_points": [
+        216,
+        173
+      ],
+      "field_of_view": 0.1,
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 0.1,
+        "focal_length_points": 99121.67339580109,
+        "distance_ldu": 52213.518230782414,
+        "target_ldu": [
+          0,
+          12,
+          0
+        ],
+        "position_ldu": [
+          24532.32889336837,
+          -29936.443716162557,
+          35035.79660980602
+        ],
+        "principal_point_points": [
+          108.0,
+          86.5
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 52174.42125969723,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ]
+      },
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "body_rms_px": 0.38310280777759875,
+          "cap_rms_px": 1.0631588854146061,
+          "alignment_scale": 0.8883275063830571,
+          "alignment_shift": [
+            -18.55433669505146,
+            -20.721867160862743
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "body_rms_px": 0.38310280777759875,
+          "cap_rms_px": 1.0334919563876335,
+          "alignment_scale": 0.8883275063830571,
+          "alignment_shift": [
+            -18.55433669505146,
+            -20.721867160862743
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "body_rms_px": 0.38310280777759875,
+          "cap_rms_px": 1.025750592585085,
+          "alignment_scale": 0.8883275063830571,
+          "alignment_shift": [
+            -18.55433669505146,
+            -20.721867160862743
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "body_rms_px": 0.5217151799253209,
+          "cap_rms_px": 0.8838866654534372,
+          "alignment_scale": 0.8927171251249082,
+          "alignment_shift": [
+            -18.84630147300946,
+            -21.159424223015805
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "body_rms_px": 0.5217151799253209,
+          "cap_rms_px": 0.8572462209345701,
+          "alignment_scale": 0.8927171251249082,
+          "alignment_shift": [
+            -18.84630147300946,
+            -21.159424223015805
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "body_rms_px": 0.5217151799253209,
+          "cap_rms_px": 0.8516438841738859,
+          "alignment_scale": 0.8927171251249082,
+          "alignment_shift": [
+            -18.84630147300946,
+            -21.159424223015805
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "body_rms_px": 0.43674099819823897,
+          "cap_rms_px": 0.839865426405388,
+          "alignment_scale": 0.892988611568878,
+          "alignment_shift": [
+            -18.908833192617976,
+            -21.224226351392915
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "body_rms_px": 0.43674099819823897,
+          "cap_rms_px": 0.8149482495657139,
+          "alignment_scale": 0.892988611568878,
+          "alignment_shift": [
+            -18.908833192617976,
+            -21.224226351392915
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "body_rms_px": 0.43674099819823897,
+          "cap_rms_px": 0.8087406448754327,
+          "alignment_scale": 0.892988611568878,
+          "alignment_shift": [
+            -18.908833192617976,
+            -21.224226351392915
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11038-p19-X1",
+      "frame_points": [
+        323,
+        217
+      ],
+      "field_of_view": 0,
+      "camera": {
+        "projection": "orthographic",
+        "depth_encoding": "linear world depth",
+        "scale_definition": "uniform points per LDU",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "points_per_ldu": 1.7856286620338901,
+        "offset_points": [
+          161.5,
+          90.94758357384706
+        ]
+      },
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 55,
+          "body_rms_px": 0.6197301838367467,
+          "cap_rms_px": 1.0092748533030358,
+          "alignment_scale": 0.9427609649399747,
+          "alignment_shift": [
+            -21.09113481957688,
+            -24.153411824737674
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 65,
+          "body_rms_px": 0.6197301838367467,
+          "cap_rms_px": 1.0137921940020114,
+          "alignment_scale": 0.9427609649399747,
+          "alignment_shift": [
+            -21.09113481957688,
+            -24.153411824737674
+          ]
+        },
+        {
+          "edge_threshold": 35,
+          "cap_threshold": 75,
+          "body_rms_px": 0.6197301838367467,
+          "cap_rms_px": 1.0299280262152062,
+          "alignment_scale": 0.9427609649399747,
+          "alignment_shift": [
+            -21.09113481957688,
+            -24.153411824737674
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 55,
+          "body_rms_px": 0.6696168874769755,
+          "cap_rms_px": 1.0217409186677102,
+          "alignment_scale": 0.9423532769056613,
+          "alignment_shift": [
+            -21.173089581190325,
+            -24.16537569734966
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 65,
+          "body_rms_px": 0.6696168874769755,
+          "cap_rms_px": 1.022472683814053,
+          "alignment_scale": 0.9423532769056613,
+          "alignment_shift": [
+            -21.173089581190325,
+            -24.16537569734966
+          ]
+        },
+        {
+          "edge_threshold": 50,
+          "cap_threshold": 75,
+          "body_rms_px": 0.6696168874769755,
+          "cap_rms_px": 1.0421902771371276,
+          "alignment_scale": 0.9423532769056613,
+          "alignment_shift": [
+            -21.173089581190325,
+            -24.16537569734966
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 55,
+          "body_rms_px": 0.7665071291066208,
+          "cap_rms_px": 1.0380780413697939,
+          "alignment_scale": 0.9423891406472104,
+          "alignment_shift": [
+            -21.181334329039743,
+            -24.149943360641117
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 65,
+          "body_rms_px": 0.7665071291066208,
+          "cap_rms_px": 1.0389956570485697,
+          "alignment_scale": 0.9423891406472104,
+          "alignment_shift": [
+            -21.181334329039743,
+            -24.149943360641117
+          ]
+        },
+        {
+          "edge_threshold": 65,
+          "cap_threshold": 75,
+          "body_rms_px": 0.7665071291066208,
+          "cap_rms_px": 1.0585814615613622,
+          "alignment_scale": 0.9423891406472104,
+          "alignment_shift": [
+            -21.181334329039743,
+            -24.149943360641117
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11037-p8-X2",
+      "frame_points": [
+        216,
+        173
+      ],
+      "field_of_view": 0,
+      "camera": {
+        "projection": "orthographic",
+        "depth_encoding": "linear world depth",
+        "scale_definition": "uniform points per LDU",
+        "azimuth": 35,
+        "elevation": 35,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "points_per_ldu": 1.8988367376374276,
+        "offset_points": [
+          108.0,
+          67.83476805511914
+        ]
+      },
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09",
+      "source_package_sha256": null,
+      "comparisons": [
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 170,
+          "body_rms_px": 0.38990537029132305,
+          "cap_rms_px": 1.0741259251122937,
+          "alignment_scale": 0.8881356317164177,
+          "alignment_shift": [
+            -18.546727370031974,
+            -20.69633497865142
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 190,
+          "body_rms_px": 0.38990537029132305,
+          "cap_rms_px": 1.0449313956693589,
+          "alignment_scale": 0.8881356317164177,
+          "alignment_shift": [
+            -18.546727370031974,
+            -20.69633497865142
+          ]
+        },
+        {
+          "edge_threshold": 120,
+          "cap_threshold": 210,
+          "body_rms_px": 0.38990537029132305,
+          "cap_rms_px": 1.0369969116148985,
+          "alignment_scale": 0.8881356317164177,
+          "alignment_shift": [
+            -18.546727370031974,
+            -20.69633497865142
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 170,
+          "body_rms_px": 0.5294496695561731,
+          "cap_rms_px": 0.8932187728925071,
+          "alignment_scale": 0.8925240424990468,
+          "alignment_shift": [
+            -18.838627987045186,
+            -21.133742503456332
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 190,
+          "body_rms_px": 0.5294496695561731,
+          "cap_rms_px": 0.8670595621683823,
+          "alignment_scale": 0.8925240424990468,
+          "alignment_shift": [
+            -18.838627987045186,
+            -21.133742503456332
+          ]
+        },
+        {
+          "edge_threshold": 145,
+          "cap_threshold": 210,
+          "body_rms_px": 0.5294496695561731,
+          "cap_rms_px": 0.8611840069861683,
+          "alignment_scale": 0.8925240424990468,
+          "alignment_shift": [
+            -18.838627987045186,
+            -21.133742503456332
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 170,
+          "body_rms_px": 0.4436348532908189,
+          "cap_rms_px": 0.8494807704315421,
+          "alignment_scale": 0.8927956605375597,
+          "alignment_shift": [
+            -18.90117682756778,
+            -21.19855394082316
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 190,
+          "body_rms_px": 0.4436348532908189,
+          "cap_rms_px": 0.825058861902939,
+          "alignment_scale": 0.8927956605375597,
+          "alignment_shift": [
+            -18.90117682756778,
+            -21.19855394082316
+          ]
+        },
+        {
+          "edge_threshold": 170,
+          "cap_threshold": 210,
+          "body_rms_px": 0.4436348532908189,
+          "cap_rms_px": 0.8185732550515122,
+          "alignment_scale": 0.8927956605375597,
+          "alignment_shift": [
+            -18.90117682756778,
+            -21.19855394082316
+          ]
+        }
+      ]
+    }
+  ],
+  "renderer_version": "0.6.0.dev6",
+  "source_data_sha256": "abf2c4819e6f2a0b098dfbe4428c1eb5b4fe56b512aafe6bf09d80a8dfbf5c79",
+  "selection": "FOV2 chosen after examining the sweep; exploratory gallery recipe, no independent holdout claim for selection",
+  "native_replays": [
+    {
+      "id": "camera-strength-11038-p19-X1-fov30",
+      "FOV": 30,
+      "receipt_sha256": "6aef0885c0fd4f0565011fd1013509b40901c26f2a8f3fb725d81a0b4554788e",
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0"
+    },
+    {
+      "id": "camera-strength-11038-p19-X1-fov2",
+      "FOV": 2,
+      "receipt_sha256": "ea0c6b47ed881ecdad1c6d56c3f9383588a4e681bfac048dd28bc49b7931b5af",
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0"
+    },
+    {
+      "id": "camera-strength-11037-p8-X2-fov30",
+      "FOV": 30,
+      "receipt_sha256": "93818605c2b84585930d5a350875553156d1cf1c59e10430339c9072a3a08b30",
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09"
+    },
+    {
+      "id": "camera-strength-11037-p8-X2-fov2",
+      "FOV": 2,
+      "receipt_sha256": "5975588b67b3f6d83f46d65dee5476a012d379d4b795579416902f97db3c8fe5",
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09"
+    },
+    {
+      "id": "camera-strength-11038-p19-X1-orthographic",
+      "FOV": 0,
+      "receipt_sha256": "f2e2c042a633502327d022329c8d7d18b099ed865f1370e5beee8e87b9ab9e6b",
+      "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0"
+    },
+    {
+      "id": "camera-strength-11037-p8-X2-orthographic",
+      "FOV": 0,
+      "receipt_sha256": "df686f11e6c3fe4891ff112e056a85c57d868a0edb9f9a74cc606465d7a696a6",
+      "model_sha256": "be6520d8f412e18210f7f21f778769cb82666ddb32e6db551b4812142b4e0b09"
+    }
+  ],
+  "orthographic_checks": [
+    {
+      "id": "11038-p19-X1",
+      "orthographic_main_RMS": 1.022472683814053,
+      "FOV2_main_RMS": 0.6541430641830169,
+      "FOV0_1_main_RMS": 0.9893073982240963,
+      "all9_orthographic_error_greater_than_FOV2": true,
+      "orthographic_cap_centroid_equals_projected_center_max_error": 4.973799150320701e-12
+    },
+    {
+      "id": "11037-p8-X2",
+      "orthographic_main_RMS": 0.8670595621683823,
+      "FOV2_main_RMS": 0.7047224843600308,
+      "FOV0_1_main_RMS": 0.8572462209345701,
+      "all9_orthographic_error_greater_than_FOV2": true,
+      "orthographic_cap_centroid_equals_projected_center_max_error": 9.805489753489383e-13
+    }
+  ]
+}

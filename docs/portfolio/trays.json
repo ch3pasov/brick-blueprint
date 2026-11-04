@@ -1,0 +1,105 @@
+[
+  {
+    "preset": "modern-blue",
+    "set": "31168",
+    "page": 10,
+    "step": "11",
+    "manifest": "examples/source-steps/modern-blue.json",
+    "svg_sha256": "5b0bc758a5452dfdbb2e62ee415c6427144825b62a47482671ee71bf17e4dcbf",
+    "model_sha256": [
+      "23a9327e39761fbeb6e7f08f00297db7722b5db830f2a9eeeb5078fe140a4486",
+      "7a02931ad84920d41ba13d0422713a92459c611af544758545ec8c2573ee3c85"
+    ],
+    "points_per_ldu": 1.6525529542046122,
+    "dependencies": [
+      "ldraw/p/4-4cyli.dat",
+      "ldraw/p/4-4disc.dat",
+      "ldraw/p/4-4edge.dat",
+      "ldraw/p/box4.dat",
+      "ldraw/p/box4t.dat",
+      "ldraw/p/box5.dat",
+      "ldraw/p/stud.dat",
+      "ldraw/p/stud3.dat",
+      "ldraw/parts/2431.dat",
+      "ldraw/parts/3004.dat",
+      "ldraw/parts/s/2431s01.dat",
+      "ldraw/parts/s/3004s01.dat"
+    ]
+  },
+  {
+    "preset": "speed-chamfer",
+    "set": "77242",
+    "page": 10,
+    "step": "5",
+    "manifest": "examples/source-steps/speed-chamfer.json",
+    "svg_sha256": "0e4fd54aba1122430b41d5d0c0b437fc2010a093378b4c80a0cac60767c5d641",
+    "model_sha256": [
+      "25f39bc9f417ad2b0bb04248d27869924f094873cdf65ed84b400ad2596b5558",
+      "0f7018c0f2f6cc92f1842ba943d4235233116f751ddc5f3bf1f305ea7afcffe9"
+    ],
+    "points_per_ldu": 1.1583084666147683,
+    "dependencies": [
+      "ldraw/p/4-4cyli.dat",
+      "ldraw/p/4-4disc.dat",
+      "ldraw/p/4-4edge.dat",
+      "ldraw/p/box4t.dat",
+      "ldraw/p/box5.dat",
+      "ldraw/p/stud.dat",
+      "ldraw/p/stud3.dat",
+      "ldraw/p/stug-1x2.dat",
+      "ldraw/p/stug-1x6.dat",
+      "ldraw/p/stug3-1x5.dat",
+      "ldraw/parts/3023.dat",
+      "ldraw/parts/3023b.dat",
+      "ldraw/parts/3666.dat",
+      "ldraw/parts/s/3023bs01.dat",
+      "ldraw/parts/s/3666s01.dat"
+    ]
+  },
+  {
+    "preset": "botanicals-slate",
+    "set": "11504",
+    "page": 10,
+    "step": "8",
+    "manifest": "examples/source-steps/botanicals-slate.json",
+    "svg_sha256": "fa02a52aaf0de7d20d60e870ffe1124d2c46460a51820f4e6be127b423df0e6a",
+    "model_sha256": [
+      "4bf6b1e6714758eafff07089415893d064673e928d5c8fe69cc5dd0b7fc9661f",
+      "9009ce084affebd6ce25bdff21b9d722ced0359d12100f1fc1f0253cc23965df"
+    ],
+    "points_per_ldu": 2.248661723374721,
+    "dependencies": [
+      "ldraw/p/1-4chrd.dat",
+      "ldraw/p/1-4cyli.dat",
+      "ldraw/p/1-4edge.dat",
+      "ldraw/p/1-4ndis.dat",
+      "ldraw/p/1-4ring3.dat",
+      "ldraw/p/1-8ring3.dat",
+      "ldraw/p/2-4cyli.dat",
+      "ldraw/p/2-4edge.dat",
+      "ldraw/p/2-4ndis.dat",
+      "ldraw/p/3-8cyli.dat",
+      "ldraw/p/3-8edge.dat",
+      "ldraw/p/4-4cyli.dat",
+      "ldraw/p/4-4disc.dat",
+      "ldraw/p/4-4edge.dat",
+      "ldraw/p/4-4ndis.dat",
+      "ldraw/p/4-4ring2.dat",
+      "ldraw/p/4-4ring3.dat",
+      "ldraw/p/box2-5.dat",
+      "ldraw/p/box3u2p.dat",
+      "ldraw/p/confric5.dat",
+      "ldraw/p/confric6.dat",
+      "ldraw/p/confric8.dat",
+      "ldraw/p/cylj4x8.dat",
+      "ldraw/p/peghole.dat",
+      "ldraw/p/rect1.dat",
+      "ldraw/p/rect2p.dat",
+      "ldraw/p/rect3.dat",
+      "ldraw/p/stud2.dat",
+      "ldraw/p/stud3a.dat",
+      "ldraw/parts/3700.dat",
+      "ldraw/parts/6558.dat"
+    ]
+  }
+]

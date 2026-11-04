@@ -1,0 +1,44 @@
+{
+  "version": "0.6.0.dev7",
+  "operation": "print-export",
+  "source_svg_sha256": "3797f0f96e9e29cb35b8355392492438bad9a909d3ff5a5bb1830717a381a17e",
+  "page_points": [
+    760.0,
+    600.0
+  ],
+  "page_mm": [
+    268.1111111111111,
+    211.66666666666666
+  ],
+  "scale_changed": false,
+  "quantity_labels": 0,
+  "fonts_embedded": null,
+  "pdf": {
+    "PDF_version": "1.4",
+    "pages": 1,
+    "vector_Form_XObjects": 12,
+    "ExtGState_alphas": 3,
+    "image_XObjects": 0,
+    "image_tags_in_SVG": 0,
+    "embedded_raster_payloads": 0,
+    "SVG_sha256": "3797f0f96e9e29cb35b8355392492438bad9a909d3ff5a5bb1830717a381a17e",
+    "PDF_sha256": "aa879d74c7e33a831749f618edd5383192ed5ed6e79159a080f305c79377db2e",
+    "PDF_bytes": 343273,
+    "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+    "color_export": {
+      "mode": "rgb",
+      "input_color_assumption": "sRGB",
+      "conversion": "unchanged RGB",
+      "unique_source_colors": 28
+    },
+    "page_points": [
+      760.0,
+      600.0
+    ]
+  },
+  "notes": [
+    "Physical page size retained; print at 100% when dimensions matter.",
+    "No automatic bleed, crop marks, imposition, trapping or PDF/X certification.",
+    "Live vector transparency retained; appearance can change with the blending color space."
+  ]
+}

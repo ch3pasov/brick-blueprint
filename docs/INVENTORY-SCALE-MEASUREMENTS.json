@@ -1,0 +1,82 @@
+{
+  "source": {
+    "set": "75375",
+    "url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+    "sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+    "pdf_page": 20,
+    "printed_step": 27
+  },
+  "method": "Manually selected first/last cap centers on matching four-stud rows. Page displacement from original embedded pixel coordinates and native placement matrix; three intervals. Both pictured rows have closely matched projected directions. +/-1.5 original pixels per coordinate is a sensitivity choice, not statistical confidence.",
+  "measurements": [
+    {
+      "part_description": "tan2x4plate",
+      "pdf_image": "X3.jpg",
+      "encoded_image_sha256": "4067be3ce5da8ea8045693c342c0566238eb895b5fd8de681007121ba0a599e8",
+      "image_pixels": [
+        98,
+        59
+      ],
+      "placement_bbox_pt": [
+        26.27528,
+        256.05875000000003,
+        73.07038,
+        284.13038
+      ],
+      "cap_centers_original_px": [
+        [
+          16,
+          28
+        ],
+        [
+          69,
+          6
+        ]
+      ],
+      "stud_intervals": 3,
+      "coordinate_uncertainty_px": 1.5,
+      "projected_stud_pitch_pt": 9.128943554449046,
+      "endpoint_sensitivity_pt": [
+        8.509732718578578,
+        9.755431166345634
+      ]
+    },
+    {
+      "part_description": "lightgray1x4plate",
+      "pdf_image": "X4.jpg",
+      "encoded_image_sha256": "c98dbba337855478a427771445057d2cb162e5a26244a330ed3bd594f3b87fd5",
+      "image_pixels": [
+        86,
+        49
+      ],
+      "placement_bbox_pt": [
+        83.3913,
+        260.85963000000004,
+        124.42567,
+        284.12946999999997
+      ],
+      "cap_centers_original_px": [
+        [
+          16,
+          28
+        ],
+        [
+          69,
+          6.5
+        ]
+      ],
+      "stud_intervals": 3,
+      "coordinate_uncertainty_px": 1.5,
+      "projected_stud_pitch_pt": 9.090675256451208,
+      "endpoint_sensitivity_pt": [
+        8.474481462622524,
+        9.714437688281055
+      ]
+    }
+  ],
+  "ratio_tan_to_gray": 1.0042096210587526,
+  "ratio_sensitivity": [
+    0.8759881932069249,
+    1.151153756058451
+  ],
+  "interpretation": "Consistent with a shared projected stud pitch for these two plates in one inventory. Does not establish all parts or all books; comparison needs matched camera directions. Native pixel sampling does not support exact equality."
+}

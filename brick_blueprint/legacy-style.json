@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "family": "Brick Blueprint instruction illustration",
+  "sampling": {
+    "geometry_supersample": 2,
+    "reduction": "box",
+    "codec": "RGB8_stored_DEFLATE"
+  },
+  "palette": {
+    "0": {
+      "side": [
+        57,
+        58,
+        59
+      ],
+      "top": [
+        57,
+        58,
+        59
+      ],
+      "front": [
+        57,
+        58,
+        59
+      ],
+      "confidence": "illustration palette, not a measured material"
+    },
+    "4": {
+      "side": [
+        212,
+        38,
+        37
+      ],
+      "top": [
+        212,
+        38,
+        37
+      ],
+      "front": [
+        212,
+        38,
+        37
+      ],
+      "confidence": "illustration palette, not a measured material"
+    },
+    "27": {
+      "side": [
+        171.68910566370937,
+        215.41117605011985,
+        72.51465332380272
+      ],
+      "top": [
+        166.90868127093583,
+        209.4133765014226,
+        70.4955920895878
+      ],
+      "front": [
+        161,
+        202,
+        68
+      ],
+      "confidence": "illustration palette, not a measured material"
+    },
+    "191": {
+      "side": [
+        255,
+        180.22024134886263,
+        42.655678425766304
+      ],
+      "top": [
+        255,
+        175.2022803402991,
+        41.46799534681635
+      ],
+      "front": [
+        255,
+        169,
+        40
+      ],
+      "confidence": "illustration palette, not a measured material"
+    },
+    "353": {
+      "side": [
+        255,
+        105.5728041037716,
+        148.2284825295379
+      ],
+      "top": [
+        255,
+        102.63328848337048,
+        144.10128383018684
+      ],
+      "front": [
+        253,
+        99,
+        139
+      ],
+      "confidence": "illustration palette, not a measured material"
+    },
+    "14": {
+      "side": [
+        252,
+        230,
+        30
+      ],
+      "top": [
+        252,
+        230,
+        30
+      ],
+      "front": [
+        252,
+        230,
+        30
+      ],
+      "confidence": "illustration palette, not a measured material"
+    }
+  },
+  "fallback": {
+    "mode": "installed_nominal_palette",
+    "confidence": "uncalibrated",
+    "normal_gains": [
+      1,
+      1,
+      1
+    ]
+  },
+  "explicit_colour": {
+    "black_rgb": [
+      0,
+      0,
+      0
+    ],
+    "confidence": "convention"
+  },
+  "stud_wall": {
+    "rgb": [
+      7,
+      7,
+      7
+    ],
+    "applies_when": "cylinder_axis_parallel_world_vertical",
+    "confidence": "limited_feature_transfer"
+  },
+  "edges": {
+    "dark_rgb": [
+      3,
+      3,
+      3
+    ],
+    "light_rgb": [
+      220,
+      220,
+      220
+    ],
+    "width_points": 0.6,
+    "light_if_nominal_Y_below": 45,
+    "light_if_nominal_max_below": 65,
+    "confidence": "exploratory_polarity_and_width"
+  },
+  "step_states": {
+    "new": {
+      "gain": 1,
+      "bias": 0
+    },
+    "existing": {
+      "gain": 1,
+      "bias": 0
+    },
+    "unknown": {
+      "gain": 1,
+      "bias": 0
+    }
+  },
+  "annotation": {
+    "current_boundary_when": "ordinary_ink_is_light_and_existing_context",
+    "rgb": [
+      238,
+      38,
+      30
+    ],
+    "width_points": 0.6,
+    "probe_width_factor": 0.65,
+    "confidence": "exploratory_group_boundary"
+  },
+  "arrows": {
+    "internal_assembly": {
+      "rgb": [
+        238,
+        28,
+        37
+      ],
+      "width_points": 1.2,
+      "head_length_points": 7,
+      "head_width_points": 5
+    },
+    "subassembly_placement": {
+      "rgb": [
+        0,
+        0,
+        0
+      ],
+      "width_points": 1.2,
+      "head_length_points": 7,
+      "head_width_points": 5
+    }
+  },
+  "page": {
+    "width_points": 595.276,
+    "height_points": 420.945,
+    "background_rgb": [
+      212,
+      237,
+      252
+    ],
+    "text_rgb": [
+      20,
+      20,
+      20
+    ],
+    "callout_rgb": [
+      255,
+      247,
+      213
+    ],
+    "font_name": "sans-serif",
+    "step_font_points": 25,
+    "count_font_points": 13
+  }
+}

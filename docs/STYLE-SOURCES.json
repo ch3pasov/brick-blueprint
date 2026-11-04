@@ -1,0 +1,4579 @@
+{
+  "scope": "38 official books: original23 plus15 same-theme/year counterparts. New audit screens45 pages (43 build pages, two introductory pages) plus targeted trays. Counts of different experiments are not interchangeable.",
+  "method": "Native PDF vector fills/paths and font metadata; CoreGraphics sRGB preview samples; visual inspection of full sampled pages.",
+  "sources": [
+    {
+      "id": "creator-2016",
+      "set": "31051",
+      "year": "2016",
+      "theme": "Creator 3in1",
+      "sha256": "fdab1177de2f087c5a08b510d8602e294c90cdee1ca1392b6a1f2046143daf69",
+      "pages": 184,
+      "sample_pages": [
+        18,
+        22,
+        74
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6167581.pdf",
+      "font_evidence": [
+        {
+          "page": 18,
+          "fonts": [
+            [
+              "NGSBEO+LEGOChalet60-Bold",
+              8.0,
+              8
+            ],
+            [
+              "NGSBEO+LEGOChalet60-Bold",
+              10.0,
+              2
+            ],
+            [
+              "NGSBEO+LEGOChalet60-Bold",
+              38.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 22,
+          "fonts": [
+            [
+              "NGSBEO+LEGOChalet60-Bold",
+              8.0,
+              16
+            ],
+            [
+              "NGSBEO+LEGOChalet60-Bold",
+              38.0,
+              4
+            ],
+            [
+              "NGSBEO+LEGOChalet60-Bold",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 74,
+          "fonts": [
+            [
+              "NGSBEO+LEGOChalet60-Bold",
+              38.0,
+              3
+            ],
+            [
+              "NGSBEO+LEGOChalet60-Bold",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 18,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 22,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 74,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        }
+      ],
+      "additional_visual_pages": [
+        78
+      ],
+      "matched_part_inventory_pages": [
+        181
+      ],
+      "font_label_only_pages": [
+        8,
+        13
+      ]
+    },
+    {
+      "id": "creator-2023",
+      "set": "31139",
+      "year": "2023",
+      "theme": "Creator 3in1",
+      "sha256": "9e74082ca8a06c0bfb9317b2f8c8c290ce6d911a88c145cf1b6292554a0b8a15",
+      "pages": 144,
+      "sample_pages": [
+        11,
+        25,
+        60
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6456165.pdf",
+      "font_evidence": [
+        {
+          "page": 11,
+          "fonts": [
+            [
+              "YKSAWQ+CeraPro-Medium",
+              8.0,
+              18
+            ],
+            [
+              "YKSAWQ+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "YKSAWQ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 25,
+          "fonts": [
+            [
+              "YKSAWQ+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "YKSAWQ+CeraPro-Medium",
+              16.0,
+              4
+            ],
+            [
+              "YKSAWQ+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "YKSAWQ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 60,
+          "fonts": [
+            [
+              "YKSAWQ+CeraPro-Medium",
+              8.0,
+              14
+            ],
+            [
+              "YKSAWQ+CeraPro-Medium",
+              16.0,
+              5
+            ],
+            [
+              "YKSAWQ+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "YKSAWQ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 11,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 25,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 60,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classic-2015",
+      "set": "10692",
+      "year": "2015",
+      "theme": "Classic",
+      "sha256": "c85e4adccb886e9b690cf85c980fec9475dd72c7a42a616d364716530f87c291",
+      "pages": 56,
+      "sample_pages": [
+        8,
+        12,
+        20
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6117826.pdf",
+      "font_evidence": [
+        {
+          "page": 8,
+          "fonts": [
+            [
+              "GNZTBO+Helvetica",
+              6.0,
+              46
+            ],
+            [
+              "GNZTBO+LEGOChalet60-Bold",
+              8.0,
+              4
+            ],
+            [
+              "GNZTBO+LEGOChalet60-Bold",
+              32.0,
+              2
+            ],
+            [
+              "GNZTBO+LEGOChalet60-Bold",
+              10.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 12,
+          "fonts": [
+            [
+              "VUIMOK+Helvetica",
+              6.0,
+              50
+            ],
+            [
+              "GNZTBO+LEGOChalet60-Bold",
+              10.0,
+              4
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "GNZTBO+Helvetica",
+              6.0,
+              47
+            ],
+            [
+              "GNZTBO+LEGOChalet60-Bold",
+              8.0,
+              4
+            ],
+            [
+              "GNZTBO+LEGOChalet60-Bold",
+              10.0,
+              2
+            ],
+            [
+              "GNZTBO+LEGOChalet60-Bold",
+              32.0,
+              1
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 8,
+          "dominant_rgb": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "page": 12,
+          "dominant_rgb": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "sample_warning": "White is the dominant preview color because of prepress margins. Build-page artwork has a warm yellow textured/gradient background; p12 is promotional, not an assembly step."
+    },
+    {
+      "id": "classic-2024",
+      "set": "11038",
+      "year": "2024",
+      "theme": "Classic",
+      "sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+      "pages": 56,
+      "sample_pages": [
+        8,
+        12,
+        20
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+      "font_evidence": [
+        {
+          "page": 8,
+          "fonts": [
+            [
+              "AEFYAV+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "AEFYAV+CeraPro-Medium",
+              26.0,
+              1
+            ],
+            [
+              "AEFYAV+CeraPro-Medium",
+              10.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 12,
+          "fonts": [
+            [
+              "AEFYAV+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "AEFYAV+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "AEFYAV+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "AEFYAV+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "AEFYAV+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "AEFYAV+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 8,
+          "dominant_rgb": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "page": 12,
+          "dominant_rgb": [
+            255,
+            255,
+            255
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            255,
+            255,
+            255
+          ]
+        }
+      ],
+      "matched_part_inventory_pages": [
+        53
+      ],
+      "matched_part_step_pages": [
+        21
+      ]
+    },
+    {
+      "id": "starwars-2023",
+      "set": "30654",
+      "year": "2023",
+      "theme": "Star Wars",
+      "sha256": "ed72d4529049f40b15c046928d9c0cc90c1ad8d61bdfc3449b93e82a27fd8dfe",
+      "pages": 2,
+      "sample_pages": [
+        1,
+        2
+      ],
+      "source_url": "https://www.lego.com/en-us/service/building-instructions/30654",
+      "font_evidence": [
+        {
+          "page": 1,
+          "fonts": [
+            [
+              "HYCLRY+CeraPro-Medium",
+              16.0,
+              12
+            ],
+            [
+              "HYCLRY+CeraPro-Medium",
+              26.0,
+              11
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              4.48,
+              7
+            ],
+            [
+              "HYCLRY+CeraPro-Bold",
+              2.91,
+              2
+            ],
+            [
+              "HYCLRY+CeraPro-Bold",
+              3.49,
+              2
+            ],
+            [
+              "HYCLRY+CeraPro-Bold",
+              2.48,
+              2
+            ],
+            [
+              "HYCLRY+CeraPro-Medium",
+              28.8,
+              1
+            ],
+            [
+              "HYCLRY+CeraPro-Bold",
+              6.59,
+              1
+            ],
+            [
+              "HYCLRY+CeraPro-Bold",
+              7.62,
+              1
+            ],
+            [
+              "HYCLRY+CeraPro-Bold",
+              6.74,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 2,
+          "fonts": [
+            [
+              "HYCLRY+CeraPro-Regular",
+              1.68,
+              189
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              3.43,
+              84
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              3.79,
+              73
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              3.4,
+              70
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              2.17,
+              70
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              3.17,
+              66
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              2.72,
+              59
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              3.66,
+              56
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              3.36,
+              45
+            ],
+            [
+              "HYCLRY+CeraPro-Regular",
+              4.48,
+              42
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 1,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 2,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fortnite-2024",
+      "set": "77073",
+      "year": "2024",
+      "theme": "Fortnite",
+      "sha256": "a8f601ddf68b7ed7d1de957de474e99b20336c6ff2ac69132441c8e30cb6be9a",
+      "pages": 224,
+      "sample_pages": [
+        12,
+        25,
+        50
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6541111.pdf",
+      "font_evidence": [
+        {
+          "page": 12,
+          "fonts": [
+            [
+              "WXVCOE+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 25,
+          "fonts": [
+            [
+              "WXVCOE+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 50,
+          "fonts": [
+            [
+              "WXVCOE+CeraPro-Medium",
+              40.0,
+              40
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              8.0,
+              14
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              22.0,
+              4
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              24.0,
+              2
+            ],
+            [
+              "WXVCOE+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 12,
+          "dominant_rgb": [
+            236,
+            228,
+            242
+          ]
+        },
+        {
+          "page": 25,
+          "dominant_rgb": [
+            236,
+            228,
+            242
+          ]
+        },
+        {
+          "page": 50,
+          "dominant_rgb": [
+            236,
+            228,
+            242
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technic-2024",
+      "set": "42167",
+      "year": "2024",
+      "theme": "Technic",
+      "sha256": "6cb9f8195af2b7662cd41c1fc604d08d478c1dabd078b95a98bccd1f025891ae",
+      "pages": 140,
+      "sample_pages": [
+        10,
+        20,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6495267.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "GBZFRZ+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              24.0,
+              3
+            ],
+            [
+              "ZTNKXT+CeraPro-Regular",
+              8.0,
+              2
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "GBZFRZ+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "GBZFRZ+CeraPro-Medium",
+              8.0,
+              14
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              22.0,
+              5
+            ],
+            [
+              "ZTNKXT+CeraPro-Regular",
+              8.0,
+              3
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              24.0,
+              3
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "GBZFRZ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        }
+      ]
+    },
+    {
+      "id": "friends-2024",
+      "set": "42604",
+      "year": "2024",
+      "theme": "Friends",
+      "sha256": "150376ba936acdda6a0574abdde587cc8a0090870e6809c92c6cf877a1009b4f",
+      "pages": 136,
+      "sample_pages": [
+        10,
+        20,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6493646.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "ONMBBM+CeraPro-Medium",
+              8.0,
+              12
+            ],
+            [
+              "ONMBBM+CeraPro-Medium",
+              26.0,
+              3
+            ],
+            [
+              "ONMBBM+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "ONMBBM+CeraPro-Medium",
+              8.0,
+              12
+            ],
+            [
+              "ONMBBM+CeraPro-Medium",
+              26.0,
+              3
+            ],
+            [
+              "ONMBBM+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "ONMBBM+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "ONMBBM+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "ONMBBM+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            213,
+            235,
+            235
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            213,
+            235,
+            235
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            213,
+            235,
+            235
+          ]
+        }
+      ]
+    },
+    {
+      "id": "city-2024",
+      "set": "60404",
+      "year": "2024",
+      "theme": "City",
+      "sha256": "0ebdca8f457c02706d2c08a1ca96969f675a00551524b37f57bce3025bf035e3",
+      "pages": 52,
+      "sample_pages": [
+        10,
+        20,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6490981.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "CKEXBV+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "CKEXBV+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "CKEXBV+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "CKEXBV+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "CKEXBV+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "CKEXBV+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        }
+      ]
+    },
+    {
+      "id": "botanicals-2025",
+      "set": "10343",
+      "year": "2025",
+      "theme": "Botanicals",
+      "sha256": "d4218be6ca7a7e664fdb83365c2fff7d98ace0fb269c37c761aba86ae12d08a1",
+      "pages": 44,
+      "sample_pages": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6555769.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "FVDNHZ+CeraPro-Light",
+              8.0,
+              8
+            ],
+            [
+              "FVDNHZ+CeraPro-Light",
+              10.0,
+              4
+            ],
+            [
+              "FVDNHZ+CeraPro-Light",
+              26.0,
+              2
+            ],
+            [
+              "YIRXNS+CeraPro-Medium",
+              55.98,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "FVDNHZ+CeraPro-Light",
+              8.0,
+              4
+            ],
+            [
+              "FVDNHZ+CeraPro-Light",
+              26.0,
+              4
+            ],
+            [
+              "FVDNHZ+CeraPro-Light",
+              10.0,
+              4
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "FVDNHZ+CeraPro-Light",
+              8.0,
+              12
+            ],
+            [
+              "FVDNHZ+CeraPro-Light",
+              22.0,
+              6
+            ],
+            [
+              "FVDNHZ+CeraPro-Light",
+              26.0,
+              4
+            ],
+            [
+              "FVDNHZ+CeraPro-Light",
+              16.0,
+              4
+            ],
+            [
+              "FVDNHZ+CeraPro-Light",
+              10.0,
+              4
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "FVDNHZ+CeraPro-Light",
+              10.0,
+              4
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 30,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        }
+      ],
+      "additional_visual_pages": [
+        14,
+        36
+      ]
+    },
+    {
+      "id": "speed-2025",
+      "set": "77240",
+      "year": "2025",
+      "theme": "Speed Champions",
+      "sha256": "89ad368afdbe1d261e015ec1ff06e0265bd58775c4a7a7af6f9fec7e76e11395",
+      "pages": 96,
+      "sample_pages": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6598214.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "YVBKGY+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "YVBKGY+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              16.0,
+              3
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "YVBKGY+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "YVBKGY+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              26.0,
+              6
+            ],
+            [
+              "YVBKGY+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 30,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        }
+      ],
+      "additional_visual_pages": [
+        56,
+        72
+      ]
+    },
+    {
+      "id": "ninjago-2025",
+      "set": "71832",
+      "year": "2025",
+      "theme": "NINJAGO",
+      "sha256": "ccfc2b4e9b21bc1d8dadac31b0da1bf8d686b8076be9bb678464e9a60c673175",
+      "pages": 144,
+      "sample_pages": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566338.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "USQMOH+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "USQMOH+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "OOXHIG+LEGOTypewellArchive-Bd",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "USQMOH+CeraPro-Medium",
+              8.0,
+              12
+            ],
+            [
+              "USQMOH+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "USQMOH+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "OOXHIG+LEGOTypewellArchive-Bd",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "USQMOH+CeraPro-Medium",
+              8.0,
+              10
+            ],
+            [
+              "USQMOH+CeraPro-Medium",
+              26.0,
+              8
+            ],
+            [
+              "OOXHIG+LEGOTypewellArchive-Bd",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "USQMOH+CeraPro-Medium",
+              8.0,
+              10
+            ],
+            [
+              "USQMOH+CeraPro-Medium",
+              16.0,
+              5
+            ],
+            [
+              "USQMOH+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "OOXHIG+LEGOTypewellArchive-Bd",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            254,
+            224,
+            188
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            254,
+            224,
+            188
+          ]
+        },
+        {
+          "page": 30,
+          "dominant_rgb": [
+            254,
+            224,
+            188
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            254,
+            224,
+            188
+          ]
+        }
+      ],
+      "additional_visual_pages": [
+        100,
+        120
+      ]
+    },
+    {
+      "id": "creator-2025",
+      "set": "31169",
+      "year": "2025",
+      "theme": "Creator 3in1",
+      "sha256": "c7627062db573f2cff7debac6040d114c2bd49bbd2a98edf8e769dfb6e0ae9d6",
+      "pages": 88,
+      "sample_pages": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556274.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "XGCPWB+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "XGCPWB+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "XGCPWB+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "XGCPWB+CeraPro-Medium",
+              8.0,
+              10
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              22.0,
+              3
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "XGCPWB+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 30,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        }
+      ],
+      "additional_visual_pages": [
+        9
+      ]
+    },
+    {
+      "id": "dreamzzz-2025",
+      "set": "71488",
+      "year": "2025",
+      "theme": "DREAMZzz",
+      "sha256": "2747b0ce3f2d116fee3ed0ff562d4298684e1ebb3ee190cbbd37d87d19399d7a",
+      "pages": 84,
+      "sample_pages": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6553546.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "ZIJXDY+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "ZIJXDY+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "ZIJXDY+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "ZIJXDY+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "ZIJXDY+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "ZIJXDY+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "ZIJXDY+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "ZIJXDY+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "ZIJXDY+CeraPro-Medium",
+              16.0,
+              4
+            ],
+            [
+              "ZIJXDY+CeraPro-Medium",
+              10.0,
+              4
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "ZIJXDY+CeraPro-Medium",
+              22.0,
+              3
+            ],
+            [
+              "ZIJXDY+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            252,
+            246,
+            230
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            252,
+            246,
+            230
+          ]
+        },
+        {
+          "page": 30,
+          "dominant_rgb": [
+            252,
+            246,
+            230
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            209,
+            232,
+            247
+          ]
+        }
+      ],
+      "additional_visual_pages": [
+        34,
+        38,
+        66
+      ],
+      "sample_warning": "Textured narrative artwork varies within the book; dominant RGB is not a uniform page fill. Main build and alternate build pages use different treatments."
+    },
+    {
+      "id": "botanicals-2021",
+      "set": "10281",
+      "year": "2021",
+      "theme": "Botanicals",
+      "sha256": "1269851bf473cd52939d41dd45af9ce9f68a03c883479bd92bd1dd3eddead023",
+      "pages": 84,
+      "sample_pages": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6532381.pdf",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              8.0,
+              4
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              10.0,
+              4
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              26.0,
+              2
+            ],
+            [
+              "LBHSEV+LEGOChalet60-Regular",
+              36.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              8.0,
+              6
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              26.0,
+              4
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              10.0,
+              4
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              8.0,
+              20
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              26.0,
+              12
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              16.0,
+              4
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              10.0,
+              4
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              8.0,
+              8
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              26.0,
+              4
+            ],
+            [
+              "QTSWWP+LEGOChalet60-Light",
+              10.0,
+              4
+            ]
+          ]
+        }
+      ],
+      "rendered_background_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 20,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 30,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        }
+      ],
+      "additional_visual_pages": []
+    },
+    {
+      "id": "creator-2026",
+      "set": "31376",
+      "year": "2026",
+      "theme": "Creator 3in1",
+      "sha256": "b0ede540908070edbab2c05e2f5e3376f1997af73516a61c976072032b1e58dd",
+      "pages": 60,
+      "sample_pages": [
+        10,
+        16,
+        24,
+        32
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6616307.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/31376",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "VYUGAZ+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "VYUGAZ+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "VYUGAZ+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 16,
+          "fonts": [
+            [
+              "VYUGAZ+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "VYUGAZ+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "VYUGAZ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 24,
+          "fonts": [
+            [
+              "VYUGAZ+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "VYUGAZ+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "VYUGAZ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 32,
+          "fonts": [
+            [
+              "VYUGAZ+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "VYUGAZ+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "VYUGAZ+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "raster_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 16,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 24,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        },
+        {
+          "page": 32,
+          "dominant_rgb": [
+            212,
+            237,
+            252
+          ]
+        }
+      ],
+      "additional_visual_pages": [],
+      "font_label_only_pages": [
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "botanicals-2026",
+      "set": "11508",
+      "year": "2026",
+      "theme": "Botanicals",
+      "sha256": "12f55f3a9380a9a8719791a89a1373f4d65da0981fb2a3b3b3a1a37b608d93b2",
+      "pages": 40,
+      "sample_pages": [
+        10,
+        16,
+        24,
+        32
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618829.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/11508",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "LFZNDI+CeraPro-Medium",
+              24.0,
+              6
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 16,
+          "fonts": [
+            [
+              "LFZNDI+CeraPro-Medium",
+              24.0,
+              6
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 24,
+          "fonts": [
+            [
+              "LFZNDI+CeraPro-Medium",
+              24.0,
+              6
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 32,
+          "fonts": [
+            [
+              "LFZNDI+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "LFZNDI+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "raster_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            235,
+            245,
+            236
+          ]
+        },
+        {
+          "page": 16,
+          "dominant_rgb": [
+            235,
+            245,
+            236
+          ]
+        },
+        {
+          "page": 24,
+          "dominant_rgb": [
+            235,
+            245,
+            236
+          ]
+        },
+        {
+          "page": 32,
+          "dominant_rgb": [
+            235,
+            245,
+            236
+          ]
+        }
+      ],
+      "additional_visual_pages": [
+        8,
+        12,
+        28,
+        34
+      ]
+    },
+    {
+      "id": "technic-2026",
+      "set": "42221",
+      "year": "2026",
+      "theme": "Technic",
+      "sha256": "248fea08c4b5969b0a09e8f53ee380d25dc4fa3c729cdacc939151bb2e0ef0c0",
+      "pages": 160,
+      "sample_pages": [
+        10,
+        16,
+        24,
+        32
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6621082.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/42221",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "CBISCX+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "QJEYQN+CeraPro-Regular",
+              8.0,
+              6
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              24.0,
+              3
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 16,
+          "fonts": [
+            [
+              "CBISCX+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              26.0,
+              8
+            ],
+            [
+              "QJEYQN+CeraPro-Regular",
+              8.0,
+              3
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              24.0,
+              3
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 24,
+          "fonts": [
+            [
+              "CBISCX+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              55.63,
+              2
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 32,
+          "fonts": [
+            [
+              "CBISCX+CeraPro-Medium",
+              8.0,
+              12
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              26.0,
+              6
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              16.0,
+              4
+            ],
+            [
+              "CBISCX+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "raster_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 16,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 24,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        },
+        {
+          "page": 32,
+          "dominant_rgb": [
+            227,
+            227,
+            227
+          ]
+        }
+      ],
+      "additional_visual_pages": []
+    },
+    {
+      "id": "botanicals-tulips-2026",
+      "set": "11501",
+      "year": "2026",
+      "theme": "Botanicals",
+      "sha256": "2847e73b6991bda48eda8a1f0d9c4655ff4c365b4763394a3b3d9a11a0f35db2",
+      "pages": 48,
+      "sample_pages": [
+        10,
+        16,
+        24,
+        32
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618826.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/11501",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": []
+        },
+        {
+          "page": 16,
+          "fonts": []
+        },
+        {
+          "page": 24,
+          "fonts": []
+        },
+        {
+          "page": 32,
+          "fonts": []
+        }
+      ],
+      "font_note": "No extractable characters on sampled pages; typeface and point sizes not established.",
+      "raster_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            115,
+            125,
+            127
+          ]
+        },
+        {
+          "page": 16,
+          "dominant_rgb": [
+            115,
+            125,
+            127
+          ]
+        },
+        {
+          "page": 24,
+          "dominant_rgb": [
+            115,
+            125,
+            127
+          ]
+        },
+        {
+          "page": 32,
+          "dominant_rgb": [
+            115,
+            125,
+            127
+          ]
+        }
+      ],
+      "additional_visual_pages": [],
+      "background_native_cmyk": [
+        0.15,
+        0.05,
+        0.05,
+        0.5
+      ]
+    },
+    {
+      "id": "botanicals-lily-2026",
+      "set": "11504",
+      "year": "2026",
+      "theme": "Botanicals",
+      "sha256": "30e34a10970e28248f1aa4e1e003f888e92dfc9034e3349258505b576bfa8acb",
+      "pages": 60,
+      "sample_pages": [
+        10,
+        16,
+        24,
+        32
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618828.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/11504",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": []
+        },
+        {
+          "page": 16,
+          "fonts": []
+        },
+        {
+          "page": 24,
+          "fonts": []
+        },
+        {
+          "page": 32,
+          "fonts": []
+        }
+      ],
+      "font_note": "No extractable characters on sampled pages; typeface and point sizes not established.",
+      "raster_samples": [
+        {
+          "page": 10,
+          "dominant_rgb": [
+            115,
+            125,
+            127
+          ]
+        },
+        {
+          "page": 16,
+          "dominant_rgb": [
+            115,
+            125,
+            127
+          ]
+        },
+        {
+          "page": 24,
+          "dominant_rgb": [
+            115,
+            125,
+            127
+          ]
+        },
+        {
+          "page": 32,
+          "dominant_rgb": [
+            115,
+            125,
+            127
+          ]
+        }
+      ],
+      "additional_visual_pages": [],
+      "background_native_cmyk": [
+        0.15,
+        0.05,
+        0.05,
+        0.5
+      ]
+    },
+    {
+      "id": "architecture-2025",
+      "set": "21062",
+      "year": "2025",
+      "theme": "Architecture",
+      "sha256": "78719e05f06b32c5648af42712aa93864e368128e1356ce1b767835e05347eb7",
+      "pages": 220,
+      "sample_pages": [
+        20,
+        40,
+        60,
+        80
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566168.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/21062",
+      "font_evidence": [
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "FTSCXR+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "FTSCXR+CeraPro-Light",
+              8.0,
+              6
+            ],
+            [
+              "FTSCXR+CeraPro-Light",
+              26.0,
+              2
+            ],
+            [
+              "FTSCXR+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 60,
+          "fonts": [
+            [
+              "FTSCXR+CeraPro-Light",
+              8.0,
+              4
+            ],
+            [
+              "FTSCXR+CeraPro-Light",
+              26.0,
+              2
+            ],
+            [
+              "FTSCXR+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 80,
+          "fonts": [
+            [
+              "FTSCXR+CeraPro-Light",
+              8.0,
+              12
+            ],
+            [
+              "FTSCXR+CeraPro-Light",
+              22.0,
+              6
+            ],
+            [
+              "FTSCXR+CeraPro-Light",
+              26.0,
+              2
+            ],
+            [
+              "FTSCXR+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "raster_samples": [
+        {
+          "page": 20,
+          "dominant_rgb": [
+            137,
+            144,
+            147
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            136,
+            144,
+            147
+          ]
+        },
+        {
+          "page": 60,
+          "dominant_rgb": [
+            136,
+            144,
+            147
+          ]
+        },
+        {
+          "page": 80,
+          "dominant_rgb": [
+            137,
+            144,
+            147
+          ]
+        }
+      ],
+      "additional_visual_pages": [],
+      "matched_part_inventory_pages": [
+        218
+      ]
+    },
+    {
+      "id": "minecraft-2025",
+      "set": "21269",
+      "year": "2025",
+      "theme": "Minecraft",
+      "sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "pages": 84,
+      "sample_pages": [
+        20,
+        40,
+        60,
+        70
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556015.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/21269",
+      "font_evidence": [
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "QGGCME+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              16.0,
+              4
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "QGGCME+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              16.0,
+              3
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 60,
+          "fonts": [
+            [
+              "QGGCME+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 70,
+          "fonts": [
+            [
+              "QGGCME+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "QGGCME+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "raster_samples": [
+        {
+          "page": 20,
+          "dominant_rgb": [
+            235,
+            245,
+            236
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            235,
+            245,
+            236
+          ]
+        },
+        {
+          "page": 60,
+          "dominant_rgb": [
+            235,
+            245,
+            236
+          ]
+        },
+        {
+          "page": 70,
+          "dominant_rgb": [
+            235,
+            245,
+            236
+          ]
+        }
+      ],
+      "additional_visual_pages": [],
+      "excluded_pages": [
+        {
+          "page": 80,
+          "reason": "Advertisement, not a building step. Promotional MinecraftTenv2 font and saturated green are not inventory typography/palette evidence."
+        }
+      ],
+      "matched_part_inventory_pages": [
+        82,
+        83
+      ],
+      "matched_part_step_pages": [
+        27
+      ]
+    },
+    {
+      "id": "starwars-book-2024",
+      "set": "75375",
+      "year": "2024",
+      "theme": "Star Wars",
+      "sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+      "pages": 184,
+      "sample_pages": [
+        20,
+        40,
+        60,
+        80
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/75375",
+      "font_evidence": [
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "FXFIBE+CeraPro-Light",
+              8.0,
+              8
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              26.0,
+              4
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 40,
+          "fonts": [
+            [
+              "FXFIBE+CeraPro-Light",
+              8.0,
+              8
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              16.0,
+              6
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              26.0,
+              4
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 60,
+          "fonts": [
+            [
+              "FXFIBE+CeraPro-Light",
+              8.0,
+              10
+            ],
+            [
+              "WHPGFO+CeraPro-Medium",
+              54.09,
+              3
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              26.0,
+              2
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 80,
+          "fonts": [
+            [
+              "FXFIBE+CeraPro-Light",
+              26.0,
+              9
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              8.0,
+              6
+            ],
+            [
+              "FXFIBE+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ],
+      "raster_samples": [
+        {
+          "page": 20,
+          "dominant_rgb": [
+            137,
+            144,
+            147
+          ]
+        },
+        {
+          "page": 40,
+          "dominant_rgb": [
+            137,
+            144,
+            147
+          ]
+        },
+        {
+          "page": 60,
+          "dominant_rgb": [
+            137,
+            144,
+            147
+          ]
+        },
+        {
+          "page": 80,
+          "dominant_rgb": [
+            137,
+            144,
+            147
+          ]
+        }
+      ],
+      "additional_visual_pages": [],
+      "matched_part_inventory_pages": [
+        181,
+        182
+      ],
+      "matched_part_step_pages": [
+        20
+      ]
+    },
+    {
+      "id": "paired-10344",
+      "set": "10344",
+      "theme": "Botanicals",
+      "year": "2025",
+      "sha256": "1adf450129b009d9e89eba83b6cd6344f19c01c724369a72a2a1a022408bb93d",
+      "pages": 44,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6555770.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/10344",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "UTPQOD+CeraPro-Light",
+              8.0,
+              4
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              10.0,
+              4
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              26.0,
+              2
+            ],
+            [
+              "TPFKAV+CeraPro-Medium",
+              56.06,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "UTPQOD+CeraPro-Light",
+              8.0,
+              16
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              26.0,
+              8
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              16.0,
+              4
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              10.0,
+              4
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "UTPQOD+CeraPro-Light",
+              16.0,
+              8
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              24.0,
+              6
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              22.0,
+              4
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              8.0,
+              4
+            ],
+            [
+              "UTPQOD+CeraPro-Light",
+              10.0,
+              4
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "classic-space-2024",
+      "set": "11037",
+      "theme": "Classic",
+      "year": "2024",
+      "sha256": "1eae62ea786d29fe43479f19e138812335a19e5235f44766faf5c23d8b769c95",
+      "pages": 80,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497651.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/11037",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "KLBZRK+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "KLBZRK+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "KLBZRK+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "KLBZRK+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "KLBZRK+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "KLBZRK+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-11509",
+      "set": "11509",
+      "theme": "Botanicals",
+      "year": "2026",
+      "sha256": "2508ae7c476caad75e6b0f2b9e898e2cb7307d66adc2b2d675acdf83adc86c23",
+      "pages": 60,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618824.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/11509",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "JQIQRK+CeraPro-Medium",
+              8.0,
+              10
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              16.0,
+              6
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "JQIQRK+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              26.0,
+              6
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "JQIQRK+CeraPro-Medium",
+              8.0,
+              14
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              22.0,
+              4
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              24.0,
+              2
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "JQIQRK+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-21063",
+      "set": "21063",
+      "theme": "Architecture",
+      "year": "2025",
+      "sha256": "8843d50ba19d03d24f3eaf30c00947e31b2ad71789a1955c85781c9162262f4b",
+      "pages": 360,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592611.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/21063",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": []
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "ZGKIMC+CeraPro-Light",
+              8.0,
+              14
+            ],
+            [
+              "ZGKIMC+CeraPro-Light",
+              26.0,
+              4
+            ],
+            [
+              "ZGKIMC+CeraPro-Light",
+              16.0,
+              4
+            ],
+            [
+              "ZGKIMC+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "ZGKIMC+CeraPro-Light",
+              8.0,
+              16
+            ],
+            [
+              "ZGKIMC+CeraPro-Light",
+              26.0,
+              4
+            ],
+            [
+              "ZGKIMC+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-21270",
+      "set": "21270",
+      "theme": "Minecraft",
+      "year": "2025",
+      "sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "pages": 120,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/21270",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "PCPQHB+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "PCPQHB+CeraPro-Medium",
+              22.0,
+              3
+            ],
+            [
+              "PCPQHB+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "PCPQHB+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "PCPQHB+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "PCPQHB+CeraPro-Medium",
+              26.0,
+              3
+            ],
+            [
+              "PCPQHB+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "PCPQHB+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "PCPQHB+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "PCPQHB+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-31050",
+      "set": "31050",
+      "theme": "Creator",
+      "year": "2016",
+      "sha256": "c4938e06a06b054cde0f19285c17c8d17a8467d645ed5cab7fed448db657fb20",
+      "pages": 56,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6150560.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/31050",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              8.0,
+              8
+            ],
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              38.0,
+              4
+            ],
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              8.0,
+              4
+            ],
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              10.0,
+              2
+            ],
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              38.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              8.0,
+              10
+            ],
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              18.0,
+              4
+            ],
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              10.0,
+              2
+            ],
+            [
+              "AQSGHV+LEGOChalet7080-80Regular",
+              38.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-31168",
+      "set": "31168",
+      "theme": "Creator",
+      "year": "2025",
+      "sha256": "87c9dee34cb254d503c2aa7b9c8c18105e45dc5251f4a371f0e4ba6325f62376",
+      "pages": 256,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592820.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/31168",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "GUYJWX+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "GUYJWX+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "GUYJWX+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "GUYJWX+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "GUYJWX+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "GUYJWX+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "GUYJWX+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "GUYJWX+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "GUYJWX+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "GUYJWX+CeraPro-Medium",
+              16.0,
+              4
+            ],
+            [
+              "GUYJWX+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-42163",
+      "set": "42163",
+      "theme": "Technic",
+      "year": "2024",
+      "sha256": "b574cca214a0c97d61040beff8c27d949eb237e4e6fd82513a3df205f08058ae",
+      "pages": 76,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6495263.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/42163",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "ZLBCEI+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "ZLBCEI+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "ZLBCEI+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "ZLBCEI+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "ZLBCEI+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "ZLBCEI+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "ZLBCEI+CeraPro-Medium",
+              8.0,
+              10
+            ],
+            [
+              "TXZSYT+CeraPro-Regular",
+              8.0,
+              3
+            ],
+            [
+              "ZLBCEI+CeraPro-Medium",
+              22.0,
+              3
+            ],
+            [
+              "ZLBCEI+CeraPro-Medium",
+              24.0,
+              3
+            ],
+            [
+              "ZLBCEI+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "ZLBCEI+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-42603",
+      "set": "42603",
+      "theme": "Friends",
+      "year": "2024",
+      "sha256": "1e86d7d7b8562c6b439028aa2472d55f4ee54e53c288a2e1dca70fc0fcecd5da",
+      "pages": 52,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6493659.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/42603",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "PBOFAI+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "PBOFAI+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "PBOFAI+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "PBOFAI+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "PBOFAI+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "PBOFAI+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "PBOFAI+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "PBOFAI+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "PBOFAI+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-60405",
+      "set": "60405",
+      "theme": "City",
+      "year": "2024",
+      "sha256": "8fc9839a5f99543a16be099307fa2798f1a14ccdcd725e860c6e09b643948579",
+      "pages": 100,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6492739.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/60405",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "XXWUNR+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "XXWUNR+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "XXWUNR+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "XXWUNR+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "XXWUNR+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "XXWUNR+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "XXWUNR+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "XXWUNR+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "XXWUNR+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-71833",
+      "set": "71833",
+      "theme": "NINJAGO",
+      "year": "2025",
+      "sha256": "7e3774195aa8d599d173649dec3659320e180715631b049e44b38268850a9525",
+      "pages": 116,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556903.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/71833",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "GHGGEV+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "GHGGEV+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "GHGGEV+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "GHGGEV+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "GHGGEV+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "GHGGEV+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "GHGGEV+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "GHGGEV+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "GHGGEV+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "GHGGEV+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "GHGGEV+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-75345",
+      "set": "75345",
+      "theme": "Star Wars",
+      "year": "2023",
+      "sha256": "50dcdaac5f456959d7ce0daeaaa771bd8e167a790b1894675b40a265dfeb1103",
+      "pages": 60,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6449312.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/75345",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "IZOOAW+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "IZOOAW+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "IZOOAW+CeraPro-Medium",
+              26.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "IZOOAW+CeraPro-Medium",
+              10.0,
+              2
+            ],
+            [
+              "IZOOAW+CeraPro-Medium",
+              22.0,
+              1
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "IZOOAW+CeraPro-Medium",
+              8.0,
+              2
+            ],
+            [
+              "IZOOAW+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "IZOOAW+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-75376",
+      "set": "75376",
+      "theme": "Star Wars",
+      "year": "2024",
+      "sha256": "88c817e0ab4c9226d6576f3a09679bd5540206aa0d3ceb8a7d21be55638bf626",
+      "pages": 140,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509379.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/75376",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "NSDHDM+CeraPro-Medium",
+              53.32,
+              2
+            ],
+            [
+              "PNJYFA+CeraPro-Light",
+              8.0,
+              2
+            ],
+            [
+              "PNJYFA+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "PNJYFA+CeraPro-Light",
+              8.0,
+              10
+            ],
+            [
+              "PNJYFA+CeraPro-Light",
+              26.0,
+              2
+            ],
+            [
+              "PNJYFA+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "PNJYFA+CeraPro-Light",
+              8.0,
+              2
+            ],
+            [
+              "PNJYFA+CeraPro-Light",
+              26.0,
+              2
+            ],
+            [
+              "PNJYFA+CeraPro-Light",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-77071",
+      "set": "77071",
+      "theme": "Fortnite",
+      "year": "2024",
+      "sha256": "f897e4a1ec5e0ee21a664c6f230bef02b877ba68f78b5448601215426cfd592e",
+      "pages": 112,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6544480.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/77071",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "FHJIBF+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              16.0,
+              6
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "FHJIBF+CeraPro-Medium",
+              8.0,
+              8
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              26.0,
+              4
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "FHJIBF+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              22.0,
+              3
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              55.26,
+              2
+            ],
+            [
+              "FHJIBF+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "paired-77242",
+      "set": "77242",
+      "theme": "Speed Champions",
+      "year": "2025",
+      "sha256": "36fb212b804f24492c7448391030fca643fe2027f5b693ed20ef8f6cbc6d1277",
+      "pages": 104,
+      "sample_pages": [
+        10,
+        20,
+        30
+      ],
+      "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566098.pdf",
+      "landing_url": "https://www.lego.com/en-us/service/building-instructions/77242",
+      "font_evidence": [
+        {
+          "page": 10,
+          "fonts": [
+            [
+              "OKXPAD+CeraPro-Medium",
+              8.0,
+              6
+            ],
+            [
+              "OKXPAD+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "OKXPAD+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 20,
+          "fonts": [
+            [
+              "OKXPAD+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "OKXPAD+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "OKXPAD+CeraPro-Medium",
+              16.0,
+              2
+            ],
+            [
+              "KZZRWG+CeraPro-Regular",
+              9.0,
+              2
+            ],
+            [
+              "OKXPAD+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        },
+        {
+          "page": 30,
+          "fonts": [
+            [
+              "OKXPAD+CeraPro-Medium",
+              8.0,
+              4
+            ],
+            [
+              "OKXPAD+CeraPro-Medium",
+              26.0,
+              2
+            ],
+            [
+              "OKXPAD+CeraPro-Medium",
+              10.0,
+              2
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "historical_23_book_sample_counts": {
+    "scope": "Frozen prior 23-book scope; do not apply these counts to the expanded 38-book corpus.",
+    "books": 23,
+    "pages": 106,
+    "themes": 13,
+    "years": [
+      2015,
+      2026
+    ],
+    "style_pages": 97,
+    "matched_part_inventory_pages": 7,
+    "matched_part_occurrences": 15,
+    "matched_part_step_pages": 3,
+    "matched_part_new_step_pages": 2,
+    "additional_font_label_only_pages": 5,
+    "font_label_scope": "Five additional pages inspected only at quantity labels; excluded from the full-page style/color sample count. See FONT-MEASUREMENTS.json."
+  },
+  "sample_counts": {
+    "scope": "Declared page lists in these 38 source records only; targeted paired-catalogue extraction and projection/shading experiments have their own sample units.",
+    "books": 38,
+    "declared_style_screen_pages": 142,
+    "declared_full_page_samples": 151,
+    "additional_font_label_only_pages": 5,
+    "paired_counterpart_books": 15,
+    "paired_counterpart_screen_pages": 45,
+    "raw_theme_labels": [
+      "Architecture",
+      "Botanicals",
+      "City",
+      "Classic",
+      "Creator",
+      "Creator 3in1",
+      "DREAMZzz",
+      "Fortnite",
+      "Friends",
+      "Minecraft",
+      "NINJAGO",
+      "Speed Champions",
+      "Star Wars",
+      "Technic"
+    ],
+    "years": [
+      2015,
+      2016,
+      2021,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "declared_full_page_lists": [
+      {
+        "source_id": "creator-2016",
+        "set": "31051",
+        "pages": [
+          18,
+          22,
+          74,
+          78,
+          181
+        ]
+      },
+      {
+        "source_id": "creator-2023",
+        "set": "31139",
+        "pages": [
+          11,
+          25,
+          60
+        ]
+      },
+      {
+        "source_id": "classic-2015",
+        "set": "10692",
+        "pages": [
+          8,
+          12,
+          20
+        ]
+      },
+      {
+        "source_id": "classic-2024",
+        "set": "11038",
+        "pages": [
+          8,
+          12,
+          20,
+          21,
+          53
+        ]
+      },
+      {
+        "source_id": "starwars-2023",
+        "set": "30654",
+        "pages": [
+          1,
+          2
+        ]
+      },
+      {
+        "source_id": "fortnite-2024",
+        "set": "77073",
+        "pages": [
+          12,
+          25,
+          50
+        ]
+      },
+      {
+        "source_id": "technic-2024",
+        "set": "42167",
+        "pages": [
+          10,
+          20,
+          40
+        ]
+      },
+      {
+        "source_id": "friends-2024",
+        "set": "42604",
+        "pages": [
+          10,
+          20,
+          40
+        ]
+      },
+      {
+        "source_id": "city-2024",
+        "set": "60404",
+        "pages": [
+          10,
+          20,
+          40
+        ]
+      },
+      {
+        "source_id": "botanicals-2025",
+        "set": "10343",
+        "pages": [
+          10,
+          14,
+          20,
+          30,
+          36,
+          40
+        ]
+      },
+      {
+        "source_id": "speed-2025",
+        "set": "77240",
+        "pages": [
+          10,
+          20,
+          30,
+          40,
+          56,
+          72
+        ]
+      },
+      {
+        "source_id": "ninjago-2025",
+        "set": "71832",
+        "pages": [
+          10,
+          20,
+          30,
+          40,
+          100,
+          120
+        ]
+      },
+      {
+        "source_id": "creator-2025",
+        "set": "31169",
+        "pages": [
+          9,
+          10,
+          20,
+          30,
+          40
+        ]
+      },
+      {
+        "source_id": "dreamzzz-2025",
+        "set": "71488",
+        "pages": [
+          10,
+          20,
+          30,
+          34,
+          38,
+          40,
+          66
+        ]
+      },
+      {
+        "source_id": "botanicals-2021",
+        "set": "10281",
+        "pages": [
+          10,
+          20,
+          30,
+          40
+        ]
+      },
+      {
+        "source_id": "creator-2026",
+        "set": "31376",
+        "pages": [
+          10,
+          16,
+          24,
+          32
+        ]
+      },
+      {
+        "source_id": "botanicals-2026",
+        "set": "11508",
+        "pages": [
+          8,
+          10,
+          12,
+          16,
+          24,
+          28,
+          32,
+          34
+        ]
+      },
+      {
+        "source_id": "technic-2026",
+        "set": "42221",
+        "pages": [
+          10,
+          16,
+          24,
+          32
+        ]
+      },
+      {
+        "source_id": "botanicals-tulips-2026",
+        "set": "11501",
+        "pages": [
+          10,
+          16,
+          24,
+          32
+        ]
+      },
+      {
+        "source_id": "botanicals-lily-2026",
+        "set": "11504",
+        "pages": [
+          10,
+          16,
+          24,
+          32
+        ]
+      },
+      {
+        "source_id": "architecture-2025",
+        "set": "21062",
+        "pages": [
+          20,
+          40,
+          60,
+          80,
+          218
+        ]
+      },
+      {
+        "source_id": "minecraft-2025",
+        "set": "21269",
+        "pages": [
+          20,
+          27,
+          40,
+          60,
+          70,
+          82,
+          83
+        ]
+      },
+      {
+        "source_id": "starwars-book-2024",
+        "set": "75375",
+        "pages": [
+          20,
+          40,
+          60,
+          80,
+          181,
+          182
+        ]
+      },
+      {
+        "source_id": "paired-10344",
+        "set": "10344",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "classic-space-2024",
+        "set": "11037",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-11509",
+        "set": "11509",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-21063",
+        "set": "21063",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-21270",
+        "set": "21270",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-31050",
+        "set": "31050",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-31168",
+        "set": "31168",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-42163",
+        "set": "42163",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-42603",
+        "set": "42603",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-60405",
+        "set": "60405",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-71833",
+        "set": "71833",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-75345",
+        "set": "75345",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-75376",
+        "set": "75376",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-77071",
+        "set": "77071",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      },
+      {
+        "source_id": "paired-77242",
+        "set": "77242",
+        "pages": [
+          10,
+          20,
+          30
+        ]
+      }
+    ]
+  }
+}

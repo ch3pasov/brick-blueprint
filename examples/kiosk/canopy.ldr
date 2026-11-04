@@ -1,0 +1,13 @@
+0 Original kiosk canopy subset; unchanged placements from design stage 7.
+0 Display module only; not an official set or physical certification.
+1 1 0 -104 -20 1 0 0 0 1 0 0 0 1 3035.dat
+1 15 -70 -112 10 0 0 1 0 1 0 -1 0 0 3623.dat
+1 1 -50 -112 10 0 0 1 0 1 0 -1 0 0 3623.dat
+1 15 -30 -112 10 0 0 1 0 1 0 -1 0 0 3623.dat
+1 1 -10 -112 10 0 0 1 0 1 0 -1 0 0 3623.dat
+1 15 10 -112 10 0 0 1 0 1 0 -1 0 0 3623.dat
+1 1 30 -112 10 0 0 1 0 1 0 -1 0 0 3623.dat
+1 15 50 -112 10 0 0 1 0 1 0 -1 0 0 3623.dat
+1 1 70 -112 10 0 0 1 0 1 0 -1 0 0 3623.dat
+1 1 -40 -112 -50 1 0 0 0 1 0 0 0 1 2431.dat
+1 1 40 -112 -50 1 0 0 0 1 0 0 0 1 2431.dat

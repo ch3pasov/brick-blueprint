@@ -1,0 +1,379 @@
+{
+  "method": "720dpi source raster, black threshold80, two largest connected ink components; FreeType 80px em, threshold128; ink IoU after +/-3px translation, no rescaling. Screening only; three labels per face, not a whole-typeface similarity metric.",
+  "references": [
+    {
+      "family": "Chalet",
+      "text": "1x",
+      "font": "NGSBEO+LEGOChalet60-Bold",
+      "size_pt": 8.0,
+      "advance_pt": 7.311999999999998,
+      "pdf_page": 8,
+      "pdf": "6167581.pdf",
+      "pdf_sha256": "fdab1177de2f087c5a08b510d8602e294c90cdee1ca1392b6a1f2046143daf69",
+      "ink_size": [
+        69,
+        55
+      ]
+    },
+    {
+      "family": "Chalet",
+      "text": "2x",
+      "font": "NGSBEO+LEGOChalet60-Bold",
+      "size_pt": 8.0,
+      "advance_pt": 8.783999999999992,
+      "pdf_page": 8,
+      "pdf": "6167581.pdf",
+      "pdf_sha256": "fdab1177de2f087c5a08b510d8602e294c90cdee1ca1392b6a1f2046143daf69",
+      "ink_size": [
+        85,
+        56
+      ]
+    },
+    {
+      "family": "Chalet",
+      "text": "4x",
+      "font": "NGSBEO+LEGOChalet60-Bold",
+      "size_pt": 8.0,
+      "advance_pt": 8.552000000000021,
+      "pdf_page": 13,
+      "pdf": "6167581.pdf",
+      "pdf_sha256": "fdab1177de2f087c5a08b510d8602e294c90cdee1ca1392b6a1f2046143daf69",
+      "ink_size": [
+        84,
+        55
+      ]
+    },
+    {
+      "family": "Cera",
+      "text": "1x",
+      "font": "VYUGAZ+CeraPro-Medium",
+      "size_pt": 8.0,
+      "advance_pt": 7.256,
+      "pdf_page": 5,
+      "pdf": "31376-6616307.pdf",
+      "pdf_sha256": "b0ede540908070edbab2c05e2f5e3376f1997af73516a61c976072032b1e58dd",
+      "ink_size": [
+        68,
+        53
+      ]
+    },
+    {
+      "family": "Cera",
+      "text": "2x",
+      "font": "VYUGAZ+CeraPro-Medium",
+      "size_pt": 8.0,
+      "advance_pt": 8.896,
+      "pdf_page": 6,
+      "pdf": "31376-6616307.pdf",
+      "pdf_sha256": "b0ede540908070edbab2c05e2f5e3376f1997af73516a61c976072032b1e58dd",
+      "ink_size": [
+        83,
+        54
+      ]
+    },
+    {
+      "family": "Cera",
+      "text": "4x",
+      "font": "VYUGAZ+CeraPro-Medium",
+      "size_pt": 8.0,
+      "advance_pt": 8.68,
+      "pdf_page": 8,
+      "pdf": "31376-6616307.pdf",
+      "pdf_sha256": "b0ede540908070edbab2c05e2f5e3376f1997af73516a61c976072032b1e58dd",
+      "ink_size": [
+        82,
+        53
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "family": "jost",
+      "weight": 500,
+      "text": "1x",
+      "advance_pt": 7.4,
+      "ink_size": [
+        68,
+        57
+      ],
+      "ink_iou": 0.7702407002188184,
+      "reference": "Cera"
+    },
+    {
+      "family": "jost",
+      "weight": 500,
+      "text": "2x",
+      "advance_pt": 8.6,
+      "ink_size": [
+        84,
+        58
+      ],
+      "ink_iou": 0.6836215666327569,
+      "reference": "Cera"
+    },
+    {
+      "family": "jost",
+      "weight": 500,
+      "text": "4x",
+      "advance_pt": 8.8,
+      "ink_size": [
+        86,
+        57
+      ],
+      "ink_iou": 0.6192946058091287,
+      "reference": "Cera"
+    },
+    {
+      "family": "jost",
+      "weight": 700,
+      "text": "1x",
+      "advance_pt": 8.3,
+      "ink_size": [
+        77,
+        58
+      ],
+      "ink_iou": 0.7001044932079414,
+      "reference": "Chalet"
+    },
+    {
+      "family": "jost",
+      "weight": 700,
+      "text": "2x",
+      "advance_pt": 9.5,
+      "ink_size": [
+        92,
+        58
+      ],
+      "ink_iou": 0.7037037037037037,
+      "reference": "Chalet"
+    },
+    {
+      "family": "jost",
+      "weight": 700,
+      "text": "4x",
+      "advance_pt": 9.9,
+      "ink_size": [
+        97,
+        56
+      ],
+      "ink_iou": 0.6690676270508203,
+      "reference": "Chalet"
+    },
+    {
+      "family": "outfit",
+      "weight": 500,
+      "text": "1x",
+      "advance_pt": 6.9,
+      "ink_size": [
+        65,
+        57
+      ],
+      "ink_iou": 0.7074688796680498,
+      "reference": "Cera"
+    },
+    {
+      "family": "outfit",
+      "weight": 500,
+      "text": "2x",
+      "advance_pt": 8.4,
+      "ink_size": [
+        80,
+        57
+      ],
+      "ink_iou": 0.6806765761148129,
+      "reference": "Cera"
+    },
+    {
+      "family": "outfit",
+      "weight": 500,
+      "text": "4x",
+      "advance_pt": 8.9,
+      "ink_size": [
+        85,
+        55
+      ],
+      "ink_iou": 0.6549520766773163,
+      "reference": "Cera"
+    },
+    {
+      "family": "outfit",
+      "weight": 700,
+      "text": "1x",
+      "advance_pt": 7.4,
+      "ink_size": [
+        71,
+        57
+      ],
+      "ink_iou": 0.7435483870967742,
+      "reference": "Chalet"
+    },
+    {
+      "family": "outfit",
+      "weight": 700,
+      "text": "2x",
+      "advance_pt": 8.9,
+      "ink_size": [
+        86,
+        58
+      ],
+      "ink_iou": 0.7473895582329317,
+      "reference": "Chalet"
+    },
+    {
+      "family": "outfit",
+      "weight": 700,
+      "text": "4x",
+      "advance_pt": 9.1,
+      "ink_size": [
+        89,
+        57
+      ],
+      "ink_iou": 0.6514605842336935,
+      "reference": "Chalet"
+    },
+    {
+      "family": "montserrat",
+      "weight": 500,
+      "text": "1x",
+      "advance_pt": 7.4,
+      "ink_size": [
+        72,
+        56
+      ],
+      "ink_iou": 0.6452961672473868,
+      "reference": "Cera"
+    },
+    {
+      "family": "montserrat",
+      "weight": 500,
+      "text": "2x",
+      "advance_pt": 9.0,
+      "ink_size": [
+        88,
+        57
+      ],
+      "ink_iou": 0.6677299308878256,
+      "reference": "Cera"
+    },
+    {
+      "family": "montserrat",
+      "weight": 500,
+      "text": "4x",
+      "advance_pt": 9.8,
+      "ink_size": [
+        94,
+        56
+      ],
+      "ink_iou": 0.5463010863942059,
+      "reference": "Cera"
+    },
+    {
+      "family": "montserrat",
+      "weight": 700,
+      "text": "1x",
+      "advance_pt": 7.9,
+      "ink_size": [
+        77,
+        56
+      ],
+      "ink_iou": 0.755567063697566,
+      "reference": "Chalet"
+    },
+    {
+      "family": "montserrat",
+      "weight": 700,
+      "text": "2x",
+      "advance_pt": 9.5,
+      "ink_size": [
+        94,
+        57
+      ],
+      "ink_iou": 0.743380062305296,
+      "reference": "Chalet"
+    },
+    {
+      "family": "montserrat",
+      "weight": 700,
+      "text": "4x",
+      "advance_pt": 10.3,
+      "ink_size": [
+        100,
+        56
+      ],
+      "ink_iou": 0.5670665212649946,
+      "reference": "Chalet"
+    },
+    {
+      "family": "leaguespartan",
+      "weight": 500,
+      "text": "1x",
+      "advance_pt": 6.6,
+      "ink_size": [
+        62,
+        53
+      ],
+      "ink_iou": 0.671933784800602,
+      "reference": "Cera"
+    },
+    {
+      "family": "leaguespartan",
+      "weight": 500,
+      "text": "2x",
+      "advance_pt": 8.5,
+      "ink_size": [
+        81,
+        54
+      ],
+      "ink_iou": 0.6553795740032768,
+      "reference": "Cera"
+    },
+    {
+      "family": "leaguespartan",
+      "weight": 500,
+      "text": "4x",
+      "advance_pt": 8.2,
+      "ink_size": [
+        79,
+        53
+      ],
+      "ink_iou": 0.534427966101695,
+      "reference": "Cera"
+    },
+    {
+      "family": "leaguespartan",
+      "weight": 700,
+      "text": "1x",
+      "advance_pt": 6.8,
+      "ink_size": [
+        66,
+        53
+      ],
+      "ink_iou": 0.6520532741398446,
+      "reference": "Chalet"
+    },
+    {
+      "family": "leaguespartan",
+      "weight": 700,
+      "text": "2x",
+      "advance_pt": 8.8,
+      "ink_size": [
+        86,
+        55
+      ],
+      "ink_iou": 0.6700946112710818,
+      "reference": "Chalet"
+    },
+    {
+      "family": "leaguespartan",
+      "weight": 700,
+      "text": "4x",
+      "advance_pt": 8.6,
+      "ink_size": [
+        84,
+        53
+      ],
+      "ink_iou": 0.7623718234507356,
+      "reference": "Chalet"
+    }
+  ]
+}

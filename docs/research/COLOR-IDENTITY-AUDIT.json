@@ -1,0 +1,18 @@
+{
+  "element": "4255416",
+  "LEGO_name": "Sand Yellow",
+  "LEGO_code": 138,
+  "LDraw_name": "Dark_Tan",
+  "LDraw_code": 28,
+  "nominal_RGB": [
+    137,
+    125,
+    98
+  ],
+  "official_url": "https://www.lego.com/en-us/pick-and-build/pick-a-brick?query=4255416&selectedElement=4255416",
+  "observed_date": "2026-10-27",
+  "catalogue_text_sha256": "2ad30fc9d7d73b6dad72cdae3626c666f4966861c9808b91802f16533977f5e2",
+  "LDConfig_sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+  "LDConfig_comment": "LEGOID 138 - Sand Yellow",
+  "all_reference_predictions_preserved": true
+}

@@ -1,0 +1,880 @@
+{
+  "scope": "Six native vector renders generated on three local arm64 toolchains. The Linux guest used Alpine 3.24.3 and kernel 6.18.58-0-virt in QEMU 11.1.3 (TCG). The model files, geometry, palette, camera and render options were held fixed. The 2026-10 LDraw library supplies the four external examples.",
+  "systems": {
+    "macos_clang": {
+      "system": "Darwin",
+      "machine": "arm64",
+      "compiler_version": "Apple clang version 21.0.0 (clang-2100.4.1.1)",
+      "python_version": "3.12.14",
+      "package_source_sha256": "8c3e051a9f18f14bddda66a5942e4577e889aac2d9dbb91b5ab78603c5a2651c",
+      "native_source_sha256": "d9039938857e9cd7b4ed748efe74934336d1ccc348f4c248bfe3f4f0048a2895",
+      "native_binary_sha256": {
+        "vector": "feb7ae908bb5d537ec3572b69d5210af91cc6c48b059169bc8f63768ec29b37f",
+        "union": "be467ff4914a4fa3e2a38f45ca8e1764ae479cf8dc68fbdae0883607b2100271"
+      }
+    },
+    "macos_gcc": {
+      "system": "Darwin",
+      "machine": "arm64",
+      "compiler_version": "g++-16 (Homebrew GCC 16.2.0) 16.2.0",
+      "python_version": "3.12.14",
+      "package_source_sha256": "8c3e051a9f18f14bddda66a5942e4577e889aac2d9dbb91b5ab78603c5a2651c",
+      "native_source_sha256": "d9039938857e9cd7b4ed748efe74934336d1ccc348f4c248bfe3f4f0048a2895",
+      "native_binary_sha256": {
+        "vector": "65f693f46ca454bfc603f479b32f9ac3c00ccb9761ec7d6322498debcedfa704",
+        "union": "a0811eab93e32d8eeee80b7a30b6b8c5677f2dc7aa9ff482c2503035fa823085"
+      }
+    },
+    "linux_gcc": {
+      "system": "Linux",
+      "machine": "aarch64",
+      "compiler_version": "g++ (Alpine 15.2.0) 15.2.0",
+      "python_version": "3.14.10",
+      "package_source_sha256": "8c3e051a9f18f14bddda66a5942e4577e889aac2d9dbb91b5ab78603c5a2651c",
+      "native_source_sha256": "d9039938857e9cd7b4ed748efe74934336d1ccc348f4c248bfe3f4f0048a2895",
+      "native_binary_sha256": {
+        "vector": "331419346857d16df3e402d0b5fab559d413bc15222d2fd6e934ca0f6e85592e",
+        "union": "2d867ade1f0ca2dd2f2b1ecf1ebbaf7d2286984c2385551b84a7ecfc906aa6ed"
+      }
+    }
+  },
+  "cases": [
+    {
+      "case": "self-contained",
+      "parts": 13,
+      "scene_sha256": "745372750643e5140f28501c582b1e77b723877276f45c1e866e79438892dfc4",
+      "model_sha256": "9ccd55efc104e194b45d37ebe50d8d98236feb5fd1cb51988ef32e137ed4fad5",
+      "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 12890.24136692087,
+        "distance_ldu": 4645.006702638938,
+        "target_ldu": [
+          -7.358830530390415,
+          -29.509490951864482,
+          -10.509499153930086
+        ],
+        "position_ldu": [
+          2175.0804304550566,
+          -2693.77588227823,
+          3106.33678125817
+        ],
+        "principal_point_points": [
+          300.0,
+          225.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 4583.546478662781,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "vector_sha256": {
+        "svg": {
+          "macos_clang": "b695e4159fdb1c1e77c2ffadae02756ed75074d24e37a052cd8f50d7cf29a068",
+          "macos_gcc": "cb7f8443a3d260ff9992b51e81eaaf0f55cccc0d7f6bb2678cb039b7bef8bff4",
+          "linux_gcc": "cb7f8443a3d260ff9992b51e81eaaf0f55cccc0d7f6bb2678cb039b7bef8bff4"
+        },
+        "pdf": {
+          "macos_clang": "112b355f4ac220b77ae74cccfcb88ff882310b34bdc3469a41fc9959381d512a",
+          "macos_gcc": "5785ade8bc0d3edffff87a1248be2c6723db4e3ec9c1d5b5d97b90b7a5ed2689",
+          "linux_gcc": "5785ade8bc0d3edffff87a1248be2c6723db4e3ec9c1d5b5d97b90b7a5ed2689"
+        }
+      }
+    },
+    {
+      "case": "fixture-underpaint",
+      "parts": 13,
+      "scene_sha256": "745372750643e5140f28501c582b1e77b723877276f45c1e866e79438892dfc4",
+      "model_sha256": "9ccd55efc104e194b45d37ebe50d8d98236feb5fd1cb51988ef32e137ed4fad5",
+      "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 12890.24136692087,
+        "distance_ldu": 4645.006702638938,
+        "target_ldu": [
+          -7.358830530390415,
+          -29.509490951864482,
+          -10.509499153930086
+        ],
+        "position_ldu": [
+          2175.0804304550566,
+          -2693.77588227823,
+          3106.33678125817
+        ],
+        "principal_point_points": [
+          300.0,
+          225.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 4583.546478662781,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "vector_sha256": {
+        "svg": {
+          "macos_clang": "faa2a3f22a79ea186b53f6eba75bb19f6eafbfc217156a2cee37dd577e53b564",
+          "macos_gcc": "28f74e0c9e3c1cd4729969d4dd6f278c1726db54979c765ebc21153e7b12ba65",
+          "linux_gcc": "28f74e0c9e3c1cd4729969d4dd6f278c1726db54979c765ebc21153e7b12ba65"
+        },
+        "pdf": {
+          "macos_clang": "3b521664f0cec97e4ad314ae0e1c37e1c951a3d32123117339c53d1d27a21b0c",
+          "macos_gcc": "cd169d1228743262f60f2e68d671bdf256a445caefee8a9463b8b54a1fd421fa",
+          "linux_gcc": "cd169d1228743262f60f2e68d671bdf256a445caefee8a9463b8b54a1fd421fa"
+        }
+      }
+    },
+    {
+      "case": "boat",
+      "parts": 20,
+      "scene_sha256": "508e6b1ef9eeefed3972ec770cc4704a0ebffd316bac3856ac5c61c29737cef6",
+      "model_sha256": "8ed3ff741a3f2fc9f8578f50058db1e795c366950065b372ab62203beb5e73c6",
+      "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 9166.393860921507,
+        "distance_ldu": 5280.562278396814,
+        "target_ldu": [
+          -6.963958634282082,
+          -14.893118262531974,
+          6.840610472069976
+        ],
+        "position_ldu": [
+          2474.088744670673,
+          -3043.6992118351372,
+          3550.151083319176
+        ],
+        "principal_point_points": [
+          250.0,
+          160.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 5196.972190276498,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "vector_sha256": {
+        "svg": {
+          "macos_clang": "eeb8ced3a777eef4d4a289dc4b832e536cab7e028bd6a3abbc71a27f4d139555",
+          "macos_gcc": "d5fd9bd490800621f96907ddc8d802baec3d6ccb60c724528d57cda39c0e44be",
+          "linux_gcc": "d5fd9bd490800621f96907ddc8d802baec3d6ccb60c724528d57cda39c0e44be"
+        },
+        "pdf": {
+          "macos_clang": "aa8a5e7efca6e3b339bc50985261baa34be15b5769ac6fad490fb960998d3b85",
+          "macos_gcc": "fd950db01ad18d6bce0aad6a2edb70bdadee749104a0f37c51aebaca1e1d7f99",
+          "linux_gcc": "fd950db01ad18d6bce0aad6a2edb70bdadee749104a0f37c51aebaca1e1d7f99"
+        }
+      }
+    },
+    {
+      "case": "glass",
+      "parts": 66,
+      "scene_sha256": "49189867f02086147331188cec25dca9939845fff4fc3df7f1ff8dc824de5c61",
+      "model_sha256": "dc1e567f13e2f81f0a54a738e99000b4a4919f6b599bba961a5a46da8f3fa8fb",
+      "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 10025.7432853829,
+        "distance_ldu": 10539.311842138763,
+        "target_ldu": [
+          -143.5960536644575,
+          -436.0786346640609,
+          -25.135696873032543
+        ],
+        "position_ldu": [
+          4808.26072944521,
+          -6481.1795626703915,
+          7046.848697597458
+        ],
+        "principal_point_points": [
+          125.0,
+          175.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 10408.569885405594,
+        "right": [
+          -0.8191520442889919,
+          0.0,
+          0.5735764363510462
+        ],
+        "down": [
+          0.32898992833716567,
+          0.8191520442889917,
+          0.4698463103929542
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "direction": [
+          0.4698463103929542,
+          -0.5735764363510462,
+          0.6710100716628344
+        ],
+        "preset": {
+          "name": "instruction",
+          "revision": 1,
+          "settings": {
+            "projection": "perspective",
+            "azimuth": 35.0,
+            "elevation": 35.0,
+            "field_of_view": 2.0
+          },
+          "overrides": {},
+          "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+          "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+        }
+      },
+      "vector_sha256": {
+        "svg": {
+          "macos_clang": "b17c1087ab316ac51216087200a8e3edd4ae83476a7118c9ea905c44b346aa4b",
+          "macos_gcc": "89d9d4a16571ad0a294f308c6254d15c1391616a10d12c5a221dc919c6f20d6a",
+          "linux_gcc": "89d9d4a16571ad0a294f308c6254d15c1391616a10d12c5a221dc919c6f20d6a"
+        },
+        "pdf": {
+          "macos_clang": "63716c43933d601adfa84c62c7e78866c676eb5bf81fb8398aa3f58aa28c7e1c",
+          "macos_gcc": "27a683d906d8b1f2cbbacf6257b1a0f6f560ee61e42fc697c8875720456c1a3f",
+          "linux_gcc": "27a683d906d8b1f2cbbacf6257b1a0f6f560ee61e42fc697c8875720456c1a3f"
+        }
+      }
+    },
+    {
+      "case": "lowered",
+      "parts": 21,
+      "scene_sha256": "31b110e56b0b9b8a450c96fdfa437e603f05863a2e33e1ea91650c3db9ad3916",
+      "model_sha256": "4f7cdf1c253745491ce4f8bb9c727c46ed868d2d0af668d93c8db290abf581be",
+      "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 10312.193093536696,
+        "distance_ldu": 7900.0,
+        "target_ldu": [
+          -46.0,
+          -88.0,
+          8.0
+        ],
+        "position_ldu": [
+          3004.0398473072196,
+          -3301.219480298822,
+          6548.831560380249
+        ],
+        "principal_point_points": [
+          220.0,
+          180.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 7849.795894185389,
+        "right": [
+          -0.90630778703665,
+          0.0,
+          0.4226182617406995
+        ],
+        "down": [
+          0.17189433308294202,
+          0.913545457642601,
+          0.3686285868927443
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 25.0,
+        "elevation": 24.0,
+        "direction": [
+          0.3860809933300278,
+          -0.40673664307580026,
+          0.8279533620734493
+        ]
+      },
+      "vector_sha256": {
+        "svg": {
+          "macos_clang": "1e4de170b21f334e8095126712855bc7a45b40f27f5c755fd291453022f65137",
+          "macos_gcc": "fc605b28d9e1e5ca2dcebcb573ca324a59dd8de4e6dd36ed0f336748299ee5be",
+          "linux_gcc": "fc605b28d9e1e5ca2dcebcb573ca324a59dd8de4e6dd36ed0f336748299ee5be"
+        },
+        "pdf": {
+          "macos_clang": "0ce55171c5e7e31680167b3eedae4adc52f37dd66e6237a3f03f711913ae87ca",
+          "macos_gcc": "dee850bd8570bd270099c8b52a814711e20ced8170d12d8c6adea55d77f0d935",
+          "linux_gcc": "dee850bd8570bd270099c8b52a814711e20ced8170d12d8c6adea55d77f0d935"
+        }
+      }
+    },
+    {
+      "case": "raised",
+      "parts": 21,
+      "scene_sha256": "9f476f614c35b3c06b5607545d0f8e639f178058597e958340e9797c236665ce",
+      "model_sha256": "291ff0e238f182f6631cd360c75bc695fbc983f54ce090c00b004d7a0580eaff",
+      "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+      "camera": {
+        "projection": "perspective",
+        "model": "pinhole",
+        "field_of_view_vertical_degrees": 2.0,
+        "focal_length_points": 10312.193093536696,
+        "distance_ldu": 7900.0,
+        "target_ldu": [
+          -46.0,
+          -88.0,
+          8.0
+        ],
+        "position_ldu": [
+          3004.0398473072196,
+          -3301.219480298822,
+          6548.831560380249
+        ],
+        "principal_point_points": [
+          220.0,
+          180.0
+        ],
+        "near_clip_ldu": 0.1,
+        "minimum_geometry_eye_distance_ldu": 7832.871209128733,
+        "right": [
+          -0.90630778703665,
+          0.0,
+          0.4226182617406995
+        ],
+        "down": [
+          0.17189433308294202,
+          0.913545457642601,
+          0.3686285868927443
+        ],
+        "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+        "scale_definition": "points per LDU at the camera target plane",
+        "fit": "camera distance only; no post-projection scale or warp",
+        "near_plane_policy": "reject crossing geometry; no model slicing",
+        "field_of_view_status": "tool setting, not a recovered LEGO constant",
+        "azimuth": 25.0,
+        "elevation": 24.0,
+        "direction": [
+          0.3860809933300278,
+          -0.40673664307580026,
+          0.8279533620734493
+        ]
+      },
+      "vector_sha256": {
+        "svg": {
+          "macos_clang": "1c9ec9f9e2020a93ee96ad66db5dcc2c2677825cbbee153b939f85dc2ad0905a",
+          "macos_gcc": "8c25c5abf610454694becd0672a0c4429aac9f6fae979ccafbeab1dca3fe28d2",
+          "linux_gcc": "8c25c5abf610454694becd0672a0c4429aac9f6fae979ccafbeab1dca3fe28d2"
+        },
+        "pdf": {
+          "macos_clang": "6f0c1845567a1c1fae4eaf9f82c572678e5229087533aabbe58d37c5c67ac253",
+          "macos_gcc": "27123453d51e267df7fae24d283567be38bb638660b8da58b9a81eb5245ff827",
+          "linux_gcc": "27123453d51e267df7fae24d283567be38bb638660b8da58b9a81eb5245ff827"
+        }
+      }
+    }
+  ],
+  "raster_comparison": {
+    "method": "librsvg via sharp 0.35.5 and Poppler 26.05.0. Renders decoded to RGB on the same Mac, at 1 and 2 pixels per point (PDF 72 and 144 ppi). Error is mean absolute difference per 8-bit channel over the whole page. Fraction uses pixels whose largest channel difference is at least 8.",
+    "compared": [
+      "macos_clang",
+      "linux_gcc"
+    ],
+    "identical_pixel_metrics_for": [
+      "macos_clang",
+      "macos_gcc"
+    ],
+    "cases": [
+      {
+        "name": "self-contained",
+        "format": "svg",
+        "scale": 1,
+        "width": 600,
+        "height": 450,
+        "changed_pixels": 107,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 5,
+        "mean_absolute_channel_error": 0.000391358024691358
+      },
+      {
+        "name": "self-contained",
+        "format": "svg",
+        "scale": 2,
+        "width": 1200,
+        "height": 900,
+        "changed_pixels": 231,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 6,
+        "mean_absolute_channel_error": 0.0001589506172839506
+      },
+      {
+        "name": "self-contained",
+        "format": "pdf",
+        "scale": 1,
+        "width": 600,
+        "height": 450,
+        "changed_pixels": 56,
+        "large_changes_at_least_8": 29,
+        "fraction_at_least_8": 0.00010740740740740741,
+        "max_channel_error": 25,
+        "mean_absolute_channel_error": 0.0011975308641975308
+      },
+      {
+        "name": "self-contained",
+        "format": "pdf",
+        "scale": 2,
+        "width": 1200,
+        "height": 900,
+        "changed_pixels": 112,
+        "large_changes_at_least_8": 28,
+        "fraction_at_least_8": 2.5925925925925925e-05,
+        "max_channel_error": 18,
+        "mean_absolute_channel_error": 0.00036265432098765433
+      },
+      {
+        "name": "fixture-underpaint",
+        "format": "svg",
+        "scale": 1,
+        "width": 600,
+        "height": 450,
+        "changed_pixels": 93,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 4,
+        "mean_absolute_channel_error": 0.00029876543209876545
+      },
+      {
+        "name": "fixture-underpaint",
+        "format": "svg",
+        "scale": 2,
+        "width": 1200,
+        "height": 900,
+        "changed_pixels": 207,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 3,
+        "mean_absolute_channel_error": 0.00014135802469135802
+      },
+      {
+        "name": "fixture-underpaint",
+        "format": "pdf",
+        "scale": 1,
+        "width": 600,
+        "height": 450,
+        "changed_pixels": 56,
+        "large_changes_at_least_8": 31,
+        "fraction_at_least_8": 0.00011481481481481481,
+        "max_channel_error": 25,
+        "mean_absolute_channel_error": 0.0014135802469135803
+      },
+      {
+        "name": "fixture-underpaint",
+        "format": "pdf",
+        "scale": 2,
+        "width": 1200,
+        "height": 900,
+        "changed_pixels": 112,
+        "large_changes_at_least_8": 31,
+        "fraction_at_least_8": 2.8703703703703703e-05,
+        "max_channel_error": 18,
+        "mean_absolute_channel_error": 0.0004132716049382716
+      },
+      {
+        "name": "boat",
+        "format": "svg",
+        "scale": 1,
+        "width": 500,
+        "height": 320,
+        "changed_pixels": 251,
+        "large_changes_at_least_8": 2,
+        "fraction_at_least_8": 1.25e-05,
+        "max_channel_error": 8,
+        "mean_absolute_channel_error": 0.0015666666666666667
+      },
+      {
+        "name": "boat",
+        "format": "svg",
+        "scale": 2,
+        "width": 1000,
+        "height": 640,
+        "changed_pixels": 569,
+        "large_changes_at_least_8": 9,
+        "fraction_at_least_8": 1.40625e-05,
+        "max_channel_error": 12,
+        "mean_absolute_channel_error": 0.0008494791666666667
+      },
+      {
+        "name": "boat",
+        "format": "pdf",
+        "scale": 1,
+        "width": 500,
+        "height": 320,
+        "changed_pixels": 11,
+        "large_changes_at_least_8": 1,
+        "fraction_at_least_8": 6.25e-06,
+        "max_channel_error": 13,
+        "mean_absolute_channel_error": 0.00015625
+      },
+      {
+        "name": "boat",
+        "format": "pdf",
+        "scale": 2,
+        "width": 1000,
+        "height": 640,
+        "changed_pixels": 18,
+        "large_changes_at_least_8": 4,
+        "fraction_at_least_8": 6.25e-06,
+        "max_channel_error": 15,
+        "mean_absolute_channel_error": 8.229166666666667e-05
+      },
+      {
+        "name": "glass",
+        "format": "svg",
+        "scale": 1,
+        "width": 250,
+        "height": 350,
+        "changed_pixels": 57,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 4,
+        "mean_absolute_channel_error": 0.0005676190476190476
+      },
+      {
+        "name": "glass",
+        "format": "svg",
+        "scale": 2,
+        "width": 500,
+        "height": 700,
+        "changed_pixels": 73,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 3,
+        "mean_absolute_channel_error": 0.00017333333333333334
+      },
+      {
+        "name": "glass",
+        "format": "pdf",
+        "scale": 1,
+        "width": 250,
+        "height": 350,
+        "changed_pixels": 12,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 2,
+        "mean_absolute_channel_error": 0.00012571428571428572
+      },
+      {
+        "name": "glass",
+        "format": "pdf",
+        "scale": 2,
+        "width": 500,
+        "height": 700,
+        "changed_pixels": 10,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 1,
+        "mean_absolute_channel_error": 1.9047619047619046e-05
+      },
+      {
+        "name": "lowered",
+        "format": "svg",
+        "scale": 1,
+        "width": 440,
+        "height": 360,
+        "changed_pixels": 53,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 4,
+        "mean_absolute_channel_error": 0.0002777777777777778
+      },
+      {
+        "name": "lowered",
+        "format": "svg",
+        "scale": 2,
+        "width": 880,
+        "height": 720,
+        "changed_pixels": 58,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 6,
+        "mean_absolute_channel_error": 8.785774410774411e-05
+      },
+      {
+        "name": "lowered",
+        "format": "pdf",
+        "scale": 1,
+        "width": 440,
+        "height": 360,
+        "changed_pixels": 1,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 1,
+        "mean_absolute_channel_error": 2.1043771043771042e-06
+      },
+      {
+        "name": "lowered",
+        "format": "pdf",
+        "scale": 2,
+        "width": 880,
+        "height": 720,
+        "changed_pixels": 1,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 1,
+        "mean_absolute_channel_error": 1.0521885521885521e-06
+      },
+      {
+        "name": "raised",
+        "format": "svg",
+        "scale": 1,
+        "width": 440,
+        "height": 360,
+        "changed_pixels": 50,
+        "large_changes_at_least_8": 1,
+        "fraction_at_least_8": 6.313131313131313e-06,
+        "max_channel_error": 8,
+        "mean_absolute_channel_error": 0.00026304713804713804
+      },
+      {
+        "name": "raised",
+        "format": "svg",
+        "scale": 2,
+        "width": 880,
+        "height": 720,
+        "changed_pixels": 106,
+        "large_changes_at_least_8": 2,
+        "fraction_at_least_8": 3.1565656565656566e-06,
+        "max_channel_error": 13,
+        "mean_absolute_channel_error": 0.00016203703703703703
+      },
+      {
+        "name": "raised",
+        "format": "pdf",
+        "scale": 1,
+        "width": 440,
+        "height": 360,
+        "changed_pixels": 4,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 1,
+        "mean_absolute_channel_error": 1.473063973063973e-05
+      },
+      {
+        "name": "raised",
+        "format": "pdf",
+        "scale": 2,
+        "width": 880,
+        "height": 720,
+        "changed_pixels": 2,
+        "large_changes_at_least_8": 0,
+        "fraction_at_least_8": 0.0,
+        "max_channel_error": 1,
+        "mean_absolute_channel_error": 1.5782828282828283e-06
+      }
+    ]
+  },
+  "limits": "Bounded to these six examples and these tools. A common scene hash identifies the input to visibility processing. Page-average errors may hide individual edge pixels. The tests compare renderer outputs and do not grade agreement with official instruction art.",
+  "installable_package": {
+    "version": "0.6.0.dev7",
+    "backend": "setuptools 84.1.0",
+    "SOURCE_DATE_EPOCH": 1792886400,
+    "wheel_sha256": "3b9ae090add214e57cc2e770d476511461e98875f937a564e78b8b52ebb552dc",
+    "entries": 51,
+    "identical_between_macos_and_linux": true,
+    "tested_from_installed_wheels_on_both": true
+  },
+  "full_scene_and_instruction_page": {
+    "method": "Each toolchain rendered the 3D model and composed its own SVG. Both sheets were measured on the same machine with librsvg at the indicated widths. Error is mean absolute difference of the 8-bit RGB channels over the full page. The high-difference fraction counts pixels reaching eight levels in at least one channel.",
+    "standard_widths_px": [
+      320,
+      768,
+      1536,
+      3000
+    ],
+    "rasterizer": "librsvg 2.63.2",
+    "examples": [
+      {
+        "example": "lighthouse",
+        "macos_svg_sha256": "a5418d95b0fa52ef1f62963dc12f0ca74005bbb0313112aaef80665b738ff885",
+        "linux_svg_sha256": "3e5ad05e1ea32fe4d97ddaa21bfe80f5dc01b2b78656889e9eecf44600f35655",
+        "pixel_comparisons": [
+          {
+            "model": "lighthouse",
+            "width": 320,
+            "height": 217,
+            "mae": 0.00097926267281106,
+            "maximum": 2,
+            "fraction_eight_or_above": 0
+          },
+          {
+            "model": "lighthouse",
+            "width": 768,
+            "height": 521,
+            "mae": 0.00034655576882064405,
+            "maximum": 6,
+            "fraction_eight_or_above": 0
+          },
+          {
+            "model": "lighthouse",
+            "width": 1536,
+            "height": 1041,
+            "mae": 0.00016844113566015582,
+            "maximum": 7,
+            "fraction_eight_or_above": 0
+          },
+          {
+            "model": "lighthouse",
+            "width": 3000,
+            "height": 2034,
+            "mae": 8.980662078007211e-05,
+            "maximum": 7,
+            "fraction_eight_or_above": 0
+          }
+        ]
+      },
+      {
+        "example": "shunter",
+        "macos_svg_sha256": "e78ec91ebfbc449124cb3bd5871206c8c632b54ea0f2d639a3f302b7f3e3360e",
+        "linux_svg_sha256": "49fde54fe5e1311b2e64b0e32f1e47a0a9385edf80bbe3aa6c4f8b6c6ca177a1",
+        "pixel_comparisons": [
+          {
+            "model": "shunter",
+            "width": 320,
+            "height": 218,
+            "mae": 0.0006594036697247707,
+            "maximum": 4,
+            "fraction_eight_or_above": 0
+          },
+          {
+            "model": "shunter",
+            "width": 768,
+            "height": 522,
+            "mae": 0.0002926777352064708,
+            "maximum": 5,
+            "fraction_eight_or_above": 0
+          },
+          {
+            "model": "shunter",
+            "width": 1536,
+            "height": 1044,
+            "mae": 6.797274106002554e-05,
+            "maximum": 6,
+            "fraction_eight_or_above": 0
+          },
+          {
+            "model": "shunter",
+            "width": 3000,
+            "height": 2040,
+            "mae": 3.425925925925926e-05,
+            "maximum": 7,
+            "fraction_eight_or_above": 0
+          }
+        ]
+      }
+    ]
+  }
+}

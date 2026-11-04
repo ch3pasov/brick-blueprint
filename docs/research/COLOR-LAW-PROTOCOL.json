@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-27",
+  "question": "Can a shared color transform predict other visible faces, or all three faces from nominal LDraw RGB?",
+  "status": "declared before computing this study's model fits",
+  "sample": "The existing fixed ten color representatives from the 14-image three-face study. Four repeat images are not extra colors. All color-to-LDraw associations remain those already recorded in material-research.json.",
+  "primary_hypothesis": "A shared gain followed by clipping, applied from the darkest measured face to the other faces, may account for saturated channels better than the reverse direction. This is an output-color approximation, not a recovered shader.",
+  "inputs": ["measured left", "measured top", "measured right", "nominal RGB in the exact supplied LDConfig.ldr"],
+  "targets": ["left", "top", "right"],
+  "candidates": ["identity", "shared clipped gain in encoded RGB", "shared clipped gain and offset in encoded RGB", "shared clipped gain in linear-light sRGB", "shared clipped gain and offset in linear-light sRGB", "three channel-wise affine functions in encoded RGB", "3x3 matrix plus RGB offset in encoded RGB"],
+  "fitting": "Least squares in the named space; common gain and gain+offset account for clipping during fitting. Channel affine and full matrix use ordinary least squares before output clipping. No regularization or post-hoc color-specific exceptions.",
+  "validation": "Leave one color out as a whole, fit on the other nine, predict the omitted color. Repeat for ten colors. Each color has equal weight. Evaluate every candidate, not only the smallest reported error.",
+  "metrics": "Channel MAE and maximum absolute channel error in encoded RGB levels0..255, with each omitted color prediction and coefficients retained. RGB error is not a perceptually uniform color difference.",
+  "transfer_check": "Fit on the ten 2x2 representatives and evaluate all12 existing 2x4 controls without refitting. For face-to-face prediction, feed the measured input face of each2x4. For LDraw prediction, feed the same nominal RGB. This checks new images/forms of known colors, not new color generalization.",
+  "sensitivity": "For the primary left-to-top/right gain model, rerun all ten color holdouts over all81 pairs of input/output one-pixel ROI shifts. This is robustness, not81 independent datasets or a confidence interval.",
+  "identifiability": "Saturated output channels may lose information; compare both transfer directions. A successful view-specific mapping does not recover light direction, arbitrary surface normals, transparent materials or the manufacturer pipeline.",
+  "renderer_policy": "Preserve the measured runtime palette. Formula-driven renders are explicit research controls until supported on independent colors and orientations.",
+  "references": ["https://www.ldraw.org/article/547.html", "https://ldraw.org/article/299.html", "https://www.w3.org/TR/css-color-4/#color-conversion-code"]
+}

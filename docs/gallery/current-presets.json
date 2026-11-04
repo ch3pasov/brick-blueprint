@@ -1,0 +1,146 @@
+{
+  "render_recipe": {
+    "version": "0.6.0.dev6",
+    "appearance": "current",
+    "group": "presets",
+    "camera_recipe": {
+      "current_trays": "35/35, FOV2 exploratory weak-perspective recipe; two Classic sources only",
+      "current_assemblies": "35/35, FOV30 generic illustration recipe",
+      "legacy": "historical orthographic"
+    },
+    "recipe_sha256": "fafbcf61032608ef9a460c3f55b78700e5d3404293280d91f1661e530fec1249",
+    "renders": {
+      "botanicals-gray": "8ab09b4bdf15a326c8377ab89e6b2091b74a28713d9d33c97f7da0a3ac38b1c1",
+      "botanicals-green": "bbfa9c7286b0d27bbe7d215257cb5eb44e6c6ebdc2fd1d85457a5b415928945f",
+      "botanicals-slate": "abfaac1c14d47d00313fc0f5e45b8ae4e0feeeb2f25ffac5726e22dae3130826",
+      "classic-space": "5ac63615523e8a17c261e044277f047b9d11dea42de48d50132228d465b62284",
+      "classic-white": "0fe76fee8187e875fccb2a3958a6e2b54e45fcce4cc46bb3a626a9f3ebedeb18",
+      "creator-blue": "5b1da8c4c3b341d63d4a70436f244318c4f483bd7924ed2ef69c899a4572b632",
+      "display-slate": "4619b1164b433289899b221a5e6a33fc95731a59b34a81fd69a76bc695bdd4de",
+      "fortnite-lilac": "e8b8480281336b88e0aee63f201f892f38a929e8c6c29a905e4eba170a60277c",
+      "friends-aqua": "12db7469681a909fa5cc6acb669bb231f9f2d2bb30c476e45bd7ba205f446b5c",
+      "minecraft-green": "7f2d7c818734ecbd1c744486f1a3c27580103993fd725da9cfd2c65e74bc84b7",
+      "modern-blue": "ad79d78629960badd7a525d7594d21d3551b148352ae47ae5f3093c697c54736",
+      "ninjago-peach": "b4deff2304e1a398522c0c6ee062c988679fcc1fafe88e4ed016042619b9383a",
+      "speed-chamfer": "23761cd8bf2ccff97a25de7e7ba5893e492c79fa0680c9e0df8d634bf42e6ef1",
+      "starwars-foldout": "397ad070fc0a95332b0d44f02f60fca148c6da1b05e9f0e6916b7e93526aa600",
+      "technic-gray": "3935f71ed615a8afcc03164b28a808f7ec50aeee12e9ec9a0f2f7bceb61674ec"
+    }
+  },
+  "previews": {
+    "recipe_sha256": "50410f673800447aa5222f6a9b84cbaaefa91647c563ac204e752d2b179a4b7f",
+    "font_sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade",
+    "font_file": "Outfit[wght].ttf",
+    "dpi": 144,
+    "pillow_version": "12.3.0",
+    "pdftoppm_version": "pdftoppm version 26.05.0",
+    "board_sha256": "4179c4755f5374364692bd6351afb6e5360a4be716267d2d9e86e43682e5f754",
+    "items": [
+      {
+        "preset": "creator-blue",
+        "pdf_sha256": "27faedc55305576858e1c793bc10ea26543ad33018bf9512d426b49b0fc5cda1",
+        "svg_sha256": "53f24d2bdd31ff56d19bcb8d6ec4c8e7f75dbe60b35ba59e6d6c6142da4545b2",
+        "receipt_sha256": "5b1da8c4c3b341d63d4a70436f244318c4f483bd7924ed2ef69c899a4572b632",
+        "png_sha256": "7fec4c313097c5301168bcef4363f8270924f4d2597737ac53ce7a83b40688b1"
+      },
+      {
+        "preset": "modern-blue",
+        "pdf_sha256": "ce718aabdb53c8199f20f0795ce7aa971732a7ae67349d51b1c6db3586ed40ad",
+        "svg_sha256": "17456954d48e88929c135d747be00ca5efe3f3b73cc942082066a6d64bd62c95",
+        "receipt_sha256": "ad79d78629960badd7a525d7594d21d3551b148352ae47ae5f3093c697c54736",
+        "png_sha256": "e50eb1480af0feda4e1a06f6040c116493ae98f59cf5a0f7e3251dd039c3299f"
+      },
+      {
+        "preset": "classic-white",
+        "pdf_sha256": "3847fb66927e364e3ea0daa26e8dcc7644a932f695abeee4361b4f0028db50af",
+        "svg_sha256": "5d4d45e5e32085753b1d73913f47c9e45f90595948e5979b52533522e54ccdfd",
+        "receipt_sha256": "0fe76fee8187e875fccb2a3958a6e2b54e45fcce4cc46bb3a626a9f3ebedeb18",
+        "png_sha256": "32dedf8cad60ca2c8f4cbd4984316ce176a9f3af6460d58c581e2fb326a3b815"
+      },
+      {
+        "preset": "friends-aqua",
+        "pdf_sha256": "8b7fe3d0567c5573e9b745d4b1b964138acae3773cf7889bbe78b616f09856a5",
+        "svg_sha256": "c45edbae6669e06d46ba477675b43c85883fa869fbba12ee92826251d59deac3",
+        "receipt_sha256": "12db7469681a909fa5cc6acb669bb231f9f2d2bb30c476e45bd7ba205f446b5c",
+        "png_sha256": "b0422cda3db50b32e15616d14aca183cde31c49a7968401e2f127412b91cbb2f"
+      },
+      {
+        "preset": "technic-gray",
+        "pdf_sha256": "b0004d654150be2ea1ea4ab31d3bf55efc4c8d73386c82e6c07d0ed747da17e1",
+        "svg_sha256": "b6be815203d9a57900aa8574113e21df45ee8f4e90553baa010f1e99a5f05472",
+        "receipt_sha256": "3935f71ed615a8afcc03164b28a808f7ec50aeee12e9ec9a0f2f7bceb61674ec",
+        "png_sha256": "9be8878c9f4680f6377aec9661a2e08c78df16831c84c5b10e0d84a2831e5ab2"
+      },
+      {
+        "preset": "fortnite-lilac",
+        "pdf_sha256": "9e589066369d9cf79da46883b38898628db3fe9edfbe51e3cff420a493ed0010",
+        "svg_sha256": "a65fca1a68642624c11ec779157b78f3f204cc1ec15b268265f3d21c81695c7a",
+        "receipt_sha256": "e8b8480281336b88e0aee63f201f892f38a929e8c6c29a905e4eba170a60277c",
+        "png_sha256": "93cb2594057c63263bccea6cdb99361e966346b6a3251e93e693ce69f0d67624"
+      },
+      {
+        "preset": "botanicals-gray",
+        "pdf_sha256": "794027d97c3126e0d120e4b75659e25f2821f7ce810059a83daa279f76dfb472",
+        "svg_sha256": "d2ede59d0bd6cb068cb612e902d90ac5d7b4b28ebb0419ca17c73fab5a090095",
+        "receipt_sha256": "8ab09b4bdf15a326c8377ab89e6b2091b74a28713d9d33c97f7da0a3ac38b1c1",
+        "png_sha256": "e5a8c8c7a895717a8e55da56c78bf2c4270b60198fd62e9c1c28a2de00ef95b7"
+      },
+      {
+        "preset": "speed-chamfer",
+        "pdf_sha256": "613e34ed9b431c9873562513adf5efadab1409797a6b94eb391ace6aca6e05f8",
+        "svg_sha256": "335c2730aa011fca722bdcbcc3365fbe2e1aab215cb0faff554e0ae2d50b5d2f",
+        "receipt_sha256": "23761cd8bf2ccff97a25de7e7ba5893e492c79fa0680c9e0df8d634bf42e6ef1",
+        "png_sha256": "9bc70b95c2ddc7f28f05554d815e964dabcab92beb7a892b03481b4de3ff4cfa"
+      },
+      {
+        "preset": "ninjago-peach",
+        "pdf_sha256": "5ff9c7af10edb911386daa8af33b5f61c05b13b1cc3d12fd9b4fd170d1841e9e",
+        "svg_sha256": "60f36e68c8059c6f88d88f82d8977beb5d80d431753673696dfbaee782c8fae2",
+        "receipt_sha256": "b4deff2304e1a398522c0c6ee062c988679fcc1fafe88e4ed016042619b9383a",
+        "png_sha256": "3278023b982718862068ba7b48388af5d6fc0bb72452be95ed013740fceceaf3"
+      },
+      {
+        "preset": "botanicals-green",
+        "pdf_sha256": "5b5946f1cdf8f149e6b3683664246f381220106c9f3c0bd62116a4a1e70dafac",
+        "svg_sha256": "2753991b7fc9d8194589a3ed2ffbe0bd9cfc3d392282d9cc36cdcd7ccb6f926b",
+        "receipt_sha256": "bbfa9c7286b0d27bbe7d215257cb5eb44e6c6ebdc2fd1d85457a5b415928945f",
+        "png_sha256": "dc9c0fffa679d9a52338bd0f5afde827a4b128b4363439f3dee3039472ca88a8"
+      },
+      {
+        "preset": "botanicals-slate",
+        "pdf_sha256": "d87ab29889a72e63e85841e35ab87d6e998f508b1418f7c7136d6c6b19064879",
+        "svg_sha256": "d912d632263bd8223d915818169519261cad3909abb0003cee45370f9d060d33",
+        "receipt_sha256": "abfaac1c14d47d00313fc0f5e45b8ae4e0feeeb2f25ffac5726e22dae3130826",
+        "png_sha256": "d40f48bd2bbf41b2c75db97a36e29bf7f3f2a9b8dc134a9b339fbb9882cee39e"
+      },
+      {
+        "preset": "minecraft-green",
+        "pdf_sha256": "1e65339f52ea2dffacedca4eb44ed8ed7641be80b786c29151dfed6d57eae73e",
+        "svg_sha256": "f0ad9df051d324d5656b3ee8aef402ac2957aa96ae1e398c714dc761ac637a56",
+        "receipt_sha256": "7f2d7c818734ecbd1c744486f1a3c27580103993fd725da9cfd2c65e74bc84b7",
+        "png_sha256": "3a350368a21ded3441cd4a8d4510b5448fede2523fa68f1d380148e6b6d82b1d"
+      },
+      {
+        "preset": "display-slate",
+        "pdf_sha256": "978b60866ad9bc3fbdf59eadf21678ee1c677f42fdafd2e1d2dc7937227dff37",
+        "svg_sha256": "f7de7d6ca1fdf983df910bbd10e2680a92d6114ad7b50fa3769f36e971709467",
+        "receipt_sha256": "4619b1164b433289899b221a5e6a33fc95731a59b34a81fd69a76bc695bdd4de",
+        "png_sha256": "3508354be09848a40ae83ea13766c95d5e4d1b3ac857467536d1a5aa3e62056d"
+      },
+      {
+        "preset": "classic-space",
+        "pdf_sha256": "70ad15b7f1a8896f7b6ba1658d24504020609ef9e5c7d978350d2c71850a3ee2",
+        "svg_sha256": "f30b2560acb1b6ef6b7ea3e0041623427e9b8f3364e653aaf4d877caa5bc3c89",
+        "receipt_sha256": "5ac63615523e8a17c261e044277f047b9d11dea42de48d50132228d465b62284",
+        "png_sha256": "cb84064a285d67551056d9cb179056c5ad0e3bd9dded28df831a321de67dcbc8"
+      },
+      {
+        "preset": "starwars-foldout",
+        "pdf_sha256": "15b33af3944f2bcaa959bd2e47e48a4bef9cc5ee21f2267abd4f5d9338fd4872",
+        "svg_sha256": "970d105abf4d720e9483d8b742200d2bbb25f9f916db381e0fe8b0724a3dbed0",
+        "receipt_sha256": "397ad070fc0a95332b0d44f02f60fca148c6da1b05e9f0e6916b7e93526aa600",
+        "png_sha256": "144e9c00bf2d9b05fe476edeea6c98e71ca203b8864ef3845bb131f081b68de0"
+      }
+    ]
+  }
+}

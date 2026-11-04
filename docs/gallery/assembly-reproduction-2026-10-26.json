@@ -1,0 +1,467 @@
+{
+  "scenes": 7,
+  "exact_SVGs": 3,
+  "exact_PDFs": 3,
+  "all_models_and_scenes_identical": true,
+  "records": [
+    {
+      "scene": "botanicals-slate-subassembly",
+      "reference": "subassembly-botanicals-slate.json",
+      "parts": 41,
+      "model_same": true,
+      "scene_same": true,
+      "vectors": {
+        "SVG_sha256": true,
+        "PDF_sha256": true
+      },
+      "old": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "1de679e4408b3aad9410eaa7e1b70a68748a1b2273bf27d0f1838dc773f78193",
+        "PDF_sha256": "6eea20a04c962b92b463a606ff59537574c9ac970cccc99755d1c0ed03effd3e",
+        "PDF_bytes": 294216,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion"
+      },
+      "new": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "1de679e4408b3aad9410eaa7e1b70a68748a1b2273bf27d0f1838dc773f78193",
+        "PDF_sha256": "6eea20a04c962b92b463a606ff59537574c9ac970cccc99755d1c0ed03effd3e",
+        "PDF_bytes": 294216,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+        "color_export": {
+          "mode": "rgb",
+          "input_color_assumption": "sRGB",
+          "conversion": "unchanged RGB",
+          "unique_source_colors": 27
+        },
+        "page_points": [
+          300.0,
+          270.0
+        ]
+      }
+    },
+    {
+      "scene": "display-slate-subassembly",
+      "reference": "subassembly-display-slate.json",
+      "parts": 41,
+      "model_same": true,
+      "scene_same": true,
+      "vectors": {
+        "SVG_sha256": false,
+        "PDF_sha256": false
+      },
+      "old": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "ee3e51bdb7b612fdeaaba35a77f8bfb5c7987143f3a1b065e86e6e78d81edc63",
+        "PDF_sha256": "78b9665425b824ebccaf59d349caa2f578b8491d2108c01bccda150a323cfc90",
+        "PDF_bytes": 294215,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion"
+      },
+      "new": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "9e8e3a6ead3bd9eef0d8aa7991af088306ec08f1d0bfefa740f046e10f10efe4",
+        "PDF_sha256": "13f464b7d49e610a91b0d879eb2827dc6b1287de19a58ead930c355a1696b282",
+        "PDF_bytes": 294213,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+        "color_export": {
+          "mode": "rgb",
+          "input_color_assumption": "sRGB",
+          "conversion": "unchanged RGB",
+          "unique_source_colors": 27
+        },
+        "page_points": [
+          300.0,
+          270.0
+        ]
+      }
+    },
+    {
+      "scene": "fortnite-lilac-subassembly",
+      "reference": "subassembly-fortnite-lilac.json",
+      "parts": 41,
+      "model_same": true,
+      "scene_same": true,
+      "vectors": {
+        "SVG_sha256": false,
+        "PDF_sha256": false
+      },
+      "old": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "417089a82551ac77ad9c8e5f145dbf2d4dec04c4bf6132da0056d6b3e95056f0",
+        "PDF_sha256": "88373dbabf77c23135415902b167f954af0e778339c711e542efc13bce8ffe0d",
+        "PDF_bytes": 294307,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion"
+      },
+      "new": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "747783c611b8ccd175e526a834fa7da964f78944987df3990b6c127f04e9f910",
+        "PDF_sha256": "6c42da300290e4c2c9d7e5f2a54180998f81ac73576318c257824576762201eb",
+        "PDF_bytes": 294315,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+        "color_export": {
+          "mode": "rgb",
+          "input_color_assumption": "sRGB",
+          "conversion": "unchanged RGB",
+          "unique_source_colors": 27
+        },
+        "page_points": [
+          300.0,
+          270.0
+        ]
+      }
+    },
+    {
+      "scene": "friends-aqua-subassembly",
+      "reference": "subassembly-friends-aqua.json",
+      "parts": 41,
+      "model_same": true,
+      "scene_same": true,
+      "vectors": {
+        "SVG_sha256": false,
+        "PDF_sha256": false
+      },
+      "old": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "872067c77a332112011bcc1ddc0e522d29d18b61919891ffa50830fa29d087cd",
+        "PDF_sha256": "3bf2c764e63788acfb24eb599732b2d28c96688d0c7da98aa7aa22e677812630",
+        "PDF_bytes": 294301,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion"
+      },
+      "new": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "1b855da863bd11b403e6df49ee4ffd7843abc92276837cd0cc43ed311112ccbf",
+        "PDF_sha256": "c844e6954f94903dd284e81ff51b8e5e72461c6e4804b9d3451a3a1f3c76ab25",
+        "PDF_bytes": 294309,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+        "color_export": {
+          "mode": "rgb",
+          "input_color_assumption": "sRGB",
+          "conversion": "unchanged RGB",
+          "unique_source_colors": 28
+        },
+        "page_points": [
+          300.0,
+          270.0
+        ]
+      }
+    },
+    {
+      "scene": "lighthouse",
+      "reference": "gallery-lighthouse.json",
+      "parts": 537,
+      "model_same": true,
+      "scene_same": true,
+      "vectors": {
+        "SVG_sha256": true,
+        "PDF_sha256": true
+      },
+      "old": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 65,
+        "ExtGState_alphas": 5,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "4e31fbada79060f0f0e66dc230a91dfc463fb24d73a7580510b78a45ac2faee1",
+        "PDF_sha256": "69602fef0adb7010252a6ecc2f99b145f9c9e4f5ad50c748b09e2f01cba94d6a",
+        "PDF_bytes": 2313540,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion"
+      },
+      "new": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 65,
+        "ExtGState_alphas": 5,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "4e31fbada79060f0f0e66dc230a91dfc463fb24d73a7580510b78a45ac2faee1",
+        "PDF_sha256": "69602fef0adb7010252a6ecc2f99b145f9c9e4f5ad50c748b09e2f01cba94d6a",
+        "PDF_bytes": 2313540,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+        "color_export": {
+          "mode": "rgb",
+          "input_color_assumption": "sRGB",
+          "conversion": "unchanged RGB",
+          "unique_source_colors": 52
+        },
+        "page_points": [
+          850.0,
+          650.0
+        ]
+      }
+    },
+    {
+      "scene": "minecraft-green-subassembly",
+      "reference": "subassembly-minecraft-green.json",
+      "parts": 41,
+      "model_same": true,
+      "scene_same": true,
+      "vectors": {
+        "SVG_sha256": true,
+        "PDF_sha256": true
+      },
+      "old": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "2369d3482379faba4482685c58952876e7ca3da60f80668b3913ab984c207e84",
+        "PDF_sha256": "13f39d9e475dce5fda94957fa6ed863743609acced822237568d5a8dcb8cc5c8",
+        "PDF_bytes": 294314,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion"
+      },
+      "new": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "2369d3482379faba4482685c58952876e7ca3da60f80668b3913ab984c207e84",
+        "PDF_sha256": "13f39d9e475dce5fda94957fa6ed863743609acced822237568d5a8dcb8cc5c8",
+        "PDF_bytes": 294314,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+        "color_export": {
+          "mode": "rgb",
+          "input_color_assumption": "sRGB",
+          "conversion": "unchanged RGB",
+          "unique_source_colors": 27
+        },
+        "page_points": [
+          300.0,
+          270.0
+        ]
+      }
+    },
+    {
+      "scene": "modern-blue-subassembly",
+      "reference": "subassembly-modern-blue.json",
+      "parts": 41,
+      "model_same": true,
+      "scene_same": true,
+      "vectors": {
+        "SVG_sha256": false,
+        "PDF_sha256": false
+      },
+      "old": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "a807f3b2f5c448f0ebe7d79fdebb7bb2c72f80c863a0df1020d847070f9f4f22",
+        "PDF_sha256": "b7ffd2f9bb870d3f1c2356b1d85e260847988299633750bf3188edc690eeea85",
+        "PDF_bytes": 294300,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion"
+      },
+      "new": {
+        "PDF_version": "1.4",
+        "pages": 1,
+        "vector_Form_XObjects": 20,
+        "ExtGState_alphas": 4,
+        "image_XObjects": 0,
+        "image_tags_in_SVG": 0,
+        "embedded_raster_payloads": 0,
+        "SVG_sha256": "3d858630ba17d44f270c9936e5c86071b92b19306ba9f676be19db92bac937a6",
+        "PDF_sha256": "2f15c04be31385e9c924e10e0ef14108206250594e298ee56e1630d7873d3b05",
+        "PDF_bytes": 294308,
+        "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+        "color_export": {
+          "mode": "rgb",
+          "input_color_assumption": "sRGB",
+          "conversion": "unchanged RGB",
+          "unique_source_colors": 27
+        },
+        "page_points": [
+          300.0,
+          270.0
+        ]
+      }
+    }
+  ],
+  "classification": [
+    {
+      "scene": "display-slate-subassembly",
+      "old_SVG_hash_verified": true,
+      "old_PDF_hash_verified": true,
+      "XML_differences": [
+        {
+          "node": 3,
+          "tag": "rect",
+          "attribute": "stroke-width",
+          "old": "1.5",
+          "new": "2.0"
+        }
+      ]
+    },
+    {
+      "scene": "fortnite-lilac-subassembly",
+      "old_SVG_hash_verified": true,
+      "old_PDF_hash_verified": true,
+      "XML_differences": [
+        {
+          "node": 3,
+          "tag": "rect",
+          "attribute": "id",
+          "old": null,
+          "new": "presentation-panel"
+        }
+      ]
+    },
+    {
+      "scene": "friends-aqua-subassembly",
+      "old_SVG_hash_verified": true,
+      "old_PDF_hash_verified": true,
+      "XML_differences": [
+        {
+          "node": 3,
+          "tag": "rect",
+          "attribute": "id",
+          "old": null,
+          "new": "presentation-panel"
+        }
+      ]
+    },
+    {
+      "scene": "modern-blue-subassembly",
+      "old_SVG_hash_verified": true,
+      "old_PDF_hash_verified": true,
+      "XML_differences": [
+        {
+          "node": 3,
+          "tag": "rect",
+          "attribute": "id",
+          "old": null,
+          "new": "presentation-panel"
+        }
+      ]
+    }
+  ],
+  "preexisting_preset_and_presentation_sources_unchanged_from_overnight_baseline": {
+    "brick_blueprint/presets.json": true,
+    "brick_blueprint/presentation.py": true,
+    "brick_blueprint/project.py": true,
+    "brick_blueprint/pdf.py": true
+  },
+  "scope": "Seven historical assembly controls: all model and projected-scene hashes match. Three SVG/PDF pairs are byte-identical, including the 537-part scene. Four differ only in the listed presentation attributes; frozen gallery receipts/images remain preserved.",
+  "current_renderer_regression": false,
+  "physical_or_source_acceptance_changed": false,
+  "PDF_and_pixel_review": [
+    {
+      "scene": "modern-blue",
+      "font_alias_normalized_paint_identical": true,
+      "operator_counts": [
+        47570,
+        47570
+      ],
+      "form_stream_hashes_identical": true,
+      "alpha_resources_identical": true,
+      "page_boxes_identical": true,
+      "pixels_identical_144dpi": true,
+      "different_pixels_144dpi": 0
+    },
+    {
+      "scene": "friends-aqua",
+      "font_alias_normalized_paint_identical": true,
+      "operator_counts": [
+        47570,
+        47570
+      ],
+      "form_stream_hashes_identical": true,
+      "alpha_resources_identical": true,
+      "page_boxes_identical": true,
+      "pixels_identical_144dpi": true,
+      "different_pixels_144dpi": 0
+    },
+    {
+      "scene": "fortnite-lilac",
+      "font_alias_normalized_paint_identical": true,
+      "operator_counts": [
+        47570,
+        47570
+      ],
+      "form_stream_hashes_identical": true,
+      "alpha_resources_identical": true,
+      "page_boxes_identical": true,
+      "pixels_identical_144dpi": true,
+      "different_pixels_144dpi": 0
+    },
+    {
+      "scene": "display-slate",
+      "font_alias_normalized_paint_identical": false,
+      "operator_counts": [
+        47561,
+        47561
+      ],
+      "form_stream_hashes_identical": true,
+      "alpha_resources_identical": true,
+      "page_boxes_identical": true,
+      "pixels_identical_144dpi": true,
+      "different_pixels_144dpi": 0,
+      "all_differences_within_2px_of_changed_square_panel_border": true
+    }
+  ],
+  "classification_summary": "Three legacy SVG/PDF scenes are byte-identical, including the537-part model. Three additional SVGs add only an unused panel ID; their PDFs change only the Helvetica-Bold resource alias, with identical resolved paint/form/alpha data and144dpi pixels. The preexisting display-slate border update0.75->1pt is explicit in vectors and visible only on the border at288dpi. Model/projected-scene hashes match all seven controls.",
+  "display_slate_higher_resolution_check": {
+    "dpi": 288,
+    "different_pixels": 4176,
+    "all_differences_on_changed_square_panel_border": true,
+    "pixel_band_check": "Within3pixels of the exact x48/x1152/y48/y1032 frame edges; no model/label differences.",
+    "note": "The 0.75->1pt border difference is below this rasterizer's pixel distinction at144dpi but visible at288dpi; vector nonidentity remains explicit."
+  }
+}

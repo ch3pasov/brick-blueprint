@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="500" viewBox="0 0 1080 500">
+<title>faq-camera</title>
+<rect x="0" y="0" width="1080" height="500" fill="#f5f9fc" stroke="none" stroke-width="1"/>
+<text x="28" y="40" font-family="Arial, Helvetica, sans-serif" font-size="27" fill="#173342">Camera angles: a useful estimate, not a universal specification</text>
+<text x="28" y="70" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#526b78">31376 / PDF p16 parts tray: conditional orthographic estimate from the stud grid.</text>
+<text x="40" y="120" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">TOP VIEW / azimuth</text>
+<polyline points="80.000,290.000 340.000,290.000" fill="none" stroke="#8ca7b5" stroke-width="2"/>
+<polyline points="190.000,380.000 190.000,165.000" fill="none" stroke="#8ca7b5" stroke-width="2"/>
+<polyline points="190.000,290.000 300.586,212.567" fill="none" stroke="#00897e" stroke-width="4"/>
+<circle cx="300.5855259790139" cy="212.5671810926088" r="7" fill="#00897e"/>
+<text x="220" y="325" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#173342">~35 deg</text>
+<text x="45" y="420" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#173342">Acute grid-axis class; axis naming matters.</text>
+<text x="570" y="120" font-family="Arial, Helvetica, sans-serif" font-size="21" fill="#173342">SIDE VIEW / elevation</text>
+<polyline points="570.000,310.000 1015.000,310.000" fill="none" stroke="#8ca7b5" stroke-width="2"/>
+<polyline points="650.000,310.000 805.639,201.020" fill="none" stroke="#00897e" stroke-width="4"/>
+<polyline points="805.639,201.020 805.639,310.000" fill="none" stroke="#8ca7b5" stroke-width="1"/>
+<circle cx="805.6388884149085" cy="201.02047709330125" r="7" fill="#00897e"/>
+<text x="720" y="290" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#173342">~35 deg</text>
+<text x="575" y="420" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#173342">Elevation is above the horizontal plane.</text>
+<text x="30" y="472" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#173342">Measured: 35.0 / 34.8 deg. Tool default: 35 / 30 deg. Do not confuse the two.</text>
+</svg>

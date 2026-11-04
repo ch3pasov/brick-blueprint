@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "scenes": [
+    "kiosk",
+    "kiosk-flat",
+    "kiosk-camera-front",
+    "kiosk-camera-back",
+    "kiosk-camera-under",
+    "kiosk-inventory",
+    "kiosk-stage-01",
+    "kiosk-stage-02",
+    "kiosk-stage-03",
+    "kiosk-stage-04",
+    "kiosk-stage-05",
+    "kiosk-stage-06",
+    "kiosk-stage-07",
+    "kiosk-stage-08"
+  ],
+  "flat_mpd_identical": {
+    "model.svg": true,
+    "model.pdf": true
+  },
+  "generator_sha256": "23045c0c3330400901d94dd48b12a13745e613112565a503c2ecd19f55195e5e",
+  "recipe_sha256": "132ee4f6b5dccd54012b682bf2cbd60cdbc39766d303b3ba995a7a049b7bce3f",
+  "models": {
+    "kiosk.mpd": "cad5c45bf7bbe263188627260706bccd62aead47ff64044eb3b6bcdd25edd36c",
+    "kiosk.ldr": "91cb1f7c21ff5224a12b6337745e44bd06f86682ea6650d9a70f809ea1e6e2bd"
+  },
+  "render_receipts": {
+    "kiosk": "4021b61b9298005bf6f0069491f4d16d9eabb8b8834f49e60477c757617c11fc",
+    "kiosk-flat": "51aa5c9cf0f145b2f47743aaa843594314cef8dd1a2f633796297b3190feab2e",
+    "kiosk-camera-front": "92724f188305a4a3e1cdccbb49516bea2faf4511e3df51b07cd008568837dbf8",
+    "kiosk-camera-back": "8dddee8e7adbd45457b33c4d632e9574803a956535794029f6380a0ef9b297b2",
+    "kiosk-camera-under": "833ba6b7d2e989e77434ff7526412192756ddedcaae881e36fdffc5cf519058f",
+    "kiosk-inventory": "90a9b8dcd5858559a1ed92305b8fe3617be4d4e41b81dd97dd60016f2d167b26",
+    "kiosk-stage-01": "9236bf648bb98148748220cbd8017455c7ccf70f0e16a06860df3299006cbd19",
+    "kiosk-stage-02": "21b0aab4b853c3b8eba9f89ce68357739a6aa7556a4539e55a42312f6a4db350",
+    "kiosk-stage-03": "18a25fff45340c616b71fb87c40f6100256fc550b8d0c1b75fa976dc3ec8034d",
+    "kiosk-stage-04": "dd91c2195561941be40cd6458ad62518376af46c3bf062893ca59a4c28c12174",
+    "kiosk-stage-05": "9054a74201490290e4edc7dece4bc9a58b150de80dc7e09fbce66f43ab61da8d",
+    "kiosk-stage-06": "d2ac949399b4474a7f631f04a7c535f06b2bad48b46159147088d840591135a9",
+    "kiosk-stage-07": "a4456fc2049d270af45963db079e2664821ced37cbadc706da2347d095e56e8c",
+    "kiosk-stage-08": "ea02501ea9cf358ee170512804d3028c864bd84f58b1bf9d06e366450e0292ec"
+  },
+  "previews": {
+    "pillow_version": "13.0.0",
+    "pdftoppm_version": "pdftoppm version 26.05.0",
+    "dpi": 144,
+    "font_sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade",
+    "font_file": "Outfit[wght].ttf",
+    "images": {
+      "kiosk-cameras.png": "775def495e3f822a56ca2254486be7bbd0f822c0f51641c1c4327d321775409d",
+      "kiosk-hero.png": "b3d0e1f9b769188d20ae7feac44747ba0ca4d295afe2a832ae970261035e6620",
+      "kiosk-inventory.png": "7fd7292a7d10a7cfcf4e12d81b5229412127f5caa25158b83fd560d331972acc",
+      "kiosk-stages.png": "3456d6703f45b7140550b1b6a3031986dd41ddc56d86450860b522731c20948e"
+    },
+    "note": "Editorial PNG composition from our PDF previews; no source instruction images or fonts bundled."
+  }
+}

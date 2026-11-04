@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+.brickblueprint-cache/
+build/
+dist/
+*.egg-info/
+output/
+artifacts/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key

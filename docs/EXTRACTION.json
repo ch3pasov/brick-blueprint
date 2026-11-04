@@ -1,0 +1,46 @@
+{
+  "origin": "Existing project-owned CPU vector pipeline; adapted into a standalone package",
+  "files": {
+    "brick_blueprint/native/vector_render.cpp": {
+      "source": "work/31051-lighthouse-point/vector-v26/vector_render.cpp",
+      "source_sha256": "05da309faa3626b12065b7ee045c0bb9e9c64c081f658f047cb858c21e5a2d0d"
+    },
+    "brick_blueprint/native/union_q3_tiled.cpp": {
+      "source": "work/31051-lighthouse-point/vector-v26/union_q3_tiled.cpp",
+      "source_sha256": "83414ecfc74ff0771f517b7f1afdb928a30dd97ddb34b1dec095a1490b61ffc5"
+    },
+    "brick_blueprint/instruction_features.py": {
+      "source": "skills/lego-instruction-reconstruction/scripts/instruction_features.py",
+      "source_sha256": "0423dbdf708ea6c6ef0137921e189a6c32a02cc3d8ca27de4da7862b29712d86"
+    },
+    "brick_blueprint/instruction_style.py": {
+      "source": "skills/lego-instruction-reconstruction/scripts/instruction_style.py",
+      "source_sha256": "6de3adc0bc48330d799eb76ae075759541573f32aec3ae7676748fc05cbd135e"
+    },
+    "brick_blueprint/detail_rule.py": {
+      "source": "work/31051-lighthouse-point/vector-v26/detail_rule.py",
+      "source_sha256": "738a755ee14d89a6baee0a06c5deb15353193bfeb8c49516e9ca44804c357c0d"
+    },
+    "brick_blueprint/style.py": {
+      "source": "work/31051-lighthouse-point/vector-v26/edge_style_v16.py",
+      "source_sha256": "1fe8ed20019c2b39a68724201750fd1049490b47154f3d855af417af75f3ba49"
+    },
+    "brick_blueprint/compact_paths.py": {
+      "source": "work/31051-lighthouse-point/vector-v26/compact_paths.py",
+      "source_sha256": "d2dd319c24c30cf6891944cf85866ab9d8f919649d76bb31a0197330da1b1f14"
+    },
+    "brick_blueprint/optimize.py": {
+      "source": "work/31051-lighthouse-point/vector-v26/postprocess.py",
+      "source_sha256": "bc8932b930f56aecff5c3d725fc36c7c97bf6c5e790e3fe278703b1fc8fb1175"
+    },
+    "brick_blueprint/pdf.py": {
+      "source": "work/31051-lighthouse-point/vector-v26/svg_to_pdf.py",
+      "source_sha256": "31cdbb704c90840caa5447991f26b68fa5f61611e3aaedebcbac7e6834abf619"
+    },
+    "tools/check_vector.py": {
+      "source": "work/31051-lighthouse-point/vector-v26/test_vector.py",
+      "source_sha256": "d623862d0194d8674494ad912281b048c43a646c14fa2f06aa6a3edc60f6261a",
+      "adaptation": "17 synthetic depth, alpha and ink cases retained; removed dependency on obsolete kernel"
+    }
+  }
+}

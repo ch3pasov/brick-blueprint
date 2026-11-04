@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="590" viewBox="0 0 1040 590">
+<title>Eight distinct instruction annotation roles</title>
+<rect x="0" y="0" width="1040" height="590" fill="#D4EDFC" stroke="none" stroke-width="1"/>
+<text x="28" y="42" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#182D36">Instruction marks have different jobs</text>
+<text x="28" y="69" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#182D36">Original schematic specimens. These are a design study, not generated assembly steps.</text>
+<rect x="28" y="92" width="228" height="212" fill="#FFFFFF" stroke="#B7D7F3" stroke-width="1"/>
+<text x="42" y="120" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#182D36">Insertion</text>
+<rect x="123" y="149" width="38" height="18" fill="#B7D7F3" stroke="#182D36" stroke-width="2"/>
+<circle cx="142" cy="229" r="17" fill="#E8F0F4" stroke="#182D36" stroke-width="2"/>
+<polyline points="142.000,175.000 142.000,215.000" fill="none" stroke="#D92529" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="142.000,215.000 146.500,205.000 137.500,205.000" fill="#D92529" stroke="none" stroke-width="1"/>
+<text x="42" y="266" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Move along a defined axis.</text>
+<text x="42" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Color is source-specific.</text>
+<rect x="280" y="92" width="228" height="212" fill="#FFFFFF" stroke="#B7D7F3" stroke-width="1"/>
+<text x="294" y="120" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#182D36">Destination leader</text>
+<rect x="305" y="145" width="75" height="37" fill="#FFF5CB" stroke="#182D36" stroke-width="1"/>
+<circle cx="455" cy="229" r="5" fill="#B7D7F3" stroke="#182D36" stroke-width="2"/>
+<polyline points="342.000,182.000 342.000,211.000 455.000,211.000 455.000,222.000" fill="none" stroke="#182D36" stroke-width="3" stroke-linejoin="round"/>
+<polygon points="455.000,222.000 459.500,212.000 450.500,212.000" fill="#182D36" stroke="none" stroke-width="1"/>
+<text x="294" y="266" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Connect inset to location.</text>
+<text x="294" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">The route is not a trajectory.</text>
+<rect x="532" y="92" width="228" height="212" fill="#FFFFFF" stroke="#B7D7F3" stroke-width="1"/>
+<text x="546" y="120" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#182D36">View rotation</text>
+<rect x="625" y="174" width="42" height="32" fill="#E8F0F4" stroke="#182D36" stroke-width="2"/>
+<polyline points="607.500,163.042 611.141,158.475 615.320,154.394 619.974,150.864 625.029,147.938 630.408,145.662 636.028,144.070 641.802,143.188 647.640,143.029 653.454,143.595 659.152,144.878 664.647,146.857 669.854,149.503 674.693,152.775 679.089,156.621 682.973,160.983 686.287,165.793 688.978,170.977 691.006,176.455 692.338,182.142 692.955,187.950 692.847,193.790 692.015,199.571 690.473,205.205 688.243,210.603 685.362,215.684 681.872,220.368 677.828,224.583 673.293,228.263 668.336,231.353 663.035,233.804 657.470,235.579 651.728,236.650 645.897,237.000 640.069,236.624 634.331,235.529 628.774,233.730 623.483,231.255 618.540,228.144 614.021,224.443 609.996,220.211" fill="none" stroke="#182D36" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="609.996,220.211 614.353,232.628 622.179,225.185" fill="#182D36" stroke="none" stroke-width="1"/>
+<text x="546" y="266" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Change the viewing direction.</text>
+<text x="546" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Do not imply joint motion.</text>
+<rect x="784" y="92" width="228" height="212" fill="#FFFFFF" stroke="#B7D7F3" stroke-width="1"/>
+<text x="798" y="120" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#182D36">Mechanism motion</text>
+<circle cx="868" cy="218" r="6" fill="#182D36" stroke="#182D36" stroke-width="2"/>
+<polyline points="868.000,218.000 930.000,218.000" fill="none" stroke="#182D36" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="868.000,218.000 904.000,160.000" fill="none" stroke="#A5B6BF" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="925.779,212.945 925.647,211.610 925.484,210.279 925.290,208.952 925.065,207.629 924.810,206.313 924.525,205.002 924.209,203.699 923.863,202.403 923.488,201.115 923.083,199.836 922.648,198.568 922.184,197.309 921.691,196.062 921.169,194.826 920.619,193.603 920.041,192.393 919.435,191.196 918.801,190.014 918.141,188.847 917.453,187.695 916.739,186.560 915.999,185.441 915.233,184.340 914.442,183.257 913.627,182.192 912.786,181.147 911.922,180.121 911.035,179.115 910.124,178.131 909.191,177.167 908.236,176.226 907.259,175.306 906.261,174.410 905.243,173.537 904.205,172.688 903.147,171.863 902.071,171.062 900.977,170.287 899.864,169.537 898.735,168.813" fill="none" stroke="#DCA900" stroke-width="5" stroke-linejoin="round"/>
+<polygon points="898.735,168.813 905.923,179.836 911.752,170.743" fill="#DCA900" stroke="none" stroke-width="1"/>
+<text x="798" y="266" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Move a hinged mechanism.</text>
+<text x="798" y="286" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Requires a known joint.</text>
+<rect x="28" y="322" width="228" height="212" fill="#FFFFFF" stroke="#B7D7F3" stroke-width="1"/>
+<text x="42" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#182D36">Part quantity</text>
+<rect x="109" y="392" width="66" height="24" fill="#B7D7F3" stroke="#182D36" stroke-width="2"/>
+<text x="124" y="455" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="700" fill="#182D36">4x</text>
+<text x="42" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Count one inventory item.</text>
+<text x="42" y="516" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Preserve physical scale.</text>
+<rect x="280" y="322" width="228" height="212" fill="#FFFFFF" stroke="#B7D7F3" stroke-width="1"/>
+<text x="294" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#182D36">Build repetition</text>
+<rect x="304" y="374" width="180" height="92" fill="#FFF5CB" stroke="#182D36" stroke-width="1"/>
+<text x="318" y="405" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#182D36">1</text>
+<text x="382" y="405" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" fill="#182D36">2</text>
+<polyline points="345.000,399.000 367.000,399.000" fill="none" stroke="#D92529" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="367.000,399.000 360.000,395.850 360.000,402.150" fill="#D92529" stroke="none" stroke-width="1"/>
+<text x="433" y="451" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#182D36">2x</text>
+<text x="294" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Repeat the whole sequence.</text>
+<text x="294" y="516" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Scope must be explicit.</text>
+<rect x="532" y="322" width="228" height="212" fill="#FFFFFF" stroke="#B7D7F3" stroke-width="1"/>
+<text x="546" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#182D36">Length badge</text>
+<polyline points="558.000,420.000 670.000,420.000" fill="none" stroke="#5D6F78" stroke-width="12" stroke-linejoin="round"/>
+<circle cx="707" cy="420" r="20" fill="#FFFFFF" stroke="#182D36" stroke-width="2"/>
+<text x="701" y="427" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#182D36">4</text>
+<text x="546" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Identify nominal length.</text>
+<text x="546" y="516" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">This is not a quantity.</text>
+<rect x="784" y="322" width="228" height="212" fill="#FFFFFF" stroke="#B7D7F3" stroke-width="1"/>
+<text x="798" y="350" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#182D36">Print-size reference</text>
+<rect x="809" y="380" width="178" height="79" fill="#E8F0F4" stroke="#182D36" stroke-width="1"/>
+<polyline points="826.000,435.000 896.000,435.000" fill="none" stroke="#182D36" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="826.000,435.000 826.000,426.000" fill="none" stroke="#182D36" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="843.500,435.000 843.500,426.000" fill="none" stroke="#182D36" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="861.000,435.000 861.000,426.000" fill="none" stroke="#182D36" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="878.500,435.000 878.500,426.000" fill="none" stroke="#182D36" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="896.000,435.000 896.000,426.000" fill="none" stroke="#182D36" stroke-width="2" stroke-linejoin="round"/>
+<text x="917" y="441" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#182D36">1:1</text>
+<text x="798" y="496" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Compare at intended size.</text>
+<text x="798" y="516" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" fill="#182D36">Requires a print-scale check.</text>
+<text x="28" y="572" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" fill="#182D36">Meaning belongs in the scene data; color and line treatment belong in the presentation preset.</text>
+</svg>

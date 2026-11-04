@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "presets": {
+    "creator-blue": {
+      "name": "Creator blue / 2016",
+      "page_background": "#D4EDFC",
+      "panels": {
+        "parts": "#B7D7F3",
+        "subassembly": null
+      },
+      "panel_border": "#202021",
+      "panel_stroke_pt": 0.5,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 38,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "parts",
+      "sources": [
+        "creator-2016"
+      ],
+      "notes": "Rounded blue parts trays; source-specific red frame used for the light-function inset, not a generic parts tray.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-31050"
+      ]
+    },
+    "modern-blue": {
+      "name": "Modern blue / Creator + City / 2023\u201325",
+      "page_background": "#D4EDFC",
+      "panels": {
+        "parts": "#B2D7F3",
+        "subassembly": "#FFF5CB"
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": "#0062AE",
+      "default_panel_role": "parts",
+      "sources": [
+        "creator-2023",
+        "city-2024",
+        "creator-2025"
+      ],
+      "notes": "Blue parts tray, cream subassembly panel, blue progress accent.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-31168",
+        "paired-60405"
+      ]
+    },
+    "classic-white": {
+      "name": "Classic white / 2024",
+      "page_background": "#FFFFFF",
+      "panels": {
+        "parts": "#B2D7F3",
+        "subassembly": null
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "parts",
+      "sources": [
+        "classic-2024"
+      ],
+      "notes": "White page, blue parts tray; thin rules separate independent builds.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "classic-space-2024"
+      ]
+    },
+    "friends-aqua": {
+      "name": "Friends aqua / 2024",
+      "page_background": "#D5EBEB",
+      "panels": {
+        "parts": "#BEE1E0",
+        "subassembly": "#D2C5E2"
+      },
+      "panel_role_overrides": {
+        "subassembly": {
+          "panel_border": "#4A2282",
+          "panel_stroke_pt": 2.0
+        }
+      },
+      "panel_border": "#009A96",
+      "panel_stroke_pt": 2.0,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": "#009A96",
+      "default_panel_role": "parts",
+      "sources": [
+        "friends-2024"
+      ],
+      "notes": "Teal parts border; purple local assembly callouts/arrows; white context cards.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-42603"
+      ]
+    },
+    "technic-gray": {
+      "name": "Technic gray / 2024",
+      "page_background": "#E3E3E3",
+      "panels": {
+        "parts": "#FFFFFF",
+        "subassembly": "#FFF5CB"
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": "#64635F",
+      "default_panel_role": "parts",
+      "sources": [
+        "technic-2024"
+      ],
+      "notes": "White parts tray; cream subassembly panel; separate 1:1 axle/beam guides.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-42163"
+      ]
+    },
+    "fortnite-lilac": {
+      "name": "Fortnite lilac / 2024",
+      "page_background": "#ECE4F2",
+      "panels": {
+        "parts": "#DAC9E4",
+        "subassembly": "#D8E6D9"
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": "#502183",
+      "default_panel_role": "parts",
+      "sources": [
+        "fortnite-2024"
+      ],
+      "notes": "Lilac parts tray, green assembly callouts; purple progress accent.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-77071"
+      ]
+    },
+    "starwars-foldout": {
+      "name": "Star Wars foldout / 2023",
+      "page_background": "#E3E3E3",
+      "panels": {
+        "parts": null,
+        "subassembly": "#FCCA82"
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "subassembly",
+      "sources": [
+        "starwars-2023"
+      ],
+      "notes": "Orange repeated-subassembly panels; no separate parts tray observed in this small foldout.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-75345"
+      ]
+    },
+    "botanicals-gray": {
+      "name": "Botanicals gray / 2021\u201325",
+      "page_background": "#E3E3E3",
+      "panels": {
+        "parts": "#E3E3E3",
+        "subassembly": "#FFFFFF"
+      },
+      "panel_border": "#000000",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 0,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "parts",
+      "sources": [
+        "botanicals-2021",
+        "botanicals-2025"
+      ],
+      "notes": "Square outline, same gray page/tray fill; light source typography uses regular Helvetica substitute.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "panel_shape": "square",
+      "panel_chamfer_pt": 7.087,
+      "count_font_weight": "normal",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-10344"
+      ]
+    },
+    "speed-chamfer": {
+      "name": "Speed Champions / 2025",
+      "page_background": "#E3E3E3",
+      "panels": {
+        "parts": "#C5C6C6",
+        "subassembly": "#FFFCE4"
+      },
+      "panel_border": "#64635F",
+      "panel_stroke_pt": 1.5,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "parts",
+      "sources": [
+        "speed-2025"
+      ],
+      "notes": "Four clipped corners; source beveled/tonal border simplified to a flat stroke; cream inset normalized to one sampled fill.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "panel_shape": "chamfer",
+      "panel_chamfer_pt": 7.845,
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md",
+        "chamfer": "Fill-contour leg measured in both 77240 and 77242; flat stroke remains an approximation of the source tonal border."
+      },
+      "comparison_sources": [
+        "paired-77242"
+      ]
+    },
+    "ninjago-peach": {
+      "name": "NINJAGO peach / 2025",
+      "page_background": "#FEE0BC",
+      "panels": {
+        "parts": "#FCCA82",
+        "subassembly": "#E3E3E3"
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 1.5,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "parts",
+      "sources": [
+        "ninjago-2025"
+      ],
+      "notes": "Top-left and bottom-right clipped corners; peach page, orange inventory, gray subassembly.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "panel_shape": "opposite-chamfer",
+      "panel_chamfer_pt": 6.647,
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md",
+        "chamfer": "Fill-contour leg measured in both 71832 and 71833; two opposite clipped corners."
+      },
+      "comparison_sources": [
+        "paired-71833"
+      ]
+    },
+    "botanicals-green": {
+      "name": "Botanicals green / 2026",
+      "page_background": "#EBF5EC",
+      "panels": {
+        "parts": "#D8E6D9",
+        "subassembly": "#FFF5CB"
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": "#00A237",
+      "default_panel_role": "parts",
+      "sources": [
+        "botanicals-2026"
+      ],
+      "notes": "Rounded green inventory in 11508 and11509; cream subassembly confirmed in11509 p10. White context cards remain a separate role. Helvetica substitutes for CeraPro-Medium.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "count_color": "#181716",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-11509"
+      ]
+    },
+    "botanicals-slate": {
+      "name": "Botanicals slate / adult 2026",
+      "page_background": "#737D7F",
+      "panels": {
+        "parts": "#737D7F",
+        "subassembly": "#FFFFFF"
+      },
+      "panel_border": "#FFFFFF",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 0,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "parts",
+      "sources": [
+        "botanicals-tulips-2026",
+        "botanicals-lily-2026"
+      ],
+      "notes": "Square white inventory frame and light labels on slate; white assembly card uses dark frame/labels. Hex is CoreGraphics preview of CMYK (0.15,0.05,0.05,0.50). Font identity/size not extractable; regular Helvetica8pt and0.75pt frame are normalized approximations.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "panel_shape": "square",
+      "panel_chamfer_pt": 7.087,
+      "count_font_weight": "normal",
+      "count_color": "#FFFFFF",
+      "panel_role_overrides": {
+        "subassembly": {
+          "panel_border": "#303838",
+          "count_color": "#303838"
+        }
+      },
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      }
+    },
+    "minecraft-green": {
+      "name": "Minecraft green /2025",
+      "page_background": "#EBF5EC",
+      "panels": {
+        "parts": "#D8E6D9",
+        "subassembly": "#DAC9E4"
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": "#00A237",
+      "default_panel_role": "parts",
+      "sources": [
+        "minecraft-2025"
+      ],
+      "notes": "Green rounded inventory, lilac local assembly cards, CeraPro-Medium replaced by Helvetica-Bold. Green/red insertion and completion bursts remain unimplemented annotation roles.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "count_color": "#181716",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-21270"
+      ]
+    },
+    "display-slate": {
+      "name": "Display slate /Architecture and Star Wars 2024-25",
+      "page_background": "#899093",
+      "panels": {
+        "parts": "#899093",
+        "subassembly": "#FFFFFF"
+      },
+      "panel_border": "#FFFFFF",
+      "panel_stroke_pt": 1.0,
+      "panel_radius_pt": 0,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "parts",
+      "sources": [
+        "architecture-2025",
+        "starwars-book-2024"
+      ],
+      "notes": "RGB slate display books. White square 1pt inventory frame: filled contour in21063 p20, default PDF stroke width in75376 p20; CeraPro-Light replaced by Helvetica. Not the CMYK-derived Botanicals slate.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "panel_shape": "square",
+      "panel_chamfer_pt": 7.087,
+      "count_font_weight": "normal",
+      "count_color": "#FFFFFF",
+      "panel_role_overrides": {
+        "subassembly": {
+          "panel_border": "#303838",
+          "count_color": "#303838"
+        }
+      },
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md"
+      },
+      "comparison_sources": [
+        "paired-21063",
+        "paired-75376"
+      ]
+    },
+    "classic-space": {
+      "name": "Classic Space / 11037 / 2024",
+      "page_background": "#FFFFFF",
+      "panels": {
+        "parts": "#B2D7F3",
+        "subassembly": null
+      },
+      "panel_border": "#181716",
+      "panel_stroke_pt": 0.75,
+      "panel_radius_pt": 7.087,
+      "panel_padding_pt": 14.17,
+      "count_font_pt": 8,
+      "step_font_pt": 26,
+      "count_font": "Helvetica",
+      "progress_accent": null,
+      "default_panel_role": "parts",
+      "sources": [
+        "classic-space-2024"
+      ],
+      "notes": "11037 p10,20,27,30 shows repeated individual icons without 1x/2x quantity text. One manifest item per pictured piece; do not collapse repetitions.",
+      "illustration_line_width_pt": 0.32,
+      "rendering_scope": "Measured page/panel presentation; shared illustration shading and depth rules, not theme-specific geometry.",
+      "parameter_evidence": {
+        "camera": "Shared tool choice, not a recovered theme camera.",
+        "shading": "Shared renderer; two-face transfer study does not establish a universal shader.",
+        "line_width": "0.32 pt is a tool default, not a measured LEGO model outline.",
+        "padding": "Normalized layout choice; not a universal source inset.",
+        "font": "Helvetica substitute; source font identity is separately documented.",
+        "study": "docs/PAIRED-THEME-STUDY.md",
+        "quantity": "Absence verified on four sampled pages; differs from Classic11038 in the same year."
+      },
+      "show_quantity_labels": false
+    }
+  }
+}

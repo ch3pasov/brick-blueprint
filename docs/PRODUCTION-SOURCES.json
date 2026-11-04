@@ -1,0 +1,14 @@
+{
+  "checked": "2026-10-25",
+  "sources": [
+    {
+      "url": "https://www.lego.com/en-lu/service/help-topics/article/how-we-design-our-building-instructions",
+      "finding": "LEGO describes dedicated 3D instruction software and selection of steps, parts and camera angle."
+    },
+    {
+      "url": "https://www.lego.com/en-us/history/articles/d-lego-building-instructions-through-time",
+      "finding": "LEGO names LDD Pro and states all instructions have used it since 2022; details remain proprietary."
+    }
+  ],
+  "scope": "Manufacturer statements about production, separate from reverse-engineering our PDF samples."
+}

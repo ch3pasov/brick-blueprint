@@ -1,0 +1,357 @@
+{
+  "status": "PASS",
+  "pypdf": "6.10.0",
+  "Pillow": "13.0.0",
+  "books": [
+    {
+      "set": "31051",
+      "sha256": "fdab1177de2f087c5a08b510d8602e294c90cdee1ca1392b6a1f2046143daf69",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6167581.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "31139",
+      "sha256": "9e74082ca8a06c0bfb9317b2f8c8c290ce6d911a88c145cf1b6292554a0b8a15",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6456165.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1
+      },
+      "failures": []
+    },
+    {
+      "set": "10692",
+      "sha256": "c85e4adccb886e9b690cf85c980fec9475dd72c7a42a616d364716530f87c291",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6117826.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "11038",
+      "sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+      "status": "verified",
+      "records_checked": {
+        "catalogue": 4,
+        "three-face-shading": 2
+      },
+      "failures": []
+    },
+    {
+      "set": "30654",
+      "sha256": "ed72d4529049f40b15c046928d9c0cc90c1ad8d61bdfc3449b93e82a27fd8dfe",
+      "source": "https://www.lego.com/en-us/service/building-instructions/30654",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "77073",
+      "sha256": "a8f601ddf68b7ed7d1de957de474e99b20336c6ff2ac69132441c8e30cb6be9a",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6541111.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1
+      },
+      "failures": []
+    },
+    {
+      "set": "42167",
+      "sha256": "6cb9f8195af2b7662cd41c1fc604d08d478c1dabd078b95a98bccd1f025891ae",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6495267.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "42604",
+      "sha256": "150376ba936acdda6a0574abdde587cc8a0090870e6809c92c6cf877a1009b4f",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6493646.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1
+      },
+      "failures": []
+    },
+    {
+      "set": "60404",
+      "sha256": "0ebdca8f457c02706d2c08a1ca96969f675a00551524b37f57bce3025bf035e3",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6490981.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "10343",
+      "sha256": "d4218be6ca7a7e664fdb83365c2fff7d98ace0fb269c37c761aba86ae12d08a1",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6555769.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "77240",
+      "sha256": "89ad368afdbe1d261e015ec1ff06e0265bd58775c4a7a7af6f9fec7e76e11395",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6598214.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "71832",
+      "sha256": "ccfc2b4e9b21bc1d8dadac31b0da1bf8d686b8076be9bb678464e9a60c673175",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566338.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "31169",
+      "sha256": "c7627062db573f2cff7debac6040d114c2bd49bbd2a98edf8e769dfb6e0ae9d6",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556274.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1,
+        "catalogue": 3
+      },
+      "failures": []
+    },
+    {
+      "set": "71488",
+      "sha256": "2747b0ce3f2d116fee3ed0ff562d4298684e1ebb3ee190cbbd37d87d19399d7a",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6553546.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "10281",
+      "sha256": "1269851bf473cd52939d41dd45af9ce9f68a03c883479bd92bd1dd3eddead023",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6532381.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "31376",
+      "sha256": "b0ede540908070edbab2c05e2f5e3376f1997af73516a61c976072032b1e58dd",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6616307.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1
+      },
+      "failures": []
+    },
+    {
+      "set": "11508",
+      "sha256": "12f55f3a9380a9a8719791a89a1373f4d65da0981fb2a3b3b3a1a37b608d93b2",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618829.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "42221",
+      "sha256": "248fea08c4b5969b0a09e8f53ee380d25dc4fa3c729cdacc939151bb2e0ef0c0",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6621082.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "11501",
+      "sha256": "2847e73b6991bda48eda8a1f0d9c4655ff4c365b4763394a3b3d9a11a0f35db2",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618826.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "11504",
+      "sha256": "30e34a10970e28248f1aa4e1e003f888e92dfc9034e3349258505b576bfa8acb",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618828.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "21062",
+      "sha256": "78719e05f06b32c5648af42712aa93864e368128e1356ce1b767835e05347eb7",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566168.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1,
+        "catalogue": 5
+      },
+      "failures": []
+    },
+    {
+      "set": "21269",
+      "sha256": "4383ba60e7e6e49ae9e18686caf61a615a623ca8753f5fe3d473da8e3606f358",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556015.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 2,
+        "catalogue": 2,
+        "three-face-shading": 4,
+        "material-transfer": 3
+      },
+      "failures": []
+    },
+    {
+      "set": "75375",
+      "sha256": "d1fd59f7d9e9012a8086e556cac38b3989b0eb6aae644d036d8f111b70dacdeb",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509377.pdf",
+      "status": "verified",
+      "records_checked": {
+        "catalogue": 5,
+        "three-face-shading": 1,
+        "material-transfer": 1
+      },
+      "failures": []
+    },
+    {
+      "set": "10344",
+      "sha256": "1adf450129b009d9e89eba83b6cd6344f19c01c724369a72a2a1a022408bb93d",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6555770.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "11037",
+      "sha256": "1eae62ea786d29fe43479f19e138812335a19e5235f44766faf5c23d8b769c95",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6497651.pdf",
+      "status": "verified",
+      "records_checked": {
+        "three-face-shading": 2,
+        "material-transfer": 2
+      },
+      "failures": []
+    },
+    {
+      "set": "11509",
+      "sha256": "2508ae7c476caad75e6b0f2b9e898e2cb7307d66adc2b2d675acdf83adc86c23",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6618824.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "21063",
+      "sha256": "8843d50ba19d03d24f3eaf30c00947e31b2ad71789a1955c85781c9162262f4b",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592611.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1,
+        "catalogue": 11
+      },
+      "failures": []
+    },
+    {
+      "set": "21270",
+      "sha256": "10860fb9d10a433431db8072c312e9125b2bc4e23b56fb087facc0f56b4aad60",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6586735.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1,
+        "catalogue": 8,
+        "three-face-shading": 4,
+        "material-transfer": 5
+      },
+      "failures": []
+    },
+    {
+      "set": "31050",
+      "sha256": "c4938e06a06b054cde0f19285c17c8d17a8467d645ed5cab7fed448db657fb20",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6150560.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "31168",
+      "sha256": "87c9dee34cb254d503c2aa7b9c8c18105e45dc5251f4a371f0e4ba6325f62376",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6592820.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1,
+        "three-face-shading": 1,
+        "material-transfer": 1
+      },
+      "failures": []
+    },
+    {
+      "set": "42163",
+      "sha256": "b574cca214a0c97d61040beff8c27d949eb237e4e6fd82513a3df205f08058ae",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6495263.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "42603",
+      "sha256": "1e86d7d7b8562c6b439028aa2472d55f4ee54e53c288a2e1dca70fc0fcecd5da",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6493659.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1
+      },
+      "failures": []
+    },
+    {
+      "set": "60405",
+      "sha256": "8fc9839a5f99543a16be099307fa2798f1a14ccdcd725e860c6e09b643948579",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6492739.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "71833",
+      "sha256": "7e3774195aa8d599d173649dec3659320e180715631b049e44b38268850a9525",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6556903.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "75345",
+      "sha256": "50dcdaac5f456959d7ce0daeaaa771bd8e167a790b1894675b40a265dfeb1103",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6449312.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "75376",
+      "sha256": "88c817e0ab4c9226d6576f3a09679bd5540206aa0d3ceb8a7d21be55638bf626",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509379.pdf",
+      "status": "verified",
+      "records_checked": {
+        "assembly": 1,
+        "catalogue": 1
+      },
+      "failures": []
+    },
+    {
+      "set": "77071",
+      "sha256": "f897e4a1ec5e0ee21a664c6f230bef02b877ba68f78b5448601215426cfd592e",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6544480.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    },
+    {
+      "set": "77242",
+      "sha256": "36fb212b804f24492c7448391030fca643fe2027f5b693ed20ef8f6cbc6d1277",
+      "source": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6566098.pdf",
+      "status": "verified",
+      "records_checked": {},
+      "failures": []
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "geometry": "examples/parts/blue-plate-2x8.ldr",
+  "geometry_sha256": "1e704b90d2ae5adaef9d3183a17a0e215eb394d5c51b60140d820a8eedb925d0",
+  "original_control_model_sha256": "1fafdd671824ef9995744d217042c5f8189b6359b83b5e4c8a369ffb503a9a5d",
+  "draw_record": "1 1 0 0 0 1 0 0 0 1 0 0 0 1 3034.dat",
+  "scene_sha256": "b5e713fdac7ccb1c151656fc41134a5d4747b4480c41884cd762cb8a7c3d5272",
+  "renderer_version": "0.6.0.dev7",
+  "camera": {
+    "projection": "perspective",
+    "model": "pinhole",
+    "field_of_view_vertical_degrees": 2.0,
+    "focal_length_points": 8593.494244613914,
+    "distance_ldu": 3786.295822428458,
+    "target_ldu": [
+      4.440892098500626e-16,
+      4.0,
+      2.220446049250313e-16
+    ],
+    "position_ldu": [
+      1778.977122224267,
+      -2167.7300647993684,
+      2540.64263114441
+    ],
+    "principal_point_points": [
+      200.0,
+      150.0
+    ],
+    "near_clip_ldu": 0.1,
+    "minimum_geometry_eye_distance_ldu": 3732.9936104183607,
+    "right": [
+      -0.8191520442889919,
+      0.0,
+      0.5735764363510462
+    ],
+    "down": [
+      0.32898992833716567,
+      0.8191520442889917,
+      0.4698463103929542
+    ],
+    "depth_encoding": "d*z/(d-z); affine scaled inverse eye distance",
+    "scale_definition": "points per LDU at the camera target plane",
+    "fit": "camera distance only; no post-projection scale or warp",
+    "near_plane_policy": "reject crossing geometry; no model slicing",
+    "field_of_view_status": "tool setting, not a recovered LEGO constant",
+    "azimuth": 35.0,
+    "elevation": 35.0,
+    "direction": [
+      0.4698463103929542,
+      -0.5735764363510462,
+      0.6710100716628344
+    ],
+    "preset": {
+      "name": "instruction",
+      "revision": 1,
+      "settings": {
+        "projection": "perspective",
+        "azimuth": 35.0,
+        "elevation": 35.0,
+        "field_of_view": 2.0
+      },
+      "overrides": {},
+      "evidence": "CAMERA-STRENGTH: two Classic bricks; descriptive selection, not an exact LEGO camera constant.",
+      "framing": "Full-page vertical FOV; automatic eye distance fits the drawing viewport. Frame and occupancy affect perspective strength."
+    }
+  },
+  "library_config": {
+    "file": "ldraw/LDConfig.ldr",
+    "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+    "authors": [
+      "Author: LDraw.org"
+    ],
+    "licenses": []
+  },
+  "dependencies": [
+    {
+      "file": "ldraw/p/4-4cyli.dat",
+      "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4disc.dat",
+      "sha256": "a00b5547776f61a7389d303616987c76b3c4de86ad8ec32f22857e1bd5e5e40f",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4edge.dat",
+      "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4ring3.dat",
+      "sha256": "1f2835ac308154edc2d6f479d8e742a55be981f6167b20bfa100c195bc0731dd",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/box5.dat",
+      "sha256": "ccb7b8a1d36692335b10ea6aa196849afcad4b15331683ed8112a10b50977318",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stud.dat",
+      "sha256": "db037d518d7c08bcdc1f0e7497f4f98e97d99850531dd62d602965520f3bf8f4",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stud4.dat",
+      "sha256": "871cdcab26e7f5113488a24c453d6fabda75b275b06de592e0bfaad4292c12a3",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/parts/3034.dat",
+      "sha256": "035f4ac31ecad8943fd0ac6baa155c6ff38c75a4d8ef1083fb2afa48b166a845",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    }
+  ],
+  "environment": {
+    "python_version": "3.12.14",
+    "python_implementation": "CPython",
+    "system": "Darwin",
+    "machine": "arm64",
+    "compiler": "clang++",
+    "compiler_version": "Apple clang version 21.0.0 (clang-2100.4.1.1)",
+    "native_source_sha256": "d9039938857e9cd7b4ed748efe74934336d1ccc348f4c248bfe3f4f0048a2895",
+    "package_source_sha256": "8c3e051a9f18f14bddda66a5942e4577e889aac2d9dbb91b5ab78603c5a2651c",
+    "package_source_files": 46,
+    "native_cache_key": "3c075ed181d3b7210278",
+    "native_binary_sha256": {
+      "vector": "feb7ae908bb5d537ec3572b69d5210af91cc6c48b059169bc8f63768ec29b37f",
+      "union": "be467ff4914a4fa3e2a38f45ca8e1764ae479cf8dc68fbdae0883607b2100271"
+    }
+  },
+  "page_points": [
+    400,
+    300
+  ],
+  "source_page": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6167581.pdf#page=18",
+  "ldview_version": "4.7",
+  "ldview_source_snapshot_sha256": "979cdf66d4aca7a2e70e1ddb28bd7f69f4086d4ece23979010e30c751a3907cd",
+  "native_snapshot_size": [
+    3200,
+    2400
+  ],
+  "ldview_settings": {
+    "Seams": 0,
+    "AllowPrimitiveSubstitution": 0,
+    "UseQualityStuds": 1,
+    "Lighting": 1,
+    "ShowHighlightLines": 1,
+    "ConditionalHighlights": 1,
+    "EdgeThickness": 1.2,
+    "LineSmoothing": 1,
+    "SaveZoomToFit": 0,
+    "SaveWidth": 800,
+    "SaveHeight": 600,
+    "SaveScaleFactor": 4
+  },
+  "image_processing": "LDView: full 3200 by 2400 snapshot reduced uniformly to 800 by 600 pixels with Lanczos resampling. Brick Blueprint: complete native SVG, 800 by 600 viewBox. No separate crops or image registration.",
+  "registration": {
+    "status": "PASS",
+    "method": "Eight noncoplanar colored cubes; same FOV2, target, distance, axes, full frame; no image registration.",
+    "max_error_at_800_px": 0.09076754520290353,
+    "results": [
+      {
+        "rgb": "FF0000",
+        "observed_3200": [
+          2184.5,
+          730.5
+        ],
+        "expected_3200": [
+          2184.219329117315,
+          730.5031024072748
+        ],
+        "error_at_800_px": 0.0701720071138468
+      },
+      {
+        "rgb": "00FF00",
+        "observed_3200": [
+          2436.0,
+          933.0
+        ],
+        "expected_3200": [
+          2435.9028619932087,
+          932.6501655193792
+        ],
+        "error_at_800_px": 0.09076754520290353
+      },
+      {
+        "rgb": "0000FF",
+        "observed_3200": [
+          2183.5,
+          837.0
+        ],
+        "expected_3200": [
+          2183.5868349872753,
+          837.2145807224858
+        ],
+        "error_at_800_px": 0.057871193977254584
+      },
+      {
+        "rgb": "FFFF00",
+        "observed_3200": [
+          2435.0,
+          1039.5
+        ],
+        "expected_3200": [
+          2434.9942881747397,
+          1039.5940891243642
+        ],
+        "error_at_800_px": 0.0235655843756239
+      },
+      {
+        "rgb": "FF00FF",
+        "observed_3200": [
+          756.5,
+          1301.0
+        ],
+        "expected_3200": [
+          756.6609851862072,
+          1301.039707863004
+        ],
+        "error_at_800_px": 0.04145249130217366
+      },
+      {
+        "rgb": "00FFFF",
+        "observed_3200": [
+          1005.0,
+          1508.0
+        ],
+        "expected_3200": [
+          1005.2432302853294,
+          1508.0651333749474
+        ],
+        "error_at_800_px": 0.06295004380135835
+      },
+      {
+        "rgb": "FF8000",
+        "observed_3200": [
+          757.5,
+          1408.5
+        ],
+        "expected_3200": [
+          757.5835881110143,
+          1408.4024611751197
+        ],
+        "error_at_800_px": 0.032113854741724325
+      },
+      {
+        "rgb": "8000FF",
+        "observed_3200": [
+          1006.0,
+          1616.0
+        ],
+        "expected_3200": [
+          1005.8965145678299,
+          1615.6605519551308
+        ],
+        "error_at_800_px": 0.0887180258730417
+      }
+    ]
+  },
+  "blueprint_svg_sha256": "5a2bd67684094ff9521a59ac54752cffd1007e92f2894f56716336db7d6f79b3",
+  "ldview_preview_sha256": "e557f9c2e1a632ae6ead00530d1a5865c4a90b61f1fa3f6ba3d58d61cc8214c0"
+}

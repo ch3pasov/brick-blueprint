@@ -1,0 +1,250 @@
+{
+  "method": "Four manually selected stud-cap centers on 4000px-long-side page render. A/B and C/D span one grid direction; A/C and B/D the other. All coordinates crop-relative. Error +/-6px is an analyst-selected sensitivity range, not a statistical confidence bound. Upsampling does not add source detail.",
+  "assumptions": [
+    "orthographic projection",
+    "horizontal LEGO stud plane",
+    "no camera roll",
+    "undistorted page raster",
+    "centers chosen consistently on top caps, not cylinder silhouettes"
+  ],
+  "formula": "sin(elevation)^2 = abs(m1*m2); acute_yaw_class = atan(sqrt(abs(m1/m2))). Axis naming and quarter-turn/reflection ambiguities remain.",
+  "synthetic_checks": [
+    {
+      "azimuth": 20,
+      "elevation": 15,
+      "recovered": [
+        15.000000000000002,
+        19.999999999999996
+      ]
+    },
+    {
+      "azimuth": 35,
+      "elevation": 30,
+      "recovered": [
+        29.999999999999993,
+        35.00000000000001
+      ]
+    },
+    {
+      "azimuth": 55,
+      "elevation": 35,
+      "recovered": [
+        35.0,
+        55.00000000000001
+      ]
+    },
+    {
+      "azimuth": 70,
+      "elevation": 50,
+      "recovered": [
+        50.00000000000001,
+        70.0
+      ]
+    }
+  ],
+  "measurements": [
+    {
+      "id": "creator-inventory",
+      "set": "31376",
+      "page": 16,
+      "role": "parts tray",
+      "crop": "camera-inventory.png",
+      "origin": [
+        680,
+        210
+      ],
+      "points": [
+        [
+          104,
+          157
+        ],
+        [
+          368,
+          52
+        ],
+        [
+          166,
+          208
+        ],
+        [
+          430,
+          102
+        ]
+      ],
+      "uncertainty_px": 6,
+      "estimate": {
+        "elevation_deg": 34.78679157471758,
+        "acute_yaw_class_deg": 35.009152164940545,
+        "slopes": [
+          -0.3996212121212121,
+          0.8145161290322581
+        ]
+      },
+      "corner_sensitivity": {
+        "elevation_deg": [
+          27.12753220120107,
+          44.97287131246381
+        ],
+        "acute_yaw_class_deg": [
+          29.484578422305585,
+          41.231808081898066
+        ]
+      },
+      "valid_corners": 256,
+      "crop_sha256": "8092fad486f87eccb6c79628f008a28b17431d18694f34b7d8059068899a6067"
+    },
+    {
+      "id": "creator-assembly",
+      "set": "31376",
+      "page": 16,
+      "role": "assembled model",
+      "crop": "camera-assembly.png",
+      "origin": [
+        420,
+        1350
+      ],
+      "points": [
+        [
+          177,
+          365
+        ],
+        [
+          602,
+          524
+        ],
+        [
+          267,
+          286
+        ],
+        [
+          692,
+          444
+        ]
+      ],
+      "uncertainty_px": 6,
+      "estimate": {
+        "elevation_deg": 35.026911534882146,
+        "acute_yaw_class_deg": 33.0144942531927,
+        "slopes": [
+          0.3729411764705882,
+          -0.8833333333333333
+        ]
+      },
+      "corner_sensitivity": {
+        "elevation_deg": [
+          29.787788189416684,
+          41.40896884229592
+        ],
+        "acute_yaw_class_deg": [
+          29.41610154015458,
+          36.8956811661388
+        ]
+      },
+      "valid_corners": 256,
+      "crop_sha256": "a59a3745c7be9156be990f5170b9bdf54db2140bd87861e8dda8dddcadd4c0f8"
+    },
+    {
+      "id": "lighthouse-inventory",
+      "set": "31051",
+      "page": 18,
+      "role": "parts tray",
+      "crop": "camera-lighthouse-inventory.png",
+      "origin": [
+        440,
+        2020
+      ],
+      "points": [
+        [
+          54,
+          172
+        ],
+        [
+          369,
+          43
+        ],
+        [
+          85,
+          202
+        ],
+        [
+          402,
+          75
+        ]
+      ],
+      "uncertainty_px": 6,
+      "estimate": {
+        "elevation_deg": 38.78666650222805,
+        "acute_yaw_class_deg": 32.887904968399134,
+        "slopes": [
+          -0.4050632911392405,
+          0.96875
+        ]
+      },
+      "corner_sensitivity": {
+        "elevation_deg": [
+          24.72269132131039,
+          68.94129765818275
+        ],
+        "acute_yaw_class_deg": [
+          23.4633723860996,
+          44.08397806935734
+        ]
+      },
+      "valid_corners": 256,
+      "crop_sha256": "7e7c5dc4a13533ef5a2fa6969e98de358888b5417041266f84ba09760656821d"
+    },
+    {
+      "id": "lighthouse-assembly",
+      "set": "31051",
+      "page": 18,
+      "role": "assembled model",
+      "crop": "camera-lighthouse-assembly.png",
+      "origin": [
+        1340,
+        3210
+      ],
+      "points": [
+        [
+          34,
+          186
+        ],
+        [
+          464,
+          12
+        ],
+        [
+          187,
+          312
+        ],
+        [
+          619,
+          138
+        ]
+      ],
+      "uncertainty_px": 6,
+      "estimate": {
+        "elevation_deg": 35.08045131043501,
+        "acute_yaw_class_deg": 35.08585367486378,
+        "slopes": [
+          -0.4037122969837587,
+          0.8181818181818182
+        ]
+      },
+      "corner_sensitivity": {
+        "elevation_deg": [
+          31.772218528527727,
+          38.782856181176726
+        ],
+        "acute_yaw_class_deg": [
+          32.80284336903606,
+          37.478156014880106
+        ]
+      },
+      "valid_corners": 256,
+      "crop_sha256": "546a7308fcf54c93529fb5bdf764a5204ceafed7836b0ecd79b84705b9e829cc"
+    }
+  ],
+  "source_render_long_side_px": 4000,
+  "source_registry": "STYLE-SOURCES.json",
+  "note": "Crop images are local research evidence, intentionally not distributed in the public repository."
+}

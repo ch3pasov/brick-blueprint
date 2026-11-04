@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "model": "parts/3009-1.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/3004-15.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/3004-47.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/3062b-14.ldr",
+      "quantity": 1
+    }
+  ]
+}

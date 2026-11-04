@@ -1,0 +1,182 @@
+{
+  "release_URL": "https://library.ldraw.org/updates?latest=",
+  "download_URL": "https://library.ldraw.org/library/updates/complete.zip",
+  "baseline": {
+    "edition": "ldraw.org Parts Update 2026-08",
+    "archive_sha256": "d2a695868ed2b3957c45b022a6451908edab22cc043179dd61d18dd382b35e11",
+    "config_sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d"
+  },
+  "public_release": {
+    "edition": "ldraw.org Parts Update 2026-10",
+    "archive_sha256": "023083918da2d3697c794fb4267975509584f3611b993095874206a803fa610f",
+    "config_sha256": "d3490047460ad7a511b150006b009830fc52ecc1899b514c7380e9de644b3cfb"
+  },
+  "comparisons": [
+    {
+      "family": "portfolio",
+      "name": "kiosk",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "8d9b2f4791e91bf3840eb635f9ec193b27ce727af61474942b3fc6735244c046",
+      "actual_pdf_sha256": "afa66e00be3fe938de2144e00836e3ba289416a173a25fe25d4e65327743a0af",
+      "underpaint": true
+    },
+    {
+      "family": "portfolio",
+      "name": "harbor-pilot",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "eeb8ced3a777eef4d4a289dc4b832e536cab7e028bd6a3abbc71a27f4d139555",
+      "actual_pdf_sha256": "aa8a5e7efca6e3b339bc50985261baa34be15b5769ac6fad490fb960998d3b85",
+      "underpaint": true
+    },
+    {
+      "family": "portfolio",
+      "name": "rangefinder",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "55904012c6e3a290ebc8502f44236539d3050b77e9f637ea150d0e216036a77e",
+      "actual_pdf_sha256": "045b868f9470722489f5b99273b8792a6569b4961d31b0f97d2e2a330541e803",
+      "underpaint": true
+    },
+    {
+      "family": "portfolio",
+      "name": "signal-rocket",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "c4503dbcd44faa31b5cbf9ff92fdbbc1621874b4611273fd436e2f2210a93892",
+      "actual_pdf_sha256": "ed08e4bad4201103171d9b013cb7b8ab590044e0a288d66a6bc9344b90f5e6b5",
+      "underpaint": true
+    },
+    {
+      "family": "portfolio",
+      "name": "courtyard",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "a5557ba163b7559ab907c4de083ee8ba951ab69f3cbdb157c01b563e0df2fdca",
+      "actual_pdf_sha256": "ea82627c994df34ed0749962caba93ec14f77422d944b6746d48a90cec88a713",
+      "underpaint": true
+    },
+    {
+      "family": "trays",
+      "name": "modern-blue",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "5b0bc758a5452dfdbb2e62ee415c6427144825b62a47482671ee71bf17e4dcbf",
+      "actual_pdf_sha256": "e33bb000cee7f9a8649fc1fe4cdcad3b957fc7d6784c66ea3a5e1730b3fba205"
+    },
+    {
+      "family": "trays",
+      "name": "speed-chamfer",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "0e4fd54aba1122430b41d5d0c0b437fc2010a093378b4c80a0cac60767c5d641",
+      "actual_pdf_sha256": "b6cb638febb7888dc25bd15ebd14382f36ed222b967a392f02b6f3e4f7896e55"
+    },
+    {
+      "family": "trays",
+      "name": "botanicals-slate",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "fa02a52aaf0de7d20d60e870ffe1124d2c46460a51820f4e6be127b423df0e6a",
+      "actual_pdf_sha256": "a17ff03bdae0be0047af00eeccfcab2e8afe6113a57c0653cb58db3ebf3ed62b"
+    },
+    {
+      "family": "camera",
+      "name": "plate-instruction",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "38c0172a5d071a567155fcfe4a1ee179c5ceaa637dd06492a7ba40704c2fa7d9",
+      "actual_pdf_sha256": "f2b9caa6d0fc6fcc3c16aa49cc809a01c4efd2787e8272d43bd2d74911332015"
+    },
+    {
+      "family": "camera",
+      "name": "kiosk-instruction",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "2d382c997030f2b062a75ec5e3a6d4ca357d46237e0c81bca5c203ed3c048876",
+      "actual_pdf_sha256": "cbefc93a14a25b6c85580000b4ba933e9124d4c5fe0a3f9543cf6aae3e2fc956"
+    },
+    {
+      "family": "camera",
+      "name": "plate-instruction-depth",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "ad942446be9bbd887ef5920876627a5b97409c29074ac609a78b09148e2e8496",
+      "actual_pdf_sha256": "11ffb1f106fe4a97e863363eb217108e97e88c455a7a7bd04bd20866fc40e441"
+    },
+    {
+      "family": "camera",
+      "name": "kiosk-instruction-depth",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "ba811cbfd5983e1ce3b1e409ede9074b0e6ef35a439350b648cd9d1e6ef0b235",
+      "actual_pdf_sha256": "c3ef5118f365470fe2a64677b0d513e6edec79e3fd9f9ed21ea29c0d1a2813f4"
+    },
+    {
+      "family": "camera",
+      "name": "plate-presentation",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "1dd86e09b3c0dc987a8ffa96a65ab34f4daa2488beeda8bcd7d537fd5896ff78",
+      "actual_pdf_sha256": "2e3f94dfd76c3e7b5114284e384f37e954e5b1bdd449cd8a4e7cb4245ea7b0f4"
+    },
+    {
+      "family": "camera",
+      "name": "kiosk-presentation",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "1d3e83bbd689390318e05fa08f9fcf37d1e07ee61223189c0f4aaab7654e6891",
+      "actual_pdf_sha256": "0b69450167e2e26e72aebda4d8bbc4892f964437a297fa1e66f461459de5bf32"
+    },
+    {
+      "family": "camera",
+      "name": "plate-orthographic",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "459350de17274b8c96c0bc702862fb03e96ebae81ede1cd65f61b7642b5b177a",
+      "actual_pdf_sha256": "76a7afcaf7d0bb2d9e26aec5914787a45595e2d885c2720f79d1ce1a77e04c5f"
+    },
+    {
+      "family": "camera",
+      "name": "kiosk-orthographic",
+      "references_unchanged": true,
+      "changed_dat": [],
+      "svg_identical": true,
+      "pdf_identical": true,
+      "actual_svg_sha256": "6a81cf7409c3fd4d170b01c3c9076538dce0c4d58f637d27dc45c8cd3afe5a93",
+      "actual_pdf_sha256": "167df11f14636676aec28ce70ea67d2157ab4db95570a0c0b328154da329a83a"
+    }
+  ],
+  "scope": "Five model plates, three step trays, and two models at four camera presets. Both runs used CPython 3.12.14 on arm64 macOS with Apple clang 21. The downloadable archive changes as new LDraw releases appear."
+}

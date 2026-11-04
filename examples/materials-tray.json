@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "model": "parts/material-white.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/material-red.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/material-black.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/material-clear.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/material-blue.ldr",
+      "quantity": 1
+    },
+    {
+      "model": "parts/material-tan.ldr",
+      "quantity": 1
+    }
+  ]
+}

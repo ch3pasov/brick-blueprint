@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "model": "parts/brick-2x4.ldr",
+      "quantity": 1,
+      "azimuth": 35,
+      "elevation": 30
+    },
+    {
+      "model": "parts/brick-2x4.ldr",
+      "quantity": 1,
+      "azimuth": 35,
+      "elevation": -30
+    },
+    {
+      "model": "parts/brick-2x4.ldr",
+      "quantity": 1,
+      "azimuth": 0,
+      "elevation": 30
+    }
+  ]
+}

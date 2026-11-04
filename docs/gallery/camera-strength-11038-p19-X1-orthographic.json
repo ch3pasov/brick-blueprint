@@ -1,0 +1,1286 @@
+{
+  "model_sha256": "010c6cc5e250c21c1e78b2aeb0b0bae7cad2b94f4a18a45f6e4824f08676f6f0",
+  "model_structure": {
+    "format": "ldr",
+    "root": null,
+    "declared_submodels": 0,
+    "used_submodels": [],
+    "expanded_parts": 1,
+    "step_scope": "root placement step; submodel STEP does not advance the root timeline"
+  },
+  "parts": 1,
+  "triangles": 1540,
+  "lines": 1134,
+  "conditional_edges_shown": 60,
+  "scene_sha256": "743455735213cbe16dba090e5010b1cb403698582ae0fcc1b73c60da3c0ffcb5",
+  "page_points": [
+    323,
+    217
+  ],
+  "points_per_ldu": 1.7856286620338901,
+  "line_width_points": 0.85,
+  "camera": {
+    "projection": "orthographic",
+    "depth_encoding": "linear world depth",
+    "scale_definition": "uniform points per LDU",
+    "azimuth": 35,
+    "elevation": 35,
+    "direction": [
+      0.4698463103929542,
+      -0.5735764363510462,
+      0.6710100716628344
+    ]
+  },
+  "glass_opacity_override": null,
+  "detail_filter": {
+    "rule": "paired_shallow_concave_annular_detail_v1",
+    "parameters": {
+      "minimum_segments": 8,
+      "minimum_arc_degrees": 180,
+      "max_relative_band_width": 0.15,
+      "max_band_width_points": 1.5,
+      "minimum_crease_degrees": 5,
+      "maximum_crease_degrees": 50,
+      "coordinate_weld_LDU": 0.001,
+      "circle_bucket_LDU": 0.1,
+      "circle_residual_LDU": 0.0035,
+      "incidence_tolerance_LDU": 0.002,
+      "preserve_any_transparent_root": true,
+      "preserve_every_conditional_line": true,
+      "preserve_material_boundaries_and_explicit_lines": true,
+      "preserve_silhouette_pairs": true
+    },
+    "points_per_ldu": 1.7856286620338901,
+    "scale_kind": "uniform orthographic",
+    "view_direction": "parallel",
+    "input_lines": 1554,
+    "removed_hard_segments": 0,
+    "output_lines": 1554,
+    "pairs": [],
+    "circular_groups": [
+      {
+        "root_index": 0,
+        "circles": [
+          {
+            "centre": [
+              -70.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686199,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.0000000000001
+          },
+          {
+            "centre": [
+              -70.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686199,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000006
+          },
+          {
+            "centre": [
+              -50.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -50.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -30.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -30.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -10.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -10.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              10.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              10.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              30.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              30.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              50.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              50.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              70.0,
+              0.0,
+              10.0
+            ],
+            "radius": 6.000061364686199,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000006
+          },
+          {
+            "centre": [
+              70.0,
+              -4.0,
+              10.0
+            ],
+            "radius": 6.000061364686199,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.0000000000001
+          },
+          {
+            "centre": [
+              -70.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686199,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000006
+          },
+          {
+            "centre": [
+              -70.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686199,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.0000000000001
+          },
+          {
+            "centre": [
+              -50.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -50.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -30.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -30.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -10.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -10.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              10.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              10.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              30.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              30.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              50.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              50.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              70.0,
+              0.0,
+              -10.0
+            ],
+            "radius": 6.000061364686199,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.0000000000001
+          },
+          {
+            "centre": [
+              70.0,
+              -4.0,
+              -10.0
+            ],
+            "radius": 6.000061364686199,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000006
+          },
+          {
+            "centre": [
+              -60.0,
+              24.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -60.0,
+              24.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -60.0,
+              4.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -60.0,
+              4.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -40.0,
+              24.0,
+              0.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999983
+          },
+          {
+            "centre": [
+              -40.0,
+              24.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -40.0,
+              4.0,
+              0.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999983
+          },
+          {
+            "centre": [
+              -40.0,
+              4.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              -20.0,
+              24.0,
+              0.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -19.999999999999996,
+              24.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000017
+          },
+          {
+            "centre": [
+              -20.0,
+              4.0,
+              0.0
+            ],
+            "radius": 6.000061364686197,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              -19.999999999999996,
+              4.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000017
+          },
+          {
+            "centre": [
+              2.211772431870429e-16,
+              24.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999983
+          },
+          {
+            "centre": [
+              1.1783109210572462e-15,
+              24.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000017
+          },
+          {
+            "centre": [
+              2.211772431870429e-16,
+              4.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999983
+          },
+          {
+            "centre": [
+              1.1783109210572462e-15,
+              4.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000017
+          },
+          {
+            "centre": [
+              20.0,
+              24.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              20.000000000000004,
+              24.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000017
+          },
+          {
+            "centre": [
+              20.0,
+              4.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              20.000000000000004,
+              4.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 360.00000000000017
+          },
+          {
+            "centre": [
+              40.0,
+              24.0,
+              0.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999983
+          },
+          {
+            "centre": [
+              40.0,
+              24.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              40.0,
+              4.0,
+              0.0
+            ],
+            "radius": 6.000061364686196,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999983
+          },
+          {
+            "centre": [
+              40.0,
+              4.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.9999999999999
+          },
+          {
+            "centre": [
+              60.0,
+              24.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              60.0,
+              24.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              60.0,
+              4.0,
+              0.0
+            ],
+            "radius": 6.000061364686198,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          },
+          {
+            "centre": [
+              60.0,
+              4.0,
+              0.0
+            ],
+            "radius": 8.000081819581597,
+            "axis": [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            "edges": 16,
+            "arc": 359.99999999999994
+          }
+        ]
+      }
+    ],
+    "preservation_counts": {},
+    "surface_triangles_unchanged": true,
+    "conditional_lines_never_removed": true,
+    "no_design_instance_colour_id_or_ROI_selectors": true
+  },
+  "dependencies": [
+    {
+      "file": "ldraw/p/1-16edge.dat",
+      "sha256": "42fc4d69af1281b71cb2eb9546e99e8bca2fc231d05a0379e71d4e1c9a60c95c",
+      "authors": [
+        "Author: Marc Klein [marckl]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4cyli.dat",
+      "sha256": "4a742c2765b6ebf98245baaf8a160a4ff587fc93d36c8ee2b9074712a2f968c4",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4disc.dat",
+      "sha256": "a00b5547776f61a7389d303616987c76b3c4de86ad8ec32f22857e1bd5e5e40f",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4edge.dat",
+      "sha256": "54a52196e421fd1717d291ff52ea57553b1fb238907c1678cc1f1a84c698b1da",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/4-4ring3.dat",
+      "sha256": "1f2835ac308154edc2d6f479d8e742a55be981f6167b20bfa100c195bc0731dd",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/box3u5p.dat",
+      "sha256": "0f52d5c372a303f508113ace2c7cba6d52b46171052e76a88266679a74f17ea5",
+      "authors": [
+        "Author: Willy Tschager [Holly-Wood]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/box4t.dat",
+      "sha256": "9e85c281fff9c33ce26931d772310c8faeeaba4dca1036acf1e6ac578dc50c00",
+      "authors": [
+        "Author: Tore Eriksson [Tore_Eriksson]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/box5.dat",
+      "sha256": "ccb7b8a1d36692335b10ea6aa196849afcad4b15331683ed8112a10b50977318",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/boxjcyl4.dat",
+      "sha256": "ceb4a5fd46fbff7d2e396afbc308379b914b99556b30a136cfb578a3dc360877",
+      "authors": [
+        "Author: Philippe Hurbain [Philo]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/rect3.dat",
+      "sha256": "07ac46908b6668d993b6de0fb001a34cd996542106b80ebc7de63317d8dde865",
+      "authors": [
+        "Author: Mark Kennedy [mkennedy]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stud.dat",
+      "sha256": "db037d518d7c08bcdc1f0e7497f4f98e97d99850531dd62d602965520f3bf8f4",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stud4.dat",
+      "sha256": "871cdcab26e7f5113488a24c453d6fabda75b275b06de592e0bfaad4292c12a3",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stug-1x8.dat",
+      "sha256": "e592fd59bdd7333f0430cdd7bebb0d25bfdb3f244af03a17b0be2861c62205b7",
+      "authors": [
+        "Author: Steffen [Steffen]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/p/stug4-1x7.dat",
+      "sha256": "faea6b3da53b4b9c4313577eaca0b03f7d7062d8ee6a44aca9c03abab8d8fc9e",
+      "authors": [
+        "Author: Steffen [Steffen]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/parts/3007.dat",
+      "sha256": "56d95663f63adcf860757d84a9e664a6359fbc51d7b0b425afe03186402b9696",
+      "authors": [
+        "Author: James Jessiman"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    },
+    {
+      "file": "ldraw/parts/s/3007s01.dat",
+      "sha256": "46ec39d5b0ab81654a15a4b179e195e5ccbef7a4a18eb81dcfb75423dd2a2ffb",
+      "authors": [
+        "Author: Michael Heidemann [mikeheide]"
+      ],
+      "licenses": [
+        "Licensed under CC BY 4.0 : see CAreadme.txt"
+      ]
+    }
+  ],
+  "library_config": {
+    "file": "ldraw/LDConfig.ldr",
+    "sha256": "0178cd14fba46acb9df049c835e60e223b134d178f7e928ace0be1dfbe78895d",
+    "authors": [
+      "Author: LDraw.org"
+    ],
+    "licenses": []
+  },
+  "style_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+  "materials": {
+    "config_sha256": "60a39d6f10e420510d6324ebcc0fa56e8e7f6b98c1fb2f30d30978258c3d82a2",
+    "family": "Brick Blueprint measured sRGB reference v4",
+    "coverage": [
+      {
+        "nominal_colour": 70,
+        "feature": "body",
+        "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions",
+        "triangles": 100
+      },
+      {
+        "nominal_colour": 70,
+        "feature": "stud_cap_or_ring",
+        "confidence": "observed opaque RGB anchors; normal interpolation and opposite faces are illustration extensions",
+        "triangles": 480
+      },
+      {
+        "nominal_colour": 70,
+        "feature": "stud_cylinder_wall",
+        "confidence": "bounded opaque vertical stud reference",
+        "triangles": 960
+      }
+    ],
+    "fallback_colours": [],
+    "source_pixel_inputs": false,
+    "instance_selectors": false,
+    "step_material_fade": false,
+    "profile": "research",
+    "counts_scope": "submitted triangles, not visible area",
+    "usage": {
+      "axis_anchor": 580,
+      "opaque_vertical_stud_reference": 960
+    },
+    "research_profile": "measured-srgb-reference-v4",
+    "evidence_sha256": "acfc3aa6b13430e45d838a5145e52a7a41dba88561818c2b01ed0b8b73668927",
+    "data_sha256": "77f5935ea90149671617af98d93c0e7ed4a556a7390960b6d900350f8e378609",
+    "bindings": [
+      {
+        "ldraw_color": 70,
+        "ldraw_name": "Reddish_Brown",
+        "source_visual_label": "brown",
+        "observation_id": 25,
+        "catalogue_element_association": "4211210",
+        "source_set": "11038",
+        "source_page": 21,
+        "source_image": "X2.jpg",
+        "source_url": "https://www.lego.com/cdn/product-assets/product.bi.core.pdf/6509312.pdf",
+        "source_pdf_sha256": "2f27fceed6e81d9eb9904f11f37d80944d4f9d10167e98aa8fcb92ed02c11827",
+        "source_image_sha256": "170bd4e021a2c187efc815c0970655799720d6b49bf849a0b35ba950c32fbf46",
+        "profile_sha256": "2b3aa1645779a9e634744faf9b01e9102b0c9b88fd6deced7934df86b949af7e",
+        "anchor_RGB": {
+          "left": [
+            80.0,
+            38.0,
+            18.0
+          ],
+          "top": [
+            90.5,
+            40.0,
+            15.5
+          ],
+          "right": [
+            91.0,
+            43.0,
+            19.0
+          ]
+        }
+      }
+    ],
+    "coordinate_rule": "abs(world normal X/Y/Z) weights left/top/right anchors; +X is left and +Z right in the reference positive-X/positive-Z camera quadrant",
+    "interpolation_status": "convex encoded-RGB illustration interpolation, not a recovered light law",
+    "other_faces_status": "opposite faces share absolute-axis weights; their lighting is unmeasured",
+    "upper_stud_cap_status": "uses the planar-top anchor; two Classic2024 source cases agree within one RGB level in cap/plane medians; other materials unmeasured",
+    "stud_wall_reference": {
+      "data_file": "docs/research/STUD-SURFACE-STUDY.json",
+      "data_sha256": "80fc608aa5c72a6604dd2db083dd4d0d20e53639476d03edd2443217305a5e37",
+      "reference_RGB": [
+        16,
+        16,
+        16
+      ],
+      "scope": "Opaque vertical standard studs in two Classic2024 books; no universal theme or transparent/sideways calibration",
+      "transparent_or_sideways_RGB": [
+        7,
+        7,
+        7
+      ]
+    }
+  },
+  "version": "0.6.0.dev6",
+  "execution": {
+    "python_version": "3.12.14",
+    "python_implementation": "CPython",
+    "system": "Darwin",
+    "machine": "arm64",
+    "compiler": "clang++",
+    "compiler_version": "Apple clang version 21.0.0 (clang-2100.3.34.2)",
+    "native_source_sha256": "10f90d226bfef5cdf50d7d4e6b4a86f075997a5e988be8e02f9125962ffaf904",
+    "package_source_sha256": "df702f080e5e44c935cb2234e18df8a11184be90f31dcf0f1edcfabe6713bb3b",
+    "package_source_files": 44,
+    "native_cache_key": "9e241d6bd6bd227c9fbc",
+    "native_binary_sha256": {
+      "vector": "0f6f0f8f181b43f36de1e80dcb6cdbf54d1e6c437175384a84fb471549f26f13",
+      "union": "93b58453d5c84e3b65132c8b0bb1e1cae59843a83755a102ce1e677c19164b8e"
+    }
+  },
+  "optimization": {
+    "input_vertices": 30597,
+    "output_vertices": 12495,
+    "output_polygons": 1142,
+    "independent_winding_probes": 500,
+    "probe_mismatches": 0,
+    "coordinate_quantum_micro_px": 1000,
+    "seconds": 0.0248871
+  },
+  "pdf": {
+    "PDF_version": "1.4",
+    "pages": 1,
+    "vector_Form_XObjects": 0,
+    "ExtGState_alphas": 0,
+    "image_XObjects": 0,
+    "image_tags_in_SVG": 0,
+    "embedded_raster_payloads": 0,
+    "SVG_sha256": "17d45704e249f3623179a8e12478d23ad366012a28e6262bd825f001228ca253",
+    "PDF_sha256": "731e1656e89806c0746dfce8e2b82b5d82db5416a6d3756c797270449841f180",
+    "PDF_bytes": 50936,
+    "source": "Direct PDF path and transparency operators from projected/clipped SVG geometry, no SVG screenshot or bitmap conversion",
+    "color_export": {
+      "mode": "rgb",
+      "input_color_assumption": "sRGB",
+      "conversion": "unchanged RGB",
+      "unique_source_colors": 6
+    },
+    "page_points": [
+      323.0,
+      217.0
+    ]
+  },
+  "limits": [
+    "Illustration only; projection is recorded in camera, not physical assembly validation.",
+    "Object-opacity shell approximation; no refraction or light simulation.",
+    "Assembly-only MPD; embedded custom geometry, TEXMAP and model INVERTNEXT are rejected."
+  ]
+}

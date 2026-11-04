@@ -1,0 +1,150 @@
+{
+  "recipe_sha256": "047a7566e67fabe4bddf3e3208251c8290104b62b3a0bd7d82d9ffea7381b0c1",
+  "generator_sha256": "23045c0c3330400901d94dd48b12a13745e613112565a503c2ecd19f55195e5e",
+  "scope": "Show measured presentation presets using only the original kiosk's parts.\n\nFour quantity-1 real-part specimens share one physical scale in fourteen trays.\nThe foldout exception shows an explicitly labeled original canopy subassembly.\nThis is a controlled tool demonstration, not an actual-source-step reconstruction.\n",
+  "scenes": [
+    {
+      "preset": "creator-blue",
+      "name": "Creator blue / 2016",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "e7d7eb45de8000f026bf569a0caef909f5013a1ec0419cef3acad4133d03de3d",
+      "svg_sha256": "70520d66e43a798c4290b1dc0935e1be178f703a3c7619814794c0ec791d2de3",
+      "pdf_sha256": "53df832c40574558a400ab2f6b52ad3c096eb7d3e9c621263cf70c495cc7b44d",
+      "preview_sha256": "7eb5846c357a0de110232d7ba2b9adce782b708c35884dcfebb153e92a17d632"
+    },
+    {
+      "preset": "modern-blue",
+      "name": "Modern blue / Creator + City / 2023\u201325",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "d0902c1507506c4326473ccc9fa36535a0b57822810ff220221864c6650be25e",
+      "svg_sha256": "21e5f585cb1a05f14bbd6140f7ba44d138da3a9a2161e1eb6c27af097169a8ed",
+      "pdf_sha256": "c6adcc2fcc3447893df819e8476425b9269ab752cec95ab15dec8bfa590a42b2",
+      "preview_sha256": "d43bc3346239e68189663e21c594abe50753dfd4e66360dde1fcfc2844f7eaec"
+    },
+    {
+      "preset": "classic-white",
+      "name": "Classic white / 2024",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "2d9e1a9f3db1223879d04b1b1c6c699423967eed6cbad66be376849c97064d18",
+      "svg_sha256": "4bc8b4bd8bb24748403e1eb0f99193504e275a416192796334e4ba519629fca1",
+      "pdf_sha256": "9938d8dd165ba63fcea5761035e1d0ee95cd34167b6d59ce30c6be857f7c8737",
+      "preview_sha256": "4ce4c7f5fdd1122f98b9cd31f8298a6baa9dec55f584ff2da4291b97e397f749"
+    },
+    {
+      "preset": "friends-aqua",
+      "name": "Friends aqua / 2024",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "d926549a920c56c091c1a2b816b73df6b6250dbf3481e5449296ba2b90663d29",
+      "svg_sha256": "b5aaae99fcdb3edd02dc8c31ffbdab238f14240aab62d09c66cd0136fc484a02",
+      "pdf_sha256": "8c4bc847006567df826b82141597197862bdb72a82f877efd3b293d97355c08b",
+      "preview_sha256": "6e0fd98b476235bbacfb182323bd3963a663b86080d00e193a6cfbdc154cbd5a"
+    },
+    {
+      "preset": "technic-gray",
+      "name": "Technic gray / 2024",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "a26a685fb30ccb1051d6ab5ed9ddbeeadb8d7c54d596ef3da7e70a8cd5f97242",
+      "svg_sha256": "c0a5f8a9a1183fb3e851529e5c30402d419afea1e2236ff3a96bddfb07d6d434",
+      "pdf_sha256": "596bc5dadc8f2491b342996c3b7d7fe35e7c6a50618b5d718959cf5f8232c693",
+      "preview_sha256": "0e2ece2399c606e7b60e61d507c99787ea801177387678fb0606398a7b71225f"
+    },
+    {
+      "preset": "fortnite-lilac",
+      "name": "Fortnite lilac / 2024",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "6e59ae9e7b40bfde8af3d65bbd00a402c8d51a2873720956278adf57ff74901d",
+      "svg_sha256": "828a37599255df69e6b28bb99199bbc92f7137b19c02463ebf80a5a26563f1a7",
+      "pdf_sha256": "4c24bd6f080a6c64dfa3f7f8c6953e67a36188a418e5eb75c594a12d686ab585",
+      "preview_sha256": "6648f43089575ef284dd1549a81089b1806f8c85b9db2f630f661146885a3a60"
+    },
+    {
+      "preset": "botanicals-gray",
+      "name": "Botanicals gray / 2021\u201325",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "7b582e6b05bf5d00e2a46a6fe478b9daf9cf00ada4c57cdf57512da2f422fd72",
+      "svg_sha256": "b59d66de6b2867bb7e5518f51d4d11ddaae0f95eb10e96b6a0edefe429ffb6c3",
+      "pdf_sha256": "f590c91afb7dd0ba537876e85ea999fff7181e27d898acd63127f2d76e95f24f",
+      "preview_sha256": "69b2cb1c74760fe1f8c546e7697782f6110c0e7f33fe50b5f681761f3b0de51b"
+    },
+    {
+      "preset": "speed-chamfer",
+      "name": "Speed Champions / 2025",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "5a3fa520eca55b36c1aa216b705cb7c1490a36ea38794853742e9453d224a250",
+      "svg_sha256": "ca7713e8d967eb734cd220b1dc75ead15a42ae1bbe430c1f8b82a10b80b718b5",
+      "pdf_sha256": "c8727e0c0c1bab8b39313555977dae1ffd58f427223cbf5e34e133b99546709f",
+      "preview_sha256": "b2f9a62058c558ca1a4567f7b7699fa91d9ee359f600f9f5ba1db72863095af1"
+    },
+    {
+      "preset": "ninjago-peach",
+      "name": "NINJAGO peach / 2025",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "5ba08ff3be5da2cd7f65083bc03efb665627b11fcbe89280c13ece9f17013f45",
+      "svg_sha256": "63e4c20f2db469e8dc8e3b0672326a7d85df1650c1b4cdac4cc0accca40492dc",
+      "pdf_sha256": "cac71849d5f703cb2d1ff0c8a0722a875e99f3f45c538fc68fd0dafd1363b5dd",
+      "preview_sha256": "eff8ab8ecf589fd62e54235ebfed090c189b64536ecb34b0c57f241b7a069032"
+    },
+    {
+      "preset": "botanicals-green",
+      "name": "Botanicals green / 2026",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "1c10c19fe8bb1f0e007d7f7fe712bc22b3ca1e5bdbfa3015426f5fd37cc24a81",
+      "svg_sha256": "ac8aa2016b740c7df3f43c6b32961e76642500713259f7cc7c5cec87543039c6",
+      "pdf_sha256": "27aee4db551b789c7fb73e839da416b9e645a9892a556ee2f7b94c2aed40a594",
+      "preview_sha256": "6757d5f5074d76326ecea3c9699527a08a18a2dda0189d4a13bdd0801a79bcae"
+    },
+    {
+      "preset": "botanicals-slate",
+      "name": "Botanicals slate / adult 2026",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "72305ac6361b1c8cc75cba94de44d0b375d51bef13e93e96777cb25856d861b0",
+      "svg_sha256": "ab92b59686ba9242b355200dff9c29cae339eac268e81af4b5880a70214f4d94",
+      "pdf_sha256": "53e4145af49496d2c66b4e5b417f20bc34c1c98843e488a14a5f0bacf3eb2eea",
+      "preview_sha256": "363572d6b43a9be75dd6b0dc1627410b5ba2711637e8fbb61af850288b36a7df"
+    },
+    {
+      "preset": "minecraft-green",
+      "name": "Minecraft green /2025",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "2dac6c86e44907340c97c41bcbd1380c834a47e7e346b82d15994a44640a499c",
+      "svg_sha256": "ac8aa2016b740c7df3f43c6b32961e76642500713259f7cc7c5cec87543039c6",
+      "pdf_sha256": "27aee4db551b789c7fb73e839da416b9e645a9892a556ee2f7b94c2aed40a594",
+      "preview_sha256": "6757d5f5074d76326ecea3c9699527a08a18a2dda0189d4a13bdd0801a79bcae"
+    },
+    {
+      "preset": "display-slate",
+      "name": "Display slate /Architecture and Star Wars 2024-25",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "08de14cbdb828d3bd1c380b58c4ba21944fa2f77b87741774208212a0a26ed51",
+      "svg_sha256": "d6115503b3088daa3496c7fa237a36b0deb0d0f310f42d4711f75f6769ac22ce",
+      "pdf_sha256": "12a5198ab6055854ba2dfdd8e5bd03fda130b624d22ab02f570ac9d8226e984a",
+      "preview_sha256": "f55be495d3e2d831488e43afc5c7a6df71192b744d64abfe38e090d01582450d"
+    },
+    {
+      "preset": "classic-space",
+      "name": "Classic Space / 11037 / 2024",
+      "role": "Four original-sample parts / common scale",
+      "receipt_sha256": "ae9723204813f8acb48e450056bdb90e2ca827f5c343df08890fd111dabdee8f",
+      "svg_sha256": "7ef35e6f82b80bfffb1686066504ce984e72491ae85f14fa5b27c9f04844e969",
+      "pdf_sha256": "273b611dc6e9523d408941f2d71ee8d30a65c883ae297eff03a8aa619751400f",
+      "preview_sha256": "3924e11238b0c7dc2f127e5828a0a410af16f9c8db2f0f419ff525f7f01bf99a"
+    },
+    {
+      "preset": "starwars-foldout",
+      "name": "Star Wars foldout / 2023",
+      "role": "Original canopy / subassembly card",
+      "receipt_sha256": "f26d7177832c7f59103f04ab9799db8dc633f875ccf9225a0729be80c4dcffd2",
+      "svg_sha256": "4a8768c1276428b3fd4f1001631165bc337fe14e2f29dc7d64a141b6abf7a193",
+      "pdf_sha256": "e7fd84b90ca8111c2e45b3fe30c266204adcc7f1979e40b47c1f585aefb5cc28",
+      "preview_sha256": "f444fc18d3162d3feb93f91e239ad0b4b4c14fb1b47732d2d76e54f5508b9778"
+    }
+  ],
+  "previews": {
+    "board_sha256": "2b098f2cfc509a747286fd9a8ece3be4a41bb5d7ff342beb309a690a1e5e9009",
+    "font_sha256": "fc7287273e66929776e2ba54f144fe699080bec29f61bf649d70d871468aeade",
+    "font_file": "Outfit[wght].ttf",
+    "pillow_version": "13.0.0",
+    "dpi": 144,
+    "pdftoppm_version": "pdftoppm version 26.05.0"
+  }
+}

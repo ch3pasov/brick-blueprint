@@ -1,0 +1,14 @@
+0 Original abstract beacon scene; renderer demonstration, not an official set
+1 1 0 0 0 58 0 0 0 4 0 0 0 38 unit-box.dat
+1 15 -20 -16 0 15 0 0 0 12 0 0 0 17 unit-box.dat
+1 4 -20 -36 0 15 0 0 0 8 0 0 0 17 unit-box.dat
+1 15 -20 -56 0 15 0 0 0 12 0 0 0 17 unit-box.dat
+1 0 -20 -70 0 22 0 0 0 2 0 0 0 22 unit-cylinder.dat
+1 14 -20 -83 0 5 0 0 0 10 0 0 0 5 unit-cylinder.dat
+1 47 -20 -85 0 17 0 0 0 13 0 0 0 17 unit-box.dat
+1 0 -20 -100 0 23 0 0 0 2 0 0 0 23 unit-cylinder.dat
+1 4 29 -16 0 19 0 0 0 12 0 0 0 25 unit-box.dat
+1 15 29 -30 0 22 0 0 0 2 0 0 0 28 unit-box.dat
+1 0 29 -34 0 24 0 0 0 2 0 0 0 30 unit-box.dat
+1 2 30 -16 -25.5 7 0 0 0 10 0 0 0 1 unit-box.dat
+1 47 49 -17 6 1 0 0 0 7 0 0 0 8 unit-box.dat

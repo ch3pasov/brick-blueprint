@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "brick-blueprint"
+version = "0.6.0.dev7"
+description = "Independent LDraw vector illustration renderer"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Anatolii Chepasov"}]
+# The wheel also contains Clipper2 under the Boost Software License.
+license = "MIT AND BSL-1.0"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md", "brick_blueprint/native/vendor/Clipper2/LICENSE"]
+
+[project.optional-dependencies]
+png = ["pypdfium2>=5,<6", "Pillow>=10.4"]
+print = ["Pillow>=13.0"]
+
+[project.scripts]
+brick-blueprint = "brick_blueprint.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["brick_blueprint*"]
+
+[tool.setuptools.package-data]
+brick_blueprint = ["*.json", "native/*.cpp", "native/vendor/Clipper2/LICENSE", "native/vendor/Clipper2/PROVENANCE.json", "native/vendor/Clipper2/Clipper2Lib/include/clipper2/*.h", "native/vendor/Clipper2/Clipper2Lib/src/*.cpp"]
